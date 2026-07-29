@@ -1,0 +1,37 @@
+name: Build weekly paper radar
+on:
+  schedule:
+    # 01:00 UTC = 09:00 Asia/Shanghai, every Monday
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Collect and build
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4.1-mini
+        run: python src/build.py --refresh
+      - name: Commit weekly archive
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/weeks site
+          git diff --cached --quiet || git commit -m 'Update weekly paper radar'
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: site}
+      - id: deployment
+        uses: actions/deploy-pages@v4
