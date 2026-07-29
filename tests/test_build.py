@@ -19,10 +19,13 @@ class BuildTests(unittest.TestCase):
 
     def test_render_includes_refresh_and_saved_papers(self):
         topic={"id":"ope","name":"Off-Policy Evaluation"}
-        paper={"title":"Test","authors":["A"],"published":"2026-07-29","url":"https://example.org","doi":"10.test/x","arxiv_id":None,"sources":["OpenAlex"],"summary":build.fallback_summary({"title":"Test","abstract":""})}
+        paper={"title":"Test","authors":["A"],"author_details":[{"name":"A","affiliations":["University"]}],"keywords":["causality"],"journal":"Test Journal","published":"2026-07-29","abstract":"Full abstract text.","url":"https://example.org","doi":"10.test/x","arxiv_id":None,"sources":["OpenAlex"],"summary":build.fallback_summary({"title":"Test","abstract":""})}
         page=build.render("2026-W31", [(topic,[paper])], "Weekly Paper Radar", "https://github.com/example/actions/workflows/weekly.yml")
         self.assertIn("Refresh now", page)
         self.assertIn("Save paper", page)
         self.assertIn("Saved papers", page)
+        self.assertIn("Authors & affiliations", page)
+        self.assertIn("Test Journal", page)
+        self.assertIn("Full abstract text.", page)
         self.assertNotIn("研究问题", page)
 if __name__ == "__main__": unittest.main()
