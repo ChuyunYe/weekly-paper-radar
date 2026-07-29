@@ -1,0 +1,13 @@
+{
+  "site_name": "Weekly Paper Radar",
+  "locale": "en",
+  "manual_refresh_url": "https://github.com/ChuyunYe/weekly-paper-radar/actions/workflows/weekly.yml",
+  "default_max_papers": 8,
+  "topics": [
+    {"id": "causal-inference", "name": "Causal Inference", "keywords": ["causal inference", "treatment effect", "instrumental variable", "difference in differences", "causal effect", "causal estimation", "causal transportability"], "exclude": [], "max_papers": 8},
+    {"id": "ope", "name": "Off-Policy Evaluation", "keywords": ["off-policy evaluation", "off policy evaluation", "counterfactual policy evaluation"], "exclude": [], "max_papers": 8},
+    {"id": "reinforcement-learning", "name": "Reinforcement Learning", "keywords": ["reinforcement learning", "markov decision process", "offline reinforcement learning"], "exclude": ["reinforcement learning from human feedback"], "max_papers": 8},
+    {"id": "causal-llm", "name": "Causal Inference in Large Language Models", "keywords": ["causal inference large language model", "causal inference llm", "causal large language model", "causal language model", "large language model causal"], "exclude": [], "max_papers": 8},
+    {"id": "causal-text", "name": "Causal Inference in Text Analysis", "keywords": ["causal inference text", "causal text analysis", "causal inference natural language", "text as data causal", "causal effect text"], "exclude": [], "max_papers": 8}
+  ]
+}
