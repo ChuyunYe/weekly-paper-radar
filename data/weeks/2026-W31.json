@@ -1,6 +1,6 @@
 {
   "week": "2026-W31",
-  "generated_at": "2026-07-29T17:05:14.970834Z",
+  "generated_at": "2026-07-29T17:07:08.553829Z",
   "topics": [
     {
       "id": "causal-inference",
@@ -1119,6 +1119,423 @@
           }
         }
       ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "TRUAV: Distributed Multi-Agent Reinforcement Learning for Trajectory Planning and Routing Enhancement in UAV-Aided IoT-Enabled VANETs",
+          "authors": [
+            "Muhammad Umar Farooq Qaisar",
+            "Lin Zhang",
+            "Zhen Chen",
+            "Wajdy Othman",
+            "Shehzad Ashraf Chaudhry",
+            "Chang Liu"
+          ],
+          "author_details": [
+            {
+              "name": "Muhammad Umar Farooq Qaisar",
+              "affiliations": []
+            },
+            {
+              "name": "Lin Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Zhen Chen",
+              "affiliations": []
+            },
+            {
+              "name": "Wajdy Othman",
+              "affiliations": []
+            },
+            {
+              "name": "Shehzad Ashraf Chaudhry",
+              "affiliations": []
+            },
+            {
+              "name": "Chang Liu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.NI",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-07-26",
+          "abstract": "Unmanned aerial vehicles (UAVs) have emerged as a key enabler of next-generation Internet of Things (IoT) ecosystems, offering flexible aerial relaying to extend connectivity across dynamic vehicular ad hoc networks (VANETs) in smart city environments. However, conventional centralized approaches for UAV trajectory planning require continuous global network state aggregation, making them impractical under bandwidth and energy constraints typical of dense urban deployments. In this article, we present TRUAV, a distributed multi-agent reinforcement learning framework based on independent tabular Q-learning for joint UAV trajectory planning and routing enhancement in UAV-aided VANETs. Each UAV is equipped with a local Q-learning agent that operates purely on locally observable information, including vehicle density, packet queue states, and neighbor UAV positions, thereby eliminating the need for global state exchange. A potential-game-inspired reward design encourages spatial diversity and routing-aware UAV positioning among interacting agents while accounting for energy consumption. Numerical simulations over a large urban area with 200 mobile vehicles show that the proposed TRUAV framework achieves network coverage and packet delivery ratios comparable to centralized deep reinforcement learning methods, while also improving relay delay and energy efficiency. Finally, we discuss emerging challenges and future research directions for distributed multi-agent UAV-assisted IoT systems.",
+          "url": "https://arxiv.org/abs/2607.23734v1",
+          "arxiv_id": "2607.23734v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: TRUAV: Distributed Multi-Agent Reinforcement Learning for Trajectory Planning and Routing Enhancement in UAV-Aided IoT-Enabled VANETs",
+            "method": "Unmanned aerial vehicles (UAVs) have emerged as a key enabler of next-generation Internet of Things (IoT) ecosystems, offering flexible aerial relaying to extend connectivity across dynamic vehicular ad hoc networks (VANETs) in smart city e",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Coupled Lateral–Longitudinal Trajectory Tracking Control for Autonomous Vehicles Based on Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Kun Feng",
+            "Zhai Jinxiang",
+            "Weiwei Li"
+          ],
+          "author_details": [
+            {
+              "name": "Kun Feng",
+              "affiliations": [
+                "Chongqing University of Technology"
+              ]
+            },
+            {
+              "name": "Zhai Jinxiang",
+              "affiliations": [
+                "Intelligent Health (United Kingdom)"
+              ]
+            },
+            {
+              "name": "Weiwei Li",
+              "affiliations": [
+                "Chongqing University of Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "Control theory (sociology)",
+            "Trajectory",
+            "CarSim",
+            "Heading (navigation)",
+            "Controller (irrigation)",
+            "Stability (learning theory)",
+            "Reinforcement learning",
+            "Model predictive control",
+            "Tracking (education)",
+            "Process (computing)"
+          ],
+          "journal": "SAE International Journal of Connected and Automated Vehicles",
+          "published": "2026-07-23",
+          "abstract": "&lt;div&gt;Trajectory tracking control serves as the core operational component of autonomous vehicles, directly determining driving safety and passenger comfort by ensuring control precision and stability. To enhance the tracking accuracy and stability for autonomous vehicles, this study proposes a coupled lateral–longitudinal trajectory tracking controller based on multi-agent reinforcement learning. The framework first establishes a Model predictive controller (MPC) derived from vehicle dynamics, formulating the lateral control process as a Markov decision process. A reward function incorporating lateral error, heading error, and steering angle is designed, followed by the construction of a Deep Q-Network (DQN) Agent to optimize the prediction horizon of the MPC. Subsequently, a position–velocity dual-loop PID controller is developed for longitudinal control, with its parameter optimization strategy learned through a Deep Deterministic Policy Gradient (DDPG) Agent. The Extended State Observer (ESO) is incorporated to perform steering angle compensation for internal modeling errors and external disturbances. Co-simulation experiments are conducted in CarSim and MATLAB/Simulink, and the results demonstrate that the coupled controller achieves superior tracking accuracy and stability in both overtaking and lane-changing scenarios compared with the decoupled controller.&lt;/div&gt;",
+          "url": "https://doi.org/10.4271/12-09-03-0024",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.4271/12-09-03-0024",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Coupled Lateral–Longitudinal Trajectory Tracking Control for Autonomous Vehicles Based on Multi-Agent Reinforcement Learning",
+            "method": "&lt;div&gt;Trajectory tracking control serves as the core operational component of autonomous vehicles, directly determining driving safety and passenger comfort by ensuring control precision and stability. To enhance the tracking accuracy ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning",
+          "authors": [
+            "Taisuke Takayama",
+            "Naoto Yoshida",
+            "Taniguchi T"
+          ],
+          "author_details": [
+            {
+              "name": "Taisuke Takayama",
+              "affiliations": []
+            },
+            {
+              "name": "Naoto Yoshida",
+              "affiliations": []
+            },
+            {
+              "name": "Taniguchi T",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Task (project management)",
+            "Coding (social sciences)",
+            "Message passing",
+            "Representation (politics)",
+            "Policy learning",
+            "Models of communication"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-07-22",
+          "abstract": "In multi-agent reinforcement learning (MARL), inter-agent communication is effective for improving performance under partial observability. Representation learning-based approaches enable decentralized agents to learn messages grounded in their own observations, but they rely only on current observations and cannot convey information accumulated over time. We propose Dreamer-CPC, a decentralized model-based MARL method that integrates message learning based on Collective Predictive Coding (CPC) into the world model of DreamerV3. Each agent independently maintains a world model and a message module, and infers and exchanges messages from the latent states of the world model that reflect the history of past observations and actions. We evaluated Dreamer-CPC in two environments: Observer, a non-cooperative information-sharing task, and CatchApple, a newly introduced task in which task-relevant observations are temporarily missing. In both environments, Dreamer-CPC outperformed IPPO-CPC, an existing CPC-based method that generates messages from current observations, as well as no-communication baselines. In particular, in CatchApple, Dreamer-CPC achieved 4 to 5 times the episode return of IPPO-CPC, demonstrating effective coordination where other methods fail due to missing observations. These results suggest that communication grounded in the latent dynamics of world models can support decentralized decision-making when current observations alone are insufficient.",
+          "url": "https://arxiv.org/abs/2607.19809",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning",
+            "method": "In multi-agent reinforcement learning (MARL), inter-agent communication is effective for improving performance under partial observability. Representation learning-based approaches enable decentralized agents to learn messages grounded in t",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning",
+          "authors": [
+            "Taisuke Takayama",
+            "Naoto Yoshida",
+            "Taniguchi T"
+          ],
+          "author_details": [
+            {
+              "name": "Taisuke Takayama",
+              "affiliations": []
+            },
+            {
+              "name": "Naoto Yoshida",
+              "affiliations": []
+            },
+            {
+              "name": "Taniguchi T",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Task (project management)",
+            "Coding (social sciences)",
+            "Message passing",
+            "Representation (politics)",
+            "Policy learning",
+            "Models of communication"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-07-22",
+          "abstract": "In multi-agent reinforcement learning (MARL), inter-agent communication is effective for improving performance under partial observability. Representation learning-based approaches enable decentralized agents to learn messages grounded in their own observations, but they rely only on current observations and cannot convey information accumulated over time. We propose Dreamer-CPC, a decentralized model-based MARL method that integrates message learning based on Collective Predictive Coding (CPC) into the world model of DreamerV3. Each agent independently maintains a world model and a message module, and infers and exchanges messages from the latent states of the world model that reflect the history of past observations and actions. We evaluated Dreamer-CPC in two environments: Observer, a non-cooperative information-sharing task, and CatchApple, a newly introduced task in which task-relevant observations are temporarily missing. In both environments, Dreamer-CPC outperformed IPPO-CPC, an existing CPC-based method that generates messages from current observations, as well as no-communication baselines. In particular, in CatchApple, Dreamer-CPC achieved 4 to 5 times the episode return of IPPO-CPC, demonstrating effective coordination where other methods fail due to missing observations. These results suggest that communication grounded in the latent dynamics of world models can support decentralized decision-making when current observations alone are insufficient.",
+          "url": "https://doi.org/10.48550/arxiv.2607.19809",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2607.19809",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning",
+            "method": "In multi-agent reinforcement learning (MARL), inter-agent communication is effective for improving performance under partial observability. Representation learning-based approaches enable decentralized agents to learn messages grounded in t",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning",
+          "authors": [
+            "Taisuke Takayama",
+            "Naoto Yoshida",
+            "Tadahiro Taniguchi"
+          ],
+          "author_details": [
+            {
+              "name": "Taisuke Takayama",
+              "affiliations": []
+            },
+            {
+              "name": "Naoto Yoshida",
+              "affiliations": []
+            },
+            {
+              "name": "Tadahiro Taniguchi",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-07-22",
+          "abstract": "In multi-agent reinforcement learning (MARL), inter-agent communication is effective for improving performance under partial observability. Representation learning-based approaches enable decentralized agents to learn messages grounded in their own observations, but they rely only on current observations and cannot convey information accumulated over time. We propose Dreamer-CPC, a decentralized model-based MARL method that integrates message learning based on Collective Predictive Coding (CPC) into the world model of DreamerV3. Each agent independently maintains a world model and a message module, and infers and exchanges messages from the latent states of the world model that reflect the history of past observations and actions. We evaluated Dreamer-CPC in two environments: Observer, a non-cooperative information-sharing task, and CatchApple, a newly introduced task in which task-relevant observations are temporarily missing. In both environments, Dreamer-CPC outperformed IPPO-CPC, an existing CPC-based method that generates messages from current observations, as well as no-communication baselines. In particular, in CatchApple, Dreamer-CPC achieved 4 to 5 times the episode return of IPPO-CPC, demonstrating effective coordination where other methods fail due to missing observations. These results suggest that communication grounded in the latent dynamics of world models can support decentralized decision-making when current observations alone are insufficient.",
+          "url": "https://arxiv.org/abs/2607.19809v1",
+          "arxiv_id": "2607.19809v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning",
+            "method": "In multi-agent reinforcement learning (MARL), inter-agent communication is effective for improving performance under partial observability. Representation learning-based approaches enable decentralized agents to learn messages grounded in t",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Testing the Consent-Friction Functional: Preference-Design Artifacts and the Contention-Bounded Limits of Coordination Friction in Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Murad Farzulla"
+          ],
+          "author_details": [
+            {
+              "name": "Murad Farzulla",
+              "affiliations": [
+                "Chr. Hansen (Denmark)"
+              ]
+            }
+          ],
+          "keywords": [
+            "Spurious relationship",
+            "Axiom",
+            "Factorial",
+            "Contrast (vision)",
+            "Reinforcement",
+            "Fraction (chemistry)",
+            "Dominance (genetics)",
+            "Crank",
+            "Intuition"
+          ],
+          "journal": "Research Square",
+          "published": "2026-07-22",
+          "abstract": "",
+          "url": "https://doi.org/10.21203/rs.3.rs-10375465/v1",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.21203/rs.3.rs-10375465/v1",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Testing the Consent-Friction Functional: Preference-Design Artifacts and the Contention-Bounded Limits of Coordination Friction in Multi-Agent Reinforcement Learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "On the Analysis of Potential Games: From Constraints, Price of Anarchy and Reinforcement Learning to Contrastive Learning",
+          "authors": [
+            "Stavroulakis, Stelios Andrew"
+          ],
+          "author_details": [
+            {
+              "name": "Stavroulakis, Stelios Andrew",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Nash equilibrium",
+            "Price of anarchy",
+            "Best response",
+            "Epsilon-equilibrium",
+            "Pointwise",
+            "Equilibrium selection",
+            "Potential game",
+            "Markov decision process",
+            "Game theory"
+          ],
+          "journal": "eScholarship (California Digital Library)",
+          "published": "2027-12-05",
+          "abstract": "Potential games provide a unified and tractable framework for analyzing multi-agent interactions in which individual incentives align with a common objective, the potential, making them central to understanding decentralized coordination in economics, engineering, and artificial intelligence. This thesis investigates how structure, learning, and computation interact within potential games, covering equilibrium computation under constraints, equilibrium selection under learning dynamics, applications in cooperative multi-agent reinforcement learning, and links to the complexity of contrastive learning. In the first part, a distributed Lagrangian framework is developed for potential games with private, uncoupled constraints, enabling agents to compute approximate Nash equilibria in polynomial time and extending classical results to realistic congestion and resource-allocation settings with constraints. Learning dynamics are then examined through Q-Replicator Dynamics, a broad class of no-regret dynamics that include gradient descent, replicator, and log-barrier updates. These dynamics converge pointwise to Nash equilibria in almost all finite potential games. By characterizing regions of attraction, an Average Price of Anarchy (APoA) is derived to quantify the expected efficiency of learning outcomes. Contrary to the worst-case Price of Anarchy, which can be unbounded, the average-case measure under gradient-based learning is well defined, clarifying when various dynamics perform better on average. This thesis also applies the framework of potential games to a sequential setting, modeled as a Markov Potential Game in a location-aware scheduling environment. Agents learn to allocate tasks under partial observability, using compact state and action representations, and a common reward signal. Experiments show how agents reach a Nash equilibrium and also how floor-plan geometry, task parallelizability, and localization shape coordination efficiency, transfer to unseen layouts, and performance degradation, highlighting the modeling value of potential games in the multi-agent reinforcement learning domain. Finally, a conceptual link between potential games and contrastive learning objectives is revealed. By interpreting the triplet-loss formulation as a potential function (betweenness ranking) over data points, the task of finding locally optimal embeddings can be viewed through the lens of equilibrium computation. This perspective reveals that identifying local optima is PLS-hard in discrete settings, even for one-dimensional embeddings. These results highlight the inherent computational limits of local search methods in representation learning.",
+          "url": "https://escholarship.org/uc/item/9898w6z2",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: On the Analysis of Potential Games: From Constraints, Price of Anarchy and Reinforcement Learning to Contrastive Learning",
+            "method": "Potential games provide a unified and tractable framework for analyzing multi-agent interactions in which individual incentives align with a common objective, the potential, making them central to understanding decentralized coordination in",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "PLATO: Pointer Learner for Agent and Task Openness",
+          "authors": [
+            "Alireza Saleh Abadi",
+            "Leen-Kiat Soh",
+            "Daniel Alan Redder",
+            "Adam Eck",
+            "Prashant Doshi"
+          ],
+          "author_details": [
+            {
+              "name": "Alireza Saleh Abadi",
+              "affiliations": []
+            },
+            {
+              "name": "Leen-Kiat Soh",
+              "affiliations": []
+            },
+            {
+              "name": "Daniel Alan Redder",
+              "affiliations": []
+            },
+            {
+              "name": "Adam Eck",
+              "affiliations": []
+            },
+            {
+              "name": "Prashant Doshi",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI",
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-07-27",
+          "abstract": "Open agent systems (OASYS) are increasingly prevalent in real-world domains where the sets of agents and tasks change unpredictably over time. Such openness, including agent openness (AO) and task openness (TO), poses a fundamental challenge to multi-agent reinforcement learning (MARL), which typically assumes fixed state and action spaces. Existing methods address openness only partially: padding and masking approaches introduce artificial bounds, while recent graph-based or hypergraph methods handle one dimension of openness but still depend on restrictive assumptions. In this paper, we introduce Pointer Learner for Agent and Task Openness (PLATO), a pointer-network-based actor combined with a centralized graph neural network (GNN) critic, trained with multi-agent proximal policy optimization under a centralized training and decentralized execution paradigm. Our pointer-based actor outputs distributions directly over the current task set. This directly supports changing action spaces without masking or retraining. Our GNN critic encodes agent-task interactions as a graph that changes shape with task and agent composition. Together, these components consider AO and TO without the boundedness of existing approaches. We formalize PLATO in a Task-and-Agent-Open Markov Game (TaAgO-MG), extending prior task-open formulations, and prove it is well-defined over the resulting unbounded state and action spaces. We evaluate PLATO with the Methods for Open Agent Systems Evaluation Initiative (MOASEI) wildfire suppression domain, an environment designed for open multi-agent system evaluation, and we demonstrate strong performance and more consistent zero-shot generalization than state-of-the-art baselines in OASYS.",
+          "url": "https://arxiv.org/abs/2607.25082v1",
+          "arxiv_id": "2607.25082v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: PLATO: Pointer Learner for Agent and Task Openness",
+            "method": "Open agent systems (OASYS) are increasingly prevalent in real-world domains where the sets of agents and tasks change unpredictably over time. Such openness, including agent openness (AO) and task openness (TO), poses a fundamental challeng",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": []
     },
     {
       "id": "causal-llm",
