@@ -1,6 +1,6 @@
 {
   "week": "2026-W31",
-  "generated_at": "2026-07-29T16:34:59.517187Z",
+  "generated_at": "2026-07-29T17:00:47.743286Z",
   "topics": [
     {
       "id": "causal-inference",
@@ -13,6 +13,39 @@
             "Xinyu Jiang",
             "Feng(Ben) Shen"
           ],
+          "author_details": [
+            {
+              "name": "Wei Ye",
+              "affiliations": [
+                "Xiamen Chang Gung Hospital"
+              ]
+            },
+            {
+              "name": "Xinyu Jiang",
+              "affiliations": [
+                "Children’s Hospital of Fudan University Xiamen Branch"
+              ]
+            },
+            {
+              "name": "Feng(Ben) Shen",
+              "affiliations": [
+                "Beijing University of Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Unsupervised learning",
+            "Inference",
+            "Function (biology)",
+            "Curse of dimensionality",
+            "Deep learning",
+            "Support vector machine",
+            "Outcome (game theory)",
+            "Lasso (programming language)",
+            "Feature learning"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
           "published": "2026-07-26",
           "abstract": "Inferring \"whether a change in the expression of a given gene causally affects the disease state\" from observational single-cell transcriptomic data is one of the central problems in single-cell biology. The difficulty lies in confounding: cell state, batch, cell cycle, and the co-expression of other genes may all simultaneously influence the target gene (treatment variable T) and the disease label (outcome variable Y), so that naive correlation analysis cannot distinguish causation from covariation. Double machine learning (DML), via orthogonal scores and cross-fitting, allows machine learning to estimate high-dimensional nuisance functions, thereby addressing the causal inference problem in high-dimensional data. Constrained by computational resources, this study takes a small-sample dataset with p≈n (2,120 cells, 1,999 background genes) as the experimental testbed and systematically compares three nuisance function construction strategies under this critical condition; strategies for the n≫p regime are then addressed by theoretical argument. Using systemic lupus erythematosus (SLE) peripheral blood memory B cells (GSE189050, 2,120 cells), we construct a three nuisance function construction strategies x (in-sample / cross-fitting) 2x3 factorial experiment and compare them in terms of resolution, biological plausibility, stability, and deconfounding ability in causal effect estimation. The three strategies are: (S1) direct linear nuisance regression on the high-dimensional background genes without dimensionality reduction; (S2) learning a shared low-dimensional representation with an unsupervised autoencoder, with the treatment and outcome residuals sharing that representation; (S3) fitting the treatment and outcome with two independent deep networks. The results yield a clear three-part pattern with mechanistic meaning: (1) both modes of S1 fail; (2) S2 achieves the optimum in-sample and requires no cross-fitting; (3) S3 is \"rescued\" under cross-fitting and becomes effective. We explain this pattern starting from the convergence rate condition of DML (Sec.5 Theoretical Foundations) and give the applicability boundaries of the two strategies: S2 (shared unsupervised deep learning) achieves estimation quality comparable to standard cross-fitted DML at a tiny fraction of the computational cost, making it a feasible scheme for large-scale screening; S3 (dual networks + cross-fitting), as the standard DML recipe, can serve as a broad-spectrum reference control for S2 results.",
           "url": "https://doi.org/10.64898/2026.07.22.739971",
@@ -39,6 +72,25 @@
             "Pradipta Sarkar",
             "Tirthankar Dasgupta"
           ],
+          "author_details": [
+            {
+              "name": "Rituparna Dey",
+              "affiliations": []
+            },
+            {
+              "name": "Pradipta Sarkar",
+              "affiliations": []
+            },
+            {
+              "name": "Tirthankar Dasgupta",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME",
+            "math.ST"
+          ],
+          "journal": null,
           "published": "2026-07-25",
           "abstract": "Randomized experiments with ordinal outcomes are common in many scientific applications, but conventional causal estimands such as the average treatment effect are difficult to interpret because ordinal categories lack meaningful numerical spacing. We develop a Bayesian latent variable framework for drawing coherent super population and finite population inference on two interpretable causal estimands that quantify the probabilities that treatment is beneficial and strictly beneficial. By modeling the joint distribution of potential outcomes through an ordered probit model, the proposed approach overcomes the identifiability limitations of existing methods and yields substantially sharper inference than nonparametric bounds. We also investigate the impact of the unknown association between potential outcomes and propose a sensitivity analysis to assess its influence. Simulation studies and an application to a randomized experiment on human scalp health demonstrate that the method provides precise and practically relevant assessments of treatment effectiveness.",
           "url": "https://arxiv.org/abs/2607.23372v1",
@@ -64,6 +116,23 @@
             "Jiyuan Tan",
             "Vasilis Syrgkanis"
           ],
+          "author_details": [
+            {
+              "name": "Jiyuan Tan",
+              "affiliations": []
+            },
+            {
+              "name": "Vasilis Syrgkanis",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ML",
+            "cs.AI",
+            "cs.LG",
+            "econ.EM"
+          ],
+          "journal": null,
           "published": "2026-07-24",
           "abstract": "Automating theoretical research is constrained not only by the generation of candidate results, but also by their reliable evaluation. A common approach is to close the research loop with a large language model (LLM) reviewer. However, such reviewers remain empirically unreliable: they may accept fabricated papers and detect them at rates close to chance (Bad Scientist, 2025). We present CausalForge, a framework for automated theoretical research in causal inference grounded in the Lean proof assistant. CausalForge combines Causalean, a foundational Lean library for causal inference containing 7,035 machine-checked declarations developed with language-model assistance under human design and review, with CausalSmith, a self-improving agentic pipeline that selects research topics, proposes results, formalizes statements, constructs proofs, and presents the resulting artifacts for human inspection. Because a machine-checked proof establishes only that a formal statement follows from its assumptions, not that the statement faithfully captures the intended scientific claim, the pipeline augments kernel verification with a statement audit that compares each formal theorem against the informal claim it is intended to express. We evaluate the system using artifacts produced by completed autonomous research runs. The source code, formal library, and run records are available at https://github.com/Jiyuan-Tan/CausalForge.",
           "url": "https://arxiv.org/abs/2607.22511v1",
@@ -92,6 +161,33 @@
             "Yi Zhang",
             "Nathan Kallus"
           ],
+          "author_details": [
+            {
+              "name": "Winston Chou",
+              "affiliations": []
+            },
+            {
+              "name": "Adrien Alexandre",
+              "affiliations": []
+            },
+            {
+              "name": "Lars Olds",
+              "affiliations": []
+            },
+            {
+              "name": "Yi Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Nathan Kallus",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.CO",
+            "stat.AP"
+          ],
+          "journal": null,
           "published": "2026-07-24",
           "abstract": "Data analysis agents are becoming increasingly common tools for applied and scientific research. Yet, for highly specialized tasks such as Observational Causal Inference (OCI), human oversight remains necessary to ensure the validity of results. We introduce `oci-agent`, an open-source Python package that implements a human-in-the-loop agentic workflow for observational causal inference. `oci-agent` is designed to automate vital but laborious aspects of applied causal inference, such as covariate balance checking, propensity score trimming, and sensitivity analysis, so that humans can focus on more nuanced tasks, such as framing questions, scrutinizing assumptions, and evaluating diagnostics and results. We initially open-sourced `oci-agent` in June 2026 with support for doubly robust learning of the average treatment effect of a single binary treatment. Since then, we have added support for heterogeneous treatment effect estimation and for multiple continuous treatments via partially linear models. In this paper, we describe the principles behind `oci-agent` and offer internal Netflix case studies and evaluations on public data of its capabilities. Across numerous evaluations, `oci-agent` outperforms less structured baselines while remaining competitive with hand-tuned benchmarks. `oci-agent` is used extensively for causal inference at Netflix and has orchestrated more than 100 analyses per month since its release in June.",
           "url": "https://arxiv.org/abs/2607.22443v1",
@@ -116,6 +212,18 @@
           "authors": [
             "Mojtaba Eslami"
           ],
+          "author_details": [
+            {
+              "name": "Mojtaba Eslami",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME",
+            "cs.AI",
+            "econ.EM"
+          ],
+          "journal": null,
           "published": "2026-07-24",
           "abstract": "Let $p(x)$ be the joint density of variables $X$, and let $ψ(x)=\\nabla_x\\log p(x)$ be its score field. Geometry constructed from $p$ and $ψ$ alone cannot identify causal direction: structural models with the same observational distribution have the same score geometry. I develop an interventional analogue. A hard intervention $\\operatorname{do}(X_k=ξ)$ does not merely reweight the joint law; it restricts the distribution to the submanifold ${x_k=ξ}$. Its score should therefore be defined on the remaining $d-1$ free coordinates. I define causal influence $X_k\\rightsquigarrow X_j$ as variation of the interventional marginal distribution of $X_j$ with $ξ$, and show that the corresponding derivative of the marginal interventional score gives a local sufficient condition for influence. Projecting the observational score onto admissible intervention directions does not generally recover causal response: two models may share the same observational score and admissible set yet respond differently. I therefore introduce an interventional response field supplied by structural information. A causal metric is defined as the Fisher information metric on a family of interventions with a common target, avoiding ill-posed comparisons across targets. The framework yields a geometric dictionary for randomized trials, instrumental variables, and conditional-independence designs, clarifying what each does and does not identify. A bivariate Gaussian example gives two models with the same observational score but different interventional score derivatives. The framework organizes relations among designs, interventions, and score fields, but adds no identification beyond the underlying assumptions. In Pearl's Ladder of Causation, observational score geometry belongs to association, intervention-indexed score fields to intervention, and unit-level counterfactual geometry is left for future work.",
           "url": "https://arxiv.org/abs/2607.21914v1",
@@ -140,6 +248,27 @@
           "authors": [
             "Anil Singh"
           ],
+          "author_details": [
+            {
+              "name": "Anil Singh",
+              "affiliations": [
+                "The University of Texas at Austin"
+              ]
+            }
+          ],
+          "keywords": [
+            "Graph",
+            "Context (archaeology)",
+            "Inference",
+            "Causal inference",
+            "Operator (biology)",
+            "Counterfactual thinking",
+            "Attribution",
+            "Bayesian network",
+            "Dependency graph",
+            "Domain (mathematical analysis)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
           "published": "2026-07-24",
           "abstract": "Marketing decisions increasingly depend on two capabilities that have evolved separately: causal marketing measurement (distinguishing real advertising effects from the correlational patterns in marketing data, the domain of Causal AI) and governed, graph-based context for the AI agents now trusted to act on those effects, the domain of Agentic AI. Both are limited by the same architectural gap. Problem 1: measurement is correlational by construction (not only in media-mix models but in touch-based attribution and observational methods generally), so a channel’s direct, indirect, and total effects are hard to separate and to calibrate against experiments. Problem 2: the agents acting on those effects lack persistent, governed, historically accurate context, and to answer questions such as which campaigns to scale or how to optimize the mix they must reason over incremental effects, uncertainty, evidence strength, applicable populations, and decision lineage, not language. We introduce the Marketing Context Graph (MCG), a bi-temporal, governed property graph, formally a tuple G = (E, R, γE, γR), in which campaign entities, spend vectors, conversion outcomes, and external macro factors are connected by typed, directional, causally identified edges carrying bi-temporal attributes and reified decision traces. We give it a precise set-theoretic semantics, define a point-in-time snapshot operator Σ(tv, tr), and prove it is free of look-ahead contamination. Crucially, the MCG is a governed substrate, not a new estimator: the measurement methods applied on it are classical: mediation / path analysis, inverse-probability weighting, and transport. We (i) inject an experiment-identified halo edge as an informative structural prior into a Gaussian-conjugate Bayesian MMM, showing it reduces posterior variance along the collinear directions (Remark 1) while separating that variance claim from identification (Proposition 2); (ii) compose each channel’s total effect by traversing the graph, so budget decisions improve as cross-channel mediation grows and gain nothing when no structure exists; (iii) reconstruct complete, auditable decision provenance; and (iv) transport an identified edge across populations exactly when the graph’s selection diagram licenses it, and refuse when it does not. Our evaluation is decision-centric rather than fit-centric. Across 8,000 simulated budget decisions the graph cuts budget-decision regret by up to 43% as cross-channel mediation grows (a paired within-replication reduction); look-ahead-free backtesting exposes 70% over-investment that a flat store conceals; the graph answers the provenance queries that require multi-hop, policy, temporal, and audit structure a flat fact/vector store cannot represent; and governed transport stays low-error as populations diverge, where naive transfer’s error grows linearly with divergence. Evidence is synthetic by design, isolating each mechanism against a known oracle; all results are reproducible from released code.",
           "url": "https://doi.org/10.5281/zenodo.21522810",
@@ -164,6 +293,27 @@
           "authors": [
             "Anil Singh"
           ],
+          "author_details": [
+            {
+              "name": "Anil Singh",
+              "affiliations": [
+                "The University of Texas at Austin"
+              ]
+            }
+          ],
+          "keywords": [
+            "Graph",
+            "Context (archaeology)",
+            "Inference",
+            "Causal inference",
+            "Operator (biology)",
+            "Counterfactual thinking",
+            "Attribution",
+            "Bayesian network",
+            "Dependency graph",
+            "Domain (mathematical analysis)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
           "published": "2026-07-24",
           "abstract": "Marketing decisions increasingly depend on two capabilities that have evolved separately: causal marketing measurement (distinguishing real advertising effects from the correlational patterns in marketing data, the domain of Causal AI) and governed, graph-based context for the AI agents now trusted to act on those effects, the domain of Agentic AI. Both are limited by the same architectural gap. Problem 1: measurement is correlational by construction (not only in media-mix models but in touch-based attribution and observational methods generally), so a channel’s direct, indirect, and total effects are hard to separate and to calibrate against experiments. Problem 2: the agents acting on those effects lack persistent, governed, historically accurate context, and to answer questions such as which campaigns to scale or how to optimize the mix they must reason over incremental effects, uncertainty, evidence strength, applicable populations, and decision lineage, not language. We introduce the Marketing Context Graph (MCG), a bi-temporal, governed property graph, formally a tuple G = (E, R, γE, γR), in which campaign entities, spend vectors, conversion outcomes, and external macro factors are connected by typed, directional, causally identified edges carrying bi-temporal attributes and reified decision traces. We give it a precise set-theoretic semantics, define a point-in-time snapshot operator Σ(tv, tr), and prove it is free of look-ahead contamination. Crucially, the MCG is a governed substrate, not a new estimator: the measurement methods applied on it are classical: mediation / path analysis, inverse-probability weighting, and transport. We (i) inject an experiment-identified halo edge as an informative structural prior into a Gaussian-conjugate Bayesian MMM, showing it reduces posterior variance along the collinear directions (Remark 1) while separating that variance claim from identification (Proposition 2); (ii) compose each channel’s total effect by traversing the graph, so budget decisions improve as cross-channel mediation grows and gain nothing when no structure exists; (iii) reconstruct complete, auditable decision provenance; and (iv) transport an identified edge across populations exactly when the graph’s selection diagram licenses it, and refuse when it does not. Our evaluation is decision-centric rather than fit-centric. Across 8,000 simulated budget decisions the graph cuts budget-decision regret by up to 43% as cross-channel mediation grows (a paired within-replication reduction); look-ahead-free backtesting exposes 70% over-investment that a flat store conceals; the graph answers the provenance queries that require multi-hop, policy, temporal, and audit structure a flat fact/vector store cannot represent; and governed transport stays low-error as populations diverge, where naive transfer’s error grows linearly with divergence. Evidence is synthetic by design, isolating each mechanism against a known oracle; all results are reproducible from released code.",
           "url": "https://doi.org/10.5281/zenodo.21522811",
@@ -196,6 +346,74 @@
             "Xu Han",
             "Q J Li"
           ],
+          "author_details": [
+            {
+              "name": "Nana Guo",
+              "affiliations": [
+                "Hebei Provincial Center for Disease Control and Prevention"
+              ]
+            },
+            {
+              "name": "Xianlei Zhou",
+              "affiliations": [
+                "North China University of Science and Technology"
+              ]
+            },
+            {
+              "name": "Ziyi Pang",
+              "affiliations": [
+                "Hebei University"
+              ]
+            },
+            {
+              "name": "Yan Li",
+              "affiliations": [
+                "Hebei Provincial Center for Disease Control and Prevention"
+              ]
+            },
+            {
+              "name": "Caixiao Jiang",
+              "affiliations": [
+                "Hebei Provincial Center for Disease Control and Prevention"
+              ]
+            },
+            {
+              "name": "Minghao Geng",
+              "affiliations": [
+                "Hebei Provincial Center for Disease Control and Prevention"
+              ]
+            },
+            {
+              "name": "Wentao Wu",
+              "affiliations": [
+                "Hebei Provincial Center for Disease Control and Prevention"
+              ]
+            },
+            {
+              "name": "Xu Han",
+              "affiliations": [
+                "Hebei Provincial Center for Disease Control and Prevention"
+              ]
+            },
+            {
+              "name": "Q J Li",
+              "affiliations": [
+                "North China University of Science and Technology",
+                "Hebei Provincial Center for Disease Control and Prevention"
+              ]
+            }
+          ],
+          "keywords": [
+            "Asymptomatic",
+            "Mendelian randomization",
+            "Proteomics",
+            "Metabolomics",
+            "Phenotype",
+            "Transcriptome",
+            "Disease",
+            "Hypoxia (environmental)"
+          ],
+          "journal": "Frontiers in Microbiology",
           "published": "2026-07-24",
           "abstract": "Introduction Coronavirus disease 2019 (COVID-19) shows prominent clinical heterogeneity, presenting two distinct clinical phenotypes including asymptomatic infection and severe symptomatic disease, yet the molecular mechanisms driving such phenotypic differences remain unclear. This study aimed to dissect the molecular basis of divergent COVID-19 clinical manifestations by combining serum proteomics and Mendelian randomization causal inference methods. Methods Serum samples from healthy controls, asymptomatic patients (acute and recovery phases), and symptomatic patients (incubation, acute, recovery phases) were subjected to label-free quantitative proteomics to screen stage-specific protein signatures. Functional enrichment analysis was conducted to mine critical biological pathways. Two MR strategies, two-sample MR and SMR, were utilized to infer causal associations between circulating metabolic proteins/traits and COVID-19 susceptibility. This retrospective research did not involve clinical trials (Clinical trial number: Not applicable). Results In total, 662 quantifiable serum proteins were detected. Principal component analysis revealed partial separation but obvious overlap across clinical subgroups. Asymptomatic patients only exhibited mild dysregulation of coagulation and innate immune-related proteins, whereas symptomatic patients displayed widespread disorders in coagulation, immunity, metabolism and tissue homeostasis. Five conserved hypoxia and metabolic regulatory proteins (ALDOA, ALDOB, LDHA, LDHB, TFRC) were differentially expressed in both phenotypes. Glycolysis and HIF-1 signaling pathways were disturbed in both groups, with more severe protein expression changes in symptomatic individuals. SMR analysis detected a nominally significant association between ALDOB cis-eQTL variants and COVID-19 risk ( OR = 1.249, 95% CI: 1.030–1.513, P = 0.024). Two-sample MR indicated that higher circulating glycerol was weakly associated with COVID-19 infection ( OR = 1.14, 95% CI: 1.01–1.28, P = 0.027), while global glucose homeostasis traits showed no significant causal links. All MR results were stable after heterogeneity and pleiotropy sensitivity tests. Discussion Varied severity of host metabolic-immune dysregulation accounts for different COVID-19 clinical phenotypes. Asymptomatic carriers only experience mild coagulation-immune and metabolic disturbances, whereas symptomatic patients suffer substantially aggravated dysfunction of core metabolic pathways, which provides proteomic and causal evidence for the heterogeneous clinical manifestations of COVID-19.",
           "url": "https://doi.org/10.3389/fmicb.2026.1852103",
@@ -228,6 +446,24 @@
             "Masataka Ushiku",
             "Yuta Saito"
           ],
+          "author_details": [
+            {
+              "name": "Yuta Natsubori",
+              "affiliations": []
+            },
+            {
+              "name": "Masataka Ushiku",
+              "affiliations": []
+            },
+            {
+              "name": "Yuta Saito",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
           "published": "2026-07-24",
           "abstract": "Off-Policy Evaluation and Learning (OPE/L) in contextual bandits is rapidly gaining popularity in real systems because new policies can be evaluated and learned securely using only historical logged data. However, existing methods in OPE/L cannot handle many challenging but prevalent scenarios such as few-shot data, deterministic logging policies, and new actions. In many applications, such as personalized medicine, content recommendations, education, and advertising, we need to evaluate and learn new policies in the presence of these challenges. Existing methods cannot evaluate and optimize effectively in these situations due to the notorious variance issue or limited exploration in the logged data. To enable OPE/L even under these unsolved challenges, we propose a new problem setup of Cross-Domain OPE/L, where we have access not only to the logged data from the target domain in which the new policy will be implemented but also to logged datasets collected from other domains. This novel formulation is widely applicable because we can often use historical data not only from the target hospital, country, device, or user segment but also from other hospitals, countries, devices, or segments. We develop a new estimator and policy gradient method to solve OPE/L by leveraging both target and source datasets, resulting in substantially enhanced OPE/L in the previously unsolved situations in our empirical evaluations.",
           "url": "https://arxiv.org/abs/2607.22012v1",
@@ -254,6 +490,29 @@
             "Masataka Ushiku",
             "Yuta Saito"
           ],
+          "author_details": [
+            {
+              "name": "Yuta Natsubori",
+              "affiliations": []
+            },
+            {
+              "name": "Masataka Ushiku",
+              "affiliations": []
+            },
+            {
+              "name": "Yuta Saito",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Domain (mathematical analysis)",
+            "Popularity",
+            "Variance (accounting)",
+            "Estimator",
+            "Structured prediction",
+            "Reinforcement learning"
+          ],
+          "journal": "arXiv (Cornell University)",
           "published": "2026-07-24",
           "abstract": "Off-Policy Evaluation and Learning (OPE/L) in contextual bandits is rapidly gaining popularity in real systems because new policies can be evaluated and learned securely using only historical logged data. However, existing methods in OPE/L cannot handle many challenging but prevalent scenarios such as few-shot data, deterministic logging policies, and new actions. In many applications, such as personalized medicine, content recommendations, education, and advertising, we need to evaluate and learn new policies in the presence of these challenges. Existing methods cannot evaluate and optimize effectively in these situations due to the notorious variance issue or limited exploration in the logged data. To enable OPE/L even under these unsolved challenges, we propose a new problem setup of Cross-Domain OPE/L, where we have access not only to the logged data from the target domain in which the new policy will be implemented but also to logged datasets collected from other domains. This novel formulation is widely applicable because we can often use historical data not only from the target hospital, country, device, or user segment but also from other hospitals, countries, devices, or segments. We develop a new estimator and policy gradient method to solve OPE/L by leveraging both target and source datasets, resulting in substantially enhanced OPE/L in the previously unsolved situations in our empirical evaluations.",
           "url": "https://arxiv.org/abs/2607.22012",
@@ -280,6 +539,29 @@
             "Masataka Ushiku",
             "Yuta Saito"
           ],
+          "author_details": [
+            {
+              "name": "Yuta Natsubori",
+              "affiliations": []
+            },
+            {
+              "name": "Masataka Ushiku",
+              "affiliations": []
+            },
+            {
+              "name": "Yuta Saito",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Domain (mathematical analysis)",
+            "Popularity",
+            "Variance (accounting)",
+            "Estimator",
+            "Structured prediction",
+            "Reinforcement learning"
+          ],
+          "journal": "arXiv (Cornell University)",
           "published": "2026-07-24",
           "abstract": "Off-Policy Evaluation and Learning (OPE/L) in contextual bandits is rapidly gaining popularity in real systems because new policies can be evaluated and learned securely using only historical logged data. However, existing methods in OPE/L cannot handle many challenging but prevalent scenarios such as few-shot data, deterministic logging policies, and new actions. In many applications, such as personalized medicine, content recommendations, education, and advertising, we need to evaluate and learn new policies in the presence of these challenges. Existing methods cannot evaluate and optimize effectively in these situations due to the notorious variance issue or limited exploration in the logged data. To enable OPE/L even under these unsolved challenges, we propose a new problem setup of Cross-Domain OPE/L, where we have access not only to the logged data from the target domain in which the new policy will be implemented but also to logged datasets collected from other domains. This novel formulation is widely applicable because we can often use historical data not only from the target hospital, country, device, or user segment but also from other hospitals, countries, devices, or segments. We develop a new estimator and policy gradient method to solve OPE/L by leveraging both target and source datasets, resulting in substantially enhanced OPE/L in the previously unsolved situations in our empirical evaluations.",
           "url": "https://doi.org/10.48550/arxiv.2607.22012",
@@ -306,6 +588,25 @@
             "Ying Zhou",
             "Yifan Cui"
           ],
+          "author_details": [
+            {
+              "name": "Zeyu Bian",
+              "affiliations": []
+            },
+            {
+              "name": "Ying Zhou",
+              "affiliations": []
+            },
+            {
+              "name": "Yifan Cui",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ML",
+            "cs.LG"
+          ],
+          "journal": null,
           "published": "2026-07-28",
           "abstract": "Standard offline reinforcement learning (RL) algorithms typically assume that the actions in the dataset are observed without error. However, in many real-world applications, the true actions are unobserved and only noisy proxies are available, causing existing RL methods to yield biased and potentially misleading conclusions. We study off-policy evaluation in infinite-horizon discounted Markov decision processes with hidden actions. By leveraging the next-state variable as a natural proxy for the unobserved action, we establish identification of the policy value and propose an influence-function-based estimator called LURE (Learning from the Unseen: Robust Estimator). LURE is multiply robust, remaining consistent under several combinations of correctly specified nuisance components, and is asymptotically normal, enabling valid statistical inference. To our knowledge, this is the first work to address offline RL with hidden actions. We demonstrate LURE's effectiveness through simulations and a sepsis management application using the MIMIC-III database.",
           "url": "https://arxiv.org/abs/2607.25241v1",
@@ -336,6 +637,62 @@
             "Young-Koo Lee",
             "Jinkyeong Park"
           ],
+          "author_details": [
+            {
+              "name": "Shayhan Ameen Chowdhury",
+              "affiliations": [
+                "Kyung Hee University"
+              ]
+            },
+            {
+              "name": "Ga Young Shin",
+              "affiliations": [
+                "Kyung Hee University Hospital at Gangdong"
+              ]
+            },
+            {
+              "name": "Seung Eun Lee",
+              "affiliations": [
+                "Dongguk University Ilsan Hospital"
+              ]
+            },
+            {
+              "name": "Seon‐Sook Han",
+              "affiliations": [
+                "Kangwon National University"
+              ]
+            },
+            {
+              "name": "Kim Sk",
+              "affiliations": [
+                "Kyung Hee University",
+                "Kyung Hee University Hospital at Gangdong"
+              ]
+            },
+            {
+              "name": "Young-Koo Lee",
+              "affiliations": [
+                "Kyung Hee University"
+              ]
+            },
+            {
+              "name": "Jinkyeong Park",
+              "affiliations": [
+                "Kyung Hee University Hospital at Gangdong"
+              ]
+            }
+          ],
+          "keywords": [
+            "Dosing",
+            "Glycemic",
+            "Retrospective cohort study",
+            "Parenteral nutrition",
+            "Enteral administration",
+            "Insulin",
+            "Medical prescription",
+            "Clinical Practice"
+          ],
+          "journal": "Scientific Reports",
           "published": "2026-07-24",
           "abstract": "The transition from parenteral nutrition (PN) to enteral nutrition (EN) in critically ill patients presents significant challenges in glycemic control, yet existing guidelines lack specific recommendations for managing insulin dosing during this period. In this multi-center retrospective study, we apply offline reinforcement learning (RL) to learn an insulin-dosing policy for the PN-to-EN transition, using a reward function defined by the clinically accepted target range of 80–180 mg/dL for blood glucose levels (BGLs). This study analyzes retrospective data from 826 ICU patients across three South Korean teaching hospitals, resulting in 1242 PN-to-EN feeding transitions. In the observed clinical data, only 31.8% of post-EN BGL measurements fell within the target range, whereas 67.95% exceeded 180 mg/dL, indicating that current clinical practice frequently fails to achieve adequate glycemic control during this transition. To address this gap, we model each transition event as a one-step dosing decision using a patient-specific state that incorporates the pre-EN BGL, minute-level carbohydrate exposure from concurrent PN and EN, and an insulin sensitivity indicator based on the insulin-to-glucose ratio. A reward function derived from the post-EN BGL measured 4 hours after EN initiation is used to train an offline actor–critic policy entirely from retrospective data, without requiring online patient interaction. Under leave-one-subject-out (LOSO) validation, the model achieved a directional consistency of 84.3%, a quadrant-based metric that evaluates whether the model’s recommended insulin adjustment aligns with the expected direction given the observed post-EN glycemic outcome. Performance was driven predominantly by hyperglycemic events (92.7%) and was lower in non-hyperglycemic events (66.6%). Sensitivity analyses showed stable performance across three patient-wise validating schemes (81.8–84.3%), but marked sensitivity to the reward specification (55.1–84.3% depending on the reward function). Representative case studies further illustrate model recommendations across diverse PN-to-EN scenarios; however, interpretation in hypoglycemia-prone settings remains limited by the small number of low glucose events. Formal off-policy evaluation was not performed; accordingly, this work should be regarded as a feasibility study rather than as evidence of clinical efficacy. To our knowledge, this is the first application of offline reinforcement learning to insulin dosing specifically during the PN-to-EN nutritional transition using real-world multi-center ICU data.",
           "url": "https://doi.org/10.1038/s41598-026-63234-3",
@@ -367,6 +724,37 @@
             "Yash Nair",
             "Lucas Janson"
           ],
+          "author_details": [
+            {
+              "name": "Yash Nair",
+              "affiliations": [
+                "Stanford University"
+              ]
+            },
+            {
+              "name": "Lucas Janson",
+              "affiliations": [
+                "Stanford University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Resampling",
+            "Computer science",
+            "Inference",
+            "Permutation (music)",
+            "Conditional independence",
+            "Confidence interval",
+            "Statistical hypothesis testing",
+            "Randomization",
+            "Range (aeronautics)",
+            "Machine learning",
+            "Algorithm",
+            "Artificial intelligence",
+            "Statistics",
+            "Mathematics"
+          ],
+          "journal": "Journal of the American Statistical Association",
           "published": "2026-07-27",
           "abstract": "Randomization testing is a fundamental method in statistics, enabling inferential tasks such as testing for (conditional) independence of random variables, constructing confidence intervals in semiparametric location models, and constructing (by inverting a permutation test) model-free prediction intervals via conformal prediction. Randomization tests are exactly valid for any sample size, but their use is generally confined to exchangeable data. Yet in many applications, data is routinely collected adaptively via, e.g., (contextual) bandit and reinforcement learning algorithms or adaptive experimental designs. In this paper we present a general framework for randomization testing on adaptively collected data (despite its non-exchangeability) that uses a weighted randomization test, for which we also present novel computationally tractable resampling algorithms for various popular adaptive assignment algorithms, data-generating environments, and types of inferential tasks. Finally, we demonstrate via a range of simulations the efficacy of our framework for both testing and confidence/prediction interval construction.",
           "url": "https://doi.org/10.1080/01621459.2026.2705554",
@@ -391,6 +779,25 @@
           "authors": [
             "Stavroulakis, Stelios Andrew"
           ],
+          "author_details": [
+            {
+              "name": "Stavroulakis, Stelios Andrew",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Nash equilibrium",
+            "Price of anarchy",
+            "Best response",
+            "Epsilon-equilibrium",
+            "Pointwise",
+            "Equilibrium selection",
+            "Potential game",
+            "Markov decision process",
+            "Game theory"
+          ],
+          "journal": "eScholarship (California Digital Library)",
           "published": "2027-12-05",
           "abstract": "Potential games provide a unified and tractable framework for analyzing multi-agent interactions in which individual incentives align with a common objective, the potential, making them central to understanding decentralized coordination in economics, engineering, and artificial intelligence. This thesis investigates how structure, learning, and computation interact within potential games, covering equilibrium computation under constraints, equilibrium selection under learning dynamics, applications in cooperative multi-agent reinforcement learning, and links to the complexity of contrastive learning. In the first part, a distributed Lagrangian framework is developed for potential games with private, uncoupled constraints, enabling agents to compute approximate Nash equilibria in polynomial time and extending classical results to realistic congestion and resource-allocation settings with constraints. Learning dynamics are then examined through Q-Replicator Dynamics, a broad class of no-regret dynamics that include gradient descent, replicator, and log-barrier updates. These dynamics converge pointwise to Nash equilibria in almost all finite potential games. By characterizing regions of attraction, an Average Price of Anarchy (APoA) is derived to quantify the expected efficiency of learning outcomes. Contrary to the worst-case Price of Anarchy, which can be unbounded, the average-case measure under gradient-based learning is well defined, clarifying when various dynamics perform better on average. This thesis also applies the framework of potential games to a sequential setting, modeled as a Markov Potential Game in a location-aware scheduling environment. Agents learn to allocate tasks under partial observability, using compact state and action representations, and a common reward signal. Experiments show how agents reach a Nash equilibrium and also how floor-plan geometry, task parallelizability, and localization shape coordination efficiency, transfer to unseen layouts, and performance degradation, highlighting the modeling value of potential games in the multi-agent reinforcement learning domain. Finally, a conceptual link between potential games and contrastive learning objectives is revealed. By interpreting the triplet-loss formulation as a potential function (betweenness ranking) over data points, the task of finding locally optimal embeddings can be viewed through the lens of equilibrium computation. This perspective reveals that identifying local optima is PLS-hard in discrete settings, even for one-dimensional embeddings. These results highlight the inherent computational limits of local search methods in representation learning.",
           "url": "https://escholarship.org/uc/item/9898w6z2",
@@ -416,6 +823,26 @@
             "Liu Yang",
             "X Y Yang"
           ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
           "published": "2027-06-29",
           "abstract": "",
           "url": "https://doi.org/10.17632/c2hndp9wys.1",
@@ -441,6 +868,26 @@
             "Liu Yang",
             "X Y Yang"
           ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
           "published": "2027-06-29",
           "abstract": "",
           "url": "https://doi.org/10.17632/c2hndp9wys",
@@ -467,6 +914,25 @@
             "Ying Zhou",
             "Yifan Cui"
           ],
+          "author_details": [
+            {
+              "name": "Zeyu Bian",
+              "affiliations": []
+            },
+            {
+              "name": "Ying Zhou",
+              "affiliations": []
+            },
+            {
+              "name": "Yifan Cui",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ML",
+            "cs.LG"
+          ],
+          "journal": null,
           "published": "2026-07-28",
           "abstract": "Standard offline reinforcement learning (RL) algorithms typically assume that the actions in the dataset are observed without error. However, in many real-world applications, the true actions are unobserved and only noisy proxies are available, causing existing RL methods to yield biased and potentially misleading conclusions. We study off-policy evaluation in infinite-horizon discounted Markov decision processes with hidden actions. By leveraging the next-state variable as a natural proxy for the unobserved action, we establish identification of the policy value and propose an influence-function-based estimator called LURE (Learning from the Unseen: Robust Estimator). LURE is multiply robust, remaining consistent under several combinations of correctly specified nuisance components, and is asymptotically normal, enabling valid statistical inference. To our knowledge, this is the first work to address offline RL with hidden actions. We demonstrate LURE's effectiveness through simulations and a sepsis management application using the MIMIC-III database.",
           "url": "https://arxiv.org/abs/2607.25241v1",
@@ -495,6 +961,48 @@
             "Sook Shin",
             "Jin-Hee Cho"
           ],
+          "author_details": [
+            {
+              "name": "Dian Chen",
+              "affiliations": [
+                "Virginia Tech"
+              ]
+            },
+            {
+              "name": "Zelin Wan",
+              "affiliations": [
+                "Virginia Tech"
+              ]
+            },
+            {
+              "name": "Dong Sam Ha",
+              "affiliations": [
+                "Virginia Tech"
+              ]
+            },
+            {
+              "name": "Sook Shin",
+              "affiliations": [
+                "Virginia Tech"
+              ]
+            },
+            {
+              "name": "Jin-Hee Cho",
+              "affiliations": [
+                "Virginia Tech"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Adaptability",
+            "Resilience (materials science)",
+            "Robustness (evolution)",
+            "Sustainability",
+            "Markov decision process",
+            "Precision agriculture"
+          ],
+          "journal": "ACM Transactions on Cyber-Physical Systems",
           "published": "2026-07-28",
           "abstract": "Solar-powered sensor networks are reshaping agriculture by enabling continuous farm management and animal welfare monitoring through Internet-of-Things (IoT) devices, edge intelligence, and cloud analytics. Yet, their sustainability is threatened by two underexplored challenges: vulnerability to cyber-attacks and instability under fluctuating energy supplies. To address these issues, we propose a sustainable smart farm framework that ensures reliable monitoring under adversarial and resource-constrained conditions. Our approach employs deep reinforcement learning (DRL) to derive adaptive policies that jointly optimize monitoring fidelity and energy efficiency. To overcome DRL’s slow convergence and unstable adaptation in dynamic environments, we design a decision theory (DT)-guided transfer learning (TL) framework. Embedding DT principles accelerates policy learning while balancing trade-offs among monitoring quality, energy sustainability, and system resilience. Experimental evaluations on realistic farm scenarios show that DT-guided DRL reduces training runtime by 47.5% while outperforming TL-enhanced DRL in robustness and monitoring performance. This work makes three contributions: (1) unifying cyber resilience and energy adaptability in agricultural monitoring, (2) advancing methodological innovation with DT-guided TL for stable DRL convergence, and (3) providing design insights for sustainable agricultural cyber-physical systems. Collectively, these contributions extend sensor networks in agriculture by emphasizing resilience, sustainability, and intelligent adaptation.",
           "url": "https://doi.org/10.1145/3834862",
@@ -520,6 +1028,22 @@
             "Ya-Chia Shen",
             "Woei-Leong Chan"
           ],
+          "author_details": [
+            {
+              "name": "Ya-Chia Shen",
+              "affiliations": []
+            },
+            {
+              "name": "Woei-Leong Chan",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.RO",
+            "cs.LG",
+            "eess.SY"
+          ],
+          "journal": null,
           "published": "2026-07-28",
           "abstract": "Unmanned aerial vehicles (UAVs), particularly quadcopters, present unique challenges for autonomous control due to their underactuated dynamics: only four available control inputs must govern six degrees of freedom. This paper investigates a physics-aware, end-to-end deep reinforcement learning (DRL) approach that acts directly on low-level body inputs, total thrust and body torques $(T, τ_x, τ_y, τ_z)$, and closes the loop through a high-fidelity Simulink environment. Our simulator integrates a 12-state rigid-body model (MATLAB Level-2 S-Function) with (i) an Action2RPM allocation based on the Moore-Penrose pseudo-inverse of a coefficient matrix derived from thrust and drag terms, and (ii) first-order actuator dynamics for each motor (time constant $T_m = 0.076$ s), including rotor gyroscopic coupling. A shaped reward balances goal-reaching and stability using an exponential position well, attitude penalties, and quadratic velocity costs. Four DRL algorithms, DDPG, TD3, PPO, and SAC, are evaluated in two stages: (S1) thrust-only hover and (S2) hover with pitch torque and a translated goal. Results show that SAC and TD3 achieve superior stability and exploration efficiency, while PPO is less sample-efficient. The study highlights the significance of modeling actuator lags and aerodynamic moments for stable low-level control and provides a reproducible benchmark for quadcopter DRL.",
           "url": "https://arxiv.org/abs/2607.25985v1",
@@ -548,6 +1072,33 @@
             "Benoit Sagot",
             "Gabriel Synnaeve"
           ],
+          "author_details": [
+            {
+              "name": "Pierre Chambon",
+              "affiliations": []
+            },
+            {
+              "name": "Kunhao Zheng",
+              "affiliations": []
+            },
+            {
+              "name": "Juliette Decugis",
+              "affiliations": []
+            },
+            {
+              "name": "Benoit Sagot",
+              "affiliations": []
+            },
+            {
+              "name": "Gabriel Synnaeve",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.AI"
+          ],
+          "journal": null,
           "published": "2026-07-28",
           "abstract": "RL for code correctness is now established: have the model generate a program, run it against hidden test cases, and reward solutions that pass. Extending this to code optimization seems straightforward: just add execution time to the reward. But in practice, once timing drives the reward, small problems in measurement noise, reward sparsity, or GRPO instability overwhelm the signal and make RL fail: generated solutions are barely faster, and more of them can fail. We make execution time learnable through three stages: (1) how code is tested, by building DMC-Optim with large optimization tests and a calibrated sandbox; (2) how speed is turned into reward, by composing correctness and speed in the RL environment and using an offline simulator to predict the most promising configurations; and (3) how the model learns from that reward, by adapting GRPO and evaluation to the sparser, noisier timed-execution setting. On DMC-Optim, the strongest optimization-aware configurations improve strict top-50% pass@1 from 18.0% to 31.3% on Qwen 2.5 7B and from 30.7% to 50.4% on CWM 32B. These gains further increase at stricter percentiles such as top-30%, with 125% relative improvement for CWM 32B, while preserving pure-correctness scores. When the timing sandbox is degraded, robust optimization RL reaches 100% to 200% improvement over standard RLVR, depending on the evaluation criterion. On LCB, CWM 32B wins up to 83% of median-sample speed comparisons against standard RLVR. Relative to the fastest correct human submissions per problem, it reaches about half the human rate of complexity-class improvements (14% vs. 28%).",
           "url": "https://arxiv.org/abs/2607.25970v1",
@@ -579,6 +1130,20 @@
             "Mehmet Batuhan Özdaş",
             "Murat Osmanoğlu"
           ],
+          "author_details": [
+            {
+              "name": "Mehmet Batuhan Özdaş",
+              "affiliations": []
+            },
+            {
+              "name": "Murat Osmanoğlu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.CL"
+          ],
+          "journal": null,
           "published": "2026-07-24",
           "abstract": "Detecting LLM-generated text remains challenging under zero-shot and training-free conditions, especially when detectors must generalize across datasets, domains, and unseen generators. While existing training-free approaches exploit language-model statistics as detection signals, they typically characterize a text through global measures that summarize overall model behavior. Consequently, potentially informative local and multiscale variations in token-level predictability may remain underutilized. Motivated by this observation, we introduce DWT-Fusion, a training-free signal-based framework for detecting LLM-generated text using discrete wavelet analysis of token-level log-probability sequences produced by a proxy causal language model. The proposed framework analyzes these sequences through wavelet-based multiresolution signal representations and derives detection signals from localized probability dynamics. We further evaluate four training-free voting variants, including equal-weight hard voting, equal-weight soft voting, calibration-weighted hard voting, and calibration-weighted soft voting, to combine multiple wavelet configurations without training a supervised meta-classifier. We evaluate the framework on HC3, M4, and MAGE using GPT-Neo-2.7B, GPT-J-6B, Falcon-7B, and LLaMA-3-8B as proxy models. The best single wavelet configurations achieve AUROC values of 0.9872, 0.8185, and 0.7138 on HC3, M4, and MAGE, respectively. With calibration-weighted voting, the best ensemble variants further improve AUROC to 0.9919, 0.8477, and 0.7471. These findings show that DWT-based multiresolution scoring and calibration-guided voting fusion provide effective and interpretable signals for training-free LLM-generated text detection.",
           "url": "https://arxiv.org/abs/2607.22026v1",
@@ -614,6 +1179,60 @@
             "Yanan Zhu",
             "Pipi Hu"
           ],
+          "author_details": [
+            {
+              "name": "Fukang Wen",
+              "affiliations": []
+            },
+            {
+              "name": "Yuchong Tang",
+              "affiliations": []
+            },
+            {
+              "name": "Jingyuan Li",
+              "affiliations": []
+            },
+            {
+              "name": "Beichen Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Yixuan Jiang",
+              "affiliations": []
+            },
+            {
+              "name": "Xiaoyi Jiang",
+              "affiliations": []
+            },
+            {
+              "name": "Yaxuan Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Shunyu Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Zuoqiang Shi",
+              "affiliations": []
+            },
+            {
+              "name": "Yi Zhu",
+              "affiliations": []
+            },
+            {
+              "name": "Yanan Zhu",
+              "affiliations": []
+            },
+            {
+              "name": "Pipi Hu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
           "published": "2026-07-22",
           "abstract": "The development of organic light-emitting diode (OLED) materials faces the compounded challenges of an astronomically large chemical space, stringent quantum-chemical constraints, and a scarcity of labeled data. Although the question of OLED generation is important, few models have been trained effectively for this specific domain. We propose an inverse molecular design framework based on causal language models: given target optoelectronic properties (e.g., excitation energy, oscillator strength), our model directly generates OLED SMILES sequences satisfying the specified constraints. We employ a multi-stage strategy: first, we establish a foundational chemical language model using a LLaMA-style transformer architecture. To the best of our knowledge, this represents the first successful adaptation of LLMs specifically for the OLED domain, bridging the gap between generic molecular generation and the stringent structural requirements of optoelectronic materials. Second, we fine-tune property predictors based on a BERT model pre-trained on our large-scale OLED dataset. Then, we perform Reinforcement Learning on our fine-tuned model, leveraging our property predictor, for better SMILES generation. Finally, through DFT verification, we demonstrate that our framework can efficiently navigate the OLED chemical space, generating novel candidates with high structural validity and optimized optoelectronic properties.",
           "url": "https://arxiv.org/abs/2607.20194v1",
@@ -649,6 +1268,64 @@
             "Yanan Zhu",
             "P Hu"
           ],
+          "author_details": [
+            {
+              "name": "Fukang Wen",
+              "affiliations": []
+            },
+            {
+              "name": "Yuchong Tang",
+              "affiliations": []
+            },
+            {
+              "name": "Jingyuan Li",
+              "affiliations": []
+            },
+            {
+              "name": "Bo Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Yixuan Jiang",
+              "affiliations": []
+            },
+            {
+              "name": "Xiaoyi Jiang",
+              "affiliations": []
+            },
+            {
+              "name": "Yaxuan Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Shunyu Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Zuoqiang Shi",
+              "affiliations": []
+            },
+            {
+              "name": "Yi Zhu",
+              "affiliations": []
+            },
+            {
+              "name": "Yanan Zhu",
+              "affiliations": []
+            },
+            {
+              "name": "P Hu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "OLED",
+            "Language model",
+            "Bridging (networking)",
+            "Transformer",
+            "Diode"
+          ],
+          "journal": "arXiv (Cornell University)",
           "published": "2026-07-22",
           "abstract": "The development of organic light-emitting diode (OLED) materials faces the compounded challenges of an astronomically large chemical space, stringent quantum-chemical constraints, and a scarcity of labeled data. Although the question of OLED generation is important, few models have been trained effectively for this specific domain. We propose an inverse molecular design framework based on causal language models: given target optoelectronic properties (e.g., excitation energy, oscillator strength), our model directly generates OLED SMILES sequences satisfying the specified constraints. We employ a multi-stage strategy: first, we establish a foundational chemical language model using a LLaMA-style transformer architecture. To the best of our knowledge, this represents the first successful adaptation of LLMs specifically for the OLED domain, bridging the gap between generic molecular generation and the stringent structural requirements of optoelectronic materials. Second, we fine-tune property predictors based on a BERT model pre-trained on our large-scale OLED dataset. Then, we perform Reinforcement Learning on our fine-tuned model, leveraging our property predictor, for better SMILES generation. Finally, through DFT verification, we demonstrate that our framework can efficiently navigate the OLED chemical space, generating novel candidates with high structural validity and optimized optoelectronic properties.",
           "url": "https://arxiv.org/abs/2607.20194",
