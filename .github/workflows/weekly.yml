@@ -1,5 +1,11 @@
 name: Build weekly paper radar
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'config/**'
+      - '.github/workflows/weekly.yml'
   schedule:
     # 01:00 UTC = 09:00 Asia/Shanghai, every Monday
     - cron: '0 1 * * 1'
