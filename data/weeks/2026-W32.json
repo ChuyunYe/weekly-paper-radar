@@ -1,0 +1,1817 @@
+{
+  "week": "2026-W32",
+  "generated_at": "2026-08-03T04:28:44.198102Z",
+  "topics": [
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "papers": [
+        {
+          "title": "The Fundamental Limits of Structure-Agnostic Functional Estimation",
+          "authors": [
+            "Sivaraman Balakrishnan",
+            "Edward H. Kennedy",
+            "Larry Wasserman"
+          ],
+          "author_details": [
+            {
+              "name": "Sivaraman Balakrishnan",
+              "affiliations": [
+                "Carnegie Mellon University"
+              ]
+            },
+            {
+              "name": "Edward H. Kennedy",
+              "affiliations": []
+            },
+            {
+              "name": "Larry Wasserman",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Estimator",
+            "Debiasing",
+            "Minimax",
+            "Computer science",
+            "Mathematical optimization",
+            "Function (biology)",
+            "Inference",
+            "Mathematics",
+            "Artificial intelligence",
+            "Statistics"
+          ],
+          "journal": "Statistical Science",
+          "published": "2026-07-31",
+          "abstract": "Many recent developments in causal inference, and functional estimation problems more generally, have been motivated by the fact that classical one-step (first-order) debiasing methods, or their more recent sample-split double machine-learning avatars, can outperform plug-in estimators under surprisingly weak conditions. These first-order corrections improve on plug-in estimators in a black-box fashion, and consequently are often used in conjunction with powerful off-the-shelf estimation methods. On the other hand, these first-order methods are provably suboptimal in a minimax sense for functional estimation when the nuisance functions live in Hölder-type function spaces. This suboptimality of first-order debiasing has motivated the development of “higher-order” debiasing methods. The resulting estimators are, in some cases, provably optimal over Hölder-type spaces, but in sharp contrast to first-order estimators, both the estimators which are minimax-optimal and their analyses are crucially tied to properties of the underlying function space. Along a similar vein, some work has considered n-consistent estimation of causal effects under weaker conditions than those required by first-order methods, once again relying on higher-order debiasing. More recent work in this area has focused on attempting to weaken the dependence of these higher-order estimators on the underlying nuisance function spaces, to make the resulting estimators and theory more robust. A central focus has been to try to make higher-order methods compatible with black-box nuisance estimators. In this paper, we investigate the fundamental limits of structure-agnostic functional estimation, where relatively weak conditions are placed on the underlying nuisance functions. We show that there is a strong sense in which existing first-order methods are optimal. Particularly, we show that for several canonical integral functionals of interest it is impossible to improve on first-order estimators without making further, strong structural assumptions. We achieve this goal by providing a formalization of the problem of functional estimation with black-box nuisance function estimates, and deriving minimax lower bounds for this problem. Our results highlight some clear tradeoffs in functional estimation—if we wish to remain agnostic to the underlying nuisance function spaces, impose only high-level rate conditions, and maintain compatibility with black-box nuisance estimators then first-order methods are optimal. When we have a better understanding of the structure of the underlying nuisance functions then carefully constructed higher-order estimators can outperform first-order estimators.",
+          "url": "https://doi.org/10.1214/25-sts997",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1214/25-sts997",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 4,
+          "score": 1.609,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: The Fundamental Limits of Structure-Agnostic Functional Estimation",
+            "method": "Many recent developments in causal inference, and functional estimation problems more generally, have been motivated by the fact that classical one-step (first-order) debiasing methods, or their more recent sample-split double machine-learn",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Cross-species variant-to-function analyses implicate <i>MEIS1</i> in conferring sleep abnormalities and impaired cerebellar development",
+          "authors": [
+            "Amber Zimmerman",
+            "Erika Almeraya Del Valle",
+            "Matthew C. Pahl",
+            "Fusun Doldur-Balli",
+            "Brendan T Keenan",
+            "Patrick Z. Liu",
+            "Zoe Y. Shetty",
+            "Trisha R. Tsundupalli",
+            "Justin Palermo",
+            "Anitra Krishnan",
+            "James A. Pippin",
+            "Andrew D. Wells",
+            "Olivia J. Veatch",
+            "Alessandra Chesi",
+            "Philip Gehrman",
+            "Alex C. Keene",
+            "Allan I Pack",
+            "Struan F.A. Grant"
+          ],
+          "author_details": [
+            {
+              "name": "Amber Zimmerman",
+              "affiliations": [
+                "Children's Hospital of Philadelphia",
+                "Philips (United Kingdom)",
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Erika Almeraya Del Valle",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Matthew C. Pahl",
+              "affiliations": [
+                "Children's Hospital of Philadelphia",
+                "Philips (United Kingdom)"
+              ]
+            },
+            {
+              "name": "Fusun Doldur-Balli",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Brendan T Keenan",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Patrick Z. Liu",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Zoe Y. Shetty",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Trisha R. Tsundupalli",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Justin Palermo",
+              "affiliations": [
+                "Texas A&M University"
+              ]
+            },
+            {
+              "name": "Anitra Krishnan",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "James A. Pippin",
+              "affiliations": [
+                "Children's Hospital of Philadelphia",
+                "Philips (United Kingdom)"
+              ]
+            },
+            {
+              "name": "Andrew D. Wells",
+              "affiliations": [
+                "Children's Hospital of Philadelphia",
+                "Philips (United Kingdom)",
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Olivia J. Veatch",
+              "affiliations": [
+                "University of Kansas Medical Center"
+              ]
+            },
+            {
+              "name": "Alessandra Chesi",
+              "affiliations": [
+                "Children's Hospital of Philadelphia",
+                "Philips (United Kingdom)",
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Philip Gehrman",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Alex C. Keene",
+              "affiliations": [
+                "Texas A&M University"
+              ]
+            },
+            {
+              "name": "Allan I Pack",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Struan F.A. Grant",
+              "affiliations": [
+                "Children's Hospital of Philadelphia",
+                "Pennsylvania Academy of the Fine Arts",
+                "Philips (United Kingdom)",
+                "Sophia University",
+                "University of Pennsylvania"
+              ]
+            }
+          ],
+          "keywords": [
+            "Biology",
+            "Zebrafish",
+            "Genetics",
+            "Genome-wide association study",
+            "Gene",
+            "Neuroscience",
+            "Single-nucleotide polymorphism"
+          ],
+          "journal": "Genome Research",
+          "published": "2026-07-30",
+          "abstract": "Abstract Genome wide association study (GWAS) reports substantially outpace subsequent functional characterization. Pinpointing the causal effector gene(s) at GWAS loci remains challenging given the non-coding genomic residency of &gt;98% of these signals. We previously implicated effector genes at GWAS loci for the complex and polygenic disorder of human insomnia using a high-resolution cell-specific, chromatin capture-based variant-to-gene mapping protocol, paired with sleep phenotyping in Drosophila . In this study, we leveraged a diurnal vertebrate model with higher genomic conservation, namely zebrafish, to screen our six highest confidence candidate genes and identify those whose loss-of-function impaired sleep characteristics related to human insomnia-like behaviors. Of these genes, we observed that CRISPR-mediated deletion of the zebrafish ortholog of MEIS1 produced nighttime specific sleep fragmentation and increased latency to sleep, pointing to a conserved role for MEIS1 in sleep maintenance. Comparing our human cell-based chromatin accessibility and contact maps with publicly available zebrafish spatial genomic data revealed highly conserved genomic architecture harboring the insomnia GWAS variant of interest. Notably, this genomic conservation was selective for the zebrafish ortholog which contributed to the sleep phenotype, meis1b, while the duplicated ohnolog meis1a proved dispensable. Motivated by this, we characterized the spatio-temporal expression of meis1b in zebrafish, showing it is comparable to human with respect to cerebellar granule progenitors. Ultimately, we found that loss of meis1b impairs cerebellar development. Together, our work provides a powerful model for screening human disorder risk genes for sleep fragmentation using a tractable vertebrate and supports a conserved cerebellar role for MEIS1 in sleep disturbance.",
+          "url": "https://doi.org/10.1101/gr.281655.125",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1101/gr.281655.125",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 2,
+          "score": 1.099,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Cross-species variant-to-function analyses implicate <i>MEIS1</i> in conferring sleep abnormalities and impaired cerebellar development",
+            "method": "Abstract Genome wide association study (GWAS) reports substantially outpace subsequent functional characterization. Pinpointing the causal effector gene(s) at GWAS loci remains challenging given the non-coding genomic residency of &gt;98% o",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Time-lagged causal inference corroborates presumed drivers of North Atlantic seabird ecology",
+          "authors": [
+            "Duncan O’Brien",
+            "Kate Layton‐Matthews",
+            "Pol Capdevila",
+            "Hannah S. Wauchope",
+            "Annette L. Fayet",
+            "Tycho Anker‐Nilssen",
+            "Manuel Ballesteros",
+            "Ingar S. Bringsvor",
+            "Signe Christensen-Dalsgaard",
+            "Nina Dehnhard",
+            "Sébastien Descamps",
+            "Kjell Einar Erikstad",
+            "Kevin Hodges",
+            "Svein‐Håkon Lorentsen",
+            "Tone K Reiertsen",
+            "Vegard Sandøy Bråthen",
+            "Hallvard Strøm",
+            "Geir Systad",
+            "Arnaud Tarroux",
+            "Christopher F. Clements"
+          ],
+          "author_details": [
+            {
+              "name": "Duncan O’Brien",
+              "affiliations": [
+                "University of Bristol"
+              ]
+            },
+            {
+              "name": "Kate Layton‐Matthews",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Pol Capdevila",
+              "affiliations": [
+                "Universitat de Barcelona"
+              ]
+            },
+            {
+              "name": "Hannah S. Wauchope",
+              "affiliations": [
+                "University of Edinburgh"
+              ]
+            },
+            {
+              "name": "Annette L. Fayet",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Tycho Anker‐Nilssen",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Manuel Ballesteros",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Ingar S. Bringsvor",
+              "affiliations": [
+                "BirdLife Australia",
+                "BirdLife International"
+              ]
+            },
+            {
+              "name": "Signe Christensen-Dalsgaard",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Nina Dehnhard",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Sébastien Descamps",
+              "affiliations": [
+                "Norwegian Polar Institute"
+              ]
+            },
+            {
+              "name": "Kjell Einar Erikstad",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Kevin Hodges",
+              "affiliations": [
+                "University of Reading"
+              ]
+            },
+            {
+              "name": "Svein‐Håkon Lorentsen",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Tone K Reiertsen",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Vegard Sandøy Bråthen",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Hallvard Strøm",
+              "affiliations": [
+                "Norwegian Polar Institute"
+              ]
+            },
+            {
+              "name": "Geir Systad",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Arnaud Tarroux",
+              "affiliations": [
+                "Norwegian Institute for Nature Research"
+              ]
+            },
+            {
+              "name": "Christopher F. Clements",
+              "affiliations": [
+                "University of Bristol"
+              ]
+            }
+          ],
+          "keywords": [
+            "Seabird",
+            "Population",
+            "Habitat",
+            "Extinction (optical mineralogy)",
+            "Population ecology",
+            "Causal inference",
+            "Climate change",
+            "Population decline"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "published": "2026-07-31",
+          "abstract": "Disentangling causation from correlation is the foundation of the scientific method. Yet, growing evidence suggests that much observational ecology research has not correctly made this distinction due to inappropriate statistical modelling and unappreciated time-delays. Here, we apply time-lagged causal inference techniques to assess the drivers of seabird declines, using multi-decadal North Atlantic seabird data across the behaviour, mass, survival, reproduction and population size of two species' ecology (Atlantic puffin, Fratercula arctica, and black-legged kittiwake, Rissa tridactyla). We demonstrate that both climate and anthropogenic activity can suppress breeding success and cause population declines. Moreover, population size is specifically impacted by delayed recruitment effects where both species decline after a lag corresponding to their estimated age of first reproduction. These North Atlantic seabirds are therefore at risk from future environmental and anthropogenic changes, as time-delays may result in populations already on an extinction trajectory prior to changes being detectable in their abundance.",
+          "url": "https://doi.org/10.64898/2026.07.31.741974",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.64898/2026.07.31.741974",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Time-lagged causal inference corroborates presumed drivers of North Atlantic seabird ecology",
+            "method": "Disentangling causation from correlation is the foundation of the scientific method. Yet, growing evidence suggests that much observational ecology research has not correctly made this distinction due to inappropriate statistical modelling ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Doubly Robust Functional Representation Learning for Longitudinal Causal Inference with Irregular Histories",
+          "authors": [
+            "Mengfei Ran",
+            "Yifeng Shen",
+            "Ruijie Guan"
+          ],
+          "author_details": [
+            {
+              "name": "Mengfei Ran",
+              "affiliations": []
+            },
+            {
+              "name": "Yifeng Shen",
+              "affiliations": []
+            },
+            {
+              "name": "Ruijie Guan",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ML",
+            "cs.LG",
+            "stat.AP",
+            "stat.CO",
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-07-30",
+          "abstract": "Longitudinal causal studies often record histories as irregular functional fragments: laboratory values, physiologic signals, sensor streams, and image-derived summaries measured at unequal and informative times. Standard doubly robust estimators usually require scalar summaries, whereas sequence learners optimize prediction losses that need not stabilize the efficient influence function. We propose Doubly Robust Functional Representation Learning (DR-FRL), a cross-fitted workflow that turns irregular histories into estimand-targeted states for observed-history regimes. Functional and temporal encoders map point clouds and prior histories into states; nuisance heads estimate outcome, treatment, and censoring functions; and EIF-targeted validation, calibration, overlap, tail, and ablation diagnostics assess whether the state supports the estimating equation. If the selected state preserves the nuisance information needed by the EIF, representation error enters the same second-order product remainder as ordinary nuisance error, and the mean estimator is asymptotically linear under explicit rate, overlap, calibration, and stability conditions. Catoni aggregation is treated separately as a bounded-influence point estimator, not a replacement for Wald inference. Simulations show gains when functional confounding is high-dimensional, measurement is informative, support is weak, or pseudo-outcomes are heavy-tailed. A VitalDB audit shows that DR-FRL can use irregular laboratory point clouds and deliver a useful negative finding: for this ICU-disposition endpoint, scalar laboratory summaries already carry much endpoint-relevant information.",
+          "url": "https://arxiv.org/abs/2607.28567v1",
+          "arxiv_id": "2607.28567v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Doubly Robust Functional Representation Learning for Longitudinal Causal Inference with Irregular Histories",
+            "method": "Longitudinal causal studies often record histories as irregular functional fragments: laboratory values, physiologic signals, sensor streams, and image-derived summaries measured at unequal and informative times. Standard doubly robust esti",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "From Conversations to Insights: Analysing Social Networks for Early Mental Health Detection - A Systematic Review of Causal Inference and Deep Learning",
+          "authors": [
+            "Umber Nazir",
+            "Nur Shazwani Kamarudin",
+            "Mazlina Abdul Majid"
+          ],
+          "author_details": [
+            {
+              "name": "Umber Nazir",
+              "affiliations": [
+                "Universiti Malaysia Pahang Al-Sultan Abdullah"
+              ]
+            },
+            {
+              "name": "Nur Shazwani Kamarudin",
+              "affiliations": [
+                "Universiti Malaysia Pahang Al-Sultan Abdullah"
+              ]
+            },
+            {
+              "name": "Mazlina Abdul Majid",
+              "affiliations": [
+                "Universiti Malaysia Pahang Al-Sultan Abdullah"
+              ]
+            }
+          ],
+          "keywords": [
+            "Interpretability",
+            "Causal inference",
+            "Mental health",
+            "Inference",
+            "Deep learning",
+            "Intervention (counseling)",
+            "Social network analysis"
+          ],
+          "journal": "Journal of Communication Language and Culture",
+          "published": "2026-07-30",
+          "abstract": "Early detection of mental health issues is crucial for timely intervention, reducing the severity of conditions, and improving overall well-being. Social networks have emerged as valuable platforms for identifying mental health issues, thanks to user-generated content and social interactions. Artificial intelligence (AI), especially causal inference and deep learning, has great potential for analysing large-scale social media data. It helps identify patterns and relationships that enable earlier and more accurate prediction of mental health issues. The paper aims to systematically review academic articles on the applications of AI, including deep learning and causal inference in social networks for early mental health detection. The systematic review initially considered 1,018 academic articles retrieved from major scholarly databases, including IEEE Xplore, Scopus, and ScienceDirect. The review was conducted in accordance with the PRISMA framework to ensure a transparent and rigorous screening and selection process. After careful review, the articles were filtered down to 90 for full analysis to present a classification framework based on four dimensions: Applications in mental health, methods/techniques, datasets used, and challenges. It was identified that AI continues to significantly outperform humans in terms of accuracy, efficiency, and early intervention for mental health detection. Methods and techniques map directly to relevant keywords such as AI applications, causal inference, deep learning, and social networks. Although AI shows great promise in mental health detection, challenges such as data bias, privacy risks, and a lack of model interpretability remain. Combining causal inference with deep learning can create personalised mental health interventions. Still, future research must prioritise explainable AI, privacy-preserving methods, and ethical data collection to ensure responsible, transparent AI applications in mental health care.",
+          "url": "https://doi.org/10.33093/jclc.2026.6.2.20",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.33093/jclc.2026.6.2.20",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: From Conversations to Insights: Analysing Social Networks for Early Mental Health Detection - A Systematic Review of Causal Inference and Deep Learning",
+            "method": "Early detection of mental health issues is crucial for timely intervention, reducing the severity of conditions, and improving overall well-being. Social networks have emerged as valuable platforms for identifying mental health issues, than",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "The Confounder Trap: Treatment-Encoding Representations in Causal Inference with Text",
+          "authors": [
+            "Marie Neubrander",
+            "Graham Tierney",
+            "Alexander Volfovsky"
+          ],
+          "author_details": [
+            {
+              "name": "Marie Neubrander",
+              "affiliations": []
+            },
+            {
+              "name": "Graham Tierney",
+              "affiliations": []
+            },
+            {
+              "name": "Alexander Volfovsky",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME",
+            "cs.CL",
+            "stat.AP",
+            "stat.ML"
+          ],
+          "journal": null,
+          "published": "2026-07-28",
+          "abstract": "Estimating causal effects of linguistic properties from observational text is difficult because the same document can contain both the treatment of interest and the non-treatment textual attributes needed for adjustment. Existing approaches often learn representations from the full text to capture latent confounding, but when treatment status is itself encoded by words in the text, these representations can directly encode treatment. This creates a confounder trap: richer representations can make treated and control documents separable, inducing overlap violations even when the underlying causal problem satisfies overlap. We study latent text treatments that are encoded through lexicons or other treatment-defining lexical information, and propose masking-based adjustment representations that remove this lexical treatment signal before representation learning. We formalize representation-induced overlap failure, prove that deletion masking preserves overlap for bag-of-words/topic-model representations, and characterize replacement masking as a natural relaxation for large language models that hides treatment-defining tokens while preserving word order and context. Across simulations, masking improves overlap diagnostics, stabilizes treatment effect estimates, and reduces bias relative to adjustment methods that learn from the unmasked text.",
+          "url": "https://arxiv.org/abs/2607.26309v1",
+          "arxiv_id": "2607.26309v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: The Confounder Trap: Treatment-Encoding Representations in Causal Inference with Text",
+            "method": "Estimating causal effects of linguistic properties from observational text is difficult because the same document can contain both the treatment of interest and the non-treatment textual attributes needed for adjustment. Existing approaches",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "The Confounder Trap: Treatment-Encoding Representations in Causal Inference with Text",
+          "authors": [
+            "Marie Neubrander",
+            "Graham Tierney",
+            "Alexander Volfovsky"
+          ],
+          "author_details": [
+            {
+              "name": "Marie Neubrander",
+              "affiliations": [
+                "Statistical and Applied Mathematical Sciences Institute",
+                "Duke University"
+              ]
+            },
+            {
+              "name": "Graham Tierney",
+              "affiliations": [
+                "Statistical and Applied Mathematical Sciences Institute",
+                "Duke University"
+              ]
+            },
+            {
+              "name": "Alexander Volfovsky",
+              "affiliations": [
+                "Statistical and Applied Mathematical Sciences Institute",
+                "Duke University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Masking (illustration)",
+            "Representation (politics)",
+            "ENCODE",
+            "Inference",
+            "Causal inference",
+            "Word (group theory)",
+            "Confounding",
+            "Causal model"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-07-28",
+          "abstract": "Estimating causal effects of linguistic properties from observational text is difficult because the same document can contain both the treatment of interest and the non-treatment textual attributes needed for adjustment. Existing approaches often learn representations from the full text to capture latent confounding, but when treatment status is itself encoded by words in the text, these representations can directly encode treatment. This creates a confounder trap: richer representations can make treated and control documents separable, inducing overlap violations even when the underlying causal problem satisfies overlap. We study latent text treatments that are encoded through lexicons or other treatment-defining lexical information, and propose masking-based adjustment representations that remove this lexical treatment signal before representation learning. We formalize representation-induced overlap failure, prove that deletion masking preserves overlap for bag-of-words/topic-model representations, and characterize replacement masking as a natural relaxation for large language models that hides treatment-defining tokens while preserving word order and context. Across simulations, masking improves overlap diagnostics, stabilizes treatment effect estimates, and reduces bias relative to adjustment methods that learn from the unmasked text.",
+          "url": "https://arxiv.org/abs/2607.26309",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: The Confounder Trap: Treatment-Encoding Representations in Causal Inference with Text",
+            "method": "Estimating causal effects of linguistic properties from observational text is difficult because the same document can contain both the treatment of interest and the non-treatment textual attributes needed for adjustment. Existing approaches",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Robust Instrumental Variables: Sharp Rates and Inference under Adversarial Contamination",
+          "authors": [
+            "Anders Bredahl Kock",
+            "David Preinerstorfer"
+          ],
+          "author_details": [
+            {
+              "name": "Anders Bredahl Kock",
+              "affiliations": []
+            },
+            {
+              "name": "David Preinerstorfer",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "econ.EM",
+            "math.ST"
+          ],
+          "journal": null,
+          "published": "2026-07-31",
+          "abstract": "Because 2SLS is built from sample averages, a small number of observations can have a disproportionate effect on estimates and inference. We introduce W-2SLS, a simple drop-in robustification that replaces these averages by quantile-winsorized means. We analyze W-2SLS under adversarial contamination, which permits both the identities and the reported values of the contaminated observations to depend on the realized clean sample and therefore accommodates targeted or strategic manipulation. Under finite $m$-th moments, W-2SLS attains the minimax-sharp rate $η_{n}^{1-\\frac1m}+n^{-1/2}$, where $η_n$ is the fraction of observations that may be altered. Matching lower bounds identify the exact contamination thresholds for uniform consistency, root-$n$ estimation, and centered Gaussian inference with the same first-order law as clean-sample 2SLS. When $\\sqrt{n}η_{n}^{1-\\frac1m}\\to 0$ robustness is first-order free. We also construct feasible heteroskedasticity-robust inference and a winsorized Anderson--Rubin test valid under weak identification and adversarial contamination. Finally, even without contamination, ordinary 2SLS can have poor uniform finite-sample concentration, whereas W-2SLS admits confidence-calibrated sub-Gaussian deviation guarantees.",
+          "url": "https://arxiv.org/abs/2607.29532v1",
+          "arxiv_id": "2607.29532v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Robust Instrumental Variables: Sharp Rates and Inference under Adversarial Contamination",
+            "method": "Because 2SLS is built from sample averages, a small number of observations can have a disproportionate effect on estimates and inference. We introduce W-2SLS, a simple drop-in robustification that replaces these averages by quantile-winsori",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ope",
+      "name": "Off-Policy Evaluation",
+      "papers": [
+        {
+          "title": "A Review of Off-Policy Evaluation in Reinforcement Learning",
+          "authors": [
+            "Masatoshi Uehara",
+            "Chengchun Shi",
+            "Nathan Kallus"
+          ],
+          "author_details": [
+            {
+              "name": "Masatoshi Uehara",
+              "affiliations": [
+                "New York Consortium in Evolutionary Primatology"
+              ]
+            },
+            {
+              "name": "Chengchun Shi",
+              "affiliations": [
+                "London School of Economics and Political Science"
+              ]
+            },
+            {
+              "name": "Nathan Kallus",
+              "affiliations": [
+                "Cornell University",
+                "New York State College of Agriculture & Life Sciences"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Computer science",
+            "Focus (optics)",
+            "State (computer science)",
+            "Statistical learning",
+            "Artificial intelligence",
+            "Machine learning",
+            "Algorithm",
+            "Physics"
+          ],
+          "journal": "Statistical Science",
+          "published": "2026-07-31",
+          "abstract": "Reinforcement learning (RL) is one of the most vibrant research frontiers in machine learning and has been recently applied to solve a number of challenging problems. In this paper, we primarily focus on off-policy evaluation (OPE), one of the most fundamental topics in RL. In recent years, a number of OPE methods have been developed in the statistics and computer science literature. We provide a discussion on the efficiency bound of OPE, some of the existing state-of-the-art OPE methods, their statistical properties and some other related research directions that are currently actively explored.",
+          "url": "https://doi.org/10.1214/25-sts985",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1214/25-sts985",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 13,
+          "score": 3.639,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A Review of Off-Policy Evaluation in Reinforcement Learning",
+            "method": "Reinforcement learning (RL) is one of the most vibrant research frontiers in machine learning and has been recently applied to solve a number of challenging problems. In this paper, we primarily focus on off-policy evaluation (OPE), one of ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Learning from the Unseen: Offline Reinforcement Learning with Hidden Actions",
+          "authors": [
+            "Zeyu Bian",
+            "Ying Zhou",
+            "Yifan Cui"
+          ],
+          "author_details": [
+            {
+              "name": "Zeyu Bian",
+              "affiliations": []
+            },
+            {
+              "name": "Ying Zhou",
+              "affiliations": []
+            },
+            {
+              "name": "Yifan Cui",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ML",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-07-28",
+          "abstract": "Standard offline reinforcement learning (RL) algorithms typically assume that the actions in the dataset are observed without error. However, in many real-world applications, the true actions are unobserved and only noisy proxies are available, causing existing RL methods to yield biased and potentially misleading conclusions. We study off-policy evaluation in infinite-horizon discounted Markov decision processes with hidden actions. By leveraging the next-state variable as a natural proxy for the unobserved action, we establish identification of the policy value and propose an influence-function-based estimator called LURE (Learning from the Unseen: Robust Estimator). LURE is multiply robust, remaining consistent under several combinations of correctly specified nuisance components, and is asymptotically normal, enabling valid statistical inference. To our knowledge, this is the first work to address offline RL with hidden actions. We demonstrate LURE's effectiveness through simulations and a sepsis management application using the MIMIC-III database.",
+          "url": "https://arxiv.org/abs/2607.25241v1",
+          "arxiv_id": "2607.25241v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Learning from the Unseen: Offline Reinforcement Learning with Hidden Actions",
+            "method": "Standard offline reinforcement learning (RL) algorithms typically assume that the actions in the dataset are observed without error. However, in many real-world applications, the true actions are unobserved and only noisy proxies are availa",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Learning from the Unseen: Offline Reinforcement Learning with Hidden Actions",
+          "authors": [
+            "Zeyu Bian",
+            "Ying Zhou",
+            "Yifan Cui"
+          ],
+          "author_details": [
+            {
+              "name": "Zeyu Bian",
+              "affiliations": []
+            },
+            {
+              "name": "Ying Zhou",
+              "affiliations": []
+            },
+            {
+              "name": "Yifan Cui",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Estimator",
+            "Hidden Markov model",
+            "Markov decision process",
+            "Identification (biology)",
+            "Proxy (statistics)",
+            "Variable (mathematics)",
+            "Markov process"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-07-28",
+          "abstract": "Standard offline reinforcement learning (RL) algorithms typically assume that the actions in the dataset are observed without error. However, in many real-world applications, the true actions are unobserved and only noisy proxies are available, causing existing RL methods to yield biased and potentially misleading conclusions. We study off-policy evaluation in infinite-horizon discounted Markov decision processes with hidden actions. By leveraging the next-state variable as a natural proxy for the unobserved action, we establish identification of the policy value and propose an influence-function-based estimator called LURE (Learning from the Unseen: Robust Estimator). LURE is multiply robust, remaining consistent under several combinations of correctly specified nuisance components, and is asymptotically normal, enabling valid statistical inference. To our knowledge, this is the first work to address offline RL with hidden actions. We demonstrate LURE's effectiveness through simulations and a sepsis management application using the MIMIC-III database.",
+          "url": "https://doi.org/10.48550/arxiv.2607.25241",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2607.25241",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Learning from the Unseen: Offline Reinforcement Learning with Hidden Actions",
+            "method": "Standard offline reinforcement learning (RL) algorithms typically assume that the actions in the dataset are observed without error. However, in many real-world applications, the true actions are unobserved and only noisy proxies are availa",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Learning from the Unseen: Offline Reinforcement Learning with Hidden Actions",
+          "authors": [
+            "Zeyu Bian",
+            "Ying Zhou",
+            "Yifan Cui"
+          ],
+          "author_details": [
+            {
+              "name": "Zeyu Bian",
+              "affiliations": []
+            },
+            {
+              "name": "Ying Zhou",
+              "affiliations": []
+            },
+            {
+              "name": "Yifan Cui",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Estimator",
+            "Hidden Markov model",
+            "Markov decision process",
+            "Identification (biology)",
+            "Proxy (statistics)",
+            "Variable (mathematics)",
+            "Markov process"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-07-28",
+          "abstract": "Standard offline reinforcement learning (RL) algorithms typically assume that the actions in the dataset are observed without error. However, in many real-world applications, the true actions are unobserved and only noisy proxies are available, causing existing RL methods to yield biased and potentially misleading conclusions. We study off-policy evaluation in infinite-horizon discounted Markov decision processes with hidden actions. By leveraging the next-state variable as a natural proxy for the unobserved action, we establish identification of the policy value and propose an influence-function-based estimator called LURE (Learning from the Unseen: Robust Estimator). LURE is multiply robust, remaining consistent under several combinations of correctly specified nuisance components, and is asymptotically normal, enabling valid statistical inference. To our knowledge, this is the first work to address offline RL with hidden actions. We demonstrate LURE's effectiveness through simulations and a sepsis management application using the MIMIC-III database.",
+          "url": "https://arxiv.org/abs/2607.25241",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Learning from the Unseen: Offline Reinforcement Learning with Hidden Actions",
+            "method": "Standard offline reinforcement learning (RL) algorithms typically assume that the actions in the dataset are observed without error. However, in many real-world applications, the true actions are unobserved and only noisy proxies are availa",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "papers": [
+        {
+          "title": "A Review of Off-Policy Evaluation in Reinforcement Learning",
+          "authors": [
+            "Masatoshi Uehara",
+            "Chengchun Shi",
+            "Nathan Kallus"
+          ],
+          "author_details": [
+            {
+              "name": "Masatoshi Uehara",
+              "affiliations": [
+                "New York Consortium in Evolutionary Primatology"
+              ]
+            },
+            {
+              "name": "Chengchun Shi",
+              "affiliations": [
+                "London School of Economics and Political Science"
+              ]
+            },
+            {
+              "name": "Nathan Kallus",
+              "affiliations": [
+                "Cornell University",
+                "New York State College of Agriculture & Life Sciences"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Computer science",
+            "Focus (optics)",
+            "State (computer science)",
+            "Statistical learning",
+            "Artificial intelligence",
+            "Machine learning",
+            "Algorithm",
+            "Physics"
+          ],
+          "journal": "Statistical Science",
+          "published": "2026-07-31",
+          "abstract": "Reinforcement learning (RL) is one of the most vibrant research frontiers in machine learning and has been recently applied to solve a number of challenging problems. In this paper, we primarily focus on off-policy evaluation (OPE), one of the most fundamental topics in RL. In recent years, a number of OPE methods have been developed in the statistics and computer science literature. We provide a discussion on the efficiency bound of OPE, some of the existing state-of-the-art OPE methods, their statistical properties and some other related research directions that are currently actively explored.",
+          "url": "https://doi.org/10.1214/25-sts985",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1214/25-sts985",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 13,
+          "score": 3.639,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A Review of Off-Policy Evaluation in Reinforcement Learning",
+            "method": "Reinforcement learning (RL) is one of the most vibrant research frontiers in machine learning and has been recently applied to solve a number of challenging problems. In this paper, we primarily focus on off-policy evaluation (OPE), one of ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Randomization Tests for Adaptively Collected Data",
+          "authors": [
+            "Yash Nair",
+            "Lucas Janson"
+          ],
+          "author_details": [
+            {
+              "name": "Yash Nair",
+              "affiliations": [
+                "Stanford University"
+              ]
+            },
+            {
+              "name": "Lucas Janson",
+              "affiliations": [
+                "Stanford University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Resampling",
+            "Computer science",
+            "Inference",
+            "Permutation (music)",
+            "Conditional independence",
+            "Confidence interval",
+            "Statistical hypothesis testing",
+            "Randomization",
+            "Range (aeronautics)",
+            "Machine learning",
+            "Algorithm",
+            "Artificial intelligence",
+            "Statistics",
+            "Mathematics"
+          ],
+          "journal": "Journal of the American Statistical Association",
+          "published": "2026-07-27",
+          "abstract": "Randomization testing is a fundamental method in statistics, enabling inferential tasks such as testing for (conditional) independence of random variables, constructing confidence intervals in semiparametric location models, and constructing (by inverting a permutation test) model-free prediction intervals via conformal prediction. Randomization tests are exactly valid for any sample size, but their use is generally confined to exchangeable data. Yet in many applications, data is routinely collected adaptively via, e.g., (contextual) bandit and reinforcement learning algorithms or adaptive experimental designs. In this paper we present a general framework for randomization testing on adaptively collected data (despite its non-exchangeability) that uses a weighted randomization test, for which we also present novel computationally tractable resampling algorithms for various popular adaptive assignment algorithms, data-generating environments, and types of inferential tasks. Finally, we demonstrate via a range of simulations the efficacy of our framework for both testing and confidence/prediction interval construction.",
+          "url": "https://doi.org/10.1080/01621459.2026.2705554",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1080/01621459.2026.2705554",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 2,
+          "score": 1.099,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Randomization Tests for Adaptively Collected Data",
+            "method": "Randomization testing is a fundamental method in statistics, enabling inferential tasks such as testing for (conditional) independence of random variables, constructing confidence intervals in semiparametric location models, and constructin",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "On the Analysis of Potential Games: From Constraints, Price of Anarchy and Reinforcement Learning to Contrastive Learning",
+          "authors": [
+            "Stavroulakis, Stelios Andrew"
+          ],
+          "author_details": [
+            {
+              "name": "Stavroulakis, Stelios Andrew",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Nash equilibrium",
+            "Price of anarchy",
+            "Best response",
+            "Epsilon-equilibrium",
+            "Pointwise",
+            "Equilibrium selection",
+            "Potential game",
+            "Markov decision process",
+            "Game theory"
+          ],
+          "journal": "eScholarship (California Digital Library)",
+          "published": "2027-12-05",
+          "abstract": "Potential games provide a unified and tractable framework for analyzing multi-agent interactions in which individual incentives align with a common objective, the potential, making them central to understanding decentralized coordination in economics, engineering, and artificial intelligence. This thesis investigates how structure, learning, and computation interact within potential games, covering equilibrium computation under constraints, equilibrium selection under learning dynamics, applications in cooperative multi-agent reinforcement learning, and links to the complexity of contrastive learning. In the first part, a distributed Lagrangian framework is developed for potential games with private, uncoupled constraints, enabling agents to compute approximate Nash equilibria in polynomial time and extending classical results to realistic congestion and resource-allocation settings with constraints. Learning dynamics are then examined through Q-Replicator Dynamics, a broad class of no-regret dynamics that include gradient descent, replicator, and log-barrier updates. These dynamics converge pointwise to Nash equilibria in almost all finite potential games. By characterizing regions of attraction, an Average Price of Anarchy (APoA) is derived to quantify the expected efficiency of learning outcomes. Contrary to the worst-case Price of Anarchy, which can be unbounded, the average-case measure under gradient-based learning is well defined, clarifying when various dynamics perform better on average. This thesis also applies the framework of potential games to a sequential setting, modeled as a Markov Potential Game in a location-aware scheduling environment. Agents learn to allocate tasks under partial observability, using compact state and action representations, and a common reward signal. Experiments show how agents reach a Nash equilibrium and also how floor-plan geometry, task parallelizability, and localization shape coordination efficiency, transfer to unseen layouts, and performance degradation, highlighting the modeling value of potential games in the multi-agent reinforcement learning domain. Finally, a conceptual link between potential games and contrastive learning objectives is revealed. By interpreting the triplet-loss formulation as a potential function (betweenness ranking) over data points, the task of finding locally optimal embeddings can be viewed through the lens of equilibrium computation. This perspective reveals that identifying local optima is PLS-hard in discrete settings, even for one-dimensional embeddings. These results highlight the inherent computational limits of local search methods in representation learning.",
+          "url": "https://escholarship.org/uc/item/9898w6z2",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: On the Analysis of Potential Games: From Constraints, Price of Anarchy and Reinforcement Learning to Contrastive Learning",
+            "method": "Potential games provide a unified and tractable framework for analyzing multi-agent interactions in which individual incentives align with a common objective, the potential, making them central to understanding decentralized coordination in",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "X Y Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys.1",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys.1",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "X Y Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Reinforcement learning underlies social connection and memory in a friendship decision-making task",
+          "authors": [
+            "Courtney A. Jimenez",
+            "Meghan L. Meyer"
+          ],
+          "author_details": [
+            {
+              "name": "Courtney A. Jimenez",
+              "affiliations": []
+            },
+            {
+              "name": "Meghan L. Meyer",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Friendship",
+            "Surprise",
+            "Feeling",
+            "Reinforcement",
+            "Social learning",
+            "Reinforcement learning",
+            "Prosocial behavior"
+          ],
+          "journal": null,
+          "published": "2026-08-01",
+          "abstract": "Who we choose to befriend can impact many of our own life outcomes, from social capital to wellbeing. Here we find that reinforcement learning principles can characterize friendship decision-making and predict social connection and memory for a potential friend. Participants completed a novel friendship decision-making paradigm in which they observed video clips from the reality TV show, The Valley, depicting a clique of friends navigating friendship with a specific character, Kristen. The clips were normed to vary in the reward value of friendship with Kristen. For each scene, participants decided whether they would want to be friends with Kristen and how connected they felt to her. One day later, they completed surprise memory tests and individual-difference measures. The reward, expected value, and prediction error of a scene about Kristen predicted participants’ feelings of connection to her. Individual differences relevant to friendship formation—concern over relationship acceptance and social support receipt—corresponded with differences in exploratory versus exploitative friendship decision-making (inverse temperature) and flexibility in learning about Kristen (learning rate). Finally, memory showed a negativity bias. Participants more accurately recalled scenes characterized by lower friendship reward and larger negative friendship prediction errors. Together, these findings suggest that friendship formation can be viewed as a learning problem: people continuously update expectations about friendship with others, and those updates shape both social connection and memory. Computational principles that help us learn about rewards in the world may also help shape who we fold into our social world.",
+          "url": "https://doi.org/10.31234/osf.io/b4z9f_v2",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.31234/osf.io/b4z9f_v2",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Reinforcement learning underlies social connection and memory in a friendship decision-making task",
+            "method": "Who we choose to befriend can impact many of our own life outcomes, from social capital to wellbeing. Here we find that reinforcement learning principles can characterize friendship decision-making and predict social connection and memory f",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-Agent Reinforcement Learning-Driven P2P Energy Trading Strategy for Community Prosumers",
+          "authors": [
+            "CHEN Guili, CHEN Danhong, WEN Hongwu, ZHENG Yongwei, MAI Liang, FENG Xiashan, ZHONG Qishen, HU Yiming, ZHENG Jiehui"
+          ],
+          "author_details": [
+            {
+              "name": "CHEN Guili, CHEN Danhong, WEN Hongwu, ZHENG Yongwei, MAI Liang, FENG Xiashan, ZHONG Qishen, HU Yiming, ZHENG Jiehui",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Markov decision process",
+            "Energy consumption",
+            "Adaptability",
+            "Incentive",
+            "Scalability",
+            "Flexibility (engineering)",
+            "Prosumer",
+            "Dynamic pricing"
+          ],
+          "journal": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "published": "2026-08-01",
+          "abstract": "[Objective] To address the variations in resource allocation and energy consumption behavior among prosumers in peer-to-peer （P2P） community energy trading scenarios， as well as the limited adaptability of traditional model-based methods in uncertain environments， this paper proposes a multi-agent reinforcement learning method that features both scalability and privacy protection capabilities. [Methods] First， three representative types of heterogeneous prosumer models are constructed. Second， a community energy trading model based on the mid-market rate pricing mechanism is established， and a flexibility incentive mechanism is introduced. Finally， the energy trading decision-making problem of prosumers is formulated as a partially observable Markov decision process， and a soft actor-critic algorithm based on dynamic mean-field （DMF-SAC） approximation is proposed to solve the energy management strategies of prosumers. [Results] Simulation results demonstrate that the proposed method outperforms baseline methods in terms of convergence performance， computational overhead， and operating costs. It also effectively improves the local consumption of distributed energy and enhances peak-shaving and valley-filling capabilities. [Conclusions] The proposed method effectively improves the efficiency and economic benefits of collaborative optimization for heterogeneous prosumers while balancing privacy protection and system scalability， which holds significant value for energy trading and management in community-based markets.",
+          "url": "https://doaj.org/article/f8d8abd438374ea98882bbf1252a6075",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.12204/j.issn.1000-7229.2026.08.002",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning-Driven P2P Energy Trading Strategy for Community Prosumers",
+            "method": "[Objective] To address the variations in resource allocation and energy consumption behavior among prosumers in peer-to-peer （P2P） community energy trading scenarios， as well as the limited adaptability of traditional model-based methods in",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Mobility-Aware and Privacy-Preserving Federated Reinforcement Learning with Multi-Paradigm Machine Learning for Edge Intelligence in 5G/6G Networks",
+          "authors": [
+            "Nabil Abdulwahab Abdulrazaq Baban"
+          ],
+          "author_details": [
+            {
+              "name": "Nabil Abdulwahab Abdulrazaq Baban",
+              "affiliations": [
+                "Alsalam University College"
+              ]
+            }
+          ],
+          "keywords": [
+            "Differential privacy",
+            "Reinforcement learning",
+            "Enhanced Data Rates for GSM Evolution",
+            "Edge device",
+            "Deep learning",
+            "Information privacy",
+            "Artificial neural network",
+            "Markov decision process"
+          ],
+          "journal": "Journal of Engineering",
+          "published": "2026-08-01",
+          "abstract": "The rise of 5G and 6G networks, along with the rapid growth of edge computing, is creating a strong need for smarter and more privacy-aware ways to handle task offloading as users move across the network. Many current methods still treat mobility prediction, federated learning (FL), and differential privacy (DP) as separate pieces, which often leads to avoidable delays, higher energy use, and weaker data protection. This paper introduces Mobility-Aware Federated Reinforcement Learning (MA-FRL), a framework designed to bring these components together. It integrates deep reinforcement learning (DRL) with supervised and unsupervised ML techniques to enhance edge intelligence, mobility prediction using Markov chains, and Gaussian Differential Privacy (DP) to make better offloading decisions across multi-tier edge environments. MA-FRL uses a federated deep Q-network (DQN), where each edge node trains locally on mobility-aware data and adds DP noise before contributing to the global model. It utilizes NS-3 and م, in addition to real datasets like CRAWDAD, GeoLife, and SPEC power; the framework is among the first to achieve 32% lower latency, 27% energy savings, and strong privacy protection (ε &lt; 1.0). Pareto analysis shows a balance between performance goals and topology-aware tuning, improving results in urban, rural, and vehicular settings. MA-FRL also aligns with the General Data Protection Regulation (GDPR). Future work will explore Long Short-Term Memory (LSTM) and Spatio-Temporal Graph Neural Networks (ST-GNN) mobility models and hardware-in-the-loop testing.",
+          "url": "https://doi.org/10.31026/j.eng.2026.08.08",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.31026/j.eng.2026.08.08",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Mobility-Aware and Privacy-Preserving Federated Reinforcement Learning with Multi-Paradigm Machine Learning for Edge Intelligence in 5G/6G Networks",
+            "method": "The rise of 5G and 6G networks, along with the rapid growth of edge computing, is creating a strong need for smarter and more privacy-aware ways to handle task offloading as users move across the network. Many current methods still treat mo",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Multi-Agent Reinforcement Learning-Driven P2P Energy Trading Strategy for Community Prosumers",
+          "authors": [
+            "CHEN Guili, CHEN Danhong, WEN Hongwu, ZHENG Yongwei, MAI Liang, FENG Xiashan, ZHONG Qishen, HU Yiming, ZHENG Jiehui"
+          ],
+          "author_details": [
+            {
+              "name": "CHEN Guili, CHEN Danhong, WEN Hongwu, ZHENG Yongwei, MAI Liang, FENG Xiashan, ZHONG Qishen, HU Yiming, ZHENG Jiehui",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Markov decision process",
+            "Energy consumption",
+            "Adaptability",
+            "Incentive",
+            "Scalability",
+            "Flexibility (engineering)",
+            "Prosumer",
+            "Dynamic pricing"
+          ],
+          "journal": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "published": "2026-08-01",
+          "abstract": "[Objective] To address the variations in resource allocation and energy consumption behavior among prosumers in peer-to-peer （P2P） community energy trading scenarios， as well as the limited adaptability of traditional model-based methods in uncertain environments， this paper proposes a multi-agent reinforcement learning method that features both scalability and privacy protection capabilities. [Methods] First， three representative types of heterogeneous prosumer models are constructed. Second， a community energy trading model based on the mid-market rate pricing mechanism is established， and a flexibility incentive mechanism is introduced. Finally， the energy trading decision-making problem of prosumers is formulated as a partially observable Markov decision process， and a soft actor-critic algorithm based on dynamic mean-field （DMF-SAC） approximation is proposed to solve the energy management strategies of prosumers. [Results] Simulation results demonstrate that the proposed method outperforms baseline methods in terms of convergence performance， computational overhead， and operating costs. It also effectively improves the local consumption of distributed energy and enhances peak-shaving and valley-filling capabilities. [Conclusions] The proposed method effectively improves the efficiency and economic benefits of collaborative optimization for heterogeneous prosumers while balancing privacy protection and system scalability， which holds significant value for energy trading and management in community-based markets.",
+          "url": "https://doaj.org/article/f8d8abd438374ea98882bbf1252a6075",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.12204/j.issn.1000-7229.2026.08.002",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning-Driven P2P Energy Trading Strategy for Community Prosumers",
+            "method": "[Objective] To address the variations in resource allocation and energy consumption behavior among prosumers in peer-to-peer （P2P） community energy trading scenarios， as well as the limited adaptability of traditional model-based methods in",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-Agent Reinforcement Learning for Base Station Placement in TDOA-Based Localization",
+          "authors": [
+            "Bastian Perner",
+            "Pratik Gajanan Raut",
+            "Maximilian Lübke",
+            "Norman Franchi"
+          ],
+          "author_details": [
+            {
+              "name": "Bastian Perner",
+              "affiliations": []
+            },
+            {
+              "name": "Pratik Gajanan Raut",
+              "affiliations": []
+            },
+            {
+              "name": "Maximilian Lübke",
+              "affiliations": []
+            },
+            {
+              "name": "Norman Franchi",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "eess.SP"
+          ],
+          "journal": null,
+          "published": "2026-07-30",
+          "abstract": "Accurate localization of devices is a key capability for emerging 5G and 6G networks and depends on effective base station (BS) placement. Conventional geometry-based approaches such as Geometric Dilution of Precision (GDOP) ignore realistic propagation effects such as Non-Line of Sight (NLOS) shadowing and multipath-induced Time of Arrival (TOA) bias caused by buildings. This paper proposes a ray-tracing-assisted Multi-Agent Reinforcement Learning (MARL) framework for environment-aware BS placement in Time Difference of Arrival (TDOA) localization systems. Proximal Policy Optimization (PPO) agents are trained on Channel Impulse Responses (CIRs) generated from a detailed 3D model of a university campus. Each agent cooperatively places one BS while optimizing a shared reward that combines localization accuracy and coverage. The approach is evaluated on five campus segments with varying propagation characteristics. Results show that the learned policy achieves localization accuracy comparable to conventional GDOP-based placement, lowering the average localization Mean Absolute Error (MAE) by about 3 % relative to the stronger (mean-optimized) geometric baseline. The behavior is segment-dependent, with a clear improvement on individual segments (up to about 14 %) and comparable or slightly higher error on the others. These findings indicate that incorporating site-specific propagation data into the placement process can match and selectively improve upon purely geometric strategies, motivating further work toward consistent gains.",
+          "url": "https://arxiv.org/abs/2607.28002v1",
+          "arxiv_id": "2607.28002v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning for Base Station Placement in TDOA-Based Localization",
+            "method": "Accurate localization of devices is a key capability for emerging 5G and 6G networks and depends on effective base station (BS) placement. Conventional geometry-based approaches such as Geometric Dilution of Precision (GDOP) ignore realisti",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Robust Offline Multi-Agent Reinforcement Learning for Latency-Aware SDN Path Control in 6G-Oriented Network Softwarization",
+          "authors": [
+            "Абзал Кызырканов",
+            "Yedil Nurakhov",
+            "Zhenis Otarbay",
+            "Danil Lebedev"
+          ],
+          "author_details": [
+            {
+              "name": "Абзал Кызырканов",
+              "affiliations": [
+                "Astana Medical University"
+              ]
+            },
+            {
+              "name": "Yedil Nurakhov",
+              "affiliations": [
+                "Al-Farabi Kazakh National University"
+              ]
+            },
+            {
+              "name": "Zhenis Otarbay",
+              "affiliations": [
+                "Astana Medical University",
+                "Nazarbayev University"
+              ]
+            },
+            {
+              "name": "Danil Lebedev",
+              "affiliations": [
+                "Al-Farabi Kazakh National University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Heuristic",
+            "Network topology",
+            "Network congestion",
+            "Path (computing)",
+            "Weighting",
+            "Control (management)"
+          ],
+          "journal": "Technologies",
+          "published": "2026-07-30",
+          "abstract": "Future sixth-generation (6G)-oriented networks require programmable control that can adapt routing to latency and congestion without unsafe online exploration. This study evaluates offline multi-agent deep deterministic policy gradient (MADDPG) with behavior-adjusted training rewards for latency-aware path control in software-defined networking (SDN). Each traffic pair is modeled as an agent selecting one of three retained candidate paths, while centralized critics learn coordinated decisions from topology-specific Ryu–Mininet transition datasets. Nine policies are compared using ten paired seeds on fat-tree, mesh-grid, and WAN-corridors topologies under a deployed utilization–latency weighting of 0.60/0.40, together with flow-completion, latency, congestion, architectural-comparison, sensitivity, robustness, statistical, and controller-overhead analyses. The utilization-aware path heuristic achieves the strongest overall reward ranking. MADDPG is the strongest learned policy on fat-tree, is not significantly outperformed by any evaluated policy on mesh-grid, and remains statistically tied with completion-matched policies on WAN-corridors. Behavior adjustment is topology-dependent rather than uniformly beneficial. The exported policy requires approximately 52μs per joint decision, whereas complete control-loop timing is dominated by network-statistics polling. These results support offline multi-agent SDN control as a competitive, low-overhead option when interpreted jointly with topology structure, flow completion, and strong heuristic baselines.",
+          "url": "https://doi.org/10.3390/technologies14080468",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/technologies14080468",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Robust Offline Multi-Agent Reinforcement Learning for Latency-Aware SDN Path Control in 6G-Oriented Network Softwarization",
+            "method": "Future sixth-generation (6G)-oriented networks require programmable control that can adapt routing to latency and congestion without unsafe online exploration. This study evaluates offline multi-agent deep deterministic policy gradient (MAD",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Communication-Aware Decentralised Multi-Agent Reinforcement Learning Framework for UAV-Based Wildfire Suppression: Challenges Under Realistic Communication Constraints",
+          "authors": [
+            "Samuel Cartwright",
+            "Maxime Collignon",
+            "Adolfo Perrusquía",
+            "Antonios Tsourdos"
+          ],
+          "author_details": [
+            {
+              "name": "Samuel Cartwright",
+              "affiliations": [
+                "Cranfield University"
+              ]
+            },
+            {
+              "name": "Maxime Collignon",
+              "affiliations": [
+                "Cranfield University"
+              ]
+            },
+            {
+              "name": "Adolfo Perrusquía",
+              "affiliations": [
+                "Cranfield University"
+              ]
+            },
+            {
+              "name": "Antonios Tsourdos",
+              "affiliations": [
+                "Cranfield University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Scalability",
+            "Probabilistic logic",
+            "Unexpected events",
+            "Work (physics)",
+            "Event (particle physics)"
+          ],
+          "journal": "Drones",
+          "published": "2026-07-29",
+          "abstract": "The increasing frequency and intensity of wildfires has created an urgent demand for scalable and autonomous wildfire response systems. While recent advances in multi-agent reinforcement learning (MARL) have demonstrated promise for collaborative uncrewed aerial vehicle (UAV)-based wildfire suppression, most existing approaches rely on simplified fire propagation dynamics and highly centralised learning architectures that are difficult to deploy in realistic operational settings. This paper presents a decentralised MARL framework for wildfire suppression that combines stochastic wildfire propagation, wind-driven spread dynamics, and communication-aware multi-agent coordination. The proposed framework extends an existing probabilistic wildfire environment through the incorporation of wind speed and directional effects, producing highly asymmetric and stochastic wildfire behaviour that more closely resembles real wildfire propagation. A decentralised Deep Q-Network (DQN) architecture is then introduced in which UAV agents learn independently through individual replay buffers. To mitigate the sparse-learning challenges introduced by decentralisation, selective experience sharing based on the SUPER algorithm is incorporated, enabling agents to exchange only high-value experiences under realistic communication constraints. Experimental results demonstrate that selective communication significantly improves containment performance and learning efficiency while preserving decentralised execution. The work highlights both the feasibility and challenges of realistic UAV swarm coordination for wildfire suppression, particularly the trade-offs between communication bandwidth, environmental stochasticity, and collaborative performance.",
+          "url": "https://doi.org/10.3390/drones10080580",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/drones10080580",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Communication-Aware Decentralised Multi-Agent Reinforcement Learning Framework for UAV-Based Wildfire Suppression: Challenges Under Realistic Communication Constraints",
+            "method": "The increasing frequency and intensity of wildfires has created an urgent demand for scalable and autonomous wildfire response systems. While recent advances in multi-agent reinforcement learning (MARL) have demonstrated promise for collabo",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "On the Analysis of Potential Games: From Constraints, Price of Anarchy and Reinforcement Learning to Contrastive Learning",
+          "authors": [
+            "Stavroulakis, Stelios Andrew"
+          ],
+          "author_details": [
+            {
+              "name": "Stavroulakis, Stelios Andrew",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Nash equilibrium",
+            "Price of anarchy",
+            "Best response",
+            "Epsilon-equilibrium",
+            "Pointwise",
+            "Equilibrium selection",
+            "Potential game",
+            "Markov decision process",
+            "Game theory"
+          ],
+          "journal": "eScholarship (California Digital Library)",
+          "published": "2027-12-05",
+          "abstract": "Potential games provide a unified and tractable framework for analyzing multi-agent interactions in which individual incentives align with a common objective, the potential, making them central to understanding decentralized coordination in economics, engineering, and artificial intelligence. This thesis investigates how structure, learning, and computation interact within potential games, covering equilibrium computation under constraints, equilibrium selection under learning dynamics, applications in cooperative multi-agent reinforcement learning, and links to the complexity of contrastive learning. In the first part, a distributed Lagrangian framework is developed for potential games with private, uncoupled constraints, enabling agents to compute approximate Nash equilibria in polynomial time and extending classical results to realistic congestion and resource-allocation settings with constraints. Learning dynamics are then examined through Q-Replicator Dynamics, a broad class of no-regret dynamics that include gradient descent, replicator, and log-barrier updates. These dynamics converge pointwise to Nash equilibria in almost all finite potential games. By characterizing regions of attraction, an Average Price of Anarchy (APoA) is derived to quantify the expected efficiency of learning outcomes. Contrary to the worst-case Price of Anarchy, which can be unbounded, the average-case measure under gradient-based learning is well defined, clarifying when various dynamics perform better on average. This thesis also applies the framework of potential games to a sequential setting, modeled as a Markov Potential Game in a location-aware scheduling environment. Agents learn to allocate tasks under partial observability, using compact state and action representations, and a common reward signal. Experiments show how agents reach a Nash equilibrium and also how floor-plan geometry, task parallelizability, and localization shape coordination efficiency, transfer to unseen layouts, and performance degradation, highlighting the modeling value of potential games in the multi-agent reinforcement learning domain. Finally, a conceptual link between potential games and contrastive learning objectives is revealed. By interpreting the triplet-loss formulation as a potential function (betweenness ranking) over data points, the task of finding locally optimal embeddings can be viewed through the lens of equilibrium computation. This perspective reveals that identifying local optima is PLS-hard in discrete settings, even for one-dimensional embeddings. These results highlight the inherent computational limits of local search methods in representation learning.",
+          "url": "https://escholarship.org/uc/item/9898w6z2",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: On the Analysis of Potential Games: From Constraints, Price of Anarchy and Reinforcement Learning to Contrastive Learning",
+            "method": "Potential games provide a unified and tractable framework for analyzing multi-agent interactions in which individual incentives align with a common objective, the potential, making them central to understanding decentralized coordination in",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "HC-MARL: A General Hierarchical Cascaded Multi-Agent Collaborative Architecture for Cyber Wargaming Applications",
+          "authors": [
+            "Zhiqiang Qu",
+            "Jun He",
+            "Bo Wu",
+            "Zhitao Long",
+            "Tao Xia"
+          ],
+          "author_details": [
+            {
+              "name": "Zhiqiang Qu",
+              "affiliations": [
+                "National Defense University",
+                "National University of Defense Technology"
+              ]
+            },
+            {
+              "name": "Jun He",
+              "affiliations": [
+                "National Defense University"
+              ]
+            },
+            {
+              "name": "Bo Wu",
+              "affiliations": [
+                "National Defense University"
+              ]
+            },
+            {
+              "name": "Zhitao Long",
+              "affiliations": [
+                "National Defense University"
+              ]
+            },
+            {
+              "name": "Tao Xia",
+              "affiliations": [
+                "National Defense University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Scalability",
+            "Architecture",
+            "Adaptability",
+            "Intrusion detection system",
+            "Function (biology)",
+            "Decentralised system",
+            "Agent architecture"
+          ],
+          "journal": "Electronics",
+          "published": "2026-07-31",
+          "abstract": "Cyber wargaming serves as a core tool for simulating cyber confrontations and supporting operational decision verification. Existing multi-agent methods face issues such as the absence of cross-level mechanisms and poor adaptability to dynamic environments when applied to cyber wargaming. To address these challenges, we innovatively propose HC-MARL, a general hierarchical cascaded multi-agent reinforcement learning architecture tailored for cyber wargaming. Within this architecture, agents are modeled as hierarchical cascaded units to achieve structural decoupling and preserve scalability in both horizontal and vertical dimensions. Specifically, we devise a cross-level bidirectional information passing and intrusion alert sharing mechanism to accommodate cross-level command characteristics; design a Transformer-based message transformation function that fuses variable-length observation vectors from lower-level agents into fixed-length vectors, adapting to dynamic changes in agent structures and numbers; and design a policy function that integrates neural networks with empirical knowledge, incorporating an intrusion-alert-based action mask to enhance threat response efficiency. To the best of our knowledge, the proposed HC-MARL framework is a novel general hierarchical collaborative multi-agent architecture for cyber wargaming. To validate the effectiveness of our framework, we instantiate two-layer and three-layer agent clusters and conduct experiments in the CybORG CC4 environment. The results demonstrate that our architecture can effectively accommodate cross-level information transfer and dynamic changes in agents in cyber wargaming scenarios. Furthermore, incorporating intrusion-alert-based action masking into the policy function significantly improves defensive performance. Compared with the state-of-the-art (SOTA) methods, the average reward improves by approximately 12.3%, and compared with mainstream methods such as Singh et al., the average reward improves by approximately 27.5%.",
+          "url": "https://doi.org/10.3390/electronics15153369",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/electronics15153369",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: HC-MARL: A General Hierarchical Cascaded Multi-Agent Collaborative Architecture for Cyber Wargaming Applications",
+            "method": "Cyber wargaming serves as a core tool for simulating cyber confrontations and supporting operational decision verification. Existing multi-agent methods face issues such as the absence of cross-level mechanisms and poor adaptability to dyna",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "MARS-RA: Rank Aggregation for Credit Assignment via Multimodal Comparisons in Embodied Multi-Agent Cooperation",
+          "authors": [
+            "Dawei Wang",
+            "Di Zhao",
+            "Xinyuan Liu",
+            "Marci Chi Ma",
+            "Xiaoyang Liu",
+            "Chengming Zhou",
+            "Gary Ushaw",
+            "Richard Davison"
+          ],
+          "author_details": [
+            {
+              "name": "Dawei Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Di Zhao",
+              "affiliations": []
+            },
+            {
+              "name": "Xinyuan Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Marci Chi Ma",
+              "affiliations": []
+            },
+            {
+              "name": "Xiaoyang Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Chengming Zhou",
+              "affiliations": []
+            },
+            {
+              "name": "Gary Ushaw",
+              "affiliations": []
+            },
+            {
+              "name": "Richard Davison",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-07-30",
+          "abstract": "Credit assignment is a fundamental challenge in cooperative multi-agent reinforcement learning, particularly in embodied AI settings characterized by limited and delayed feedback as well as dynamically changing numbers of active agents. We propose MARS-RA, a framework that reformulates credit assignment as a rank aggregation problem using contribution-based pairwise comparisons among agents generated by large multimodal models. This shift from absolute to relative estimation ensures robustness against noise and dynamic agent participation, converting comparison results into contribution scores for potential-based reward shaping. We provide theoretical justification for the convergence and robustness of the proposed framework, and show that Shapley values can be used as an interpretive reference. Experimental results on challenging tasks of different types indicate that MARS-RA can guide agents toward effective cooperation.",
+          "url": "https://arxiv.org/abs/2607.27967v1",
+          "arxiv_id": "2607.27967v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: MARS-RA: Rank Aggregation for Credit Assignment via Multimodal Comparisons in Embodied Multi-Agent Cooperation",
+            "method": "Credit assignment is a fundamental challenge in cooperative multi-agent reinforcement learning, particularly in embodied AI settings characterized by limited and delayed feedback as well as dynamically changing numbers of active agents. We ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "An Experience-Guided MAPPO Framework for Multi-UAV Cooperative Tracking in Continuous Action Spaces",
+          "authors": [
+            "Hao Xiong",
+            "Minghu Tan",
+            "Xiaoyu Liu",
+            "Haoyu Li"
+          ],
+          "author_details": [
+            {
+              "name": "Hao Xiong",
+              "affiliations": [
+                "Northwestern Polytechnical University"
+              ]
+            },
+            {
+              "name": "Minghu Tan",
+              "affiliations": [
+                "Northwestern Polytechnical University"
+              ]
+            },
+            {
+              "name": "Xiaoyu Liu",
+              "affiliations": [
+                "Northwestern Polytechnical University"
+              ]
+            },
+            {
+              "name": "Haoyu Li",
+              "affiliations": [
+                "Northwestern Polytechnical University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Convergence (economics)",
+            "Markov decision process",
+            "Task (project management)",
+            "Trajectory",
+            "Tracking error",
+            "Rendezvous",
+            "Action (physics)",
+            "Heuristic",
+            "Control (management)"
+          ],
+          "journal": "Drones",
+          "published": "2026-07-30",
+          "abstract": "A cooperative guidance law based on the experience-guided multi-agent proximal policy optimization (E-MAPPO) algorithm is proposed for multiple unmanned aerial vehicles (UAVs) to track dynamic points of interest in civilian applications, such as collaborative search and rescue and environmental monitoring. In multi-UAV cooperative tracking, accurate arrival-time coordination is important for improving collaborative task execution, but it remains challenging because of continuous action spaces, target maneuvering, uncertain time-to-go estimation, and inefficient exploration in multi-agent reinforcement learning. Specifically, a multi-UAV cooperative guidance environment is formulated, and the problem is modeled as a Markov decision process. To address the challenges of large action spaces and poor convergence in multi-agent reinforcement learning, an experience-guided MAPPO framework is introduced to enhance training efficiency and policy stability. Different from standard MAPPO, the proposed E-MAPPO introduces proportional-navigation-guided experience only during the early training stage to guide exploration, while the final policy is still optimized through the MAPPO objective. Subsequently, a composite reward function is designed by integrating distance-based heuristic terms with auxiliary guidance signals, thereby improving exploration efficiency and facilitating coordinated rendezvous and tracking of dynamic references. Comparative simulations with cooperative proportional navigation guidance (CPNG), sliding mode control (SMC), and standard MAPPO are conducted under different target motion scenarios. The results show that E-MAPPO reduces the average convergence step by 17.07% compared with MAPPO. In the straight-moving target scenario, E-MAPPO reduces the cooperative time error by 55.10% compared with CPNG and by 8.33% compared with MAPPO. In the S-type maneuvering target scenario, E-MAPPO reduces the cooperative time error by 55.81% compared with CPNG and by 9.52% compared with MAPPO. Monte Carlo experiments further verify its effectiveness and robustness. Additional robustness tests under Gaussian measurement noise, observation bias, and communication delay show that the proposed method maintains acceptable tracking accuracy and cooperative timing performance under different uncertainty conditions. In addition, the results indicate that the proposed method generalizes well to different types of maneuvering targets.",
+          "url": "https://doi.org/10.3390/drones10080583",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/drones10080583",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: An Experience-Guided MAPPO Framework for Multi-UAV Cooperative Tracking in Continuous Action Spaces",
+            "method": "A cooperative guidance law based on the experience-guided multi-agent proximal policy optimization (E-MAPPO) algorithm is proposed for multiple unmanned aerial vehicles (UAVs) to track dynamic points of interest in civilian applications, su",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": []
+    },
+    {
+      "id": "causal-llm",
+      "name": "Causal Inference in Large Language Models",
+      "papers": [
+        {
+          "title": "Relation Geometry in Semantic Space of Language Models",
+          "authors": [
+            "Zhihan Cao",
+            "Hiroaki Yamada",
+            "Simone Teufel",
+            "Tatsuya Hiraoka",
+            "Kentaro Inui",
+            "Hitomi Yanaka",
+            "Takenobu Tokunaga"
+          ],
+          "author_details": [
+            {
+              "name": "Zhihan Cao",
+              "affiliations": []
+            },
+            {
+              "name": "Hiroaki Yamada",
+              "affiliations": []
+            },
+            {
+              "name": "Simone Teufel",
+              "affiliations": []
+            },
+            {
+              "name": "Tatsuya Hiraoka",
+              "affiliations": []
+            },
+            {
+              "name": "Kentaro Inui",
+              "affiliations": []
+            },
+            {
+              "name": "Hitomi Yanaka",
+              "affiliations": []
+            },
+            {
+              "name": "Takenobu Tokunaga",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.CL"
+          ],
+          "journal": null,
+          "published": "2026-07-29",
+          "abstract": "When it comes to generating vector representations of words, current language models are achieving high-quality results. However, what is not known is the extent to which knowledge about semantic relations is represented in the geometry of the semantic spaces created in this way. In order to answer this question, we study the relation geometry of such semantic spaces from three perspectives. We first examine whether words standing in a particular relation to a target word~(called relata) occupy the same region in semantic space, and whether the regions corresponding to different relations are distinct from each other. We then verify to what extent semantic spaces reflect certain well-known properties of relations, such as symmetry, asymmetry, and transitivity. Finally, we consider which information about the target words and relata is more important for relation geometry: their surface forms, or their contexts. We conduct experiments on six semantic relations using causal, masked, and diffusion language models. The results show that relata in asymmetric relations relatively clearly occupy a distinct region in semantic space. Asymmetric relations' properties are only moderately well encoded in the semantic space, yet better than those of symmetric ones. Furthermore, when considering the question which information source has the strongest impact on results amongst the models we evaluated, we find that lexical information tends to be more important for the causal language model, whereas contextual information is more important for the masked and diffusion language models. Our results empirically show that relation geometry is not equally well-represented for all relations in semantic space, suggesting that there is a difference in how well semantic relations might be learned from distributional information alone.",
+          "url": "https://arxiv.org/abs/2607.26762v1",
+          "arxiv_id": "2607.26762v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Relation Geometry in Semantic Space of Language Models",
+            "method": "When it comes to generating vector representations of words, current language models are achieving high-quality results. However, what is not known is the extent to which knowledge about semantic relations is represented in the geometry of ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "causal-text",
+      "name": "Causal Inference in Text Analysis",
+      "papers": []
+    }
+  ]
+}
