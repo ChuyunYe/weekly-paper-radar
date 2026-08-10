@@ -1,0 +1,1556 @@
+{
+  "week": "2026-W33",
+  "generated_at": "2026-08-10T03:10:33.183978Z",
+  "topics": [
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "papers": [
+        {
+          "title": "Study on the Impact of Logistics Standardisation Construction on Urban Carbon Emission Intensity: Causal Inference Based on Dual Machine Learning",
+          "authors": [
+            "Taisheng Lyu",
+            "Guangbin Cheng"
+          ],
+          "author_details": [
+            {
+              "name": "Taisheng Lyu",
+              "affiliations": [
+                "Changji University"
+              ]
+            },
+            {
+              "name": "Guangbin Cheng",
+              "affiliations": [
+                "Shihezi University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Dual (grammatical number)",
+            "Causal inference",
+            "Corporate governance",
+            "Panel data",
+            "Inference",
+            "Learning effect",
+            "Greenhouse gas",
+            "Component (thermodynamics)"
+          ],
+          "journal": "Sustainability",
+          "published": "2026-08-07",
+          "abstract": "As a key component of the modern circulation system, logistics standardisation (LS) has helped remove critical bottlenecks in the circulation sector and has provided strong support for achieving the “dual-carbon” goals. This study treats China’s national pilot policy for logistics standardisation as a quasi-natural experiment. Using a balanced panel of 282 prefecture-level cities from 2006 to 2022 and a dual machine learning framework, it examines the effect of LS on urban carbon emission intensity (UCEI) and the underlying mechanisms. The results indicate that LS significantly reduces UCEI in pilot cities. This finding remains robust across a series of tests, including controlling for interference from contemporaneous policies, applying instrumental variable estimation, and re-specifying the dual machine learning model. Further mechanism analysis suggests that economic agglomeration, industrial structure upgrading, and green technological progress are plausible channels through which LS reduces UCEI. Heterogeneity analysis shows that the carbon-reduction effect of LS is more pronounced in eastern cities, cities with higher administrative status, non-resource-based cities, cities with better transport infrastructure, and cities where governments pay greater attention to carbon reduction. In addition, the extension analysis shows that LS also helps reduce the emission intensity of major pollutants, thereby contributing to the coordinated governance of pollution reduction and carbon mitigation.",
+          "url": "https://doi.org/10.3390/su18168022",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/su18168022",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Study on the Impact of Logistics Standardisation Construction on Urban Carbon Emission Intensity: Causal Inference Based on Dual Machine Learning",
+            "method": "As a key component of the modern circulation system, logistics standardisation (LS) has helped remove critical bottlenecks in the circulation sector and has provided strong support for achieving the “dual-carbon” goals. This study treats Ch",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal Inference in Non-Allergic Asthma Associated with Obesity: Application of the Bradford Hill Viewpoints to a Complex Epidemiological Association",
+          "authors": [
+            "José J. Leija-Martínez",
+            "Eduardo Ensaldo‐Carrasco",
+            "Fausto Sánchez‐Muñoz",
+            "Blanca E. Del-Río-Navarro",
+            "Nayely Reyes-Noriega",
+            "Fengyang Huang"
+          ],
+          "author_details": [
+            {
+              "name": "José J. Leija-Martínez",
+              "affiliations": [
+                "Hospital Central Dr. Ignacio Morones Prieto"
+              ]
+            },
+            {
+              "name": "Eduardo Ensaldo‐Carrasco",
+              "affiliations": [
+                "Universidad de Guadalajara"
+              ]
+            },
+            {
+              "name": "Fausto Sánchez‐Muñoz",
+              "affiliations": [
+                "Instituto Nacional de Cardiología"
+              ]
+            },
+            {
+              "name": "Blanca E. Del-Río-Navarro",
+              "affiliations": [
+                "Hospital Infantil de México Federico Gómez"
+              ]
+            },
+            {
+              "name": "Nayely Reyes-Noriega",
+              "affiliations": [
+                "Hospital Infantil de México Federico Gómez"
+              ]
+            },
+            {
+              "name": "Fengyang Huang",
+              "affiliations": [
+                "Hospital Infantil de México Federico Gómez"
+              ]
+            }
+          ],
+          "keywords": [
+            "Viewpoints",
+            "Causal inference",
+            "Mendelian randomization",
+            "Asthma",
+            "Association (psychology)",
+            "Obesity",
+            "Epidemiology",
+            "Causality (physics)",
+            "Concordance"
+          ],
+          "journal": "Epidemiologia",
+          "published": "2026-08-06",
+          "abstract": "Background/Objectives: Obesity has been linked to a distinct non-allergic, late-onset, neutrophilic asthma phenotype for more than two decades, yet whether obesity should be regarded as a cause of that phenotype rather than a coexisting comorbidity remains unresolved because randomised allocation to obesity is neither feasible nor ethical. This review asks whether the evidence accumulated between 1995 and 2026 supports a causal interpretation. Methods: A structured narrative synthesis was undertaken. PubMed/MEDLINE, Scopus and Web of Science were searched from January 1995 to June 2026 (the synthesis emphasises the 2020–2026 evidence while drawing on the full window for landmark studies) for cohort, cross-sectional, Mendelian randomisation (MR), interventional, mechanistic and pharmaco-epidemiological studies; landmark earlier work was retained where it remains the primary source for a given viewpoint. The retrieved evidence was mapped onto Sir Austin Bradford Hill’s nine viewpoints (1965) and triangulated using E-values for unmeasured confounding, GRADE, directed acyclic graphs and MR. Results: All nine viewpoints were satisfied to varying degrees. Strength: effect estimates 1.4–6.8, E-values 4.8–13.1, MR summary risk ratio 1.05 per 1 kg/m2. Consistency: replication across four continents, both sexes and multiple study designs. Temporality: prospective cohort and life-course MR evidence. Biological gradient: body mass index dose–response for TNFα, IL-17A and Th17 frequency. Plausibility: a twelve-layer architecture from adipose dysfunction to bronchial epithelium. Coherence, experimental evidence (bariatric surgery, lifestyle weight loss, GLP-1 receptor agonists, murine and in vitro models) and analogy were also supported; specificity was met at the phenotype level. Conclusions: The cumulative evidence strongly supports a causal contribution of obesity to the development of the late-onset, non-allergic asthma phenotype while falling short of definitive proof (GRADE: moderate certainty), with implications for primary prevention, endotype-targeted therapy and longitudinal research. Phenotype-stratified MR remains the principal missing element of the causal argument.",
+          "url": "https://doi.org/10.3390/epidemiologia7040107",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/epidemiologia7040107",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal Inference in Non-Allergic Asthma Associated with Obesity: Application of the Bradford Hill Viewpoints to a Complex Epidemiological Association",
+            "method": "Background/Objectives: Obesity has been linked to a distinct non-allergic, late-onset, neutrophilic asthma phenotype for more than two decades, yet whether obesity should be regarded as a cause of that phenotype rather than a coexisting com",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "A Unified Causal Inference Framework for the Desirability of Outcome Ranking Paradigm in Benefit-Risk Evaluation",
+          "authors": [
+            "Yuan Feng",
+            "Shiyu Shu",
+            "Yixin Fang",
+            "Ionut Bebu",
+            "Toshimitsu Hamasaki",
+            "Scott Evans",
+            "Guoqing Diao"
+          ],
+          "author_details": [
+            {
+              "name": "Yuan Feng",
+              "affiliations": []
+            },
+            {
+              "name": "Shiyu Shu",
+              "affiliations": []
+            },
+            {
+              "name": "Yixin Fang",
+              "affiliations": []
+            },
+            {
+              "name": "Ionut Bebu",
+              "affiliations": []
+            },
+            {
+              "name": "Toshimitsu Hamasaki",
+              "affiliations": []
+            },
+            {
+              "name": "Scott Evans",
+              "affiliations": []
+            },
+            {
+              "name": "Guoqing Diao",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ML",
+            "cs.LG",
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-08-05",
+          "abstract": "We developed a unified covariate-adjusted causal inference framework for estimating the desirability of outcome ranking (DOOR) probability for benefit-risk evaluation in randomized trials and observational studies. The framework expresses the DOOR probability as a bilinear functional of the marginal ordinal outcome distributions under the two treatment strategies, estimates conditional ordinal distributions through sequential risk-set hazards, and derives the efficient influence function (EIF) of the DOOR probability. The point-estimation simulations compared G-computation, normalized inverse probability weighting (IPW), augmented IPW (AIPW), and targeted maximum likelihood estimation (TMLE), with nuisance functions estimated using generalized linear models or Super Learner (SL). TMLE-SL showed the strongest and most consistent point-estimation performance, with AIPW-SL ranking second. EIF-based inference was then evaluated for AIPW-SL and TMLE-SL, with and without cross-fitting, across settings varying in overlap, treatment-effect heterogeneity, and treatment allocation. CVTMLE-SL showed the strongest overall performance across DOOR-scale bias, recovery of the underlying ordinal distributions, standard-error accuracy, and confidence-interval coverage. We illustrate the methodology using data from the multidrug-resistant organism network of the Antibacterial Resistance Leadership Group.",
+          "url": "https://arxiv.org/abs/2608.05244v1",
+          "arxiv_id": "2608.05244v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A Unified Causal Inference Framework for the Desirability of Outcome Ranking Paradigm in Benefit-Risk Evaluation",
+            "method": "We developed a unified covariate-adjusted causal inference framework for estimating the desirability of outcome ranking (DOOR) probability for benefit-risk evaluation in randomized trials and observational studies. The framework expresses t",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Generalized propensity score weighting for functional causal inference framework",
+          "authors": [
+            "Simone Ciardulli",
+            "Nicole Fontana",
+            "Simone Vantini",
+            "Francesca Ieva"
+          ],
+          "author_details": [
+            {
+              "name": "Simone Ciardulli",
+              "affiliations": []
+            },
+            {
+              "name": "Nicole Fontana",
+              "affiliations": []
+            },
+            {
+              "name": "Simone Vantini",
+              "affiliations": []
+            },
+            {
+              "name": "Francesca Ieva",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME",
+            "stat.AP"
+          ],
+          "journal": null,
+          "published": "2026-08-04",
+          "abstract": "Estimating causal effects in observational studies requires adjustment for confounding, a task that becomes challenging when the exposure is a function observed over a continuous domain rather than a scalar variable. We develop a functional propensity score weighting framework that achieves covariate balance by removing dependence between time-varying treatments and observed confounders, thereby enabling estimation of marginal causal effects in settings with functional treatments, covariates, and outcomes. We propose a dual formulation of the weight estimation problem that yields a smooth unconstrained optimization and improves computational scalability. The proposed framework extends naturally to settings with time-varying covariates and to longitudinal outcomes via a function-on-function marginal structural model, allowing estimation of causal effect surfaces. The proposed method improves covariate balance, estimation accuracy, and computational efficiency compared to the existing approach and retains these properties when extended to functional covariates and outcomes. We apply the method to data from the UK Biobank to estimate the causal effect of body mass index trajectories on the risk of Type 2 Diabetes and on subsequent glycated hemoglobin trajectories, a functional measure of metabolic status.",
+          "url": "https://arxiv.org/abs/2608.03200v1",
+          "arxiv_id": "2608.03200v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Generalized propensity score weighting for functional causal inference framework",
+            "method": "Estimating causal effects in observational studies requires adjustment for confounding, a task that becomes challenging when the exposure is a function observed over a continuous domain rather than a scalar variable. We develop a functional",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal Inference with Unstructured Outcomes",
+          "authors": [
+            "Kevin Christian Wibisono",
+            "Yixin Wang"
+          ],
+          "author_details": [
+            {
+              "name": "Kevin Christian Wibisono",
+              "affiliations": []
+            },
+            {
+              "name": "Yixin Wang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ML",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-08-04",
+          "abstract": "Causal inference has traditionally centered on scalar outcomes: whether a patient recovers, how much a worker earns, or how many visits a website receives. Modern studies increasingly ask causal questions about outcomes with richer form, such as clinical notes, open-ended survey responses, and images. A hospital may want to know how an AI documentation tool changes the notes physicians write, or how a nurse training program alters what patients say in survey responses. For such outcomes, the usual average treatment effect is ill-defined: one cannot meaningfully subtract one text or image from another. To this end, we propose a causal query for unstructured outcomes. The key idea is to learn what features of the outcome are most causally affected by the treatment, which we call the maximally contrasting feature (MCF). To estimate the MCF, we learn a feature-scoring function that maps each outcome to a scalar and exposes the sharpest contrast between treated and control potential outcomes. We develop identification conditions and estimation algorithms for this query, and extend it to heterogeneous effects by allowing the feature-scoring function to depend on observed covariates. We also handle settings where both the treatment and the outcome are unstructured. Empirical studies on text and images show that the algorithm recovers salient aspects of an outcome changed by a treatment.",
+          "url": "https://arxiv.org/abs/2608.03085v1",
+          "arxiv_id": "2608.03085v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal Inference with Unstructured Outcomes",
+            "method": "Causal inference has traditionally centered on scalar outcomes: whether a patient recovers, how much a worker earns, or how many visits a website receives. Modern studies increasingly ask causal questions about outcomes with richer form, su",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal Inference with Unstructured Outcomes",
+          "authors": [
+            "Kevin Christian Wibisono",
+            "Yixin Wang"
+          ],
+          "author_details": [
+            {
+              "name": "Kevin Christian Wibisono",
+              "affiliations": [
+                "University of Michigan"
+              ]
+            },
+            {
+              "name": "Yixin Wang",
+              "affiliations": [
+                "University of Michigan"
+              ]
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Outcome (game theory)",
+            "Inference",
+            "Salient",
+            "Identification (biology)",
+            "Function (biology)",
+            "Contrast (vision)",
+            "Key (lock)"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-08-04",
+          "abstract": "Causal inference has traditionally centered on scalar outcomes: whether a patient recovers, how much a worker earns, or how many visits a website receives. Modern studies increasingly ask causal questions about outcomes with richer form, such as clinical notes, open-ended survey responses, and images. A hospital may want to know how an AI documentation tool changes the notes physicians write, or how a nurse training program alters what patients say in survey responses. For such outcomes, the usual average treatment effect is ill-defined: one cannot meaningfully subtract one text or image from another. To this end, we propose a causal query for unstructured outcomes. The key idea is to learn what features of the outcome are most causally affected by the treatment, which we call the maximally contrasting feature (MCF). To estimate the MCF, we learn a feature-scoring function that maps each outcome to a scalar and exposes the sharpest contrast between treated and control potential outcomes. We develop identification conditions and estimation algorithms for this query, and extend it to heterogeneous effects by allowing the feature-scoring function to depend on observed covariates. We also handle settings where both the treatment and the outcome are unstructured. Empirical studies on text and images show that the algorithm recovers salient aspects of an outcome changed by a treatment.",
+          "url": "https://arxiv.org/abs/2608.03085",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal Inference with Unstructured Outcomes",
+            "method": "Causal inference has traditionally centered on scalar outcomes: whether a patient recovers, how much a worker earns, or how many visits a website receives. Modern studies increasingly ask causal questions about outcomes with richer form, su",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "From Confounded Signals to Causal Affect: Proximal Inference with Hybrid Deep Learning for Wearable Emotion Recognition in Precision Mental Health",
+          "authors": [
+            "Nurudeen Jibrin",
+            "Gilbert I. O. Aimufua",
+            "Chaku E. Shammah"
+          ],
+          "author_details": [
+            {
+              "name": "Nurudeen Jibrin",
+              "affiliations": []
+            },
+            {
+              "name": "Gilbert I. O. Aimufua",
+              "affiliations": []
+            },
+            {
+              "name": "Chaku E. Shammah",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Wearable computer",
+            "Inference",
+            "Identifiability",
+            "Causality (physics)",
+            "Deep learning",
+            "Generalizability theory",
+            "Mental health",
+            "Noise (video)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-08",
+          "abstract": "Emotion recognition from wearable physiological sensors is fundamentally challenged by latent confounders. Physical activity, individual physiological variability, and environmental noise obscure genuine affective states and limit clinical interpretability. This study presents a causal multimodal deep learning framework that addresses these limitations through three integrated contributions. First, proximal causal inference establishes identifiability of individualised treatment effects under latent emotional confounding using observable physiological proxies. Second, a hybrid LSTM-CNN architecture with Hilbert-Schmidt Independence Criterion regularisation learns disentangled, time-varying representations of emotional states, separating affective signals from motion-related confounders. Third, an off-policy evaluation (OPE) protocol assesses the safety, robustness, calibration, and fairness of clinical decision policies derived from the learned causal representations. Empirical evaluation on the Wearable Stress and Affect Detection dataset demonstrates strong subject-independent performance, achieving 92.69% accuracy on an unseen evaluation subject. The proximal bridge variable exhibits meaningful variation across emotional conditions, enabling downstream treatment-effect estimation. OPE reveals that doubly robust estimation produces conservative policy values (0.454) compared to naïve inverse propensity scoring (1.051), with threshold optimisation yielding a 6.38% improvement over observational policies. Calibration analysis (ECE = 0.441) identifies the need for post-hoc recalibration before clinical deployment. The framework establishes that integrating causal inference with deep multimodal learning enhances interpretability, robustness, and clinical credibility of emotion-aware AI systems for precision mental health. Keywords: Emotion recognition; causal inference; LSTM-CNN; proximal inference; off-policy evaluation; physiological signals; precision mental health.",
+          "url": "https://doi.org/10.5281/zenodo.21848717",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.21848717",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: From Confounded Signals to Causal Affect: Proximal Inference with Hybrid Deep Learning for Wearable Emotion Recognition in Precision Mental Health",
+            "method": "Emotion recognition from wearable physiological sensors is fundamentally challenged by latent confounders. Physical activity, individual physiological variability, and environmental noise obscure genuine affective states and limit clinical ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "From Confounded Signals to Causal Affect: Proximal Inference with Hybrid Deep Learning for Wearable Emotion Recognition in Precision Mental Health",
+          "authors": [
+            "Nurudeen Jibrin",
+            "Gilbert I. O. Aimufua",
+            "Chaku E. Shammah"
+          ],
+          "author_details": [
+            {
+              "name": "Nurudeen Jibrin",
+              "affiliations": []
+            },
+            {
+              "name": "Gilbert I. O. Aimufua",
+              "affiliations": []
+            },
+            {
+              "name": "Chaku E. Shammah",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Wearable computer",
+            "Inference",
+            "Identifiability",
+            "Causality (physics)",
+            "Deep learning",
+            "Generalizability theory",
+            "Mental health",
+            "Noise (video)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-08",
+          "abstract": "Emotion recognition from wearable physiological sensors is fundamentally challenged by latent confounders. Physical activity, individual physiological variability, and environmental noise obscure genuine affective states and limit clinical interpretability. This study presents a causal multimodal deep learning framework that addresses these limitations through three integrated contributions. First, proximal causal inference establishes identifiability of individualised treatment effects under latent emotional confounding using observable physiological proxies. Second, a hybrid LSTM-CNN architecture with Hilbert-Schmidt Independence Criterion regularisation learns disentangled, time-varying representations of emotional states, separating affective signals from motion-related confounders. Third, an off-policy evaluation (OPE) protocol assesses the safety, robustness, calibration, and fairness of clinical decision policies derived from the learned causal representations. Empirical evaluation on the Wearable Stress and Affect Detection dataset demonstrates strong subject-independent performance, achieving 92.69% accuracy on an unseen evaluation subject. The proximal bridge variable exhibits meaningful variation across emotional conditions, enabling downstream treatment-effect estimation. OPE reveals that doubly robust estimation produces conservative policy values (0.454) compared to naïve inverse propensity scoring (1.051), with threshold optimisation yielding a 6.38% improvement over observational policies. Calibration analysis (ECE = 0.441) identifies the need for post-hoc recalibration before clinical deployment. The framework establishes that integrating causal inference with deep multimodal learning enhances interpretability, robustness, and clinical credibility of emotion-aware AI systems for precision mental health. Keywords: Emotion recognition; causal inference; LSTM-CNN; proximal inference; off-policy evaluation; physiological signals; precision mental health.",
+          "url": "https://doi.org/10.5281/zenodo.21848716",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.21848716",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: From Confounded Signals to Causal Affect: Proximal Inference with Hybrid Deep Learning for Wearable Emotion Recognition in Precision Mental Health",
+            "method": "Emotion recognition from wearable physiological sensors is fundamentally challenged by latent confounders. Physical activity, individual physiological variability, and environmental noise obscure genuine affective states and limit clinical ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ope",
+      "name": "Off-Policy Evaluation",
+      "papers": [
+        {
+          "title": "From Confounded Signals to Causal Affect: Proximal Inference with Hybrid Deep Learning for Wearable Emotion Recognition in Precision Mental Health",
+          "authors": [
+            "Nurudeen Jibrin",
+            "Gilbert I. O. Aimufua",
+            "Chaku E. Shammah"
+          ],
+          "author_details": [
+            {
+              "name": "Nurudeen Jibrin",
+              "affiliations": []
+            },
+            {
+              "name": "Gilbert I. O. Aimufua",
+              "affiliations": []
+            },
+            {
+              "name": "Chaku E. Shammah",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Wearable computer",
+            "Inference",
+            "Identifiability",
+            "Causality (physics)",
+            "Deep learning",
+            "Generalizability theory",
+            "Mental health",
+            "Noise (video)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-08",
+          "abstract": "Emotion recognition from wearable physiological sensors is fundamentally challenged by latent confounders. Physical activity, individual physiological variability, and environmental noise obscure genuine affective states and limit clinical interpretability. This study presents a causal multimodal deep learning framework that addresses these limitations through three integrated contributions. First, proximal causal inference establishes identifiability of individualised treatment effects under latent emotional confounding using observable physiological proxies. Second, a hybrid LSTM-CNN architecture with Hilbert-Schmidt Independence Criterion regularisation learns disentangled, time-varying representations of emotional states, separating affective signals from motion-related confounders. Third, an off-policy evaluation (OPE) protocol assesses the safety, robustness, calibration, and fairness of clinical decision policies derived from the learned causal representations. Empirical evaluation on the Wearable Stress and Affect Detection dataset demonstrates strong subject-independent performance, achieving 92.69% accuracy on an unseen evaluation subject. The proximal bridge variable exhibits meaningful variation across emotional conditions, enabling downstream treatment-effect estimation. OPE reveals that doubly robust estimation produces conservative policy values (0.454) compared to naïve inverse propensity scoring (1.051), with threshold optimisation yielding a 6.38% improvement over observational policies. Calibration analysis (ECE = 0.441) identifies the need for post-hoc recalibration before clinical deployment. The framework establishes that integrating causal inference with deep multimodal learning enhances interpretability, robustness, and clinical credibility of emotion-aware AI systems for precision mental health. Keywords: Emotion recognition; causal inference; LSTM-CNN; proximal inference; off-policy evaluation; physiological signals; precision mental health.",
+          "url": "https://doi.org/10.5281/zenodo.21848717",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.21848717",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: From Confounded Signals to Causal Affect: Proximal Inference with Hybrid Deep Learning for Wearable Emotion Recognition in Precision Mental Health",
+            "method": "Emotion recognition from wearable physiological sensors is fundamentally challenged by latent confounders. Physical activity, individual physiological variability, and environmental noise obscure genuine affective states and limit clinical ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "From Confounded Signals to Causal Affect: Proximal Inference with Hybrid Deep Learning for Wearable Emotion Recognition in Precision Mental Health",
+          "authors": [
+            "Nurudeen Jibrin",
+            "Gilbert I. O. Aimufua",
+            "Chaku E. Shammah"
+          ],
+          "author_details": [
+            {
+              "name": "Nurudeen Jibrin",
+              "affiliations": []
+            },
+            {
+              "name": "Gilbert I. O. Aimufua",
+              "affiliations": []
+            },
+            {
+              "name": "Chaku E. Shammah",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Wearable computer",
+            "Inference",
+            "Identifiability",
+            "Causality (physics)",
+            "Deep learning",
+            "Generalizability theory",
+            "Mental health",
+            "Noise (video)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-08",
+          "abstract": "Emotion recognition from wearable physiological sensors is fundamentally challenged by latent confounders. Physical activity, individual physiological variability, and environmental noise obscure genuine affective states and limit clinical interpretability. This study presents a causal multimodal deep learning framework that addresses these limitations through three integrated contributions. First, proximal causal inference establishes identifiability of individualised treatment effects under latent emotional confounding using observable physiological proxies. Second, a hybrid LSTM-CNN architecture with Hilbert-Schmidt Independence Criterion regularisation learns disentangled, time-varying representations of emotional states, separating affective signals from motion-related confounders. Third, an off-policy evaluation (OPE) protocol assesses the safety, robustness, calibration, and fairness of clinical decision policies derived from the learned causal representations. Empirical evaluation on the Wearable Stress and Affect Detection dataset demonstrates strong subject-independent performance, achieving 92.69% accuracy on an unseen evaluation subject. The proximal bridge variable exhibits meaningful variation across emotional conditions, enabling downstream treatment-effect estimation. OPE reveals that doubly robust estimation produces conservative policy values (0.454) compared to naïve inverse propensity scoring (1.051), with threshold optimisation yielding a 6.38% improvement over observational policies. Calibration analysis (ECE = 0.441) identifies the need for post-hoc recalibration before clinical deployment. The framework establishes that integrating causal inference with deep multimodal learning enhances interpretability, robustness, and clinical credibility of emotion-aware AI systems for precision mental health. Keywords: Emotion recognition; causal inference; LSTM-CNN; proximal inference; off-policy evaluation; physiological signals; precision mental health.",
+          "url": "https://doi.org/10.5281/zenodo.21848716",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.21848716",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: From Confounded Signals to Causal Affect: Proximal Inference with Hybrid Deep Learning for Wearable Emotion Recognition in Precision Mental Health",
+            "method": "Emotion recognition from wearable physiological sensors is fundamentally challenged by latent confounders. Physical activity, individual physiological variability, and environmental noise obscure genuine affective states and limit clinical ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Enhancing Performance and User Engagement in Everyday Stress Monitoring: A Context-Aware Active Reinforcement Learning Approach",
+          "authors": [
+            "Seyed Amir Hossein Aqajari",
+            "Ziyu Wang",
+            "Ali Tazarv",
+            "Sina Labbaf",
+            "Salar Jafarlou",
+            "Brenda Nguyen",
+            "Nikil Dutt",
+            "Marco Levorato",
+            "Amir M. Rahmani"
+          ],
+          "author_details": [
+            {
+              "name": "Seyed Amir Hossein Aqajari",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            },
+            {
+              "name": "Ziyu Wang",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            },
+            {
+              "name": "Ali Tazarv",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            },
+            {
+              "name": "Sina Labbaf",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            },
+            {
+              "name": "Salar Jafarlou",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            },
+            {
+              "name": "Brenda Nguyen",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            },
+            {
+              "name": "Nikil Dutt",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            },
+            {
+              "name": "Marco Levorato",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            },
+            {
+              "name": "Amir M. Rahmani",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Reinforcement",
+            "Context (archaeology)",
+            "Stress (linguistics)",
+            "Computer science",
+            "User engagement",
+            "Human–computer interaction",
+            "Psychology",
+            "World Wide Web",
+            "Social psychology",
+            "Artificial intelligence",
+            "Geography"
+          ],
+          "journal": "ACM Transactions on Computing for Healthcare",
+          "published": "2026-08-06",
+          "abstract": "Accurate stress monitoring in everyday settings requires informative labels without excessive user burden. Ecological Momentary Assessments (EMAs) provide self-reported labels, but poorly timed or frequent prompts can reduce their utility. This paper presents a context-aware active reinforcement learning algorithm for stress detection using photoplethysmography (PPG) from smartwatches and contextual data from smartphones. The algorithm uses the user's current context and response history to decide when to trigger an EMA. We first evaluate context-aware label selection in an offline study and then deploy the approach for real-time EMA triggering in a separate online cohort. Under the reported evaluation, Random Forest F1 increased from 0.21 for the offline cohort to 0.32 for the online cohort; adding contextual features increased it to 0.36. Personalization increased AUC by up to 0.10 across Random Forest, XGBoost, and SVM classifiers. These results support context-aware EMA scheduling and personalized modeling for real-world stress monitoring, while differences between the study cohorts limit causal attribution of the observed performance gains.",
+          "url": "https://doi.org/10.1145/3837063",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1145/3837063",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 6,
+          "score": 2.946,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Enhancing Performance and User Engagement in Everyday Stress Monitoring: A Context-Aware Active Reinforcement Learning Approach",
+            "method": "Accurate stress monitoring in everyday settings requires informative labels without excessive user burden. Ecological Momentary Assessments (EMAs) provide self-reported labels, but poorly timed or frequent prompts can reduce their utility. ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "X Y Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys.1",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys.1",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "X Y Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Energy-Aware Dynamic Tasking for Earth Observing Satellites With Deep Reinforcement Learning",
+          "authors": [
+            "Nicholas Nordlund",
+            "Tim Upthegrove",
+            "Leandros Tassiulas"
+          ],
+          "author_details": [
+            {
+              "name": "Nicholas Nordlund",
+              "affiliations": [
+                "Uninett (Norway)"
+              ]
+            },
+            {
+              "name": "Tim Upthegrove",
+              "affiliations": [
+                "Uninett (Norway)"
+              ]
+            },
+            {
+              "name": "Leandros Tassiulas",
+              "affiliations": [
+                "Uninett (Norway)"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Markov decision process",
+            "Cloud computing",
+            "Cadet",
+            "Scheduling (production processes)",
+            "Oracle",
+            "Markov process",
+            "Solver",
+            "Partially observable Markov decision process"
+          ],
+          "journal": "Digital Commons - USU (Utah State University)",
+          "published": "2026-08-26",
+          "abstract": "Dynamic tasking for agile Earth-observing satellites (AEOS) adapts preplanned schedules using onboard lookahead sensors to detect cloud cover that obscures targets. Existing approaches decompose tasking into sequential lookahead, maneuver, and capture stages, limiting their ability to manage tradeoffs over long time horizons. Instead, we formulate dynamic tasking as a constrained partially observable Markov decision process (CPOMDP) and introduce Cloud-Aware Dynamic Earth-observation Tasking (CADET), a deep reinforcement learning (DRL) framework that jointly selects maneuvering and sensing actions under resource constraints. We derive a closed-form model for the probability that a target is visible given a spatially aggregated lookahead observation, and we introduce CADET-PLAN, a hybrid variant that embeds a classical spacecraft scheduling solver within the learned policy. We compare CADET and CADET-PLAN in a simulated environment against two classical task schedulers: one with no cloud knowledge and an oracle with perfect cloud knowledge. Across twelve configurations of power budget and lookahead field of view, CADET and CADET-PLAN respectively close 42% and 56% of the performance gap relative to these baselines, while satisfying energy constraints.",
+          "url": "https://digitalcommons.usu.edu/smallsat/2026/all2026/73",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Energy-Aware Dynamic Tasking for Earth Observing Satellites With Deep Reinforcement Learning",
+            "method": "Dynamic tasking for agile Earth-observing satellites (AEOS) adapts preplanned schedules using onboard lookahead sensors to detect cloud cover that obscures targets. Existing approaches decompose tasking into sequential lookahead, maneuver, ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Data-driven personalization of just-in-time adaptive mental health intervention via two-stage reinforcement learning approach",
+          "authors": [
+            "Chanmin Park",
+            "Jeong-in Heo",
+            "Jin Young Park",
+            "Minjeong Jeon",
+            "Gangho Do",
+            "Sehwan Park",
+            "Dooyoung Jung",
+            "Min Hyuk Lim"
+          ],
+          "author_details": [
+            {
+              "name": "Chanmin Park",
+              "affiliations": [
+                "Ulsan National Institute of Science and Technology"
+              ]
+            },
+            {
+              "name": "Jeong-in Heo",
+              "affiliations": [
+                "Korea Advanced Institute of Science and Technology"
+              ]
+            },
+            {
+              "name": "Jin Young Park",
+              "affiliations": [
+                "Yonsei University",
+                "Severance Hospital",
+                "Yonsei University Health System"
+              ]
+            },
+            {
+              "name": "Minjeong Jeon",
+              "affiliations": [
+                "Yonsei University",
+                "Severance Hospital",
+                "Yonsei University Health System"
+              ]
+            },
+            {
+              "name": "Gangho Do",
+              "affiliations": []
+            },
+            {
+              "name": "Sehwan Park",
+              "affiliations": []
+            },
+            {
+              "name": "Dooyoung Jung",
+              "affiliations": [
+                "Korea Advanced Institute of Science and Technology"
+              ]
+            },
+            {
+              "name": "Min Hyuk Lim",
+              "affiliations": [
+                "Ulsan National Institute of Science and Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "Personalization",
+            "Reinforcement learning",
+            "Psychological intervention",
+            "Reinforcement",
+            "Robustness (evolution)",
+            "Intervention (counseling)",
+            "Mental health",
+            "Frame (networking)"
+          ],
+          "journal": "npj Digital Medicine",
+          "published": "2026-08-08",
+          "abstract": "Most digital mental health interventions still deliver uniform content, without accounting for how a user’s fluctuating psychological state interacts with their stable individual characteristics. We propose a two-stage offline reinforcement learning (RL) framework, trained on data from a six-week micro-randomized trial (N=190), that jointly considers both the timing and the type of intervention delivery, with the goal of maximizing the next-day improvement in a composite score of depression, anxiety, and stress. Under fitted Q evaluation (FQE), the learned policy showed a higher estimated value than both the behavior policy and a rule-based policy, and this ordering was reproduced across six off-policy estimators and several robustness analyses. The learned policy exhibited patterns that generate hypotheses about clinically meaningful decision rules: it tended to recommend content when individuals appeared to retain psychological resources to engage with it, and, notably, it assigned a relatively high estimated value to positive-psychology content even in lower-distress states, a pattern consistent with the Broaden-and-Build theory that positive emotional experiences proactively build resilience. We therefore frame these findings as hypothesis-generating: the approach offers a data-driven and explainable route toward personalized intervention rules that warrants prospective validation.",
+          "url": "https://doi.org/10.1038/s41746-026-03086-3",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1038/s41746-026-03086-3",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Data-driven personalization of just-in-time adaptive mental health intervention via two-stage reinforcement learning approach",
+            "method": "Most digital mental health interventions still deliver uniform content, without accounting for how a user’s fluctuating psychological state interacts with their stable individual characteristics. We propose a two-stage offline reinforcement",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Role-based multi-robot warehouse coordination with reinforcement learning assisted task selection",
+          "authors": [
+            "Sulemana Nantogma",
+            "Yakubu Imrana",
+            "Xiaorong Xu",
+            "Isaac Amankona Obiri",
+            "Anhui Liang"
+          ],
+          "author_details": [
+            {
+              "name": "Sulemana Nantogma",
+              "affiliations": [
+                "Yango University"
+              ]
+            },
+            {
+              "name": "Yakubu Imrana",
+              "affiliations": [
+                "Yango University"
+              ]
+            },
+            {
+              "name": "Xiaorong Xu",
+              "affiliations": [
+                "Yango University"
+              ]
+            },
+            {
+              "name": "Isaac Amankona Obiri",
+              "affiliations": [
+                "Quanzhou Normal University"
+              ]
+            },
+            {
+              "name": "Anhui Liang",
+              "affiliations": [
+                "Yango University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Heuristics",
+            "Task (project management)",
+            "Markov decision process",
+            "Asynchronous communication",
+            "Action selection",
+            "Encoding (memory)",
+            "Heuristic",
+            "Process (computing)"
+          ],
+          "journal": "Scientific Reports",
+          "published": "2026-08-08",
+          "abstract": "We study decentralised coordination in large-scale RMFS, where capacity-limited fleets fulfil orders under stochastic demand, congestion, and real-time constraints. We formalise this problem as a role-structured decentralised partially observable Semi-Markov decision process that extends the semi-Markov multi-agent framework to include role-conditioned macro-actions with role-dependent eligibility constraints and the quorum role switching mechanism for density-driven, decentralised role transitions. Unlike generic macro-action initiation sets, our eligibility gates enforce physical feasibility by dynamically disabling roles based on instantaneous load, capacity, and shelf-assignment state, while the quorum role switching balances local task demand against agent supply without centralised coordination. To optimise within this structured action space, we introduce HSC-Net, a hybrid actor–critic architecture that combines role-specific heuristic candidate generation with convolutional spatial encoding and cross-attention-based candidate scoring, supported by a centralised graph-attention critic over the warehouse sector graph. Our framework enables asynchronous multi-hop relay without fixed infrastructure or agent rendezvous, decoupling intermediate shelf transport from direct delivery. Extensive simulations across different warehouse scales demonstrate significant improvements in throughput, completion time, and congestion balance against rule-based heuristics and value-based deep Q-learning baselines.",
+          "url": "https://doi.org/10.1038/s41598-026-63868-3",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1038/s41598-026-63868-3",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Role-based multi-robot warehouse coordination with reinforcement learning assisted task selection",
+            "method": "We study decentralised coordination in large-scale RMFS, where capacity-limited fleets fulfil orders under stochastic demand, congestion, and real-time constraints. We formalise this problem as a role-structured decentralised partially obse",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Language-Grounded Hierarchical Reinforcement Learning for Semantic Emergency Vehicle Coordination in Mixed Traffic",
+          "authors": [
+            "Badri Raj Lamichhane",
+            "Suman Sharma",
+            "Jirawan Klaylee",
+            "Aueaphum Aueawatthanaphisut",
+            "Teerayut Horanont"
+          ],
+          "author_details": [
+            {
+              "name": "Badri Raj Lamichhane",
+              "affiliations": [
+                "Thammasat University",
+                "Tribhuvan University"
+              ]
+            },
+            {
+              "name": "Suman Sharma",
+              "affiliations": [
+                "Tribhuvan University"
+              ]
+            },
+            {
+              "name": "Jirawan Klaylee",
+              "affiliations": [
+                "Thammasat University"
+              ]
+            },
+            {
+              "name": "Aueaphum Aueawatthanaphisut",
+              "affiliations": [
+                "Thammasat University"
+              ]
+            },
+            {
+              "name": "Teerayut Horanont",
+              "affiliations": [
+                "Thammasat University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Intersection (aeronautics)",
+            "Markov decision process",
+            "Scalability",
+            "Inference",
+            "Decentralised system",
+            "Partially observable Markov decision process",
+            "Preemption",
+            "Leverage (statistics)"
+          ],
+          "journal": "International Journal of Intelligent Transportation Systems Research",
+          "published": "2026-08-08",
+          "abstract": "",
+          "url": "https://doi.org/10.1007/s13177-026-00693-y",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1007/s13177-026-00693-y",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Language-Grounded Hierarchical Reinforcement Learning for Semantic Emergency Vehicle Coordination in Mixed Traffic",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Reinforcement Learning Chemistry Laboratory (RLCL): An AlphaZero-Inspired Framework for Autonomous Chemical Synthesis and Discovery",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Markov decision process",
+            "Chemical process",
+            "Function (biology)",
+            "Bellman equation",
+            "Identification (biology)",
+            "Domain (mathematical analysis)",
+            "Process (computing)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-08",
+          "abstract": "This paper introduces the Reinforcement Learning Chemistry Laboratory (RLCL), a conceptual and theoretical framework that adapts the core principles of AlphaZero to the chemical domain for autonomous synthesis and molecular discovery. Traditional artificial intelligence in chemistry relies heavily on static dataset prediction, lacking strategic foresight and active exploratory capability. RLCL reformulates chemical synthesis as a Markov Decision Process defined by state spaces S, action spaces A, transition dynamics P, and a comprehensive reward function R. By integrating Monte Carlo Tree Search with a unified policy-value network, the RLCL agent evaluates potential experimental trajectories and balances exploration with exploitation in vast chemical space. Furthermore, a multi-objective reward function is established, incorporating the discovery probability reward, theoretical value reward, and industrial value reward to drive the identification of novel, scientifically significant, and practically scalable chemical entities. Theoretical analysis and architectural design demonstrate that RLCL effectively reduces sample complexity, overcomes reward sparsity, and provides a robust mathematical foundation for self-improving chemical intelligence.",
+          "url": "https://doi.org/10.5281/zenodo.21845483",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.21845483",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Reinforcement Learning Chemistry Laboratory (RLCL): An AlphaZero-Inspired Framework for Autonomous Chemical Synthesis and Discovery",
+            "method": "This paper introduces the Reinforcement Learning Chemistry Laboratory (RLCL), a conceptual and theoretical framework that adapts the core principles of AlphaZero to the chemical domain for autonomous synthesis and molecular discovery. Tradi",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Multi-Agent Reinforcement Learning for Online Traffic Scheduling in Time-Sensitive Application",
+          "authors": [
+            "Marcos Carvalho",
+            "Fatih Temiz",
+            "Shavbo Salehi",
+            "Melike Erol-Kantarci",
+            "Daniel F. Macedo"
+          ],
+          "author_details": [
+            {
+              "name": "Marcos Carvalho",
+              "affiliations": []
+            },
+            {
+              "name": "Fatih Temiz",
+              "affiliations": []
+            },
+            {
+              "name": "Shavbo Salehi",
+              "affiliations": []
+            },
+            {
+              "name": "Melike Erol-Kantarci",
+              "affiliations": []
+            },
+            {
+              "name": "Daniel F. Macedo",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.NI",
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-08-05",
+          "abstract": "Time-sensitive networking (TSN) is increasingly integrated into mobile edge computing (MEC) to support applications with stringent latency requirements, such as extended reality (XR). However, existing TSN scheduling solutions predominantly rely on static optimization techniques or centralized learning models that are based on fixed traffic patterns, limiting their effectiveness in dynamic environments. In practice, MEC environments often host multiple co-located XR traffic flows whose characteristics evolve over time, creating complex inter-queue dependencies that current schedulers fail to capture. Addressing these challenges requires adaptive, decentralized scheduling mechanisms capable of coordinating multiple TSN queues under varying traffic conditions. To this end, this paper proposes a multi-agent reinforcement learning (MARL) framework for TSN scheduling, where each TSN queue is modeled as an autonomous agent. The Heterogeneous-Agent Proximal Policy Optimization (HAPPO) algorithm is employed to explicitly model inter-agent dependencies and jointly optimize service delivery across queues. The simulation results demonstrate that the proposed approach reduces average frame waiting times by up to 26.8% and worst-case delays by approximately 16.8%, highlighting its effectiveness in dynamic XR-driven MEC scenarios.",
+          "url": "https://arxiv.org/abs/2608.05346v1",
+          "arxiv_id": "2608.05346v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning for Online Traffic Scheduling in Time-Sensitive Application",
+            "method": "Time-sensitive networking (TSN) is increasingly integrated into mobile edge computing (MEC) to support applications with stringent latency requirements, such as extended reality (XR). However, existing TSN scheduling solutions predominantly",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Calibrating Artificial Guilt: Neurally Grounded Reward Shaping for Prosocial Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Aaditya Mehta",
+            "Arya Shah"
+          ],
+          "author_details": [
+            {
+              "name": "Aaditya Mehta",
+              "affiliations": []
+            },
+            {
+              "name": "Arya Shah",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-08-05",
+          "abstract": "Cooperative multi-agent reinforcement learning often adds social terms to individual rewards, yet the scale of those terms is usually chosen by hand. We ask whether a guilt signal can instead be calibrated from human neural and behavioural data and transferred to artificial agents. Using the public SoDec responsibility fMRI dataset (40 participants), we fit a subject-fixed-effects regression of momentary-happiness changes on outcome-type counts and recover a guilt weight as the Partner-negative minus Social-negative contrast ($\\hat{w}=1.118$, Cohen's $d=0.214$). We embed this weight in a two-agent Social Lottery environment and train independent Proximal Policy Optimization actor-critics under four shaping regimes: neurally calibrated, uniform constant, zero (selfish), and a unit-coefficient oracle. Across 1{,}000 evaluation episodes per condition, the calibrated agents track the human Social safe-choice rate most closely ($0.459$ vs.\\ human $0.484$; $\\mathrm{KL}=0.0012$), while the other three conditions deviate by one to three orders of magnitude in KL. Human neurobehavioural priors can therefore act as quantitative constraints on prosocial reward shaping.",
+          "url": "https://arxiv.org/abs/2608.04663v1",
+          "arxiv_id": "2608.04663v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Calibrating Artificial Guilt: Neurally Grounded Reward Shaping for Prosocial Multi-Agent Reinforcement Learning",
+            "method": "Cooperative multi-agent reinforcement learning often adds social terms to individual rewards, yet the scale of those terms is usually chosen by hand. We ask whether a guilt signal can instead be calibrated from human neural and behavioural ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Calibrating Artificial Guilt: Neurally Grounded Reward Shaping for Prosocial Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Aaditya Mehta",
+            "Arya Shah"
+          ],
+          "author_details": [
+            {
+              "name": "Aaditya Mehta",
+              "affiliations": [
+                "Mahatma Gandhi University"
+              ]
+            },
+            {
+              "name": "Arya Shah",
+              "affiliations": [
+                "Indian Institute of Technology Gandhinagar"
+              ]
+            }
+          ],
+          "keywords": [
+            "Prosocial behavior",
+            "Reinforcement learning",
+            "Reinforcement",
+            "Social learning",
+            "Lottery",
+            "Ask price",
+            "Scale (ratio)",
+            "Regression"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-08-05",
+          "abstract": "Cooperative multi-agent reinforcement learning often adds social terms to individual rewards, yet the scale of those terms is usually chosen by hand. We ask whether a guilt signal can instead be calibrated from human neural and behavioural data and transferred to artificial agents. Using the public SoDec responsibility fMRI dataset (40 participants), we fit a subject-fixed-effects regression of momentary-happiness changes on outcome-type counts and recover a guilt weight as the Partner-negative minus Social-negative contrast ($\\hat{w}=1.118$, Cohen's $d=0.214$). We embed this weight in a two-agent Social Lottery environment and train independent Proximal Policy Optimization actor-critics under four shaping regimes: neurally calibrated, uniform constant, zero (selfish), and a unit-coefficient oracle. Across 1{,}000 evaluation episodes per condition, the calibrated agents track the human Social safe-choice rate most closely ($0.459$ vs.\\ human $0.484$; $\\mathrm{KL}=0.0012$), while the other three conditions deviate by one to three orders of magnitude in KL. Human neurobehavioural priors can therefore act as quantitative constraints on prosocial reward shaping.",
+          "url": "https://arxiv.org/abs/2608.04663",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Calibrating Artificial Guilt: Neurally Grounded Reward Shaping for Prosocial Multi-Agent Reinforcement Learning",
+            "method": "Cooperative multi-agent reinforcement learning often adds social terms to individual rewards, yet the scale of those terms is usually chosen by hand. We ask whether a guilt signal can instead be calibrated from human neural and behavioural ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "From Multi-Agent Reinforcement Learning to Agentic AI: A Comprehensive Literature Review of Algorithmic Advances and Decision-Analytic Implications (2020-2025)",
+          "authors": [
+            "Bharatendra Rai",
+            "Milena Popović"
+          ],
+          "author_details": [
+            {
+              "name": "Bharatendra Rai",
+              "affiliations": [
+                "University of Massachusetts Dartmouth"
+              ]
+            },
+            {
+              "name": "Milena Popović",
+              "affiliations": [
+                "University of Belgrade"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Generative grammar",
+            "Taxonomy (biology)",
+            "Benchmark (surveying)",
+            "Verifiable secret sharing",
+            "Software"
+          ],
+          "journal": "Applied Decision Analytics",
+          "published": "2026-08-05",
+          "abstract": "Agentic artificial intelligence has evolved from a research aspiration to a deployable technology between 2020 and 2025. This evolution rests on two intertwined research trajectories: the maturation of multi-agent reinforcement learning (MARL) for coordinated sequential decision-making, and the emergence of large language model (LLM)-based agent architectures integrating symbolic reasoning, tool use, and natural-language communication into cooperative multi-agent workflows. This literature review synthesizes 57 peer-reviewed and openly archived contributions published since 2019 across journals and reputable venues, organized into a thematic taxonomy spanning value-decomposition algorithms (QMIX, QPLEX, Weighted QMIX, FACMAC), trust-region and sequence-model policy methods (MAPPO, HAPPO, MAT, HARL, UPDeT), communication and role learning (NDQ, I2C, ROMA, RODE), credit assignment (LICA, Difference Rewards Policy Gradients, DOP), game-theoretic equilibrium solvers (Pipeline PSRO, JPSRO, Online Double Oracle), open-ended and mixed-motive learning (Open-Ended Learning Team, CICERO, alliance dilemmas), and LLM-based agentic frameworks (AutoGen, MetaGPT, CAMEL, AgentVerse, ChatDev, Generative Agents, Voyager, ReAct, Reflexion, Tree of Thoughts). We compare benchmark and reproducibility infrastructure (PettingZoo, EPyMARL benchmarking, SMAC variants), examine application domains (autonomous driving, multi-agent pathfinding, software engineering, scientific discovery), and discuss implications for applied decision analytics, including human-in-the-loop arbitration, risk-bounded coordination, and verifiable autonomy. We close with an agenda of open problems including non-stationarity, credit assignment under partial observability, alignment and safety in deceptive agents, evaluation under distribution shift, and integrating symbolic reasoning with reinforcement-learned policies to guide the next phase of agentic AI research.",
+          "url": "https://doi.org/10.66972/ada202734",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.66972/ada202734",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: From Multi-Agent Reinforcement Learning to Agentic AI: A Comprehensive Literature Review of Algorithmic Advances and Decision-Analytic Implications (2020-2025)",
+            "method": "Agentic artificial intelligence has evolved from a research aspiration to a deployable technology between 2020 and 2025. This evolution rests on two intertwined research trajectories: the maturation of multi-agent reinforcement learning (MA",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "History Matters: Meta-policy Delegation with Heterogeneous Multi-agent Reinforcement Learning",
+          "authors": [
+            "Ziqing Lu",
+            "Avinash Mudireddy",
+            "Sarra Alqahtani",
+            "Weiyu Xu"
+          ],
+          "author_details": [
+            {
+              "name": "Ziqing Lu",
+              "affiliations": []
+            },
+            {
+              "name": "Avinash Mudireddy",
+              "affiliations": [
+                "University of Iowa"
+              ]
+            },
+            {
+              "name": "Sarra Alqahtani",
+              "affiliations": [
+                "Virginia Tech - Wake Forest University School of Biomedical Engineering & Sciences",
+                "Wake Forest University"
+              ]
+            },
+            {
+              "name": "Weiyu Xu",
+              "affiliations": [
+                "University of Iowa"
+              ]
+            }
+          ],
+          "keywords": [
+            "Delegation",
+            "Delegate",
+            "Reinforcement learning",
+            "Process (computing)",
+            "Markov decision process",
+            "State (computer science)",
+            "Partially observable Markov decision process",
+            "Control (management)"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-08-04",
+          "abstract": "AI agents are expected to play an increasingly important role in future decision-making systems. In this paper, we consider collaborative systems composed of heterogeneous multi-agent systems (MAS), where their members have different capabilities and operating costs. We study how agents can delegate tasks to one another so that certain research tasks can be completed effectively under resource-constrained scenarios. We first develop a multi-agent reinforcement learning-based (MARL) delegation training that enables agents to make sequential delegation decisions while minimizing the total execution cost. We then extend this approach to MARL with prescribed delegation topologies. Furthermore, we introduce two new frameworks for collaboration and delegation in multi-agent systems. The first framework proposes that an agent's policy depends not only on the current state of the underlying Markov decision process but also on the interaction history, including previous joint actions. This history-dependent formulation can improve coordination even in fully observable environments, where conventional MARL methods typically restrict policies to depend only on the current state. The second framework proposes a novel, potentially multi-dimensional monetary mechanism to facilitate the collaboration and delegation for MAS.",
+          "url": "https://arxiv.org/abs/2608.03833",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: History Matters: Meta-policy Delegation with Heterogeneous Multi-agent Reinforcement Learning",
+            "method": "AI agents are expected to play an increasingly important role in future decision-making systems. In this paper, we consider collaborative systems composed of heterogeneous multi-agent systems (MAS), where their members have different capabi",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-Agent Reinforcement Learning Game Model for Market Economic Equilibrium Regulation",
+          "authors": [
+            "Fang Lin",
+            "Ruyue Cao"
+          ],
+          "author_details": [
+            {
+              "name": "Fang Lin",
+              "affiliations": [
+                "Beijing Language and Culture University"
+              ]
+            },
+            {
+              "name": "Ruyue Cao",
+              "affiliations": [
+                "Sun Yat-sen University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Robustness (evolution)",
+            "Convergence (economics)",
+            "Markov chain",
+            "Markov decision process",
+            "Dual (grammatical number)",
+            "Bounded function",
+            "Game theory"
+          ],
+          "journal": "Mathematics",
+          "published": "2026-08-04",
+          "abstract": "Market equilibrium regulation constitutes a dynamic decision-making problem on complex networks, where strategic firms, consumers, platforms, and regulators interact under uncertain demand, delayed price information, and networked spillovers. Although existing multi-agent reinforcement learning (MARL) methods succeed at decentralized adaptation, they typically maximize private rewards without encoding an explicit equilibrium residual or a rigorous link to market clearing. We introduce an Equilibrium-Residual Mirror Multi-Agent Reinforcement Learning (ERM-MARL) framework for regulating market equilibria. The framework formulates a regulated Markov potential game: agents learn pricing, production, and risk-control policies while a dual regulation layer penalizes violations of market clearing, price volatility, and network risk. An equilibrium-residual shaping mechanism aligns each agent’s policy gradient with a global regulation potential. The analysis establishes existence of equilibrium, uniqueness under strong monotonicity, bounded dual stability, and almost-sure convergence of the stochastic mirror actor–critic recursion. Simulation experiments on networked markets demonstrate faster equilibrium-residual decay, higher welfare, lower price volatility, and greater robustness compared with representative MARL and game-learning baselines.",
+          "url": "https://doi.org/10.3390/math14152777",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/math14152777",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning Game Model for Market Economic Equilibrium Regulation",
+            "method": "Market equilibrium regulation constitutes a dynamic decision-making problem on complex networks, where strategic firms, consumers, platforms, and regulators interact under uncertain demand, delayed price information, and networked spillover",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "History Matters: Meta-policy Delegation with Heterogeneous Multi-agent Reinforcement Learning",
+          "authors": [
+            "Ziqing Lu",
+            "Avinash Reddy Mudireddy",
+            "Sarra Alqahtani",
+            "Weiyu Xu"
+          ],
+          "author_details": [
+            {
+              "name": "Ziqing Lu",
+              "affiliations": []
+            },
+            {
+              "name": "Avinash Reddy Mudireddy",
+              "affiliations": []
+            },
+            {
+              "name": "Sarra Alqahtani",
+              "affiliations": []
+            },
+            {
+              "name": "Weiyu Xu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-08-04",
+          "abstract": "AI agents are expected to play an increasingly important role in future decision-making systems. In this paper, we consider collaborative systems composed of heterogeneous multi-agent systems (MAS), where their members have different capabilities and operating costs. We study how agents can delegate tasks to one another so that certain research tasks can be completed effectively under resource-constrained scenarios. We first develop a multi-agent reinforcement learning-based (MARL) delegation training that enables agents to make sequential delegation decisions while minimizing the total execution cost. We then extend this approach to MARL with prescribed delegation topologies. Furthermore, we introduce two new frameworks for collaboration and delegation in multi-agent systems. The first framework proposes that an agent's policy depends not only on the current state of the underlying Markov decision process but also on the interaction history, including previous joint actions. This history-dependent formulation can improve coordination even in fully observable environments, where conventional MARL methods typically restrict policies to depend only on the current state. The second framework proposes a novel, potentially multi-dimensional monetary mechanism to facilitate the collaboration and delegation for MAS.",
+          "url": "https://arxiv.org/abs/2608.03833v1",
+          "arxiv_id": "2608.03833v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: History Matters: Meta-policy Delegation with Heterogeneous Multi-agent Reinforcement Learning",
+            "method": "AI agents are expected to play an increasingly important role in future decision-making systems. In this paper, we consider collaborative systems composed of heterogeneous multi-agent systems (MAS), where their members have different capabi",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Heterogeneous Multi-Agent Reinforcement Learning for Radio Resource Management under Coupled Finite-Horizon Constraints",
+          "authors": [
+            "Yeonseo Jeong",
+            "Wonhyeok Ko",
+            "Sungweon Hong",
+            "Songnam Hong"
+          ],
+          "author_details": [
+            {
+              "name": "Yeonseo Jeong",
+              "affiliations": []
+            },
+            {
+              "name": "Wonhyeok Ko",
+              "affiliations": []
+            },
+            {
+              "name": "Sungweon Hong",
+              "affiliations": []
+            },
+            {
+              "name": "Songnam Hong",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-08-03",
+          "abstract": "Maximizing throughput under proportional fairness in dense wireless networks requires jointly managing user association, scheduling, base station (BS) activation, and handover control under hard finite-horizon energy and handover budgets, which induces a fundamental tension between BS-side energy management and user-side handover regulation. While multi-agent reinforcement learning (MARL) is a natural framework for such distributed sequential control, its application here faces two difficulties: finite-horizon budget constraints cannot be evaluated at each time slot, and the nonlinear proportional fairness utility admits no principled per-slot decomposition. We propose HeLyMARL, a Lyapunov-embedded heterogeneous MARL framework that resolves both via drift-plus-penalty decomposition with virtual queues. The energy and handover constraint pressures are internalized directly into a unified per-slot reward, converting the constrained finite-horizon problem into an unconstrained MARL problem. Comparison against two Lagrangian-based alternatives reveals a timescale separation: Lagrangian relaxation regulates constraints only across training episodes, whereas the virtual queues of HeLyMARL bound cumulative budget consumption at every partial horizon within an episode, a pacing guarantee beyond the reach of greedy Lyapunov-based control. Simulations show that HeLyMARL is the only method that sustains the throughput-fairness balance together with uninterrupted service throughout the horizon, outperforming conventional MARL, Lyapunov-based, and constrained MARL benchmarks without premature budget exhaustion.",
+          "url": "https://arxiv.org/abs/2608.01745v1",
+          "arxiv_id": "2608.01745v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Heterogeneous Multi-Agent Reinforcement Learning for Radio Resource Management under Coupled Finite-Horizon Constraints",
+            "method": "Maximizing throughput under proportional fairness in dense wireless networks requires jointly managing user association, scheduling, base station (BS) activation, and handover control under hard finite-horizon energy and handover budgets, w",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": []
+    },
+    {
+      "id": "causal-llm",
+      "name": "Causal Inference in Large Language Models",
+      "papers": [
+        {
+          "title": "Right Reset: Chunking by Prefix Removal",
+          "authors": [
+            "Mike Vegeto"
+          ],
+          "author_details": [
+            {
+              "name": "Mike Vegeto",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.CL",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-08-05",
+          "abstract": "Removing the left context from a causal language model reveals a useful kind of boundary: an edge where the model processes the same right-hand tokens with little change. We turn this observation into prefix-removal probing and introduce Right Reset (RR), which measures preservation of the right-hand hidden-state trajectory. A dynamic program converts RR edge scores into variable-length chunks. On flattened text formed by concatenating topically similar records after deleting their separators and layout, RR recovers 47.7% of the original records as clean units, versus 25.9% for a BGE embedding boundary, the strongest tested conventional baseline without task-specific model training. The gain persists after rendering and OCR. Passive scores from the same Qwen3-4B layer and direct prompting of a same-scale instruction model perform substantially worse on flattened records. Across six language models, RR-selected cuts also undergo consistently less local output disruption than unselected candidate edges. An observed-token likelihood-ratio readout is competitive in some architectures, indicating that the central contribution is the intervention: context dependence itself can provide a boundary signal when surface structure is weak.",
+          "url": "https://arxiv.org/abs/2608.04330v1",
+          "arxiv_id": "2608.04330v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Right Reset: Chunking by Prefix Removal",
+            "method": "Removing the left context from a causal language model reveals a useful kind of boundary: an edge where the model processes the same right-hand tokens with little change. We turn this observation into prefix-removal probing and introduce Ri",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "causal-text",
+      "name": "Causal Inference in Text Analysis",
+      "papers": []
+    }
+  ]
+}
