@@ -1,0 +1,1682 @@
+{
+  "week": "2026-W34",
+  "generated_at": "2026-08-17T02:18:45.271189Z",
+  "topics": [
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "papers": [
+        {
+          "title": "From Prompts to Constructs: A Dual-Validity Framework for Large Language Model Research in Psychology",
+          "authors": [
+            "Zhicheng Lin"
+          ],
+          "author_details": [
+            {
+              "name": "Zhicheng Lin",
+              "affiliations": [
+                "Yonsei University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Dual (grammatical number)",
+            "Psychology",
+            "Dual language",
+            "Applied psychology",
+            "Social psychology",
+            "Cognitive psychology",
+            "Cognitive science",
+            "Linguistics",
+            "Mathematics education",
+            "Philosophy"
+          ],
+          "journal": "Annual Review of Psychology",
+          "published": "2026-08-10",
+          "abstract": "Large language models (LLMs) are entering psychological research both as tools and as objects of inquiry. Yet many studies apply human instruments to LLMs without establishing that the outputs are reliable or interpretable, raising the risk of measurement phantoms-statistical regularities mistaken for genuine psychological phenomena. This review argues that robust AI psychological research requires integrating two methodological traditions: psychometric validation of what a score means and causal inference standards for what the results warrant. It develops a dual-validity framework in which evidentiary demands scale with scientific ambition: from tool use through behavioral characterization and human simulation to cognitive modeling. Classifying text may require only accuracy and reliability; claiming that an LLM simulates anxiety or illuminates cognitive mechanisms requires additional evidence, including construct validity evidence and experimental controls. Progress depends on developing computational analogs of psychological constructs rather than assuming human measures automatically apply to language models.",
+          "url": "https://doi.org/10.1146/annurev-psych-100925-034807",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1146/annurev-psych-100925-034807",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 2,
+          "score": 1.099,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: From Prompts to Constructs: A Dual-Validity Framework for Large Language Model Research in Psychology",
+            "method": "Large language models (LLMs) are entering psychological research both as tools and as objects of inquiry. Yet many studies apply human instruments to LLMs without establishing that the outputs are reliable or interpretable, raising the risk",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Discovering Efficient and Explainable Communication Topologies for LLM-based Multi-Agent Systems via Causal Inference",
+          "authors": [
+            "Junzhi Li",
+            "Peng He",
+            "Qirui Ji",
+            "Wei Wang",
+            "Lixiang Liu",
+            "Chuxiong Sun"
+          ],
+          "author_details": [
+            {
+              "name": "Junzhi Li",
+              "affiliations": []
+            },
+            {
+              "name": "Peng He",
+              "affiliations": []
+            },
+            {
+              "name": "Qirui Ji",
+              "affiliations": []
+            },
+            {
+              "name": "Wei Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Lixiang Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Chuxiong Sun",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA",
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-08-13",
+          "abstract": "The performance of large language model (LLM)-based multi-agent systems (MAS) largely depends on effective communication topologies. Existing topology generation methods, however, typically learn communication topologies through black-box optimization driven solely by task-level rewards. While effective, such optimization provides little insight into why particular communication edges are selected, making it difficult to identify the critical communication subgraphs responsible for successful collaboration. To address this limitation, we propose E2-Explainer, a model-agnostic framework for providing interpretable explanations of communication topologies produced by arbitrary topology generators. Specifically, we formulate topology explanation as a causal attribution problem that identifies compact communication subgraphs supported by edge-level evidence of task preservation. We obtain this evidence with a Granger-style objective that measures how masking each communication channel changes the task outcome and the stability of the final response. The resulting budgeted subgraphs are then distilled into an amortized explainer, enabling efficient post-hoc explanation without repeated edge-level evaluations at deployment. Extensive experiments on multiple reasoning and coding benchmarks demonstrate that E2-Explainer identifies critical communication subgraphs that preserve successful collaboration. These subgraphs can also be executed directly to prune redundant communication edges, substantially reducing communication costs while maintaining competitive task performance.",
+          "url": "https://arxiv.org/abs/2608.12921v2",
+          "arxiv_id": "2608.12921v2",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Discovering Efficient and Explainable Communication Topologies for LLM-based Multi-Agent Systems via Causal Inference",
+            "method": "The performance of large language model (LLM)-based multi-agent systems (MAS) largely depends on effective communication topologies. Existing topology generation methods, however, typically learn communication topologies through black-box o",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "The Marketing Context Graph: A Governed Substrate for Causal Marketing Measurement and Auditable Decision Provenance - Causal inference as a governed layer on a bitemporal context graph",
+          "authors": [
+            "Anil Singh",
+            "Nair Rajeev"
+          ],
+          "author_details": [
+            {
+              "name": "Anil Singh",
+              "affiliations": [
+                "Sight and Life"
+              ]
+            },
+            {
+              "name": "Nair Rajeev",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Graph",
+            "Context (archaeology)",
+            "Inference",
+            "Causal inference",
+            "Operator (biology)",
+            "Counterfactual thinking",
+            "Attribution",
+            "Bayesian network",
+            "Dependency graph",
+            "Domain (mathematical analysis)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-13",
+          "abstract": "Marketing decisions increasingly depend on two capabilities that have evolved separately: causal marketing measurement (distinguishing real advertising effects from the correlational patterns in marketing data, the domain of Causal AI) and governed, graph-based context for the AI agents now trusted to act on those effects, the domain of Agentic AI. Both are limited by the same architectural gap. Problem 1: measurement is correlational by construction (not only in media-mix models but in touch-based attribution and observational methods generally), so a channel’s direct, indirect, and total effects are hard to separate and to calibrate against experiments. Problem 2: the agents acting on those effects lack persistent, governed, historically accurate context, and to answer questions such as which campaigns to scale or how to optimize the mix they must reason over incremental effects, uncertainty, evidence strength, applicable populations, and decision lineage, not language. We introduce the Marketing Context Graph (MCG), a bi-temporal, governed property graph, formally a tuple G = (E, R, γE, γR), in which campaign entities, spend vectors, conversion outcomes, and external macro factors are connected by typed, directional, causally identified edges carrying bi-temporal attributes and reified decision traces. We give it a precise set-theoretic semantics, define a point-in-time snapshot operator Σ(tv, tr), and prove it is free of look-ahead contamination. Crucially, the MCG is a governed substrate, not a new estimator: the measurement methods applied on it are classical: mediation / path analysis, inverse-probability weighting, and transport. We (i) inject an experiment-identified halo edge as an informative structural prior into a Gaussian-conjugate Bayesian MMM, showing it reduces posterior variance along the collinear directions (Remark 1) while separating that variance claim from identification (Proposition 2); (ii) compose each channel’s total effect by traversing the graph, so budget decisions improve as cross-channel mediation grows and gain nothing when no structure exists; (iii) reconstruct complete, auditable decision provenance; and (iv) transport an identified edge across populations exactly when the graph’s selection diagram licenses it, and refuse when it does not. Our evaluation is decision-centric rather than fit-centric. Across 8,000 simulated budget decisions the graph cuts budget-decision regret by up to 43% as cross-channel mediation grows (a paired within-replication reduction); look-ahead-free backtesting exposes 70% over-investment that a flat store conceals; the graph answers the provenance queries that require multi-hop, policy, temporal, and audit structure a flat fact/vector store cannot represent; and governed transport stays low-error as populations diverge, where naive transfer’s error grows linearly with divergence. Evidence is synthetic by design, isolating each mechanism against a known oracle; all results are reproducible from released code.",
+          "url": "https://doi.org/10.5281/zenodo.21915157",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.21915157",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: The Marketing Context Graph: A Governed Substrate for Causal Marketing Measurement and Auditable Decision Provenance - Causal inference as a governed layer on a bitemporal context graph",
+            "method": "Marketing decisions increasingly depend on two capabilities that have evolved separately: causal marketing measurement (distinguishing real advertising effects from the correlational patterns in marketing data, the domain of Causal AI) and ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "The Marketing Context Graph: A Governed Substrate for Causal Marketing Measurement and Auditable Decision Provenance - Causal inference as a governed layer on a bitemporal context graph",
+          "authors": [
+            "Anil Singh",
+            "Nair Rajeev"
+          ],
+          "author_details": [
+            {
+              "name": "Anil Singh",
+              "affiliations": [
+                "Sight and Life"
+              ]
+            },
+            {
+              "name": "Nair Rajeev",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Graph",
+            "Context (archaeology)",
+            "Inference",
+            "Causal inference",
+            "Operator (biology)",
+            "Counterfactual thinking",
+            "Attribution",
+            "Bayesian network",
+            "Dependency graph",
+            "Domain (mathematical analysis)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-13",
+          "abstract": "Marketing decisions increasingly depend on two capabilities that have evolved separately: causal marketing measurement (distinguishing real advertising effects from the correlational patterns in marketing data, the domain of Causal AI) and governed, graph-based context for the AI agents now trusted to act on those effects, the domain of Agentic AI. Both are limited by the same architectural gap. Problem 1: measurement is correlational by construction (not only in media-mix models but in touch-based attribution and observational methods generally), so a channel’s direct, indirect, and total effects are hard to separate and to calibrate against experiments. Problem 2: the agents acting on those effects lack persistent, governed, historically accurate context, and to answer questions such as which campaigns to scale or how to optimize the mix they must reason over incremental effects, uncertainty, evidence strength, applicable populations, and decision lineage, not language. We introduce the Marketing Context Graph (MCG), a bi-temporal, governed property graph, formally a tuple G = (E, R, γE, γR), in which campaign entities, spend vectors, conversion outcomes, and external macro factors are connected by typed, directional, causally identified edges carrying bi-temporal attributes and reified decision traces. We give it a precise set-theoretic semantics, define a point-in-time snapshot operator Σ(tv, tr), and prove it is free of look-ahead contamination. Crucially, the MCG is a governed substrate, not a new estimator: the measurement methods applied on it are classical: mediation / path analysis, inverse-probability weighting, and transport. We (i) inject an experiment-identified halo edge as an informative structural prior into a Gaussian-conjugate Bayesian MMM, showing it reduces posterior variance along the collinear directions (Remark 1) while separating that variance claim from identification (Proposition 2); (ii) compose each channel’s total effect by traversing the graph, so budget decisions improve as cross-channel mediation grows and gain nothing when no structure exists; (iii) reconstruct complete, auditable decision provenance; and (iv) transport an identified edge across populations exactly when the graph’s selection diagram licenses it, and refuse when it does not. Our evaluation is decision-centric rather than fit-centric. Across 8,000 simulated budget decisions the graph cuts budget-decision regret by up to 43% as cross-channel mediation grows (a paired within-replication reduction); look-ahead-free backtesting exposes 70% over-investment that a flat store conceals; the graph answers the provenance queries that require multi-hop, policy, temporal, and audit structure a flat fact/vector store cannot represent; and governed transport stays low-error as populations diverge, where naive transfer’s error grows linearly with divergence. Evidence is synthetic by design, isolating each mechanism against a known oracle; all results are reproducible from released code.",
+          "url": "https://doi.org/10.5281/zenodo.21522810",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.21522810",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: The Marketing Context Graph: A Governed Substrate for Causal Marketing Measurement and Auditable Decision Provenance - Causal inference as a governed layer on a bitemporal context graph",
+            "method": "Marketing decisions increasingly depend on two capabilities that have evolved separately: causal marketing measurement (distinguishing real advertising effects from the correlational patterns in marketing data, the domain of Causal AI) and ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal inference for group-contaminated structured outcomes: observable quotients, lossless reduction and exact randomization inference",
+          "authors": [
+            "Usef Faghihi",
+            "Amir Saki"
+          ],
+          "author_details": [
+            {
+              "name": "Usef Faghihi",
+              "affiliations": []
+            },
+            {
+              "name": "Amir Saki",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME",
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-08-12",
+          "abstract": "Structured potential outcomes such as microscopy images may be recorded after an unknown, unit-specific transformation. If that transformation can depend on treatment, covariates or the intrinsic outcome, raw-coordinate analyses may mix biological effects with acquisition geometry. We study the unrestricted observation model X = Γ . Y(A) and characterize its observable information: a target is uniformly recoverable exactly when it is constant on group orbits, while a Borel maximal invariant retains every measurable invariant target. We then distinguish observability from statistical losslessness. A quotient-faithful reconstruction theorem shows that quotient reduction is sufficient for the full transformed experiment exactly when the conditional law of the raw observation given treatment, covariates and the quotient has a parameter-free version. Conditional Haar contamination on a compact group yields Blackwell equivalence as a special case; it is not imposed in the main model. We also separate independent site-specific product actions from shared diagonal actions and show why componentwise canonicalization can discard relative cross-site information. Under explicit metric and kernel regularity, an approximate-contamination theorem bounds quotient-law Wasserstein error and the induced perturbation of population maximum mean discrepancy. For finite-support multichannel lattice images, we construct a maximal invariant under integer translations and quarter turns, combine its characteristic Gaussian kernel with a complete paired-swap test, and retain the original simulations and RxRx1 HUVEC study. Under the sharp null, the quotient test rejected in 0.052 of simulation replicates; at unit effect strength its power was 0.992. The primary RxRx1 contrast had an enumerated paired-swap p-value of 0.0078.",
+          "url": "https://arxiv.org/abs/2608.11954v1",
+          "arxiv_id": "2608.11954v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal inference for group-contaminated structured outcomes: observable quotients, lossless reduction and exact randomization inference",
+            "method": "Structured potential outcomes such as microscopy images may be recorded after an unknown, unit-specific transformation. If that transformation can depend on treatment, covariates or the intrinsic outcome, raw-coordinate analyses may mix bio",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Bias-robust causal inference for panel data",
+          "authors": [
+            "Angelos Alexopoulos"
+          ],
+          "author_details": [
+            {
+              "name": "Angelos Alexopoulos",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "econ.EM",
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-08-10",
+          "abstract": "We develop a bias-robust causal inference method for observational panel data settings. Such methods typically impute untreated outcomes, so counterfactual error passes straight into the estimated treatment effect while conventional standard errors ignore it. We adapt bias-aware minimax methods, developed for estimating regression coefficients in factor-model panels, to a causal target: the average effect on the treated, which has to be imputed and may vary across units and periods. The estimator corrects the imputed counterfactual with weighted untreated residuals and reports intervals with an explicit allowance for the error that remains. In simulations the proposed method holds nominal coverage where alternatives such as the generalized synthetic control have almost none, especially when the factor rank is underfitted, at the cost of wider intervals. By applying the developed methodology to real data the estimated effect remains significant for counterfactual errors nearly twice the size that the design's placebos typically exhibit.",
+          "url": "https://arxiv.org/abs/2608.09837v1",
+          "arxiv_id": "2608.09837v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Bias-robust causal inference for panel data",
+            "method": "We develop a bias-robust causal inference method for observational panel data settings. Such methods typically impute untreated outcomes, so counterfactual error passes straight into the estimated treatment effect while conventional standar",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Constraints on Causal Inference as Experiment Comparison: A Framework for Identification, Transportability, and Policy Learning",
+          "authors": [
+            "Deniz Akdemir"
+          ],
+          "author_details": [
+            {
+              "name": "Deniz Akdemir",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Identification (biology)",
+            "Observational study",
+            "Constructive",
+            "Inference",
+            "Unification",
+            "Marginal structural model",
+            "Mathematical proof",
+            "Causal model"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-10",
+          "abstract": "Causal inference seeks to predict the outcome of interventions from observational data \\emph{under explicit causal assumptions}---for instance, predicting patient recovery under a new drug protocol based on historical medical records, estimating the effects of genomic interventions on gene expression, or evaluating recommendation algorithms before deployment. In much of the literature, this problem is framed via graphical models and identification criteria that appear distinct from standard statistical inference. We propose a unification based on the classical theory of statistical experiments and their comparison. Working within the standard structural causal model (SCM) and $do(\\cdot)$ semantics, we demonstrate that causal inference can be framed as the problem of comparing an observational experiment $\\mathcal{E}_{obs}$ to an interventional experiment $\\mathcal{E}_{do}$, treating structural continuity as an explicit modeling assumption. The ``causal gap'' is quantified by the experiment \\textbf{deficiency} $\\delta(\\mathcal{E}_{obs}, \\mathcal{E}_{do})$ \\citep{lecam2012asymptotics}. We show that classical identification criteria (back-door, front-door) are constructive theorems asserting $\\delta = 0$ with explicit kernels; detailed proofs appear in the appendices. When identification fails, we establish sharp lower bounds on $\\delta$ proportional to the strength of confounding. Furthermore, we extend this framework to families of interventions, establishing uniform bounds for policy learning, and provide a finite-sample theory for learning causal kernels from data. In this view, do-calculus can be read as kernel-existence results, and policy safety bounds follow directly from deficiency-based risk transfer.",
+          "url": "https://doi.org/10.5281/zenodo.18367346",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.18367346",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Constraints on Causal Inference as Experiment Comparison: A Framework for Identification, Transportability, and Policy Learning",
+            "method": "Causal inference seeks to predict the outcome of interventions from observational data \\emph{under explicit causal assumptions}---for instance, predicting patient recovery under a new drug protocol based on historical medical records, estim",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Constraints on Causal Inference as Experiment Comparison: A Framework for Identification, Transportability, and Policy Learning",
+          "authors": [
+            "Deniz Akdemir"
+          ],
+          "author_details": [
+            {
+              "name": "Deniz Akdemir",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Identification (biology)",
+            "Constructive",
+            "Observational study",
+            "Inference",
+            "Unification",
+            "Marginal structural model",
+            "Mathematical proof",
+            "Causal model"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-10",
+          "abstract": "Causal inference seeks to predict the outcome of interventions from observational data \\emph{under explicit causal assumptions}---for instance, predicting patient recovery under a new drug protocol based on historical medical records, estimating the effects of genomic interventions on gene expression, or evaluating recommendation algorithms before deployment. In much of the literature, this problem is framed via graphical models and identification criteria that appear distinct from standard statistical inference. We propose a unification based on the classical theory of statistical experiments and their comparison. Working within the standard structural causal model (SCM) and $do(\\cdot)$ semantics, we demonstrate that causal inference can be framed as the problem of comparing an observational experiment $\\mathcal{E}_{obs}$ to an interventional experiment $\\mathcal{E}_{do}$, treating structural continuity as an explicit modeling assumption. The ``causal gap'' is quantified by the experiment \\textbf{deficiency} $\\delta(\\mathcal{E}_{obs}, \\mathcal{E}_{do})$ \\citep{lecam2012asymptotics}. We show that classical identification criteria (back-door, front-door) are constructive theorems asserting $\\delta = 0$ with explicit kernels; detailed proofs appear in the appendices. When identification fails, we establish sharp lower bounds on $\\delta$ proportional to the strength of confounding. Furthermore, we extend this framework to families of interventions, establishing uniform bounds for policy learning, and provide a finite-sample theory for learning causal kernels from data. In this view, do-calculus can be read as kernel-existence results, and policy safety bounds follow directly from deficiency-based risk transfer.",
+          "url": "https://doi.org/10.5281/zenodo.21877511",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.21877511",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Constraints on Causal Inference as Experiment Comparison: A Framework for Identification, Transportability, and Policy Learning",
+            "method": "Causal inference seeks to predict the outcome of interventions from observational data \\emph{under explicit causal assumptions}---for instance, predicting patient recovery under a new drug protocol based on historical medical records, estim",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ope",
+      "name": "Off-Policy Evaluation",
+      "papers": [
+        {
+          "title": "Optimizing Personalized Brand Touchpoint Selection: Off-Policy Evaluation, Model Ranking, and Profit-Driven Targeting in Multi-Treatment Marketing Campaigns",
+          "authors": [
+            "Y. W. Zhu"
+          ],
+          "author_details": [
+            {
+              "name": "Y. W. Zhu",
+              "affiliations": [
+                "Jiangnan University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Benchmarking",
+            "Budget constraint",
+            "Estimator",
+            "Robustness (evolution)",
+            "Clipping (morphology)",
+            "Oracle",
+            "Personalized marketing",
+            "Profit (economics)"
+          ],
+          "journal": "Advanced Electromagnetics",
+          "published": "2026-08-13",
+          "abstract": "Multi-treatment uplift modeling estimates the incremental impact of each brand action relative to a baseline, enabling scalable and data-driven personalized brand communication. This paper presents a reproducible benchmarking study of lightweight multi-treatment uplift learners across three marketing datasets covering different brand communication contexts: Hillstrom email creative selection, Bank contact channel allocation, and Starbucks promotional offer personalization. Semi-synthetic scenarios with known oracle policy values are also constructed. Learned policies are evaluated using matched-only estimation and three off-policy estimators, namely IPS, SNIPS, and doubly robust estimation. Evaluation is combined with overlap diagnostics, including clipping rate, effective sample size, and maximum importance weight, as well as sensitivity analysis over clipping and trimming choices. Across real datasets, the doubly robust estimator changes model selection in a non-trivial way. On Hillstrom, matched-only evaluation selects MMOALR, while doubly robust evaluation selects XLearner-LR, showing rank reversal. On Bank and Starbucks, doubly robust and matched-only evaluation agree on the winning model but differ materially in estimated profit levels. The study provides a practical evaluation framework for credible, cost-effective personalized touchpoint allocation and campaign budget optimization.",
+          "url": "https://doi.org/10.7716/aem.v15i3.3804",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.7716/aem.v15i3.3804",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Optimizing Personalized Brand Touchpoint Selection: Off-Policy Evaluation, Model Ranking, and Profit-Driven Targeting in Multi-Treatment Marketing Campaigns",
+            "method": "Multi-treatment uplift modeling estimates the incremental impact of each brand action relative to a baseline, enabling scalable and data-driven personalized brand communication. This paper presents a reproducible benchmarking study of light",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Removing Temporal Note Redundancy Improves Multimodal Reinforcement Learning for Medicine",
+          "authors": [
+            "Chenran Weng",
+            "Joo Seung Lee",
+            "Malini Mahendra",
+            "Anil Aswani"
+          ],
+          "author_details": [
+            {
+              "name": "Chenran Weng",
+              "affiliations": []
+            },
+            {
+              "name": "Joo Seung Lee",
+              "affiliations": []
+            },
+            {
+              "name": "Malini Mahendra",
+              "affiliations": []
+            },
+            {
+              "name": "Anil Aswani",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-08-14",
+          "abstract": "Mechanical ventilation is a critical life-support intervention, requiring dynamic adjustments to ventilator settings as a patient's condition evolves. While reinforcement learning (RL) offers a promising framework for optimizing these sequential decisions, standard approaches rely primarily on structured electronic health record (EHR) data, missing crucial clinical context recorded in free-text notes. Integrating longitudinal clinical notes into RL state spaces is challenging because notes are heavily inflated by temporal redundancy, such as copy-forward text, templating, and repetitive documentation, which dilutes time-local updates and degrades state representation quality. To address this, we propose a redundancy-aware multimodal state representation framework that explicitly removes duplicated note text over time before policy learning. We evaluate two computationally efficient temporal decomposition strategies for removing duplicated note text: (1) an embedding-space decomposition using singular value decomposition on local history subspaces, and (2) an interpretable sentence-level diff operation that filters out previously documented sentences before text encoding. Using real-world ICU data, we demonstrate that state representations constructed by stripping temporal note redundancy significantly outperform both structured-only and raw-note baselines across multiple off-policy evaluation methods (Model-Based Rollouts, Fitted Q-Evaluation, Weighted Importance Sampling, and Weighted Doubly Robust Evaluation). Our findings show that explicitly isolating new clinical information from repeated note text yields higher-quality state representations and directly improves RL performance for clinical decision support.",
+          "url": "https://arxiv.org/abs/2608.14157v1",
+          "arxiv_id": "2608.14157v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Removing Temporal Note Redundancy Improves Multimodal Reinforcement Learning for Medicine",
+            "method": "Mechanical ventilation is a critical life-support intervention, requiring dynamic adjustments to ventilator settings as a patient's condition evolves. While reinforcement learning (RL) offers a promising framework for optimizing these seque",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "When Can You Trust Offline Evaluation of Equal-Cost Top-k Allocation? A Controlled, Reproducible Benchmark and Practitioner's Guide",
+          "authors": [
+            "Binshuang Li"
+          ],
+          "author_details": [
+            {
+              "name": "Binshuang Li",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "stat.ME",
+            "stat.ML"
+          ],
+          "journal": null,
+          "published": "2026-08-12",
+          "abstract": "Organizations decide whom to treat under a budget and want to know what a targeting rule would have earned before deploying it. Off-policy evaluation promises this from logged data, but the deployable rule is a deterministic top-k policy: it removes all averaging over actions, so weak overlap hits the estimate directly. We benchmark six estimators across five datasets and two known-effect sweeps, and validate the mechanisms against a non-simulated paired reference. First, weak overlap is governed by logger-target action alignment, not by logging sharpness alone: what governs support is the logger's probability of the target's actions. Sharpening a logger built from the target's own score barely moves overlap over the tested range; action-level disagreement collapses it. Effective sample size ranks this risk across logging environments, but is weak at ranking candidates within the single log a practitioner holds, and its cut point does not transfer. Second, the optimizer's curse is not fixed by cross-fitting the outcome nuisance. When the rule is fit on the data used to evaluate it, cross-fitting the nuisance alone leaves the reuse bias in place and makes it worse. Honest policy-level splitting avoids the reuse by targeting the learning procedure's value -- a change of estimand, not a de-biasing of the full-sample policy. Third, propensity-estimation error is the largest degradation we measure: an out-of-fold estimate hurts IPS more than any other stress we apply, leaves doubly-robust estimation almost unchanged, and can invert the overlap diagnostic itself. Logging is synthesized and propensities floored at 0.02, so every failure occurs with bounded weights; the floor also reduces the two tuned hybrids to their untuned parents, leaving four practically distinct estimators, and all exact-value surfaces are synthetic or semi-synthetic. We release the benchmark; public data only.",
+          "url": "https://arxiv.org/abs/2608.12489v1",
+          "arxiv_id": "2608.12489v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: When Can You Trust Offline Evaluation of Equal-Cost Top-k Allocation? A Controlled, Reproducible Benchmark and Practitioner's Guide",
+            "method": "Organizations decide whom to treat under a budget and want to know what a targeting rule would have earned before deploying it. Off-policy evaluation promises this from logged data, but the deployable rule is a deterministic top-k policy: i",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "When Can You Trust Offline Evaluation of Equal-Cost Top-k Allocation? A Controlled, Reproducible Benchmark and Practitioner's Guide",
+          "authors": [
+            "Binshuang Li"
+          ],
+          "author_details": [
+            {
+              "name": "Binshuang Li",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Benchmark (surveying)",
+            "Estimator",
+            "Ranking (information retrieval)",
+            "Reuse",
+            "Sample (material)",
+            "Point (geometry)",
+            "Rank (graph theory)",
+            "Pruning",
+            "Filter (signal processing)",
+            "Outlier"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-08-12",
+          "abstract": "Organizations decide whom to treat under a budget and want to know what a targeting rule would have earned before deploying it. Off-policy evaluation promises this from logged data, but the deployable rule is a deterministic top-k policy: it removes all averaging over actions, so weak overlap hits the estimate directly. We benchmark six estimators across five datasets and two known-effect sweeps, and validate the mechanisms against a non-simulated paired reference. First, weak overlap is governed by logger-target action alignment, not by logging sharpness alone: what governs support is the logger's probability of the target's actions. Sharpening a logger built from the target's own score barely moves overlap over the tested range; action-level disagreement collapses it. Effective sample size ranks this risk across logging environments, but is weak at ranking candidates within the single log a practitioner holds, and its cut point does not transfer. Second, the optimizer's curse is not fixed by cross-fitting the outcome nuisance. When the rule is fit on the data used to evaluate it, cross-fitting the nuisance alone leaves the reuse bias in place and makes it worse. Honest policy-level splitting avoids the reuse by targeting the learning procedure's value -- a change of estimand, not a de-biasing of the full-sample policy. Third, propensity-estimation error is the largest degradation we measure: an out-of-fold estimate hurts IPS more than any other stress we apply, leaves doubly-robust estimation almost unchanged, and can invert the overlap diagnostic itself. Logging is synthesized and propensities floored at 0.02, so every failure occurs with bounded weights; the floor also reduces the two tuned hybrids to their untuned parents, leaving four practically distinct estimators, and all exact-value surfaces are synthetic or semi-synthetic. We release the benchmark; public data only.",
+          "url": "https://arxiv.org/abs/2608.12489",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2608.12489",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: When Can You Trust Offline Evaluation of Equal-Cost Top-k Allocation? A Controlled, Reproducible Benchmark and Practitioner's Guide",
+            "method": "Organizations decide whom to treat under a budget and want to know what a targeting rule would have earned before deploying it. Off-policy evaluation promises this from logged data, but the deployable rule is a deterministic top-k policy: i",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Autonomous sailing with sim-to-real reinforcement learning",
+          "authors": [
+            "Kiki Johanna Alberdina Bink",
+            "Bülent Düz",
+            "Gabriel D. Weymouth"
+          ],
+          "author_details": [
+            {
+              "name": "Kiki Johanna Alberdina Bink",
+              "affiliations": [
+                "Maritime Research Institute Netherlands",
+                "Delft University of Technology"
+              ]
+            },
+            {
+              "name": "Bülent Düz",
+              "affiliations": [
+                "Maritime Research Institute Netherlands"
+              ]
+            },
+            {
+              "name": "Gabriel D. Weymouth",
+              "affiliations": [
+                "Delft University of Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Reinforcement",
+            "Computer science",
+            "Psychology",
+            "Aeronautics",
+            "Artificial intelligence",
+            "Engineering",
+            "Social psychology"
+          ],
+          "journal": "Engineering Applications of Artificial Intelligence",
+          "published": "2026-08-10",
+          "abstract": "Autonomous sailing offers a sustainable alternative for reducing greenhouse gas emissions in maritime transport, aligning with global environmental targets. This study explores the application of reinforcement learning (RL) to autonomous sailing, addressing challenges in handling dynamic and unpredictable environmental conditions.Leveraging a sim-to-real transfer methodology, RL agents were trained in a simulation environment with the domain randomization technique to enhance adaptability and robustness, and tested in real-world scenarios using a robotic sailboat in the Offshore Basin at MARIN. The study quantified the reality gap between simulation and real-world environments, identifying key discrepancies in actuator latency and simulation modeling accuracy.Results demonstrate that RL agents trained with domain randomization achieve comparable success rates to conventional controllers while showcasing enhanced sailing capabilities like roll tacking and recovery from wind-stalled conditions. This work advances the understanding of autonomous sailing control and highlights pathways to bridge the reality gap, contributing to the broader adoption of RL in dynamic real-world applications.",
+          "url": "https://doi.org/10.1016/j.engappai.2026.115804",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1016/j.engappai.2026.115804",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 1,
+          "score": 1.693,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Autonomous sailing with sim-to-real reinforcement learning",
+            "method": "Autonomous sailing offers a sustainable alternative for reducing greenhouse gas emissions in maritime transport, aligning with global environmental targets. This study explores the application of reinforcement learning (RL) to autonomous sa",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "X Y Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys.1",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys.1",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "X Y Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Energy-Aware Dynamic Tasking for Earth Observing Satellites With Deep Reinforcement Learning",
+          "authors": [
+            "Nicholas Nordlund",
+            "Tim Upthegrove",
+            "Leandros Tassiulas"
+          ],
+          "author_details": [
+            {
+              "name": "Nicholas Nordlund",
+              "affiliations": [
+                "Uninett (Norway)"
+              ]
+            },
+            {
+              "name": "Tim Upthegrove",
+              "affiliations": [
+                "Uninett (Norway)"
+              ]
+            },
+            {
+              "name": "Leandros Tassiulas",
+              "affiliations": [
+                "Uninett (Norway)"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Markov decision process",
+            "Cloud computing",
+            "Cadet",
+            "Scheduling (production processes)",
+            "Oracle",
+            "Markov process",
+            "Solver",
+            "Partially observable Markov decision process"
+          ],
+          "journal": "Digital Commons - USU (Utah State University)",
+          "published": "2026-08-26",
+          "abstract": "Dynamic tasking for agile Earth-observing satellites (AEOS) adapts preplanned schedules using onboard lookahead sensors to detect cloud cover that obscures targets. Existing approaches decompose tasking into sequential lookahead, maneuver, and capture stages, limiting their ability to manage tradeoffs over long time horizons. Instead, we formulate dynamic tasking as a constrained partially observable Markov decision process (CPOMDP) and introduce Cloud-Aware Dynamic Earth-observation Tasking (CADET), a deep reinforcement learning (DRL) framework that jointly selects maneuvering and sensing actions under resource constraints. We derive a closed-form model for the probability that a target is visible given a spatially aggregated lookahead observation, and we introduce CADET-PLAN, a hybrid variant that embeds a classical spacecraft scheduling solver within the learned policy. We compare CADET and CADET-PLAN in a simulated environment against two classical task schedulers: one with no cloud knowledge and an oracle with perfect cloud knowledge. Across twelve configurations of power budget and lookahead field of view, CADET and CADET-PLAN respectively close 42% and 56% of the performance gap relative to these baselines, while satisfying energy constraints.",
+          "url": "https://digitalcommons.usu.edu/smallsat/2026/all2026/73",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Energy-Aware Dynamic Tasking for Earth Observing Satellites With Deep Reinforcement Learning",
+            "method": "Dynamic tasking for agile Earth-observing satellites (AEOS) adapts preplanned schedules using onboard lookahead sensors to detect cloud cover that obscures targets. Existing approaches decompose tasking into sequential lookahead, maneuver, ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Safe and adaptive control of non-stationary stochastic systems via Lyapunov-constrained distributional reinforcement learning",
+          "authors": [
+            "Mohammad Ali Labbaf Khaniki",
+            "Morteza Mirzaee",
+            "Elahe Moradi"
+          ],
+          "author_details": [
+            {
+              "name": "Mohammad Ali Labbaf Khaniki",
+              "affiliations": [
+                "K.N.Toosi University of Technology"
+              ]
+            },
+            {
+              "name": "Morteza Mirzaee",
+              "affiliations": [
+                "K.N.Toosi University of Technology"
+              ]
+            },
+            {
+              "name": "Elahe Moradi",
+              "affiliations": [
+                "Islamic Azad University, Tehran",
+                "Islamic Azad University South Tehran Branch",
+                "Islamic Azad University North Tehran Branch"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Markov decision process",
+            "Robustness (evolution)",
+            "Bridging (networking)",
+            "Entropy (arrow of time)",
+            "Lyapunov function",
+            "Lyapunov stability",
+            "Adaptive control",
+            "Adaptive learning"
+          ],
+          "journal": "Scientific Reports",
+          "published": "2026-08-15",
+          "abstract": "Abstract Non-stationary environments pose significant challenges for reinforcement learning (RL), particularly in safety-critical applications like robotics and energy systems, where adaptability, stability, and robustness to uncertainty are essential. This paper introduces Lyapunov-Guided Distributional Reinforcement Learning with Entropy Regularization (LG-DRL-ER), a novel framework designed to address these challenges in non-stationary Markov Decision Processes (MDPs). LG-DRL-ER integrates three key components: distributional RL to model the full return distribution, capturing reward uncertainty; Lyapunov stability constraints to ensure safe convergence to a target state; and entropy regularization to promote adaptive exploration. We present a rigorous stability analysis, supported by lemmas and theorems, demonstrating convergence in probability under dynamic conditions. We further establish finite-time convergence guarantees with explicit bounds on the convergence time. An adaptive parameter update rule ensures robustness to changing dynamics, validated through theoretical guarantees and empirical evaluations. Simulations in chaotic and hyperchaotic systems showcase LG-DRL-ER’s superior performance in achieving stable, adaptive control compared to existing methods. This framework advances safe RL by bridging data-driven learning with control-theoretic guarantees, offering significant implications for autonomous systems and dynamic environments.",
+          "url": "https://doi.org/10.1038/s41598-026-66485-2",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1038/s41598-026-66485-2",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Safe and adaptive control of non-stationary stochastic systems via Lyapunov-constrained distributional reinforcement learning",
+            "method": "Abstract Non-stationary environments pose significant challenges for reinforcement learning (RL), particularly in safety-critical applications like robotics and energy systems, where adaptability, stability, and robustness to uncertainty ar",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Removing Temporal Note Redundancy Improves Multimodal Reinforcement Learning for Medicine",
+          "authors": [
+            "Chenran Weng",
+            "Joo Seung Lee",
+            "Malini Mahendra",
+            "Anil Aswani"
+          ],
+          "author_details": [
+            {
+              "name": "Chenran Weng",
+              "affiliations": []
+            },
+            {
+              "name": "Joo Seung Lee",
+              "affiliations": []
+            },
+            {
+              "name": "Malini Mahendra",
+              "affiliations": []
+            },
+            {
+              "name": "Anil Aswani",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-08-14",
+          "abstract": "Mechanical ventilation is a critical life-support intervention, requiring dynamic adjustments to ventilator settings as a patient's condition evolves. While reinforcement learning (RL) offers a promising framework for optimizing these sequential decisions, standard approaches rely primarily on structured electronic health record (EHR) data, missing crucial clinical context recorded in free-text notes. Integrating longitudinal clinical notes into RL state spaces is challenging because notes are heavily inflated by temporal redundancy, such as copy-forward text, templating, and repetitive documentation, which dilutes time-local updates and degrades state representation quality. To address this, we propose a redundancy-aware multimodal state representation framework that explicitly removes duplicated note text over time before policy learning. We evaluate two computationally efficient temporal decomposition strategies for removing duplicated note text: (1) an embedding-space decomposition using singular value decomposition on local history subspaces, and (2) an interpretable sentence-level diff operation that filters out previously documented sentences before text encoding. Using real-world ICU data, we demonstrate that state representations constructed by stripping temporal note redundancy significantly outperform both structured-only and raw-note baselines across multiple off-policy evaluation methods (Model-Based Rollouts, Fitted Q-Evaluation, Weighted Importance Sampling, and Weighted Doubly Robust Evaluation). Our findings show that explicitly isolating new clinical information from repeated note text yields higher-quality state representations and directly improves RL performance for clinical decision support.",
+          "url": "https://arxiv.org/abs/2608.14157v1",
+          "arxiv_id": "2608.14157v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Removing Temporal Note Redundancy Improves Multimodal Reinforcement Learning for Medicine",
+            "method": "Mechanical ventilation is a critical life-support intervention, requiring dynamic adjustments to ventilator settings as a patient's condition evolves. While reinforcement learning (RL) offers a promising framework for optimizing these seque",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Designing Reinforcement Learning for Diffusion Models: A Unified Path-Space View",
+          "authors": [
+            "Yixian Xu",
+            "Yuanrui Zhang",
+            "Shengjie Luo",
+            "Liwei Wang",
+            "Di He"
+          ],
+          "author_details": [
+            {
+              "name": "Yixian Xu",
+              "affiliations": []
+            },
+            {
+              "name": "Yuanrui Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Shengjie Luo",
+              "affiliations": []
+            },
+            {
+              "name": "Liwei Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Di He",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.CV",
+            "stat.ML"
+          ],
+          "journal": null,
+          "published": "2026-08-14",
+          "abstract": "Reinforcement learning (RL) post-training provides a direct way to align diffusion models with human preferences and task-specific rewards. However, current RL algorithms for diffusion models remain fragmented: reverse-trajectory methods rely on discretized likelihood ratios, whereas forward-matching methods train on reward-labeled noising versions of the rollout samples. This paper shows that these seemingly different losses arise from a single path-space principle. Starting from the regularized diffusion-RL objective, we use importance sampling between sampling SDEs to obtain an explicit policy-gradient estimator on trajectory space. The estimator contains the stochastic Itô integral underlying Flow-GRPO-type updates; we derive an equivalent variance-reduced value-gradient form that recovers the forward-matching structure of AWM and DiffusionNFT. This identifies the empirical gap between these method families as a variance-reduction effect rather than a difference in RL principle. The derivation yields a unified design space organized by value-gradient estimation, weight functions, and sampling choices. Within this space, we propose a multi-sample KDE value-gradient estimator that reuses rollout groups, together with scale-bounded weight families that retain stable existing recipes while excluding singular ones. Experiments on SD3.5-M and Qwen-Image models validate the variance-reduction explanation and show that the resulting recipe improves over prior diffusion-RL baselines.",
+          "url": "https://arxiv.org/abs/2608.14430v1",
+          "arxiv_id": "2608.14430v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Designing Reinforcement Learning for Diffusion Models: A Unified Path-Space View",
+            "method": "Reinforcement learning (RL) post-training provides a direct way to align diffusion models with human preferences and task-specific rewards. However, current RL algorithms for diffusion models remain fragmented: reverse-trajectory methods re",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-Agent Reinforcement Learning for Joint Handover Management and Power Allocation in Multi-Orbit Satellite Networks",
+          "authors": [
+            "Yassine Afif",
+            "Ashutosh Balakrishnan",
+            "Philippe Martins",
+            "Mohammed Almekhlafi",
+            "Antoine Lesage-Landry",
+            "Gunes Karabulut Kurt"
+          ],
+          "author_details": [
+            {
+              "name": "Yassine Afif",
+              "affiliations": []
+            },
+            {
+              "name": "Ashutosh Balakrishnan",
+              "affiliations": []
+            },
+            {
+              "name": "Philippe Martins",
+              "affiliations": []
+            },
+            {
+              "name": "Mohammed Almekhlafi",
+              "affiliations": []
+            },
+            {
+              "name": "Antoine Lesage-Landry",
+              "affiliations": []
+            },
+            {
+              "name": "Gunes Karabulut Kurt",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "eess.SP"
+          ],
+          "journal": null,
+          "published": "2026-08-14",
+          "abstract": "Future sixth-generation non-terrestrial networks are expected to combine low Earth orbit (LEO), medium Earth orbit (MEO), and geostationary Earth orbit (GEO) satellites, whose complementary layers must be coordinated through joint user association, power allocation, and handover management under fast LEO dynamics. This paper studies this problem by formulating it as a mixed-integer nonlinear program and decomposing it into a multi-agent reinforcement learning (MARL) policy that selects the associations and a convex power-allocation subproblem solved exactly at each time slot that defines the reward of the MARL part. The association policy is trained with multi-agent proximal policy optimization (MAPPO) and the targeted multi-agent communication (TarMAC) mechanism, and is made aware of the orbital layer through a state that encodes layer-dependent handover penalties. Evaluated on a realistic multi-constellation scenario built from real two-line element data over Nairobi, Kenya, the proposed policy reaches 92% of the throughput of a greedy signal-to-noise ratio (SNR) maximizing scheme while triggering more than four times fewer handovers, and improves throughput by roughly 14% over a conservative stay heuristic. Compared to an LEO-only learned policy of identical architecture, it attains slightly higher throughput with fewer handovers by offloading a fraction of the users to the MEO and GEO layers, an emergent multi-orbit behavior that drives its favorable throughput and handover trade-off.",
+          "url": "https://arxiv.org/abs/2608.14335v1",
+          "arxiv_id": "2608.14335v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning for Joint Handover Management and Power Allocation in Multi-Orbit Satellite Networks",
+            "method": "Future sixth-generation non-terrestrial networks are expected to combine low Earth orbit (LEO), medium Earth orbit (MEO), and geostationary Earth orbit (GEO) satellites, whose complementary layers must be coordinated through joint user asso",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Multi-Agent Reinforcement Learning for Joint Handover Management and Power Allocation in Multi-Orbit Satellite Networks",
+          "authors": [
+            "Yassine Afif",
+            "Ashutosh Balakrishnan",
+            "Philippe Martins",
+            "Mohammed Almekhlafi",
+            "Antoine Lesage-Landry",
+            "Gunes Karabulut Kurt"
+          ],
+          "author_details": [
+            {
+              "name": "Yassine Afif",
+              "affiliations": []
+            },
+            {
+              "name": "Ashutosh Balakrishnan",
+              "affiliations": []
+            },
+            {
+              "name": "Philippe Martins",
+              "affiliations": []
+            },
+            {
+              "name": "Mohammed Almekhlafi",
+              "affiliations": []
+            },
+            {
+              "name": "Antoine Lesage-Landry",
+              "affiliations": []
+            },
+            {
+              "name": "Gunes Karabulut Kurt",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "eess.SP"
+          ],
+          "journal": null,
+          "published": "2026-08-14",
+          "abstract": "Future sixth-generation non-terrestrial networks are expected to combine low Earth orbit (LEO), medium Earth orbit (MEO), and geostationary Earth orbit (GEO) satellites, whose complementary layers must be coordinated through joint user association, power allocation, and handover management under fast LEO dynamics. This paper studies this problem by formulating it as a mixed-integer nonlinear program and decomposing it into a multi-agent reinforcement learning (MARL) policy that selects the associations and a convex power-allocation subproblem solved exactly at each time slot that defines the reward of the MARL part. The association policy is trained with multi-agent proximal policy optimization (MAPPO) and the targeted multi-agent communication (TarMAC) mechanism, and is made aware of the orbital layer through a state that encodes layer-dependent handover penalties. Evaluated on a realistic multi-constellation scenario built from real two-line element data over Nairobi, Kenya, the proposed policy reaches 92% of the throughput of a greedy signal-to-noise ratio (SNR) maximizing scheme while triggering more than four times fewer handovers, and improves throughput by roughly 14% over a conservative stay heuristic. Compared to an LEO-only learned policy of identical architecture, it attains slightly higher throughput with fewer handovers by offloading a fraction of the users to the MEO and GEO layers, an emergent multi-orbit behavior that drives its favorable throughput and handover trade-off.",
+          "url": "https://arxiv.org/abs/2608.14335v1",
+          "arxiv_id": "2608.14335v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning for Joint Handover Management and Power Allocation in Multi-Orbit Satellite Networks",
+            "method": "Future sixth-generation non-terrestrial networks are expected to combine low Earth orbit (LEO), medium Earth orbit (MEO), and geostationary Earth orbit (GEO) satellites, whose complementary layers must be coordinated through joint user asso",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "OGR-MARL: Option-Guided Residual Multi-Agent Reinforcement Learning for Heterogeneous USV Cooperative Pursuit in Constrained Port Waterways",
+          "authors": [
+            "Mao Jiayang",
+            "Wang Lanfeng",
+            "Peng Zhao-Han"
+          ],
+          "author_details": [
+            {
+              "name": "Mao Jiayang",
+              "affiliations": []
+            },
+            {
+              "name": "Wang Lanfeng",
+              "affiliations": []
+            },
+            {
+              "name": "Peng Zhao-Han",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI",
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-08-13",
+          "abstract": "Heterogeneous USV cooperative pursuit in constrained port waterways requires evader interception under navigation, traffic, and role constraints. This paper proposes OGR-MARL, an option-guided residual multi-agent reinforcement learning framework that is decoupled from a specific MARL algorithm. OGR-MARL integrates shared evader belief, role-conditioned option targets, adaptive rule penalties, and residual policy learning, allowing different MARL algorithms to learn corrective actions on top of rule-guided behaviors rather than exploring constrained port environments from scratch. We instantiate OGR-MARL with representative continuous-control MARL backbones, including MADDPG, MATD3, MAPPO, and MASAC, yielding OGR-MADDPG, OGR-MATD3, OGR-MAPPO, and OGR-MASAC. Experiments in an abstract Xiazhimen port-waterway scenario show that the OGR-MASAC instantiation achieves a 75.0% capture rate, promising mission-effective rule compliance, and the best heterogeneous coordination among the tested methods. Without retraining, zero-shot transfer to a QGIS/AIS-informed Xiazhimen map achieves promising results, demonstrating the generalization potential of OGR-MARL in more complex port scenarios.",
+          "url": "https://arxiv.org/abs/2608.12995v1",
+          "arxiv_id": "2608.12995v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: OGR-MARL: Option-Guided Residual Multi-Agent Reinforcement Learning for Heterogeneous USV Cooperative Pursuit in Constrained Port Waterways",
+            "method": "Heterogeneous USV cooperative pursuit in constrained port waterways requires evader interception under navigation, traffic, and role constraints. This paper proposes OGR-MARL, an option-guided residual multi-agent reinforcement learning fra",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Coordinated Optimization of Orderly Charging and Grid Interaction at Electric Vehicle Charging Stations Based on Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Y. X. Wang"
+          ],
+          "author_details": [
+            {
+              "name": "Y. X. Wang",
+              "affiliations": [
+                "Zhengzhou University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Grid",
+            "Charging station",
+            "Electric vehicle",
+            "Markov decision process",
+            "Scheduling (production processes)",
+            "Vehicle-to-grid",
+            "Lagrange multiplier",
+            "Markov chain"
+          ],
+          "journal": "Advanced Electromagnetics",
+          "published": "2026-08-13",
+          "abstract": "Uncoordinated charging of large-scale electric vehicles exacerbates peak-valley differences and voltage exceedance risks in the power grid, while existing scheduling methods still have limitations in distributed decision-making, dynamic pricing, and multiobjective balancing. These problems become more significant in charging station clusters where power-electronic converters, communication links, and complex electromagnetic operating environments jointly affect grid interaction stability. In this paper, a collaborative optimization framework based on multi-agent reinforcement learning is proposed for orderly charging at electric vehicle charging stations and coordinated interaction with the power grid. First, each charging station is modeled as an autonomous agent, and distributed environment modeling is realized based on local observation information and Markov decision processes. Second, a proximal policy optimization algorithm is used to generate a dynamic service fee multiplier in a continuous action space, which is combined with a demand elasticity module to form an adaptive pricing mechanism. Finally, a composite reward system integrating grid stability, operational revenue, and user satisfaction is developed, and multi-agent convergence training is achieved through parameter sharing and generalized advantage estimation. The results confirm the overall benefits of joint optimization in load shaping, economic performance, and robustness, providing a technical reference for intelligent charging coordination under grid interaction and electromagnetic compatibility constraints.",
+          "url": "https://doi.org/10.7716/aem.v15i3.3465",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.7716/aem.v15i3.3465",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Coordinated Optimization of Orderly Charging and Grid Interaction at Electric Vehicle Charging Stations Based on Multi-Agent Reinforcement Learning",
+            "method": "Uncoordinated charging of large-scale electric vehicles exacerbates peak-valley differences and voltage exceedance risks in the power grid, while existing scheduling methods still have limitations in distributed decision-making, dynamic pri",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "AGTA: Topology-Aware Sequential Decision-Making in Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Kaini Hu",
+            "Shanghua Wen",
+            "Wendi Wu",
+            "Xiang Zhang",
+            "Minglong Li"
+          ],
+          "author_details": [
+            {
+              "name": "Kaini Hu",
+              "affiliations": [
+                "National University of Defense Technology"
+              ]
+            },
+            {
+              "name": "Shanghua Wen",
+              "affiliations": [
+                "National University of Defense Technology"
+              ]
+            },
+            {
+              "name": "Wendi Wu",
+              "affiliations": []
+            },
+            {
+              "name": "Xiang Zhang",
+              "affiliations": [
+                "National University of Defense Technology"
+              ]
+            },
+            {
+              "name": "Minglong Li",
+              "affiliations": [
+                "National University of Defense Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Correlation",
+            "Action (physics)",
+            "Transformer",
+            "Topology (electrical circuits)",
+            "Relation (database)"
+          ],
+          "journal": "Mathematics",
+          "published": "2026-08-12",
+          "abstract": "Multi-agent reinforcement learning (MARL) has long grappled with fundamental coordination challenges due to the existence of complex inter-agent correlations that are inherent in multi-agent systems. While the recent advancement of the sequential decision-making paradigm provides fine-grained supervision for the multi-agent decision-making process, the absence of computationally tractable solutions for inter-agent correlation management remains a critical challenge and substantially constrains the impact of this paradigm. To tackle this challenge, in this paper, we introduce Action Generation with Topology Awareness (AGTA), a topology-aware sequential decision-making framework in MARL that integrates inter-agent correlation modeling with topology-guided decision-order optimization. AGTA extracts inter-agent mutual attention via multi-agent transformer during the learning dynamics. Subsequently, it captures directed acyclic graphs(DAGs) directly from the extracted attention matrices to model inter-agent correlations. Finally, it refines the action generation order by analyzing and solving topological constraints, thus realizing inter-agent correlation management. Extensive experiments demonstrate that the proposed method outperforms the state-of-the-art counterparts.",
+          "url": "https://doi.org/10.3390/math14162907",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/math14162907",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: AGTA: Topology-Aware Sequential Decision-Making in Multi-Agent Reinforcement Learning",
+            "method": "Multi-agent reinforcement learning (MARL) has long grappled with fundamental coordination challenges due to the existence of complex inter-agent correlations that are inherent in multi-agent systems. While the recent advancement of the sequ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Is Per-Agent Policy Composition Safe? Rethinking Successor-Feature Transfer in Cooperative Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Zijian Zhao",
+            "Sen Li"
+          ],
+          "author_details": [
+            {
+              "name": "Zijian Zhao",
+              "affiliations": []
+            },
+            {
+              "name": "Sen Li",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.AI",
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-08-12",
+          "abstract": "Many reinforcement learning systems, from fleet management to traffic signal control, must serve an objective that changes dynamically after deployment, and retraining a policy for each new objective is prohibitively expensive. For a single agent, this problem is well understood: successor features with generalized policy improvement, together with their universal extension, recombine a library of learned policies into a policy for any new objective, with a guarantee that the result is never worse than any policy in the library. However, multi-agent transfer has received far less attention, and the common practice of letting each agent recombine its own library independently inherits the recipe but not the guarantee. We prove that this independent composition can produce joint behavior strictly worse than every policy in the library, because recombining teammates changes the environment each agent faces and invalidates the values it relies on, a failure with no single-agent counterpart. We further show that the only unconditionally safe fixed rule is synchronized composition, which moves the whole team to one jointly trained policy but cannot serve objectives that assign different goals to different agents. To attain safety and flexibility at once, we propose MA-USFA, a hierarchical method with two layers: a lower layer of universal successor feature approximators that predicts each agent's successor features while conditioned on its teammates' objectives, and an upper composer that selects, across agents, which library entry each agent should follow and supplies the cross-agent correction a per-agent value cannot represent. Trained once over the distribution of objectives, it is applied at deployment with no per-task adaptation.",
+          "url": "https://arxiv.org/abs/2608.11658v1",
+          "arxiv_id": "2608.11658v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Is Per-Agent Policy Composition Safe? Rethinking Successor-Feature Transfer in Cooperative Multi-Agent Reinforcement Learning",
+            "method": "Many reinforcement learning systems, from fleet management to traffic signal control, must serve an objective that changes dynamically after deployment, and retraining a policy for each new objective is prohibitively expensive. For a single",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Is Per-Agent Policy Composition Safe? Rethinking Successor-Feature Transfer in Cooperative Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Zijian Zhao",
+            "Sen Li"
+          ],
+          "author_details": [
+            {
+              "name": "Zijian Zhao",
+              "affiliations": []
+            },
+            {
+              "name": "Sen Li",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Successor cardinal",
+            "Reinforcement learning",
+            "Flexibility (engineering)",
+            "Retraining",
+            "Feature (linguistics)",
+            "Reinforcement",
+            "Software deployment",
+            "Recipe"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-08-12",
+          "abstract": "Many reinforcement learning systems, from fleet management to traffic signal control, must serve an objective that changes dynamically after deployment, and retraining a policy for each new objective is prohibitively expensive. For a single agent, this problem is well understood: successor features with generalized policy improvement, together with their universal extension, recombine a library of learned policies into a policy for any new objective, with a guarantee that the result is never worse than any policy in the library. However, multi-agent transfer has received far less attention, and the common practice of letting each agent recombine its own library independently inherits the recipe but not the guarantee. We prove that this independent composition can produce joint behavior strictly worse than every policy in the library, because recombining teammates changes the environment each agent faces and invalidates the values it relies on, a failure with no single-agent counterpart. We further show that the only unconditionally safe fixed rule is synchronized composition, which moves the whole team to one jointly trained policy but cannot serve objectives that assign different goals to different agents. To attain safety and flexibility at once, we propose MA-USFA, a hierarchical method with two layers: a lower layer of universal successor feature approximators that predicts each agent's successor features while conditioned on its teammates' objectives, and an upper composer that selects, across agents, which library entry each agent should follow and supplies the cross-agent correction a per-agent value cannot represent. Trained once over the distribution of objectives, it is applied at deployment with no per-task adaptation.",
+          "url": "https://arxiv.org/abs/2608.11658",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2608.11658",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Is Per-Agent Policy Composition Safe? Rethinking Successor-Feature Transfer in Cooperative Multi-Agent Reinforcement Learning",
+            "method": "Many reinforcement learning systems, from fleet management to traffic signal control, must serve an objective that changes dynamically after deployment, and retraining a policy for each new objective is prohibitively expensive. For a single",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "XAI-Guided Conservative Decentralized Execution for Offline Multi-Agent Network Slicing",
+          "authors": [
+            "Eslam Eldeeb",
+            "Hatim Chergui",
+            "Merouane Debbah"
+          ],
+          "author_details": [
+            {
+              "name": "Eslam Eldeeb",
+              "affiliations": []
+            },
+            {
+              "name": "Hatim Chergui",
+              "affiliations": []
+            },
+            {
+              "name": "Merouane Debbah",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-08-14",
+          "abstract": "The recent advances toward sixth-generation (6G) and beyond-6G networks have accelerated the need for intelligent resource management mechanisms capable of supporting heterogeneous services under shared infrastructures in network slicing. However, resource allocation in network slicing naturally forms a resource-coupled cooperative optimization problem with competing slice demands. Slices compete for limited resources to minimize individual latencies while coordinating to avoid conflicts and underutilization. Although multi-agent reinforcement learning (MARL) has shown promising performance in such settings, existing online formulations remain costly, unsafe, and difficult to deploy due to their reliance on environmental interactions and communication among agents. In this work, we present explainable artificial intelligence (XAI)-guided conservative decentralized execution (X-CODE). X-CODE is an explainable offline MARL that operates offline without environmental interaction, nor inter-agent communication. It exploits explainability-aware reward shaping to modify the relative preference among joint offline transitions during centralized training to improve decentralized resource-allocation behavior. In deployment, the agents operate independently without signaling exchange among the agents. Simulation results demonstrate that the proposed approach achieves zero observed resource-conflict events in the evaluated test episodes while minimizing per-slice latencies. Moreover, the proposed framework exhibits lower signaling overhead and reduces effective inference latency by 88 % under the considered communication-delay model compared to the online baselines. Source codes and datasets are available through: https://github.com/Eslam211/xcode-ran-slicing.",
+          "url": "https://arxiv.org/abs/2608.13982v1",
+          "arxiv_id": "2608.13982v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: XAI-Guided Conservative Decentralized Execution for Offline Multi-Agent Network Slicing",
+            "method": "The recent advances toward sixth-generation (6G) and beyond-6G networks have accelerated the need for intelligent resource management mechanisms capable of supporting heterogeneous services under shared infrastructures in network slicing. H",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Agentic Artificial Intelligence for Information Fusion",
+          "authors": [
+            "Dawa Chyophel Lepcha",
+            "Aaliya Ali",
+            "Bhawna Goyal",
+            "Shabbir Syed-Abdul",
+            "Loveleen Gaur",
+            "Ilan Alon",
+            "Zuopeng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Dawa Chyophel Lepcha",
+              "affiliations": [
+                "Taipei Medical University"
+              ]
+            },
+            {
+              "name": "Aaliya Ali",
+              "affiliations": [
+                "Chitkara University"
+              ]
+            },
+            {
+              "name": "Bhawna Goyal",
+              "affiliations": [
+                "Marwadi University"
+              ]
+            },
+            {
+              "name": "Shabbir Syed-Abdul",
+              "affiliations": [
+                "Taipei Medical University"
+              ]
+            },
+            {
+              "name": "Loveleen Gaur",
+              "affiliations": [
+                "University of the South Pacific"
+              ]
+            },
+            {
+              "name": "Ilan Alon",
+              "affiliations": [
+                "Corvinus University of Budapest"
+              ]
+            },
+            {
+              "name": "Zuopeng Zhang",
+              "affiliations": [
+                "University of North Florida"
+              ]
+            }
+          ],
+          "keywords": [
+            "Sociotechnical system",
+            "Scalability",
+            "Robustness (evolution)",
+            "Reinforcement learning",
+            "Information system",
+            "Taxonomy (biology)",
+            "Information fusion",
+            "Sensor fusion"
+          ],
+          "journal": "Journal of Organizational and End User Computing",
+          "published": "2026-08-13",
+          "abstract": "Organizations across healthcare, enterprise analytics, supply chains, and cybersecurity struggle to integrate heterogeneous data sources for timely, reliable decision-making. Traditional information fusion relies on static, pipeline-oriented architectures inadequate for dynamic, distributed, and real-time environments. This study presents a PRISMA-guided systematic review integrating agentic decision theory with organizational information systems perspectives, including the Technology Acceptance Model, Task-Technology Fit, and Sociotechnical Systems Theory. A search of four databases yielded 1,205 records, from which 380 unique publications were identified. A six-dimension taxonomy covering architectures, learning paradigms, coordination mechanisms, decision coupling, trust modeling, and uncertainty representation is developed. Hybrid cloud-edge and federated architectures with multi-agent reinforcement learning offer favorable scalability and robustness trade-offs. Bias-aware design, human-in-the-loop accountability, and explainable outputs are necessary for responsible deployment.",
+          "url": "https://doi.org/10.4018/joeuc.418738",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.4018/joeuc.418738",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Agentic Artificial Intelligence for Information Fusion",
+            "method": "Organizations across healthcare, enterprise analytics, supply chains, and cybersecurity struggle to integrate heterogeneous data sources for timely, reliable decision-making. Traditional information fusion relies on static, pipeline-oriente",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": [
+        {
+          "title": "ORION: A Hierarchical Surgical World Model for Real-Time, Multi-Agent Operating-Room Intelligence",
+          "authors": [
+            "Dev Mehta",
+            "R. T. Charulatha"
+          ],
+          "author_details": [
+            {
+              "name": "Dev Mehta",
+              "affiliations": [
+                "SRM Institute of Science and Technology"
+              ]
+            },
+            {
+              "name": "R. T. Charulatha",
+              "affiliations": [
+                "SRM Institute of Science and Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "Workflow",
+            "Bottleneck",
+            "Documentation",
+            "Architecture",
+            "Relational database",
+            "Inference"
+          ],
+          "journal": "Journal of Ubiquitous Computing and Communication Technologies",
+          "published": "2026-08-12",
+          "abstract": "Modern operating suites generate dense, heterogeneous data streams endoscopic video, multi-parameter vitals, anesthesia registers, device telemetry, intraoperative imaging, and robotic kinematics yet the overwhelming majority of these signals are discarded, with the complete clinical reality of a procedure routinely collapsed into a single postoperative note. This documentation bottleneck loses roughly ninety-nine percent of the granular information produced during surgery, preventing systematic audit, objective skill assessment, and longitudinal research. We present ORION (Operating Room Intelligence and Optimization Network), an AI-native platform that transforms multi-sensory input into a continuously updated digital twin of the patient and operating environment. ORION is organised as a twelve-layer Hierarchical Surgical World Model (HSWM) spanning real-time perception, relational scene-graph construction, a Gaussian-splatting digital twin, temporal workflow modelling, predictive risk forecasting, knowledge grounding, and multi-agent clinical reasoning. A generative component, SurgWorld, mitigates kinematic-data scarcity by synthesising physically plausible surgical video and recovering pseudo-kinematics through an inverse-dynamics model. Because ORION is presented as a proposed architectural framework, the reported Cholec80 and AutoLaparo figures up to 94.6% and 89.5% accuracy at 238.7 FPS for the underlying state-space model are drawn from the constituent methods' published evaluations, not a new experiment; prospective validation of the integrated system is future work. The reporting layer is designed to compress postoperative documentation to under thirty seconds. We further describe the low-latency execution architecture (NVIDIA Holoscan and Triton) required to stay below the 50 ms perceptual threshold, and map the platform onto India's CDSCO Software-as-a-Medical-Device regulatory pathway",
+          "url": "https://doi.org/10.36548/jucct.2026.3.008",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.36548/jucct.2026.3.008",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: ORION: A Hierarchical Surgical World Model for Real-Time, Multi-Agent Operating-Room Intelligence",
+            "method": "Modern operating suites generate dense, heterogeneous data streams endoscopic video, multi-parameter vitals, anesthesia registers, device telemetry, intraoperative imaging, and robotic kinematics yet the overwhelming majority of these signa",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "causal-llm",
+      "name": "Causal Inference in Large Language Models",
+      "papers": [
+        {
+          "title": "Comparative Analysis of Low-Rank Adaptation in Large Language Models versus Dense Embedding Regression for Headline Click-Through Rate Prediction",
+          "authors": [
+            "Samarth Sirsat",
+            "Anirudha Shinde",
+            "Amit Sethi",
+            "Aman Verma"
+          ],
+          "author_details": [
+            {
+              "name": "Samarth Sirsat",
+              "affiliations": []
+            },
+            {
+              "name": "Anirudha Shinde",
+              "affiliations": []
+            },
+            {
+              "name": "Amit Sethi",
+              "affiliations": []
+            },
+            {
+              "name": "Aman Verma",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.CE"
+          ],
+          "journal": null,
+          "published": "2026-08-12",
+          "abstract": "Optimizing digital content headlines for click-through rate (CTR) is an important problem in online media and recommendation systems. While large language models (LLMs) have demonstrated strong generative capabilities, their effectiveness for discriminative ranking tasks, such as selecting the highest-performing headline from a set of candidates, remains less well understood. In this work, we compare a LoRA-fine-tuned causal language model, LOLAQwen (0.6B), with a dense embedding regression model for headline selection. We formulate headline selection as a winner-take-all classification problem and evaluate both approaches using a dataset of 3,263 A/B-tested headline groups. Performance is measured using Top-1 accuracy, defined as the proportion of groups for which the model correctly identifies the highest-performing headline. The embedding regression model achieves a Top-1 accuracy of 42.79%, compared with 35.70% for the LoRA-fine-tuned language model. These results indicate that, for this headline selection task, a lightweight discriminative approach can outperform a small generative language model fine-tuned using parameter-efficient adaptation. The findings highlight the potential of embedding-based regression models as efficient alternatives to generative models for high-throughput content ranking applications.",
+          "url": "https://arxiv.org/abs/2608.11912v1",
+          "arxiv_id": "2608.11912v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Comparative Analysis of Low-Rank Adaptation in Large Language Models versus Dense Embedding Regression for Headline Click-Through Rate Prediction",
+            "method": "Optimizing digital content headlines for click-through rate (CTR) is an important problem in online media and recommendation systems. While large language models (LLMs) have demonstrated strong generative capabilities, their effectiveness f",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Comparative Analysis of Low-Rank Adaptation in Large Language Models versus Dense Embedding Regression for Headline Click-Through Rate Prediction",
+          "authors": [
+            "Samarth Sirsat",
+            "Anirudha Shinde",
+            "Amit Sethi",
+            "Aman Verma"
+          ],
+          "author_details": [
+            {
+              "name": "Samarth Sirsat",
+              "affiliations": []
+            },
+            {
+              "name": "Anirudha Shinde",
+              "affiliations": []
+            },
+            {
+              "name": "Amit Sethi",
+              "affiliations": []
+            },
+            {
+              "name": "Aman Verma",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Headline",
+            "Discriminative model",
+            "Language model",
+            "Ranking (information retrieval)",
+            "Selection (genetic algorithm)",
+            "Generative model",
+            "Model selection",
+            "Regression"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-08-12",
+          "abstract": "Optimizing digital content headlines for click-through rate (CTR) is an important problem in online media and recommendation systems. While large language models (LLMs) have demonstrated strong generative capabilities, their effectiveness for discriminative ranking tasks, such as selecting the highest-performing headline from a set of candidates, remains less well understood. In this work, we compare a LoRA-fine-tuned causal language model, LOLAQwen (0.6B), with a dense embedding regression model for headline selection. We formulate headline selection as a winner-take-all classification problem and evaluate both approaches using a dataset of 3,263 A/B-tested headline groups. Performance is measured using Top-1 accuracy, defined as the proportion of groups for which the model correctly identifies the highest-performing headline. The embedding regression model achieves a Top-1 accuracy of 42.79%, compared with 35.70% for the LoRA-fine-tuned language model. These results indicate that, for this headline selection task, a lightweight discriminative approach can outperform a small generative language model fine-tuned using parameter-efficient adaptation. The findings highlight the potential of embedding-based regression models as efficient alternatives to generative models for high-throughput content ranking applications.",
+          "url": "https://arxiv.org/abs/2608.11912",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2608.11912",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Comparative Analysis of Low-Rank Adaptation in Large Language Models versus Dense Embedding Regression for Headline Click-Through Rate Prediction",
+            "method": "Optimizing digital content headlines for click-through rate (CTR) is an important problem in online media and recommendation systems. While large language models (LLMs) have demonstrated strong generative capabilities, their effectiveness f",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Financial Numerical Prediction and Allocation as Token Generation",
+          "authors": [
+            "Xu Ouyang",
+            "Moontae Lee"
+          ],
+          "author_details": [
+            {
+              "name": "Xu Ouyang",
+              "affiliations": []
+            },
+            {
+              "name": "Moontae Lee",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.CV",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-08-10",
+          "abstract": "Financial prediction typically relies on task-specific regression, ranking, or policy heads, separating the language model from the numerical object ultimately evaluated. We investigate whether a causal language model can instead represent forecasts and decisions directly through constrained token generation. FinATOM introduces a unified, head-free interface for three-step stock-return forecasting and dynamic five-ETF allocation. The forecasting model autoregressively emits volatility-standardized return tokens and is trained with ordinal and ranking supervision followed by a one-epoch token-level policy stage. The allocation model generates normalized long-only weights; supervised fine-tuning imitates a causal mean--variance anchor, and DAPO-augmented GRPO optimizes realized 21-day Sharpe subject to anchor consistency. In 2023--2025 ETF tests, the allocation policy improves pooled gross Sharpe from 1.428 to 1.529 and net Sharpe under a 5-bp transaction-cost model from 1.394 to 1.494. The multimodal allocation input attains the highest three-period mean Sharpe of 1.540, with its clearest advantage in 2025. On FinTexTS, the SFT and policy strategies achieve 73.52\\%/2.68 and 73.72\\%/2.69 cumulative-return/Sharpe, respectively. These results support the feasibility of direct language-model token generation for financial numerical prediction and decision-making, while motivating broader tests across assets, regimes, and random seeds.",
+          "url": "https://arxiv.org/abs/2608.09880v1",
+          "arxiv_id": "2608.09880v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Financial Numerical Prediction and Allocation as Token Generation",
+            "method": "Financial prediction typically relies on task-specific regression, ranking, or policy heads, separating the language model from the numerical object ultimately evaluated. We investigate whether a causal language model can instead represent ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Financial Numerical Prediction and Allocation as Token Generation",
+          "authors": [
+            "Xu Ouyang",
+            "Moontae Lee"
+          ],
+          "author_details": [
+            {
+              "name": "Xu Ouyang",
+              "affiliations": []
+            },
+            {
+              "name": "Moontae Lee",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Sharpe ratio",
+            "Security token",
+            "Ranking (information retrieval)",
+            "Random forest",
+            "Asset allocation",
+            "Interface (matter)"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-08-10",
+          "abstract": "Financial prediction typically relies on task-specific regression, ranking, or policy heads, separating the language model from the numerical object ultimately evaluated. We investigate whether a causal language model can instead represent forecasts and decisions directly through constrained token generation. FinATOM introduces a unified, head-free interface for three-step stock-return forecasting and dynamic five-ETF allocation. The forecasting model autoregressively emits volatility-standardized return tokens and is trained with ordinal and ranking supervision followed by a one-epoch token-level policy stage. The allocation model generates normalized long-only weights; supervised fine-tuning imitates a causal mean--variance anchor, and DAPO-augmented GRPO optimizes realized 21-day Sharpe subject to anchor consistency. In 2023--2025 ETF tests, the allocation policy improves pooled gross Sharpe from 1.428 to 1.529 and net Sharpe under a 5-bp transaction-cost model from 1.394 to 1.494. The multimodal allocation input attains the highest three-period mean Sharpe of 1.540, with its clearest advantage in 2025. On FinTexTS, the SFT and policy strategies achieve 73.52\\%/2.68 and 73.72\\%/2.69 cumulative-return/Sharpe, respectively. These results support the feasibility of direct language-model token generation for financial numerical prediction and decision-making, while motivating broader tests across assets, regimes, and random seeds.",
+          "url": "https://arxiv.org/abs/2608.09880",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2608.09880",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Financial Numerical Prediction and Allocation as Token Generation",
+            "method": "Financial prediction typically relies on task-specific regression, ranking, or policy heads, separating the language model from the numerical object ultimately evaluated. We investigate whether a causal language model can instead represent ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "causal-text",
+      "name": "Causal Inference in Text Analysis",
+      "papers": []
+    }
+  ]
+}
