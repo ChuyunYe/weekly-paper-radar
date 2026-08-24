@@ -1,0 +1,1571 @@
+{
+  "week": "2026-W35",
+  "generated_at": "2026-08-24T02:21:58.306650Z",
+  "topics": [
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "papers": [
+        {
+          "title": "Personalized comfort settings in positive airway pressure machines using a causal inference approach: a retrospective observational analysis",
+          "authors": [
+            "Chinh Nguyen",
+            "Himani Jayawardane",
+            "Hussein Emami",
+            "Nathan Liu",
+            "Bhavana Achary",
+            "Jeff Armitstead",
+            "Alison Wimms"
+          ],
+          "author_details": [
+            {
+              "name": "Chinh Nguyen",
+              "affiliations": [
+                "DataMED (Italy)"
+              ]
+            },
+            {
+              "name": "Himani Jayawardane",
+              "affiliations": [
+                "DataMED (Italy)"
+              ]
+            },
+            {
+              "name": "Hussein Emami",
+              "affiliations": [
+                "DataMED (Italy)"
+              ]
+            },
+            {
+              "name": "Nathan Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Bhavana Achary",
+              "affiliations": []
+            },
+            {
+              "name": "Jeff Armitstead",
+              "affiliations": []
+            },
+            {
+              "name": "Alison Wimms",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Covariate",
+            "Observational study",
+            "Causal model",
+            "Calibration",
+            "Personalization",
+            "Residual",
+            "Propensity score matching"
+          ],
+          "journal": "Frontiers in Sleep",
+          "published": "2026-08-21",
+          "abstract": "Introduction To evaluate whether data–driven personalization of positive airway pressure (PAP) comfort settings improves adherence by developing and evaluating a causal machine learning (ML) model for individualized recommendations. Methods The model was developed using AirSense 10 data and independently validated in temporally separated AirSense 10 and AirSense 11 cohorts, including 90–day and 1–year follow–up. The primary outcome was Centers for Medicare & Medicaid Services (CMS)–defined PAP adherence (device usage ≥ 4 h/night on ≥ 70% of nights during the first 90 days). Group–level average treatment effect (ATE) was estimated using backdoor adjustment methods. A causal forest model was applied to estimate the conditional average treatment effect for recommending personalized settings. A propensity score–matched analysis compared outcomes between patients whose actual settings matched model recommendations vs. those remaining on device default settings. Results The model estimated ATE at the group level was 2.9 percentage points (p < 0.001), indicating that personalized settings were associated with improved CMS adherence. Covariate balance was achieved (standardized mean difference < 0.1), and model calibration was strong (expected calibration error 0.91%). Patients whose actual PAP settings matched the model–recommended configuration had higher device usage than matched controls who remained on default settings. Subgroup analyses confirmed consistent benefits across age groups, gender, apnea–hypopnea index, and mask type. SHapley Additive exPlanations analysis identified minimum pressure, start pressure and age as key drivers of personalization. Independent validation showed sustained usage benefits across AirSense 10 and AirSense 11 cohorts, with residual AHI remaining below the clinical reference threshold and no clinically meaningful deterioration in mask leak. Discussion Causal ML–based personalization of PAP comfort settings was associated with improved CMS adherence/device usage. Integration of comfort setting personalization into setup workflows may enhance PAP therapy usage. As a retrospective observational analysis, these findings are associative and hypothesis–generating; the causal–inference framework, refutation testing, and large–scale independent validation provide robustness beyond that of conventional observational studies, although prospective randomized evaluation remains the definitive next step.",
+          "url": "https://doi.org/10.3389/frsle.2026.1883557",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3389/frsle.2026.1883557",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Personalized comfort settings in positive airway pressure machines using a causal inference approach: a retrospective observational analysis",
+            "method": "Introduction To evaluate whether data–driven personalization of positive airway pressure (PAP) comfort settings improves adherence by developing and evaluating a causal machine learning (ML) model for individualized recommendations. Methods",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Evaluating Context in LLM Prompts for Causal Inference in Empirical Sustainability Studies",
+          "authors": [
+            "Mengying Zhang",
+            "Chao Fan"
+          ],
+          "author_details": [
+            {
+              "name": "Mengying Zhang",
+              "affiliations": [
+                "Clemson University"
+              ]
+            },
+            {
+              "name": "Chao Fan",
+              "affiliations": [
+                "Clemson University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Causal reasoning",
+            "Causal model",
+            "Context (archaeology)",
+            "Scope (computer science)",
+            "Empirical research",
+            "Inference",
+            "Causal structure"
+          ],
+          "journal": "Environmental Research Communications",
+          "published": "2026-08-21",
+          "abstract": "Abstract Causal inference plays a central role in sustainability studies, providing the foundation for evidence-based scientific discovery and policy evaluation. However, uncovering credible causal relationships in complex real-world settings often relies heavily on the judgment of domain experts and extensive contextual knowledge. With the emergence of large language models (LLMs), an open question arises as to whether these models can meaningfully support causal reasoning for sustainability research. This study systematically evaluates the capacity of LLM to infer causal hypotheses and methodological structures from contextual descriptions of empirical research. We construct a benchmark based on five high-quality, peer-reviewed sustainability studies and design structured prompts that replicate the informational context available to human researchers prior to estimation. LLM outputs are evaluated against expert-validated ground truth in terms of causal edge recovery, scope expansion, and alignment with identification strategies, allowing for a quantitative assessment of conceptual causal reasoning rather than numerical estimation. Our findings indicate that GPT-5 recovers core causal edges with moderate accuracy (0.33-0.85), and assigns causal direction with high reliability (0.87-1.00). However, the scope expansion rate achieves roughly 0.58-0.93 of the causal edges proposed by the model, indicating a strong tendency toward over-connection between variables. Overall, our findings contribute to a deeper understanding of the potential and limitations of LLMs as tools for causal reasoning and methodological support in empirical sustainability research.",
+          "url": "https://doi.org/10.1088/2515-7620/ae9d05",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1088/2515-7620/ae9d05",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Evaluating Context in LLM Prompts for Causal Inference in Empirical Sustainability Studies",
+            "method": "Abstract Causal inference plays a central role in sustainability studies, providing the foundation for evidence-based scientific discovery and policy evaluation. However, uncovering credible causal relationships in complex real-world settin",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal inference via propensity scores for case-control studies",
+          "authors": [
+            "Yan Liu",
+            "Anita Koushik",
+            "Philippe Boileau",
+            "Cong Jiang",
+            "Miceline Mésidor",
+            "Claudia Waddingham",
+            "Denis Talbot",
+            "Mireille E. Schnitzer"
+          ],
+          "author_details": [
+            {
+              "name": "Yan Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Anita Koushik",
+              "affiliations": []
+            },
+            {
+              "name": "Philippe Boileau",
+              "affiliations": []
+            },
+            {
+              "name": "Cong Jiang",
+              "affiliations": []
+            },
+            {
+              "name": "Miceline Mésidor",
+              "affiliations": []
+            },
+            {
+              "name": "Claudia Waddingham",
+              "affiliations": []
+            },
+            {
+              "name": "Denis Talbot",
+              "affiliations": []
+            },
+            {
+              "name": "Mireille E. Schnitzer",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-08-20",
+          "abstract": "Propensity score methods for causal inference are increasingly being used in cohort and experimental designs, but their development and uptake in outcome-dependent sampling schemes, such as case-control studies, remains limited. Case-control studies involve the sampling of individuals with and without an outcome of interest with the goal of estimating the effects of past exposures. When the design is observational, statistical adjustment for confounding bias is necessary. In case-control studies, propensity score models can be fit using control data under the assumption that the controls are representative of the source population with respect to their exposure distribution conditional on covariates (\"control exchangeability\"). In this paper, we first demonstrate that relative effects, such as causal risk ratios, are estimable under three different case-control design variants using control-fitted propensity scores. We appropriate two existing estimators for these designs: inverse probability of treatment weighting and an efficient and doubly robust estimator. We also introduce a novel two-step propensity score caliper-matching procedure for case-control designs. We introduce novel diagnostic tools to verify two necessary types of overlap. We then contrast our estimators using simulated data and apply them to examine the association between regular aspirin use and ovarian cancer risk.",
+          "url": "https://arxiv.org/abs/2608.20080v1",
+          "arxiv_id": "2608.20080v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal inference via propensity scores for case-control studies",
+            "method": "Propensity score methods for causal inference are increasingly being used in cohort and experimental designs, but their development and uptake in outcome-dependent sampling schemes, such as case-control studies, remains limited. Case-contro",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Separating Biological and Choice Effects in Randomized Trials: Completing Causal Inference with β-Identification",
+          "authors": [
+            "Ogan Gurel",
+            "James Weinstein"
+          ],
+          "author_details": [
+            {
+              "name": "Ogan Gurel",
+              "affiliations": [
+                "The University of Texas at Arlington"
+              ]
+            },
+            {
+              "name": "James Weinstein",
+              "affiliations": [
+                "Microsoft (United States)"
+              ]
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Instrumental variable",
+            "Randomized controlled trial",
+            "Outcome (game theory)",
+            "Inference",
+            "Identification (biology)",
+            "Crossover",
+            "Causal model"
+          ],
+          "journal": "Research Square",
+          "published": "2026-08-20",
+          "abstract": "",
+          "url": "https://doi.org/10.21203/rs.3.rs-10011930/v1",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.21203/rs.3.rs-10011930/v1",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Separating Biological and Choice Effects in Randomized Trials: Completing Causal Inference with β-Identification",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "A Causal Inference Approach for Evaluating Diagnostic Tests and AI-Enabled Medical Devices: From Effect Modification to Information-Augmented Decision-Making",
+          "authors": [
+            "Wenxin Zhang",
+            "Rachael Phillips",
+            "Mark van der Laan"
+          ],
+          "author_details": [
+            {
+              "name": "Wenxin Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Rachael Phillips",
+              "affiliations": []
+            },
+            {
+              "name": "Mark van der Laan",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME",
+            "stat.ML"
+          ],
+          "journal": null,
+          "published": "2026-08-19",
+          "abstract": "Diagnostic medical tests and devices provide useful information for evaluating the potential benefits and risks of therapeutic treatments. However, unlike treatments, their impact on health outcomes is generally indirect because measuring diagnostic information typically does not itself affect patient outcomes, which complicates evaluation of their effectiveness. In this work, we develop a causal inference approach for evaluating diagnostic tests by distinguishing explanatory and pragmatic effectiveness. Explanatory effectiveness evaluates whether a diagnostic test result provides treatment-relevant information beyond baseline covariates by explaining additional treatment-effect heterogeneity, which we characterize using a variance-based treatment-effect variable importance measure. Pragmatic effectiveness evaluates whether incorporating this information into personalized treatment decisions improves expected outcomes, a question central to decision-making for patients, clinicians, and other health care stakeholders. We formalize pragmatic effectiveness as a contrast between expected outcomes under optimal personalized treatment rules defined with and without access to the diagnostic test result. We establish identification of the proposed estimand and provide Targeted Maximum Likelihood Estimation (TMLE) and cross-validated TMLE procedures for nonparametric estimation and inference. Simulation studies and a synthetic colorectal cancer application illustrate the proposed estimands and estimation performance. More broadly, this approach provides a causal inference perspective for evaluating AI-enabled devices by distinguishing their dual roles as information-enrichment and personalized decision-optimization tools, clarifying whether AI improves outcomes by expanding information for downstream decisions, improving the decision rule used to act on that information, or through both pathways.",
+          "url": "https://arxiv.org/abs/2608.19501v1",
+          "arxiv_id": "2608.19501v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A Causal Inference Approach for Evaluating Diagnostic Tests and AI-Enabled Medical Devices: From Effect Modification to Information-Augmented Decision-Making",
+            "method": "Diagnostic medical tests and devices provide useful information for evaluating the potential benefits and risks of therapeutic treatments. However, unlike treatments, their impact on health outcomes is generally indirect because measuring d",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Centroid-Referenced Mahalanobis Matching (CRM): A Scalable, Representation-Based Framework for Causal Inference in Large Observational Studies",
+          "authors": [
+            "Keming Hu",
+            "Yingpei He"
+          ],
+          "author_details": [
+            {
+              "name": "Keming Hu",
+              "affiliations": []
+            },
+            {
+              "name": "Yingpei He",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": "Transactions on Machine Learning Research, 2026",
+          "published": "2026-08-19",
+          "abstract": "Matching for causal inference can be computationally expensive at scale and can silently change the target population when overlap is limited. We propose Centroid-Referenced Mahalanobis Matching (CRM), which replaces global pairwise search with stratified sampling in two reference coordinates: each unit's Mahalanobis distance from the treated centroid and its Fisher coordinate along the treated-control mean shift. All covariates enter through the treated covariance geometry; CRM is therefore not principal-component preprocessing followed by nearest-neighbor matching. For $n$ units and $p$ pretreatment covariates, its implemented cost is $O(np^2+p^3+n\\log n)$, simplifying to $O(np^2+n\\log n)$ when $n \\ge p$. We derive an error decomposition separating representation, support, discretization, and stochastic components. A pre-matching shortage fraction $\\hatπ$ estimates the population support restriction $π$, which enters a gap bound under bounded treatment-effect heterogeneity. Final retention is reported separately for capacity-driven exclusions. Under representation sufficiency, smoothness, and adequate cell capacity, CRM has a conservative two-dimensional histogram mean-squared-error bound $O(n_T^{-1/2})$; representation sufficiency is an additional assumption, not a consequence of ignorability given the original covariates. On Criteo, CRM retains at least 99.4% of treated units, has lower MaxSMD than corrected propensity-score matching in 31 of 36 large-scale configurations, and is roughly an order of magnitude faster. Moderate-size simulations favor some pairwise and weighting baselines on balance, locating CRM's contribution in scalability and explicit support diagnostics rather than universal finite-sample dominance.",
+          "url": "https://arxiv.org/abs/2608.18417v1",
+          "arxiv_id": "2608.18417v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Centroid-Referenced Mahalanobis Matching (CRM): A Scalable, Representation-Based Framework for Causal Inference in Large Observational Studies",
+            "method": "Matching for causal inference can be computationally expensive at scale and can silently change the target population when overlap is limited. We propose Centroid-Referenced Mahalanobis Matching (CRM), which replaces global pairwise search ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "A Synthetic Benchmark Dataset with Endogenous Marketing Spend for Validating Marketing Mix Models",
+          "authors": [
+            "Niklas Heusch"
+          ],
+          "author_details": [
+            {
+              "name": "Niklas Heusch",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.AP",
+            "econ.GN"
+          ],
+          "journal": null,
+          "published": "2026-08-21",
+          "abstract": "Marketing Mix Models (MMMs) estimate the incremental sales effect of advertising from observational time series, yet they are rarely validated against ground truth, because ground truth is unobservable in real data. Synthetic data closes that gap in principle, but existing generators produce marketing spend exogenously - omitting the central difficulty of the estimation problem, since real budgets are planned around promotional calendars, seasons, and recent performance. This paper presents a parameterized generator, and a fixed reference instance, of a synthetic weekly retail dataset (156 weeks, three media channels) in which spend arises from four documented coordination mechanisms - quarterly budget feedback, anticipatory spending ahead of a promotional calendar, scheduled TV bursts, and algorithmic performance chasing - on a demand baseline with seasonal, quality, price, and unobserved sentiment components. Spend translates into incremental sales through two transformations, carryover and diminishing returns, instantiated here as geometric adstock and logistic saturation with known parameters; the true causal decomposition of every week's sales is recorded alongside the error-contaminated variables a practitioner would observe. Every mechanism is a parameter that can be varied or switched off, and a companion procedure simulates go-dark geo-experiments with exact treatment effects. The seeded generator and reference instance are publicly released with notebooks that reproduce every number in this paper.",
+          "url": "https://arxiv.org/abs/2608.21130v1",
+          "arxiv_id": "2608.21130v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A Synthetic Benchmark Dataset with Endogenous Marketing Spend for Validating Marketing Mix Models",
+            "method": "Marketing Mix Models (MMMs) estimate the incremental sales effect of advertising from observational time series, yet they are rarely validated against ground truth, because ground truth is unobservable in real data. Synthetic data closes th",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Structural Estimation of Marketing Mix Model Parameters from Geo-Experiments",
+          "authors": [
+            "Niklas Heusch"
+          ],
+          "author_details": [
+            {
+              "name": "Niklas Heusch",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.AP",
+            "econ.GN"
+          ],
+          "journal": null,
+          "published": "2026-08-21",
+          "abstract": "Marketing Mix Models (MMMs) are widely used for marketing measurement and budget allocation, but face fundamental identification challenges: due to endogenous marketing spend decisions, MMM estimation on observational time-series data cannot recover the true causal effects of marketing. On the other hand, geo-experiments provide causal identification through randomization, but it is not clear how to use them efficiently to calibrate marketing mix models. We propose a novel structural estimation approach that recovers the complete set of MMM parameters - adstock decay ($α$), saturation ($λ$), and effectiveness ($β$) - directly from geo-experimental time-series. By differencing outcomes between treatment and control regions, our method eliminates observed and unobserved confounding factors while preserving the temporal variation that identifies each parameter. We demonstrate on synthetic data that this approach recovers the true ROAS and the response curve over the range of spending covered by the experiments, together with credible estimates of the underlying parameters. Our framework enables efficient pooling across multiple experiments and provides a principled foundation for MMM calibration that fully utilizes the information experiments contain.",
+          "url": "https://arxiv.org/abs/2608.21128v1",
+          "arxiv_id": "2608.21128v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Structural Estimation of Marketing Mix Model Parameters from Geo-Experiments",
+            "method": "Marketing Mix Models (MMMs) are widely used for marketing measurement and budget allocation, but face fundamental identification challenges: due to endogenous marketing spend decisions, MMM estimation on observational time-series data canno",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ope",
+      "name": "Off-Policy Evaluation",
+      "papers": [
+        {
+          "title": "Offline Reinforcement Learning for Hemodynamic Management of Sepsis in the ICU: a MIMIC-IV Study with Dual Off-Policy Evaluation",
+          "authors": [
+            "Marc Pérez-Roig",
+            "David Fernández-Narro",
+            "Carlos Sáez"
+          ],
+          "author_details": [
+            {
+              "name": "Marc Pérez-Roig",
+              "affiliations": []
+            },
+            {
+              "name": "David Fernández-Narro",
+              "affiliations": []
+            },
+            {
+              "name": "Carlos Sáez",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-08-17",
+          "abstract": "The dosing of intravenous fluids and vasopressors in sepsis is a sequential decision made under uncertainty and guided largely by clinical judgment, which makes it a natural target for reinforcement learning from historical care. Because a learned policy cannot be trialed on patients, its value must be estimated off-policy, and such estimates can be fragile and optimistic. This work advances the reliable evaluation of sepsis treatment policies by combining off-policy estimation, reliability diagnostics, and clinician-agreement analyses in a transparent validation framework. We modeled fluid and vasopressor dosing on a cohort of 36,872 septic ICU stays drawn from the MIMIC-IV critical-care database, as a discretized Markov decision process with 1,000 states and 25 actions, defined by a five-by-five grid of fluid and vasopressor levels and solved by policy iteration. The clinicians' behavior policy was estimated with a random forest, which mitigated the collapse of the Effective Sample Size (ESS 50.1 against 4.0 with smoothed counts) that otherwise destabilizes the importance-sampling estimate. The learned policy was evaluated with two estimators, weighted importance sampling (WIS) and fitted Q evaluation (FQE), with the ESS and clinician agreement as reliability checks. An empirical variable selection found that the composition of the state matters more than its size. Both estimators place the learned policy above the clinicians' return (WIS 50.8 and FQE 46.8 against 38.2, ESS 50.1), yet it departs only modestly from observed practice (total variation 0.18), favoring less intravenous fluid. These retrospective single-center off-policy results support the learned policy as a clinically plausible refinement of observed practice and motivate its further evaluation as a discordance-based clinical decision-support approach.",
+          "url": "https://arxiv.org/abs/2608.16482v1",
+          "arxiv_id": "2608.16482v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Offline Reinforcement Learning for Hemodynamic Management of Sepsis in the ICU: a MIMIC-IV Study with Dual Off-Policy Evaluation",
+            "method": "The dosing of intravenous fluids and vasopressors in sepsis is a sequential decision made under uncertainty and guided largely by clinical judgment, which makes it a natural target for reinforcement learning from historical care. Because a ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Offline Reinforcement Learning for Hemodynamic Management of Sepsis in the ICU: a MIMIC-IV Study with Dual Off-Policy Evaluation",
+          "authors": [
+            "Marc Pérez-Roig",
+            "David Fernández-Narro",
+            "Carlos Sáez"
+          ],
+          "author_details": [
+            {
+              "name": "Marc Pérez-Roig",
+              "affiliations": []
+            },
+            {
+              "name": "David Fernández-Narro",
+              "affiliations": []
+            },
+            {
+              "name": "Carlos Sáez",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Estimator",
+            "Markov decision process",
+            "Sepsis",
+            "Reliability (semiconductor)",
+            "Consistency (knowledge bases)",
+            "Dual (grammatical number)",
+            "Dosing"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-08-17",
+          "abstract": "The dosing of intravenous fluids and vasopressors in sepsis is a sequential decision made under uncertainty and guided largely by clinical judgment, which makes it a natural target for reinforcement learning from historical care. Because a learned policy cannot be trialed on patients, its value must be estimated off-policy, and such estimates can be fragile and optimistic. This work advances the reliable evaluation of sepsis treatment policies by combining off-policy estimation, reliability diagnostics, and clinician-agreement analyses in a transparent validation framework. We modeled fluid and vasopressor dosing on a cohort of 36,872 septic ICU stays drawn from the MIMIC-IV critical-care database, as a discretized Markov decision process with 1,000 states and 25 actions, defined by a five-by-five grid of fluid and vasopressor levels and solved by policy iteration. The clinicians' behavior policy was estimated with a random forest, which mitigated the collapse of the Effective Sample Size (ESS 50.1 against 4.0 with smoothed counts) that otherwise destabilizes the importance-sampling estimate. The learned policy was evaluated with two estimators, weighted importance sampling (WIS) and fitted Q evaluation (FQE), with the ESS and clinician agreement as reliability checks. An empirical variable selection found that the composition of the state matters more than its size. Both estimators place the learned policy above the clinicians' return (WIS 50.8 and FQE 46.8 against 38.2, ESS 50.1), yet it departs only modestly from observed practice (total variation 0.18), favoring less intravenous fluid. These retrospective single-center off-policy results support the learned policy as a clinically plausible refinement of observed practice and motivate its further evaluation as a discordance-based clinical decision-support approach.",
+          "url": "https://doi.org/10.48550/arxiv.2608.16482",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2608.16482",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Offline Reinforcement Learning for Hemodynamic Management of Sepsis in the ICU: a MIMIC-IV Study with Dual Off-Policy Evaluation",
+            "method": "The dosing of intravenous fluids and vasopressors in sepsis is a sequential decision made under uncertainty and guided largely by clinical judgment, which makes it a natural target for reinforcement learning from historical care. Because a ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "X Y Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys.1",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys.1",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "X Y Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Energy-Aware Dynamic Tasking for Earth Observing Satellites With Deep Reinforcement Learning",
+          "authors": [
+            "Nicholas Nordlund",
+            "Tim Upthegrove",
+            "Leandros Tassiulas"
+          ],
+          "author_details": [
+            {
+              "name": "Nicholas Nordlund",
+              "affiliations": [
+                "Uninett (Norway)"
+              ]
+            },
+            {
+              "name": "Tim Upthegrove",
+              "affiliations": [
+                "Uninett (Norway)"
+              ]
+            },
+            {
+              "name": "Leandros Tassiulas",
+              "affiliations": [
+                "Uninett (Norway)"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Markov decision process",
+            "Cloud computing",
+            "Cadet",
+            "Scheduling (production processes)",
+            "Oracle",
+            "Markov process",
+            "Solver",
+            "Partially observable Markov decision process"
+          ],
+          "journal": "Digital Commons - USU (Utah State University)",
+          "published": "2026-08-23",
+          "abstract": "Dynamic tasking for agile Earth-observing satellites (AEOS) adapts preplanned schedules using onboard lookahead sensors to detect cloud cover that obscures targets. Existing approaches decompose tasking into sequential lookahead, maneuver, and capture stages, limiting their ability to manage tradeoffs over long time horizons. Instead, we formulate dynamic tasking as a constrained partially observable Markov decision process (CPOMDP) and introduce Cloud-Aware Dynamic Earth-observation Tasking ( CADET ), a deep reinforcement learning (DRL) framework that jointly selects maneuvering and sensing actions under resource constraints. We derive a closed-form model for the probability that a target is visible given a spatially aggregated lookahead observation, and we introduce CADET-PLAN , a hybrid variant that embeds a classical spacecraft scheduling solver within the learned policy. We compare CADET and CADET-PLAN in a simulated environment against two classical task schedulers: one with no cloud knowledge and an oracle with perfect cloud knowledge. Across twelve configurations of power budget and lookahead field of view, CADET and CADET-PLAN respectively close 42% and 56% of the performance gap relative to these baselines, while satisfying energy constraints.",
+          "url": "https://digitalcommons.usu.edu/smallsat/2026/all2026/73",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.26077/zsf5-eg91",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Energy-Aware Dynamic Tasking for Earth Observing Satellites With Deep Reinforcement Learning",
+            "method": "Dynamic tasking for agile Earth-observing satellites (AEOS) adapts preplanned schedules using onboard lookahead sensors to detect cloud cover that obscures targets. Existing approaches decompose tasking into sequential lookahead, maneuver, ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-Phase Guidance and Control for Small Satellite Docking via Deep Reinforcement Learning",
+          "authors": [
+            "Tanner Gill",
+            "Greg Furlich",
+            "Nisar Ahmed"
+          ],
+          "author_details": [
+            {
+              "name": "Tanner Gill",
+              "affiliations": [
+                "University of Colorado Boulder",
+                "University of Colorado System"
+              ]
+            },
+            {
+              "name": "Greg Furlich",
+              "affiliations": [
+                "University of Colorado Boulder",
+                "University of Colorado System"
+              ]
+            },
+            {
+              "name": "Nisar Ahmed",
+              "affiliations": [
+                "University of Colorado Boulder",
+                "University of Colorado System"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Rendezvous",
+            "Markov decision process",
+            "Spacecraft",
+            "Agile software development",
+            "Satellite",
+            "Control system",
+            "Markov process"
+          ],
+          "journal": "Digital Commons - USU (Utah State University)",
+          "published": "2026-08-23",
+          "abstract": "As interest in small satellite Rendezvous, Proximity Operations, and Docking (RPOD) grows, so does the need for high-level autonomy in space systems. Current systems relying on constrained hardware and ground-in-the-loop decision-making are ill-equipped for the evolving, contested space domain. Recent research on autonomous spacecraft guidance and control has moved beyond established optimal control and trajectory optimization methods to incorporate Reinforcement Learning (RL), though these efforts have predominantly focused on a single operational phase. This research advances small satellite docking autonomy by formulating the reference scenario as a Hierarchical Markov Decision Process (H-MDP), expanding the scope of the learned guidance and control algorithm to span the full mission profile rather than one phase. This structure rewards the agile deputy satellite for learning to transition between mission phases, modifying its behavior from long-range rendezvous through final approach, and for adapting to changing conditions such as a shift in the chief satellite's pointing mode. The framework uses the Basilisk astrodynamics simulator and BSK-RL library to train a Proximal Policy Optimization (PPO) agent under high-fidelity orbital dynamics, creating a lightweight, robust training pipeline. The analysis quantifies total delta-V, docking ingress characteristics, and mission success across randomized initial conditions, with the trained policy achieving a 99.2% docking success rate over a 500-run Monte Carlo analysis, demonstrating how H-MDP structures can bridge single-phase RL research and mission-ready autonomous G&C.",
+          "url": "https://digitalcommons.usu.edu/smallsat/2026/all2026/140",
+          "arxiv_id": null,
+          "doi": null,
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Phase Guidance and Control for Small Satellite Docking via Deep Reinforcement Learning",
+            "method": "As interest in small satellite Rendezvous, Proximity Operations, and Docking (RPOD) grows, so does the need for high-level autonomy in space systems. Current systems relying on constrained hardware and ground-in-the-loop decision-making are",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Experimental evaluation of offline reinforcement learning for heating, ventilation and air conditioning control in buildings",
+          "authors": [
+            "Jun Wang",
+            "Linyan Li",
+            "Yang Yu"
+          ],
+          "author_details": [
+            {
+              "name": "Jun Wang",
+              "affiliations": [
+                "City University of Hong Kong"
+              ]
+            },
+            {
+              "name": "Linyan Li",
+              "affiliations": [
+                "City University of Hong Kong"
+              ]
+            },
+            {
+              "name": "Yang Yu",
+              "affiliations": [
+                "City University of Hong Kong"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Offline learning",
+            "Air conditioning",
+            "Controller (irrigation)",
+            "Benchmark (surveying)",
+            "Markov decision process",
+            "Process (computing)",
+            "Software deployment",
+            "Building automation",
+            "Partially observable Markov decision process"
+          ],
+          "journal": "Engineering Applications of Artificial Intelligence",
+          "published": "2026-08-22",
+          "abstract": "",
+          "url": "https://doi.org/10.1016/j.engappai.2026.116026",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1016/j.engappai.2026.116026",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Experimental evaluation of offline reinforcement learning for heating, ventilation and air conditioning control in buildings",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Adaptive job scheduling and resource allocation for industrialized construction processes using digital twin and reinforcement learning",
+          "authors": [
+            "Xue Chen",
+            "Xianfei Yin",
+            "Xiang Yuan",
+            "Ahmed Bouferguène",
+            "Mohamed Al-Hussein"
+          ],
+          "author_details": [
+            {
+              "name": "Xue Chen",
+              "affiliations": [
+                "University of Alberta"
+              ]
+            },
+            {
+              "name": "Xianfei Yin",
+              "affiliations": [
+                "City University of Hong Kong"
+              ]
+            },
+            {
+              "name": "Xiang Yuan",
+              "affiliations": [
+                "University of Alberta"
+              ]
+            },
+            {
+              "name": "Ahmed Bouferguène",
+              "affiliations": [
+                "University of Alberta"
+              ]
+            },
+            {
+              "name": "Mohamed Al-Hussein",
+              "affiliations": [
+                "University of Alberta"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Scheduling (production processes)",
+            "Resource allocation",
+            "Job scheduler",
+            "Job shop scheduling",
+            "Reinforcement"
+          ],
+          "journal": "Advanced Engineering Informatics",
+          "published": "2026-08-22",
+          "abstract": "Construction processes can be disrupted by unforeseen operational disturbances, such as waiting for shared machines, insufficient workers, material unavailability, and workstation idleness. Such disturbances are difficult to mitigate through predefined schedules alone, as effective responses require real-time diagnosis of production states and coordinated adjustments to jobs, workers, and machines across multiple workstations. To address this challenge, this study proposes a disturbance-triggered job scheduling and resource allocation (DT-JSRA) framework that integrates a digital twin with deep reinforcement learning (DRL). The digital twin continuously synchronizes computer-vision-derived information on workstation activities, worker allocation, machine status, material availability, job progress, and disturbance flags, providing a structured and up-to-date representation of the production system. Based on these synchronized states, the scheduling problem is formulated as a Markov decision process, and a DRL agent learns to select adaptive job dispatching, worker allocation, and shared-machine allocation actions. This study contributes a knowledge-constrained decision-support framework that reconceptualizes industrialized construction scheduling as a disturbance-triggered, multi-resource, and multi-workstation coordination problem. Construction-specific knowledge, including task-resource consistency, human–machine safety, resource availability, allocation priority, transfer-time effects, and production-oriented disturbance logic, is embedded to ensure operationally feasible decisions. The framework was validated using a real-world wooden floor panel production case. Compared with practical construction records and several benchmark methods, the trained policy reduced cumulative non-productive time and completion time under disturbance-specific scenarios, demonstrating its effectiveness in dynamic scheduling and disturbance response through anticipatory resource coordination.",
+          "url": "https://doi.org/10.1016/j.aei.2026.105166",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1016/j.aei.2026.105166",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Adaptive job scheduling and resource allocation for industrialized construction processes using digital twin and reinforcement learning",
+            "method": "Construction processes can be disrupted by unforeseen operational disturbances, such as waiting for shared machines, insufficient workers, material unavailability, and workstation idleness. Such disturbances are difficult to mitigate throug",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "How a Reinforcement Learning Agent learns and decides in Financial Markets",
+          "authors": [
+            "Parshant Kumar"
+          ],
+          "author_details": [
+            {
+              "name": "Parshant Kumar",
+              "affiliations": [
+                "University of North Carolina at Chapel Hill"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Financial market",
+            "Information transmission",
+            "Baseline (sea)",
+            "Reinforcement",
+            "Public information"
+          ],
+          "journal": "UNC Libraries",
+          "published": "2026-08-22",
+          "abstract": "This project asked what a learning agent in financial markets should be looking at. Working with an agent that allocates across twelve funds and makes one decision each day, early experiments showed that information about how assets move together contributed more to performance than any change to the learning algorithm, roughly tripling a baseline agent's risk adjusted return. That result motivated building a better source of structure: a map of how companies depend on one another, drawn from public filings by a language model and covering 169 firms. Six tests were run on the map. Linked companies moved together beyond what their sector membership explained, shocks propagated to named partners, and the map improved correlation estimates in fifteen out of fifteen years tested. Transmission was strongest when a documented cause was available, while unexplained moves behaved more like noise. The result is a practical and auditable way to give a learning agent better information about the economy.",
+          "url": "https://doi.org/10.17615/zwv1-q226",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17615/zwv1-q226",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: How a Reinforcement Learning Agent learns and decides in Financial Markets",
+            "method": "This project asked what a learning agent in financial markets should be looking at. Working with an agent that allocates across twelve funds and makes one decision each day, early experiments showed that information about how assets move to",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Towards Sample-Efficient Deep Reinforcement Learning",
+          "authors": [
+            "Guang Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Guang Yang",
+              "affiliations": [
+                "Virginia Commonwealth University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Sample (material)",
+            "Inefficiency",
+            "Set (abstract data type)",
+            "Artificial neural network",
+            "Scheme (mathematics)",
+            "Function (biology)"
+          ],
+          "journal": "VCU Scholars Compass (Virginia Commonwealth University)",
+          "published": "2026-08-21",
+          "abstract": "Deep reinforcement learning (DRL), combining reinforcement learning and high-performance function approximations such as deep neural networks (DNN), is a powerful approach to solving complex sequential decision-making problems. However, due to the complex solution space of the sequential decision-making problems and the inefficient design of the DRL algorithms, DRL algorithms usually require a prohibitively large number of data samples to train effective strategies. Consequently, it is difficult to apply these DRL algorithms to complex real-world problems that require high costs to collect a large volume of data samples. This dissertation proposes new mechanisms to address this sample inefficiency issue, realizing sample-efficient DRL algorithms. Specifically, this dissertation first presents a FeedbAck-based Decision-mAking mechanism (FADA) that utilizes feedback from the critic for decision calibration to improve the sample efficiency of off-policy actor-critic DRL algorithms. Then, it presents a Quality-Aware Experience Exploitation scheme (QA2E), which selectively exploits simulated experiences based on their varying quality, to enhance the sample efficiency of model-based policy learning. Finally, it presents a Value-guided Search-to-Imitation framework (VSI), which performs value-guided imitation-based policy improvement to enhance the sample efficiency of off-policy actor-critic DRL. Extensive experiments have been conducted to evaluate the proposed mechanisms on a set of continuous control tasks in DeepMind Control Suite, and experimental results have shown their effectiveness in improving the sample efficiency of DRL algorithms.",
+          "url": "https://scholarscompass.vcu.edu/etd/8295",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.25772/v8db-nm64",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Towards Sample-Efficient Deep Reinforcement Learning",
+            "method": "Deep reinforcement learning (DRL), combining reinforcement learning and high-performance function approximations such as deep neural networks (DNN), is a powerful approach to solving complex sequential decision-making problems. However, due",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "A Transformer-Enhanced Multi-Agent Reinforcement Learning Model for Resilience Optimization in Educational Equipment Manufacturing Supply Chains",
+          "authors": [
+            "Yiquan Kong"
+          ],
+          "author_details": [
+            {
+              "name": "Yiquan Kong",
+              "affiliations": [
+                "Lingnan Normal University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Supply chain",
+            "Resilience (materials science)",
+            "Reinforcement learning",
+            "Transformer",
+            "Constraint (computer-aided design)",
+            "Supply chain risk management",
+            "Time constraint"
+          ],
+          "journal": "ICST Transactions on Scalable Information Systems",
+          "published": "2026-08-20",
+          "abstract": "INTRODUCTION: Educational equipment manufacturing supply chains are vulnerable to demand fluctuations, equipment failures, logistics disruptions, and cross-node risk propagation, while conventional approaches often separate state prediction from recovery decision-making. OBJECTIVES: This study proposes TMARL-ESCR, a Transformer-enhanced multi-agent reinforcement learning framework for supply chain resilience optimization. METHODS: The model represents suppliers, manufacturers, logistics providers, and distribution centers as a dynamic network and uses a Transformer to capture long-range temporal dependencies and cross-node interactions. Multitask prediction heads estimate future demand, logistics lead time, available capacity, and disruption risk, and these predictions are fused with current states to support coordinated recovery decisions. Under a centralized training and decentralized execution framework, multiple agents jointly optimize procurement, production, transportation, and inventory reallocation through local-global rewards and explicit operational constraints. RESULTS:The prediction module achieves a demand WMAPE of 14.38% and a disruption-risk AUC of 0.941. The complete model reaches a 95.2% order fulfillment rate, a 7.1-day recovery time, a 0.5% constraint violation rate, and a resilience score of 0.892. Compared with Transformer-MAPPO, TMARL-ESCR reduces recovery time by 19.3% and improves the resilience score by 5.9%. CONCLUSION: Experiments integrating M5 Forecasting, AI4I 2020, LaDe, and an SCML-based simulation environment evaluate predictive accuracy and resilience optimization under multiple disruption scenarios, demonstrating improved proactive recovery and coordinated resilience under complex disruptions.",
+          "url": "https://doi.org/10.4108/eetsis.14151",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.4108/eetsis.14151",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A Transformer-Enhanced Multi-Agent Reinforcement Learning Model for Resilience Optimization in Educational Equipment Manufacturing Supply Chains",
+            "method": "INTRODUCTION: Educational equipment manufacturing supply chains are vulnerable to demand fluctuations, equipment failures, logistics disruptions, and cross-node risk propagation, while conventional approaches often separate state prediction",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Offline Multi-Agent Reinforcement Learning with a Physics-Informed World Model for Cooperative Mixed Traffic Control",
+          "authors": [
+            "Lu Liu",
+            "Chi Xie",
+            "Xi Xiong"
+          ],
+          "author_details": [
+            {
+              "name": "Lu Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Chi Xie",
+              "affiliations": []
+            },
+            {
+              "name": "Xi Xiong",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-08-18",
+          "abstract": "This study investigates cooperative control of connected and automated vehicles (CAVs) at partially observable highway bottlenecks in mixed traffic, aiming to mitigate congestion without relying on complete global traffic states or online trial-and-error. We propose a physics-informed world model-based offline multi-agent reinforcement learning framework that reconstructs a physically interpretable global traffic state from local CAV observation-action histories, with coupled macroscopic-microscopic traffic dynamics providing physics-based supervision. A probabilistic ensemble world model learns traffic-state transitions and system rewards, while model disagreement quantifies epistemic uncertainty. Multi-step imagined rollouts with pessimistic rewards and uncertainty-driven truncation are then used for offline policy learning. Experiments in a SUMO-based on-ramp bottleneck using approximately $1\\times10^6$ offline transitions show that physics supervision improves state reconstruction and world-model prediction accuracy.",
+          "url": "https://arxiv.org/abs/2608.17739v1",
+          "arxiv_id": "2608.17739v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Offline Multi-Agent Reinforcement Learning with a Physics-Informed World Model for Cooperative Mixed Traffic Control",
+            "method": "This study investigates cooperative control of connected and automated vehicles (CAVs) at partially observable highway bottlenecks in mixed traffic, aiming to mitigate congestion without relying on complete global traffic states or online t",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Adaptive context-aware hierarchical federated multi-agent reinforcement learning for scalable intrusion detection in industrial IoT",
+          "authors": [
+            "Xiaolei Zhang",
+            "Yaowu Shen"
+          ],
+          "author_details": [
+            {
+              "name": "Xiaolei Zhang",
+              "affiliations": [
+                "Dongguan University of Technology"
+              ]
+            },
+            {
+              "name": "Yaowu Shen",
+              "affiliations": [
+                "Shenzhen Polytechnic University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Scalability",
+            "Testbed",
+            "Intrusion detection system",
+            "Resilience (materials science)",
+            "Enhanced Data Rates for GSM Evolution",
+            "Feature learning",
+            "Identification (biology)",
+            "The Internet"
+          ],
+          "journal": "Scientific Reports",
+          "published": "2026-08-17",
+          "abstract": "The swift expansion of Industrial Internet of Things (IIoT) applications has presented significant hurdles for intrusion detection systems (IDSs), such as scalability constraints, privacy issues, diverse data distributions, and the identification of complex multi-stage attacks. Current methodologies frequently depend on centralized processing or traditional learning techniques that encounter difficulties with dispersed non-IID data and dynamic attack patterns. This study introduces CHF-MARL, a federated reinforcement learning framework utilizing distributed edge agents for scalable and privacy-preserving Industrial Internet of Things intrusion detection. The proposed framework integrates an adaptive context-aware feature fusion module for deriving informative representations from diverse network behaviors, a hierarchical federated aggregation strategy for collaborative learning without the exchange of raw data, and a history-aware reward mechanism for identifying temporal attack dependencies. Each edge agent autonomously enhances its localized intrusion detection strategy utilizing Deep Q-Networks, while knowledge dissemination is facilitated through hierarchical parameter aggregation. Comprehensive experiments on the TON-IoT, Edge-IIoTset, and X-IIoT ID datasets under both IID and non-IID conditions reveal that CHF-MARL consistently surpasses contemporary federated learning and reinforcement learning-based IDS methodologies regarding accuracy, macro-averaged F1-score, and false-negative mitigation. Ablation studies, sensitivity analyses, and statistical evaluations further substantiate the efficacy and resilience of the proposed components. The findings demonstrate that federated reinforcement learning, coupled with adaptive representation learning, offers a robust and privacy-conscious approach to distributed IIoT security. Future research will include real-world testbed validation and sophisticated cooperative learning mechanisms for extensive industrial implementations.",
+          "url": "https://doi.org/10.1038/s41598-026-66705-9",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1038/s41598-026-66705-9",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Adaptive context-aware hierarchical federated multi-agent reinforcement learning for scalable intrusion detection in industrial IoT",
+            "method": "The swift expansion of Industrial Internet of Things (IIoT) applications has presented significant hurdles for intrusion detection systems (IDSs), such as scalability constraints, privacy issues, diverse data distributions, and the identifi",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Adaptive Edge Resource Management Through Deep Reinforcement Learning Techniques",
+          "authors": [
+            "Amit K. Mogal",
+            "Rahul A. Patil",
+            "Sahebrao N. Shinde",
+            "Madhukar N. Shelar"
+          ],
+          "author_details": [
+            {
+              "name": "Amit K. Mogal",
+              "affiliations": [
+                "Maharashtra University of Health Sciences"
+              ]
+            },
+            {
+              "name": "Rahul A. Patil",
+              "affiliations": [
+                "Maharashtra University of Health Sciences"
+              ]
+            },
+            {
+              "name": "Sahebrao N. Shinde",
+              "affiliations": [
+                "KPMG (United Kingdom)"
+              ]
+            },
+            {
+              "name": "Madhukar N. Shelar",
+              "affiliations": [
+                "Maharashtra University of Health Sciences"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Orchestration",
+            "Edge device",
+            "Edge computing",
+            "Scalability",
+            "Scheduling (production processes)",
+            "Adaptive learning",
+            "Enhanced Data Rates for GSM Evolution",
+            "Software deployment"
+          ],
+          "journal": "International Journal of Innovative Science and Research Technology (IJISRT)",
+          "published": "2026-08-21",
+          "abstract": "Edge computing has emerged as a foundational paradigm for intelligent digital infrastructure because it reduces latency, improves bandwidth utilization, and enables real-time analytics close to data sources. Yet modern edge environments remain highly volatile. Resource availability changes continuously. IoT traffic fluctuates unpredictably. Mobile users migrate across heterogeneous networks. Conventional heuristic-based schedulers struggle to maintain stable Quality of Service (QoS) under such conditions. Deep Reinforcement Learning (DRL) offers an adaptive decision-making framework capable of learning dynamic resource allocation strategies directly from complex environments. This paper investigates adaptive edge resource management through DRL-driven optimization models for computation offloading, task scheduling, bandwidth allocation, energy efficiency, and autonomous orchestration in distributed edge ecosystems. The study synthesizes recent advances between 2020 and 2025 across edge intelligence, federated learning, multi-agent reinforcement learning, and AI-driven autonomous networking. A layered DRL-enabled edge orchestration framework is proposed to optimize latency, throughput, energy consumption, and load balancing simultaneously. The research also formulates two research questions focused on scalability and adaptive scheduling under heterogeneous workloads. The proposed methodology integrates Proximal Policy Optimization (PPO), Deep Q-Networks (DQN), Multi-Agent Deep Deterministic Policy Gradient (MADDPG), and federated reinforcement learning within a cloud-edge continuum. Comparative analysis indicates that DRL-based adaptive management substantially improves response latency, energy utilization, and computational efficiency compared with static and rule-based schedulers. The paper identifies unresolved challenges involving reward engineering, explainability, convergence stability, privacy preservation, and large-scale deployment in 6G-enabled edge systems. The findings demonstrate that DRL-driven adaptive orchestration can become a central mechanism for autonomous edge intelligence in next-generation AI-native communication infrastructures.",
+          "url": "https://doi.org/10.38124/ijisrt/26aug614",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.38124/ijisrt/26aug614",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Adaptive Edge Resource Management Through Deep Reinforcement Learning Techniques",
+            "method": "Edge computing has emerged as a foundational paradigm for intelligent digital infrastructure because it reduces latency, improves bandwidth utilization, and enables real-time analytics close to data sources. Yet modern edge environments rem",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+          "authors": [
+            "Yunhao Yang",
+            "Yuexin Bian",
+            "Yunjie Tian",
+            "Di Fu",
+            "Tianjin Huang",
+            "Yuanyuan Shi",
+            "Ziang Xiao",
+            "Nuno Vasconcelos",
+            "Yijiang Li"
+          ],
+          "author_details": [
+            {
+              "name": "Yunhao Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Yuexin Bian",
+              "affiliations": []
+            },
+            {
+              "name": "Yunjie Tian",
+              "affiliations": []
+            },
+            {
+              "name": "Di Fu",
+              "affiliations": []
+            },
+            {
+              "name": "Tianjin Huang",
+              "affiliations": []
+            },
+            {
+              "name": "Yuanyuan Shi",
+              "affiliations": []
+            },
+            {
+              "name": "Ziang Xiao",
+              "affiliations": []
+            },
+            {
+              "name": "Nuno Vasconcelos",
+              "affiliations": []
+            },
+            {
+              "name": "Yijiang Li",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.AI",
+            "cs.CV"
+          ],
+          "journal": null,
+          "published": "2026-08-18",
+          "abstract": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce as reasoning capabilities advance beyond what humans can reliably evaluate. Self-rewarding RL reduces this dependence by enabling models to derive reward signals from their own completions. However, training solely on self-generated feedback can reinforce existing biases and suboptimal behaviors, reduce response diversity, and ultimately lead to homogenized responses and training collapse. In this work, we show that unsupervised reasoning can emerge through cooperative multi-agent training. We introduce Co-RL, a framework in which multiple decoupled models, sharing no parameters, are simultaneously optimized through RL using rewards derived from their peers. We further show that increasing cohort diversity, through heterogeneous model families, sizes, and rephrased training samples, reduces the correlated errors that drive self-reinforcing feedback loops. This diversity consistently improves reasoning performance, maintains behavioral diversity, and mitigates training collapse. Across text-only and multimodal domains, Co-RL consistently outperforms the base models and prior label-free approaches, while matching or surpassing supervised methods, without access to any ground-truth labels. Concretely, Co-RL yields average gains of 3.0-8.6% across seven text-only benchmarks for LLMs and 2.3-7.2% across four multimodal benchmarks for VLMs. Code is available at https://github.com/DrStranded/Co-RL.",
+          "url": "https://arxiv.org/abs/2608.17253v2",
+          "arxiv_id": "2608.17253v2",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+            "method": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such anno",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "An O-RAN-Assisted MARL Approach for Dynamic Sidelink and Infrastructure Selection in V2X Communications",
+          "authors": [
+            "Maria Katarine Santana Barbosa",
+            "Kelvin Lopes Dias"
+          ],
+          "author_details": [
+            {
+              "name": "Maria Katarine Santana Barbosa",
+              "affiliations": []
+            },
+            {
+              "name": "Kelvin Lopes Dias",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.NI"
+          ],
+          "journal": null,
+          "published": "2026-08-17",
+          "abstract": "Future applications in the 6G-based Internet of Vehicles will leverage sidelink (SL) transmissions in Vehicle-to-Everything (V2X) scenarios. However, SL-based direct communication can significantly increase interference among vehicles and between vehicles and other entities of the Intelligent Transportation System. Thus, both Vehicle-to-Vehicle communications and Vulnerable Road Users (VRUs) uplink resources may be degraded or subject to starvation. Existing solutions primarily focus on improving resource allocation and pair selection. Nonetheless, they lack a comprehensive approach to tackle the communication modes and the entire network. To address these challenges, this paper leverages Open RAN to manage V2X communication and proposes a multi-agent reinforcement learning (MARL) resource-aware system. Open RAN provides control loops through a global view of the network and also an open interface-based framework for machine learning models applied to resource decision-making. Meanwhile, the MARL model aims to mitigate interference, optimize resource usage, and enhance quality of service by optimally selecting between sidelink and network transmissions. To reduce system complexity, this work employs a clustering strategy. Each agent manages a group of pairs, rather than assigning one agent to each pair. The solution supports this design by adopting a centralized training with decentralized execution approach, empowered by Open RAN. The strategy uses offline training and an off-policy approach, in which each agent stores experience for fine-tuning. Results indicate that the MARL approach reduces average loss by 21% and latency by 19% in Vehicle-only scenarios. In coexistence VRU scenarios, loss and latency drop by 18% and 30%, respectively, compared to the single-agent approach.",
+          "url": "https://arxiv.org/abs/2608.17210v1",
+          "arxiv_id": "2608.17210v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: An O-RAN-Assisted MARL Approach for Dynamic Sidelink and Infrastructure Selection in V2X Communications",
+            "method": "Future applications in the 6G-based Internet of Vehicles will leverage sidelink (SL) transmissions in Vehicle-to-Everything (V2X) scenarios. However, SL-based direct communication can significantly increase interference among vehicles and b",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "RoboStriker: Latent-Space Strategic Games for Autonomous Humanoid Boxing",
+          "authors": [
+            "Kangning Yin",
+            "Kaige Liu",
+            "Zhe Cao",
+            "Wentao Dong",
+            "Weishuai Zeng",
+            "Tianyi Zhang",
+            "Qiang Zhang",
+            "Jingbo Wang",
+            "Jiangmiao Pang",
+            "Yang Li",
+            "Ming Zhou",
+            "Weinan Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Kangning Yin",
+              "affiliations": []
+            },
+            {
+              "name": "Kaige Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Zhe Cao",
+              "affiliations": []
+            },
+            {
+              "name": "Wentao Dong",
+              "affiliations": []
+            },
+            {
+              "name": "Weishuai Zeng",
+              "affiliations": []
+            },
+            {
+              "name": "Tianyi Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Qiang Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Jingbo Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Jiangmiao Pang",
+              "affiliations": []
+            },
+            {
+              "name": "Yang Li",
+              "affiliations": []
+            },
+            {
+              "name": "Ming Zhou",
+              "affiliations": []
+            },
+            {
+              "name": "Weinan Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.RO"
+          ],
+          "journal": null,
+          "published": "2026-08-17",
+          "abstract": "Achieving human-level competitive intelligence and physical agility in humanoid robots remains a profound challenge, particularly in contact-rich and highly dynamic tasks such as boxing. While Multi-Agent Reinforcement Learning offers a principled framework for strategic interaction, its direct application to unstructured raw motor spaces inevitably leads to joint-level physical collapse, preventing the emergence of any viable combat tactics. To resolve this fundamental conflict between strategic exploration and physical feasibility, we formulate the humanoid combat task as a novel two-player latent-space zero-sum Markov game. Under standard regularity and approximate best-response assumptions, we show that the latent formulation induces an equivalent game over the decoder-reachable action manifold, providing an approximate-Nash interpretation of the resulting self-play dynamics. To instantiate this theoretical formulation, we propose RoboStriker, a hierarchical framework that decouples high-level reasoning from low-level execution. It first distills the tracking expertise of predefined boxing motions into a topologically bounded latent manifold. This structured latent foundation subsequently drives multi-agent co-evolution via Latent-Space Neural Fictitious Self-Play. Extensive experimental results demonstrate that gaming within this structured latent space substantially outperforms direct exploration. By constraining strategic exploration through a pretrained motion decoder, RoboStriker substantially reduces the catastrophic balance failures observed in raw action-space methods and achieves superior tactical performance in both competitive win rates and striking efficiency. Finally, we successfully deploy and validate our learned combat policies on real-world humanoid robots. Our code and video and supplementary materials are available at RoboStriker.",
+          "url": "https://arxiv.org/abs/2608.16195v1",
+          "arxiv_id": "2608.16195v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: RoboStriker: Latent-Space Strategic Games for Autonomous Humanoid Boxing",
+            "method": "Achieving human-level competitive intelligence and physical agility in humanoid robots remains a profound challenge, particularly in contact-rich and highly dynamic tasks such as boxing. While Multi-Agent Reinforcement Learning offers a pri",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": []
+    },
+    {
+      "id": "causal-llm",
+      "name": "Causal Inference in Large Language Models",
+      "papers": [
+        {
+          "title": "Large scale retrieval for the LinkedIn feed using causal language models",
+          "authors": [
+            "Sudarshan Srinivasa Ramanujam",
+            "Antonio Alonso‐Ayuso",
+            "Saurabh Kataria",
+            "Siddharth Dangi",
+            "A. K. Gupta",
+            "Birjodh Tiwana",
+            "Manas Somaiya",
+            "Luke Simon",
+            "David C. Byrne",
+            "Madhu Arun",
+            "Sojeong Ha",
+            "Sen Zhou",
+            "Andrei Akterskii",
+            "Zhanglong Liu",
+            "S. Sriram",
+            "Zihan Xiong",
+            "Zhoutao Pei",
+            "Angela Shao",
+            "Alex Li",
+            "Annie Xiao",
+            "Caitlin Kolb",
+            "Thomas Kistler",
+            "Zach Moore",
+            "Hamed Firooz"
+          ],
+          "author_details": [
+            {
+              "name": "Sudarshan Srinivasa Ramanujam",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Antonio Alonso‐Ayuso",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Saurabh Kataria",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Siddharth Dangi",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "A. K. Gupta",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Birjodh Tiwana",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Manas Somaiya",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Luke Simon",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "David C. Byrne",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Madhu Arun",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Sojeong Ha",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Sen Zhou",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Andrei Akterskii",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Zhanglong Liu",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "S. Sriram",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Zihan Xiong",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Zhoutao Pei",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Angela Shao",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Alex Li",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Annie Xiao",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Caitlin Kolb",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Thomas Kistler",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Zach Moore",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            },
+            {
+              "name": "Hamed Firooz",
+              "affiliations": [
+                "LinkedIn (United States)"
+              ]
+            }
+          ],
+          "keywords": [
+            "Language model",
+            "Encoder",
+            "Latency (audio)",
+            "Ranking (information retrieval)",
+            "Scale (ratio)",
+            "Quality (philosophy)",
+            "Key (lock)",
+            "Embedding"
+          ],
+          "journal": "AI Magazine",
+          "published": "2026-08-22",
+          "abstract": "Abstract In large‐scale recommendation systems like LinkedIn's, the retrieval stage is critical for narrowing billions of potential candidates to a manageable subset for ranking. LinkedIn's feed now serves suggested content based on the topical interests of members, where 2000 candidates are retrieved from several million candidates with a latency budget of a few milliseconds and inbound QPS of several thousand per second. This paper presents a novel retrieval approach that fine tunes a large causal language model (Meta's LLaMA 3) as a dual encoder to generate high quality embeddings for both users (members) and content (items), using only textual input. We describe the end to end pipeline, including prompt design for embedding generation, techniques for fine tuning at LinkedIn scale, and infrastructure for low latency, cost effective online serving. We share our findings on how quantizing numerical features in the prompt enables the information getting encoded in the embedding facilitating greater alignment between the retrieval and ranking layer. The system was evaluated using offline metrics and an online A/B test, which showed substantial improvements in member engagement. We observed significant gains among newer members, who often lack strong network connections, indicating that high‐quality suggested content aids retention. This work demonstrates how generative language models can be effectively adapted for real time, high throughput retrieval in industrial applications.",
+          "url": "https://doi.org/10.1002/aaai.70078",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1002/aaai.70078",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Large scale retrieval for the LinkedIn feed using causal language models",
+            "method": "Abstract In large‐scale recommendation systems like LinkedIn's, the retrieval stage is critical for narrowing billions of potential candidates to a manageable subset for ranking. LinkedIn's feed now serves suggested content based on the top",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "causal-text",
+      "name": "Causal Inference in Text Analysis",
+      "papers": []
+    }
+  ]
+}
