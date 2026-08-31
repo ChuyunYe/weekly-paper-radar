@@ -1,0 +1,1597 @@
+{
+  "week": "2026-W36",
+  "generated_at": "2026-08-31T06:41:09.499383Z",
+  "topics": [
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "papers": [
+        {
+          "title": "MOCR-DB: The Multi-Omics Causal Resource Database for Genetic Correlation, Causal Inference, and Functional Interpretation",
+          "authors": [
+            "Hongwei Chen",
+            "Bingjie Fan",
+            "Huiyao Chen",
+            "Yongkun Chen",
+            "Yuelong Shu",
+            "Haoyang Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Hongwei Chen",
+              "affiliations": [
+                "Sun Yat-sen University",
+                "Shenzhen University",
+                "Shenzhen University Health Science Center",
+                "Children's Hospital of Fudan University"
+              ]
+            },
+            {
+              "name": "Bingjie Fan",
+              "affiliations": [
+                "Guangzhou Women and Children Medical Center",
+                "Guangzhou Medical University"
+              ]
+            },
+            {
+              "name": "Huiyao Chen",
+              "affiliations": [
+                "Sun Yat-sen University",
+                "Shenzhen University",
+                "Shenzhen University Health Science Center",
+                "Children's Hospital of Fudan University"
+              ]
+            },
+            {
+              "name": "Yongkun Chen",
+              "affiliations": [
+                "Shenzhen University Health Science Center"
+              ]
+            },
+            {
+              "name": "Yuelong Shu",
+              "affiliations": [
+                "Sun Yat-sen University",
+                "Shenzhen University",
+                "Chinese Academy of Medical Sciences & Peking Union Medical College",
+                "Shenzhen University Health Science Center"
+              ]
+            },
+            {
+              "name": "Haoyang Zhang",
+              "affiliations": [
+                "Lund University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Genome-wide association study",
+            "Quantitative trait locus",
+            "Mendelian randomization",
+            "Trait",
+            "Genetic association",
+            "Resource (disambiguation)",
+            "Summary statistics",
+            "Genetic architecture"
+          ],
+          "journal": "Phenomics",
+          "published": "2026-08-28",
+          "abstract": "Abstract Genome-wide association studies (GWAS) have revealed extensive polygenic signals and overlapping genetic architectures across human traits, creating a need for resources that connect trait-level genetic relationships with gene-level functional evidence. Here, we developed the Multi-Omics Causal Resource Database (MOCR-DB), an interactive platform that integrates large-scale GWAS summary statistics from UK Biobank, FinnGen, and the COVID-19 Host Genetics Initiative with molecular quantitative trait locus (QTL) datasets. In total, 613 traits with significant heritability were retained and harmonized using the Unified Medical Language System. MOCR-DB integrates phenotype-to-phenotype analyses, including genetic correlation and Mendelian randomization, with phenotype-to-gene analyses based on QTL-informed summary-data-based Mendelian randomization analysis (SMR) within a single searchable and interactive framework. The platform supports exploration of cross-trait genetic correlations, putative causal relationships, and candidate functional gene associations. An AI-assisted module provides concise plain-language summaries to help contextualize statistical findings. As a case study, we examined obesity and COVID-19 severity, where genetically predicted obesity showed a stronger association with critical COVID-19 and lung eQTL-based SMR analyses revealed distinct immune- and neuronal-related molecular patterns across severity groups. MOCR-DB thus provides a unified and accessible resource for investigating shared genetic architectures and prioritized functional gene candidates across complex traits, supporting the generation of reproducible and biologically interpretable hypotheses. The database is publicly available at https://chenhongwei.net/public/MOCRdb/. Graphical Abstract Data resources, analytical framework, and interpretation in MOCR-DB The Multi-Omics Causal Resource Database (MOCR-DB) integrates large-scale GWAS summary statistics and molecular QTL datasets to provide a unified framework for genetic correlation, causal inference, and functional mediation. Data resources include GWAS summary statistics from UK Biobank, FinnGen, and the COVID-19 Host Genetics Initiative, together with 53 xQTL datasets across 49 tissues (eQTL, mQTL, sQTL, and caQTL). The analytical framework combines linkage disequilibrium score regression (LDSC) for estimating heritability and cross-trait genetic correlation, Mendelian randomization (MR) to infer potential causal relationships between traits, and summary-data-based Mendelian randomization (SMR) to identify tissue-specific functional genes. Results are presented through interactive genetic network searches that link diseases, biomarkers, lifestyle factors, and molecular traits via correlation, causality, and functional annotation. An AI-assisted module further facilitates causal and functional interpretation by summarizing complex results from LDSC, MR, and SMR analyses into accessible biological insights. Together, MOCR-DB provides systematic exploration of shared genetic architectures and functional mediators across complex human traits.",
+          "url": "https://doi.org/10.1007/s43657-026-00338-w",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1007/s43657-026-00338-w",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: MOCR-DB: The Multi-Omics Causal Resource Database for Genetic Correlation, Causal Inference, and Functional Interpretation",
+            "method": "Abstract Genome-wide association studies (GWAS) have revealed extensive polygenic signals and overlapping genetic architectures across human traits, creating a need for resources that connect trait-level genetic relationships with gene-leve",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Virtual single‐cell perturbation and genetic causal inference reveal CSF1R ‐dependent immunometabolic communication in iron metabolism‐associated osteoarthritis",
+          "authors": [
+            "Yue Zhou",
+            "Guohang Shen",
+            "Lijing Si",
+            "Kaiyong Wang",
+            "Yang Chen",
+            "Ruoyan Wang",
+            "Yupei Dai"
+          ],
+          "author_details": [
+            {
+              "name": "Yue Zhou",
+              "affiliations": [
+                "North Sichuan Medical University",
+                "Affiliated Hospital of North Sichuan Medical College"
+              ]
+            },
+            {
+              "name": "Guohang Shen",
+              "affiliations": [
+                "North Sichuan Medical University",
+                "Ningxia Medical University"
+              ]
+            },
+            {
+              "name": "Lijing Si",
+              "affiliations": [
+                "North Sichuan Medical University",
+                "Affiliated Hospital of North Sichuan Medical College"
+              ]
+            },
+            {
+              "name": "Kaiyong Wang",
+              "affiliations": [
+                "Ningxia Medical University"
+              ]
+            },
+            {
+              "name": "Yang Chen",
+              "affiliations": [
+                "Ningxia Medical University"
+              ]
+            },
+            {
+              "name": "Ruoyan Wang",
+              "affiliations": [
+                "North Sichuan Medical University"
+              ]
+            },
+            {
+              "name": "Yupei Dai",
+              "affiliations": [
+                "Affiliated Hospital of North Sichuan Medical College",
+                "Ningxia Medical University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Transcriptome",
+            "Colocalization",
+            "Signal transduction",
+            "Osteoarthritis",
+            "Crosstalk",
+            "Metabolomics",
+            "Gene",
+            "Gene expression"
+          ],
+          "journal": "Journal of Cell Communication and Signaling",
+          "published": "2026-08-27",
+          "abstract": "Abstract Iron dysregulation has emerged as a contributor to osteoarthritis (OA), yet the cell‐communication mechanisms connecting iron‐related genetic signals to joint degeneration remain insufficiently defined. Here, we established an integrative computational framework combining transcriptomic screening, machine learning, Mendelian randomization, immune and metabolite mediation analysis, single‐cell transcriptomics, virtual gene perturbation, molecular docking, molecular dynamics simulation, and experimental validation to identify signaling regulators involved in iron metabolism‐associated OA. By intersecting iron metabolism‐related genes, OA differentially expressed genes, and eQTL‐supported genes, we identified 27 shared candidates. Machine learning‐based prioritization and genetic causal inference further highlighted CSF1R as a central regulatory gene. Single‐cell analysis localized CSF1R expression predominantly to macrophages, indicating a macrophage‐centered role in the osteoarthritic microenvironment. Mediation analysis integrating 731 immune‐cell traits and 1400 circulating metabolites identified CD14 + CD16 + monocytes as a significant cellular mediator linking CSF1R activity to OA susceptibility, suggesting that CSF1R may promote disease progression mainly through monocyte–macrophage remodeling rather than isolated metabolic alteration. Genetic colocalization further supported a shared regulatory signal between CSF1R expression and OA risk. Virtual single‐cell perturbation revealed distinct downstream consequences of CSF1R modulation. Simulated CSF1R depletion enhanced antigen processing, major histocompatibility complex class II presentation, and phagosome‐related programs, whereas simulated CSF1R overexpression preferentially activated extracellular matrix organization, integrin signaling, and cartilage development‐associated pathways. Structural analyses identified stable interactions between CSF1R and candidate inhibitory compounds, and inflammatory stimulation of macrophages confirmed increased CSF1R protein expression. Collectively, this study identifies CSF1R as a macrophage‐associated immunometabolic signaling hub linking iron dysregulation to OA. These findings provide a mechanistic basis for targeting CSF1R ‐mediated monocyte–macrophage communication and offer a computational strategy for prioritizing therapeutic targets in degenerative joint disease.",
+          "url": "https://doi.org/10.1002/ccs3.70107",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1002/ccs3.70107",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Virtual single‐cell perturbation and genetic causal inference reveal CSF1R ‐dependent immunometabolic communication in iron metabolism‐associated osteoarthritis",
+            "method": "Abstract Iron dysregulation has emerged as a contributor to osteoarthritis (OA), yet the cell‐communication mechanisms connecting iron‐related genetic signals to joint degeneration remain insufficiently defined. Here, we established an inte",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Project-level causal inference of a minimum viable scale threshold and adoption band in CCUS-enabled hydrogen",
+          "authors": [
+            "Joseph Junior Nkou Nkou",
+            "Olusola Bamisile",
+            "Chukwuebuka J. Ejiyi",
+            "Anto Jonathan Leoba",
+            "Qi Huang",
+            "Cai Dongsheng"
+          ],
+          "author_details": [
+            {
+              "name": "Joseph Junior Nkou Nkou",
+              "affiliations": [
+                "Chengdu University of Technology"
+              ]
+            },
+            {
+              "name": "Olusola Bamisile",
+              "affiliations": [
+                "University of Dundee",
+                "Chengdu University of Technology"
+              ]
+            },
+            {
+              "name": "Chukwuebuka J. Ejiyi",
+              "affiliations": [
+                "Chengdu University of Technology"
+              ]
+            },
+            {
+              "name": "Anto Jonathan Leoba",
+              "affiliations": [
+                "Chengdu University of Technology"
+              ]
+            },
+            {
+              "name": "Qi Huang",
+              "affiliations": [
+                "Chengdu University of Technology"
+              ]
+            },
+            {
+              "name": "Cai Dongsheng",
+              "affiliations": [
+                "Chengdu University of Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Scale (ratio)",
+            "Inference",
+            "Hydrogen",
+            "Causal model"
+          ],
+          "journal": "iScience",
+          "published": "2026-08-26",
+          "abstract": "In this study, we analyze whether adopting carbon capture, utilization, and storage (CCUS) causally raises the deployable capacity of hydrogen projects, and under what scale and infrastructure conditions any such effect emerges. Analyzing 2,437 announced global hydrogen projects (182 with CCUS, 2,255 without) from the IEA Hydrogen Production Projects Database 2025, we apply a project-level multi-estimator causal-inference stack—augmented inverse probability weighting, propensity-score matching, X-Learner and DR-Learner—with binary-segmentation changepoint detection, Rosenbaum-bound and E -value sensitivity, permutation placebos, region-exclusion tests, and independent exposure validation against the IEA CCUS Projects Database. CCUS behaves as a scale- and context-gated amplifier: capacity uplift concentrates in the 500- 1,000 MWel adoption band with a +1.45× within-stratum effect above the minimum-viable ≥500-MWel scale threshold (Rosenbaum Γ = 3.7; E -value = 12.4) and no detectable effect at smaller scales. The finding reframes CCUS-hydrogen policy design, integrated-assessment modeling, and project finance around scale-conditional CO 2 transport-and-storage and policy prerequisites.",
+          "url": "https://doi.org/10.1016/j.isci.2026.117236",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1016/j.isci.2026.117236",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Project-level causal inference of a minimum viable scale threshold and adoption band in CCUS-enabled hydrogen",
+            "method": "In this study, we analyze whether adopting carbon capture, utilization, and storage (CCUS) causally raises the deployable capacity of hydrogen projects, and under what scale and infrastructure conditions any such effect emerges. Analyzing 2",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Randomization tests for model specification in causal inference under network interference",
+          "authors": [
+            "Supriya Tiwari",
+            "Pallavi Basu"
+          ],
+          "author_details": [
+            {
+              "name": "Supriya Tiwari",
+              "affiliations": []
+            },
+            {
+              "name": "Pallavi Basu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME",
+            "econ.EM"
+          ],
+          "journal": null,
+          "published": "2026-08-24",
+          "abstract": "Analysis of experimental data becomes challenging when the underlying population is connected by a network. Exposure mapping is a common tool in the literature for defining and estimating spillover effects. These mappings reduce the dimensionality of the estimand, thereby facilitating identifiability. It is assumed that this mapping is correctly specified, leaving the choice of the exposure mapping to the analyst. This makes estimators of the spillover effect, such as the Horvitz-Thompson estimator, vulnerable to bias from model misspecification. Although these estimators have been shown to be robust to certain forms of controlled misspecification, there has been relatively little methodological progress in empirically investigating appropriate exposure mappings. In this paper, we propose a novel design-based model specification framework for causal inference. Building on this, we develop a randomization-testing procedure to assess the correct specification of an exposure-mapping model in the presence of network interference. We provide theoretical guarantees for the asymptotic validity of the proposed testing procedure. We establish the favorable power properties of our method through an extensive simulation study and illustrate it in a field experiment investigating the effect of anti-conflict norms among adolescents.",
+          "url": "https://arxiv.org/abs/2608.22890v1",
+          "arxiv_id": "2608.22890v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Randomization tests for model specification in causal inference under network interference",
+            "method": "Analysis of experimental data becomes challenging when the underlying population is connected by a network. Exposure mapping is a common tool in the literature for defining and estimating spillover effects. These mappings reduce the dimensi",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept",
+          "authors": [
+            "Guangwei Wang"
+          ],
+          "author_details": [
+            {
+              "name": "Guangwei Wang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Construct (python library)",
+            "Robustness (evolution)",
+            "Bounded function",
+            "Executable",
+            "Causal inference",
+            "Soundness",
+            "Monte Carlo method",
+            "Socioeconomic status"
+          ],
+          "journal": "PhilPapers (PhilPapers Foundation)",
+          "published": "2026-12-31",
+          "abstract": "Segregation research increasingly measures who people encounter beyond home, yet physical mobility, place semantics, and digital activity are often combined without clear construct boundaries. This study develops a physical--digital activity-space framework that distinguishes co-presence, digital exposure, and digital interaction, and represents physical and digital segregation as separate components rather than a forced composite. Validation is deliberately split by evidentiary role. A public Washington--Baltimore Foursquare check-in subset tests the computational feasibility and robustness of a discrete group co-visitation statistic; it does not validate continuous socioeconomic exposure because the dataset lacks individual socioeconomic status. Monte Carlo experiments separately test layer-selective construct response and sensitivity to trace missingness, spatial aggregation, socioeconomic measurement error, and cross-layer coupling. The results show that the proposed calculations are executable and that the synthetic physical and digital components respond selectively to their generating mechanisms, while also revealing important measurement attenuation. No real-data estimate of income segregation, digital exposure, physical--digital coupling, or the causal effect of inequality is reported. The framework therefore combines bounded validation with a falsifiable comparative and causal research agenda.",
+          "url": "https://philpapers.org/rec/WANMAS",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17613/8c48y-ryn51",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept",
+            "method": "Segregation research increasingly measures who people encounter beyond home, yet physical mobility, place semantics, and digital activity are often combined without clear construct boundaries. This study develops a physical--digital activit",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causality enhanced machine learning for cumulative live birth rate prediction with threshold band optimization in in vitro fertilization",
+          "authors": [
+            "Aiyu Zhang",
+            "Xuemei Huang",
+            "Zhiyu Han",
+            "Qianqian Yang",
+            "Xueyan Sun",
+            "Dongmei Wang"
+          ],
+          "author_details": [
+            {
+              "name": "Aiyu Zhang",
+              "affiliations": [
+                "Yantaishan Hospital"
+              ]
+            },
+            {
+              "name": "Xuemei Huang",
+              "affiliations": [
+                "Yantaishan Hospital"
+              ]
+            },
+            {
+              "name": "Zhiyu Han",
+              "affiliations": [
+                "Shandong University of Traditional Chinese Medicine"
+              ]
+            },
+            {
+              "name": "Qianqian Yang",
+              "affiliations": [
+                "Shandong University"
+              ]
+            },
+            {
+              "name": "Xueyan Sun",
+              "affiliations": [
+                "Yantaishan Hospital"
+              ]
+            },
+            {
+              "name": "Dongmei Wang",
+              "affiliations": [
+                "Yantaishan Hospital"
+              ]
+            }
+          ],
+          "keywords": [
+            "Cohort",
+            "Counterfactual thinking",
+            "Live birth",
+            "Brier score",
+            "Inference",
+            "Cohort study",
+            "Causal inference",
+            "Receiver operating characteristic"
+          ],
+          "journal": "Journal of Ovarian Research",
+          "published": "2026-08-29",
+          "abstract": "Accurate and individualized prediction of cumulative live birth rates (CLBR) remains an unmet need, as existing models largely overlook individual risk preferences and the translational gap between predictive outputs and actionable clinical decisions. We aimed to develop and validate a machine learning algorithm integrating causal inference and threshold optimization for individualized CLBR prediction and clinical decision support in conventional IVF patients. This retrospective study enrolled 1,058 couples undergoing 1,419 complete IVF cycles (including associated frozen-thawed embryo transfers) from Yantai, China. The cohort was divided into a development cohort (2019–2022) and a temporal validation cohort (2023). Variables were selected from patient characteristics, clinical parameters, and embryo data. Eight machine learning algorithms were employed to construct CLBR prediction models. Multiple counterfactual explanation and causal inference methods, including serial mediation analysis, diverse counterfactual explanations (DiCE), double machine learning (DML), and T-learner, were employed to analyze causal effects of modifiable variables and determine threshold ranges. The final eight-predictor gradient boosting machine model (CLBR-GBM) achieved optimal overall performance and was robustly validated in the temporal validation cohort (AUROC 0.851, F1 score 0.801, Brier score 0.155, ABscore 0.848). Interactive decision curve analysis (iDCA) demonstrated favorable clinical utility, with a cohort-specific optimal threshold of 0.429 yielding a net benefit (NB) of 0.331. The model maintained robust NB (0.312–0.379) across a clinically applicable threshold band of 0.3–0.5. Synergistic adjustment involving decreased BMI (average treatment effect [ATE], -0.010) and increased embryo number (ATE, 0.068) represented the primary pattern shifting predicted probabilities across the 0.429 threshold toward live birth. Among these, BMI intervention demonstrated the most robust causal efficacy in the young high-responder obese subgroup (conditional average treatment effect [CATE], -0.105). The model was deployed as a publicly accessible platform ( https://fertility-yts.shinyapps.io/CLBR_GBM ) for individualized CLBR prediction, serving both patients and clinicians. Causally augmented CLBR-GBM identifies temporally validated optimal decision threshold bands with balanced discrimination and robust transportability for cumulative live birth strategies. Not applicable (retrospective non-interventional study).",
+          "url": "https://doi.org/10.1186/s13048-026-02251-2",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1186/s13048-026-02251-2",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causality enhanced machine learning for cumulative live birth rate prediction with threshold band optimization in in vitro fertilization",
+            "method": "Accurate and individualized prediction of cumulative live birth rates (CLBR) remains an unmet need, as existing models largely overlook individual risk preferences and the translational gap between predictive outputs and actionable clinical",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Learning to Allocate Incentives for Incentivized Advertising via Offline Model-Based Reinforcement Learning",
+          "authors": [
+            "Zilin Zhao",
+            "Han Yang",
+            "Tianpei Yang",
+            "Fangsheng Huang",
+            "Yanfei Cui",
+            "Kan Peng",
+            "Yi Li",
+            "Yiming Zong",
+            "Hao Zhang",
+            "Yinsong Xue"
+          ],
+          "author_details": [
+            {
+              "name": "Zilin Zhao",
+              "affiliations": []
+            },
+            {
+              "name": "Han Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Tianpei Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Fangsheng Huang",
+              "affiliations": []
+            },
+            {
+              "name": "Yanfei Cui",
+              "affiliations": []
+            },
+            {
+              "name": "Kan Peng",
+              "affiliations": []
+            },
+            {
+              "name": "Yi Li",
+              "affiliations": []
+            },
+            {
+              "name": "Yiming Zong",
+              "affiliations": []
+            },
+            {
+              "name": "Hao Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Yinsong Xue",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-08-28",
+          "abstract": "Complete your ad view and grab a 5-cent bonus! In incentivized advertising, a platform promises users a bonus before observing downstream ad revenue, encouraging them to click and complete ads. It must balance the incentive promised in advance against the revenue realized afterward: insufficient incentives forfeit monetization opportunities, whereas excessive incentives reduce net profit. Because current incentives may also shape user expectations and future engagement, incentive allocation is a sequential decision problem with delayed revenue, cost sensitivity, and carryover effects. Existing work has not studied decision-making algorithms for this setting. Auto-bidding assumes available ad opportunities, while targeted promotion optimizes incentives outside the ad monetization pipeline. We formulate the problem as an MDP and develop an offline model-based RL framework for cost-controllable sequential incentive allocation. It learns a world model of user feedback and ad revenue, then performs conservative policy optimization. An independent counterfactual scorer evaluates each learned policy on held-out logs, enabling pre-launch selection without costly online exposure. Experiments on large-scale industrial data and online A/B tests show that the scorer provides a stable offline signal. The deployment path from causal inference to offline RL and then Offline-MBRL further validates the framework: MB-IQL improves per-user net profit by 7.96\\% over TD3+BC, whereas reverting to plain IQL reduces it by 6.56\\% (both \\(p<0.0001\\)).",
+          "url": "https://arxiv.org/abs/2608.28065v1",
+          "arxiv_id": "2608.28065v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Learning to Allocate Incentives for Incentivized Advertising via Offline Model-Based Reinforcement Learning",
+            "method": "Complete your ad view and grab a 5-cent bonus! In incentivized advertising, a platform promises users a bonus before observing downstream ad revenue, encouraging them to click and complete ads. It must balance the incentive promised in adva",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "CASTANET: Causality-Aware Spatio-Temporal Adversarial Network Using Traffic Incident Effects",
+          "authors": [
+            "Toshiya Kitahara",
+            "Ryu Shirakami",
+            "Koh Takeuchi",
+            "Hisashi Kashima"
+          ],
+          "author_details": [
+            {
+              "name": "Toshiya Kitahara",
+              "affiliations": []
+            },
+            {
+              "name": "Ryu Shirakami",
+              "affiliations": []
+            },
+            {
+              "name": "Koh Takeuchi",
+              "affiliations": []
+            },
+            {
+              "name": "Hisashi Kashima",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-08-28",
+          "abstract": "Predicting non-periodic traffic congestion caused by sudden incidents (e.g., accidents and road damage) is crucial for advanced intelligent transportation systems. However, incident-driven congestion is difficult to forecast because incidents are extremely sparse, occur at specific times and locations, and have heterogeneous impacts depending on the traffic context. While recent deep learning approaches have significantly improved periodic traffic forecasting, their performance on non-periodic congestion remains limited, partly because incident records are not explicitly incorporated and their occurrence is strongly biased in space and time. To address these challenges, we propose CASTANET, which integrates spatio-temporal graph neural networks and causal treatment effect estimation to utilize incident records while mitigating selection bias. Experiments on real-world traffic data and accident records from Tokyo, which we treat as incidents, show that CASTANET reduces RMSE by 4.0% overall compared to the best baseline and by 10.1% on incident-conditioned evaluation, with gains reaching 14.55% under severe congestion.",
+          "url": "https://arxiv.org/abs/2608.27942v1",
+          "arxiv_id": "2608.27942v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: CASTANET: Causality-Aware Spatio-Temporal Adversarial Network Using Traffic Incident Effects",
+            "method": "Predicting non-periodic traffic congestion caused by sudden incidents (e.g., accidents and road damage) is crucial for advanced intelligent transportation systems. However, incident-driven congestion is difficult to forecast because inciden",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ope",
+      "name": "Off-Policy Evaluation",
+      "papers": [
+        {
+          "title": "Offline Reinforcement Learning for Out-of-Distribution ICU Sepsis Decision Support",
+          "authors": [
+            "Emad Arasteh",
+            "Maryam S. Mirian",
+            "Maryam Tavakol"
+          ],
+          "author_details": [
+            {
+              "name": "Emad Arasteh",
+              "affiliations": [
+                "Eindhoven University of Technology"
+              ]
+            },
+            {
+              "name": "Maryam S. Mirian",
+              "affiliations": [
+                "University of British Columbia"
+              ]
+            },
+            {
+              "name": "Maryam Tavakol",
+              "affiliations": [
+                "Eindhoven University of Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Benchmark (surveying)",
+            "Reinforcement",
+            "Heuristic",
+            "Test (biology)",
+            "Offline learning",
+            "Sepsis",
+            "Margin (machine learning)"
+          ],
+          "journal": "medRxiv",
+          "published": "2026-08-25",
+          "abstract": "Abstract Offline reinforcement learning (RL) provides a promising framework for learning and evaluating treatment policies from logged clinical data, particularly in sequential decision-making settings where prospective exploration would be unsafe. In ICU sepsis management, however, it remains unclear whether offline RL policies retain stable behavior under increasingly severe out-of-distribution (OOD) patient cohorts. In this paper, we evaluate standard offline RL methods on three severity-enriched OOD test mixtures from the MIMIC-III benchmark dataset to determine whether offline policies retain a stable, action-sensitive decision-support signal. Under the shared learned-dynamics off-policy evaluation (OPE) protocol, as the severe-OOD ratio increases from 25% to 75%, observed clinical survival declines from 67% to 49%, while the best offline method in each mixture receives model-predicted terminal survival values of 87%, 86%, and 85%, respectively. Because observed clinical survival and model-predicted terminal survival are different quantities, this contrast suggests a stable model-based decision-support signal under severity shift. We further present a secondary physiological stabilization analysis using an episode-level physiological stabilization score (EPSS), a heuristic summary of whether selected physiological variables move in favorable directions during follow-up. In this analysis, model-generated rollouts under offline policies receive higher EPSS values than matched logged clinical trajectories for several physiological components. Together, these results support learned-dynamics OPE as a useful severity-OOD stress test for offline RL policies in ICU sepsis, while leaving prospective and causal validation as necessary next steps.",
+          "url": "https://doi.org/10.64898/2026.08.22.26361090",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.64898/2026.08.22.26361090",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Offline Reinforcement Learning for Out-of-Distribution ICU Sepsis Decision Support",
+            "method": "Abstract Offline reinforcement learning (RL) provides a promising framework for learning and evaluating treatment policies from logged clinical data, particularly in sequential decision-making settings where prospective exploration would be",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Preventing relapse in ulcerative colitis remission maintenance: machine learning prediction and reinforcement-learning herbal prescription optimization with external validation",
+          "authors": [
+            "Yan Li",
+            "Jie Liu",
+            "Jian Kang"
+          ],
+          "author_details": [
+            {
+              "name": "Yan Li",
+              "affiliations": [
+                "Chongqing Medical University"
+              ]
+            },
+            {
+              "name": "Jie Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Jian Kang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Ulcerative colitis",
+            "Medical prescription",
+            "Logistic regression",
+            "Confidence interval",
+            "Cohort",
+            "Receiver operating characteristic",
+            "Calprotectin",
+            "Brier score"
+          ],
+          "journal": "Frontiers in Medicine",
+          "published": "2026-08-24",
+          "abstract": "Introduction Maintaining remission in ulcerative colitis (UC) with traditional Chinese herbal medicine is challenging because fixed-intensity prescriptions may not accommodate changes in inflammatory burden. This study aimed to predict 52-week relapse and develop a data-driven policy for sequential adjustment of herbal treatment intensity. Methods We analysed a development cohort of 1,181 patients receiving herbal maintenance therapy and an independent external validation cohort of 96 patients. Twenty-one baseline clinical, biomarker, herbal-dose and behavioral variables, expanded to 31 features after one-hot encoding, were used to train and compare seven machine-learning models through stratified five-fold cross-validation and external validation. Discrimination, calibration and decision-curve net benefit were evaluated. Remission maintenance was subsequently modelled as a sequential decision problem using 4,141 scheduled-visit transitions. A gradient-boosted reward model was used for model-based off-policy evaluation of a net-clinical-benefit policy that penalized unnecessary treatment intensification in clinically quiescent patients. Results Calibrated logistic regression provided the best overall performance, with an internal cross-validation area under the receiver operating characteristic curve (AUROC) of 0.783 (95% confidence interval [CI], 0.755–0.809) and an external AUROC of 0.710 (95% CI, 0.600–0.820). The corresponding Brier scores were 0.180 (95% CI, 0.169–0.191) and 0.215 (95% CI, 0.170–0.263), respectively. Medication adherence was the strongest predictor of relapse, followed by fecal calprotectin, C-reactive protein and Coptidis Rhizoma dose. The learned policy increased herbal intensity with increasing fecal calprotectin and achieved a higher estimated mean reward than observed clinician behavior (0.552 ± 0.018 versus 0.063 ± 0.021). Policy-concordant visits were associated with a higher next-visit remission rate than discordant visits (70.0% versus 59.6%). Discussion Combining interpretable relapse prediction with reinforcement learning offers a personalized decision-support framework for optimizing herbal treatment intensity during UC remission maintenance. Because the policy was derived and evaluated using observational data and model-based off-policy methods, prospective clinical evaluation is required before routine implementation.",
+          "url": "https://doi.org/10.3389/fmed.2026.1911189",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3389/fmed.2026.1911189",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Preventing relapse in ulcerative colitis remission maintenance: machine learning prediction and reinforcement-learning herbal prescription optimization with external validation",
+            "method": "Introduction Maintaining remission in ulcerative colitis (UC) with traditional Chinese herbal medicine is challenging because fixed-intensity prescriptions may not accommodate changes in inflammatory burden. This study aimed to predict 52-w",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "papers": [
+        {
+          "title": "When Output Becomes Infrastructure: Operational Compilation and a Falsifiable Test for Cross-Level Transitions",
+          "authors": [
+            "Sławomir Grzegorz Gątkowski"
+          ],
+          "author_details": [
+            {
+              "name": "Sławomir Grzegorz Gątkowski",
+              "affiliations": [
+                "Logos Technologies (United States)"
+              ]
+            }
+          ],
+          "keywords": [
+            "Falsifiability",
+            "Benchmark (surveying)",
+            "Set (abstract data type)",
+            "Resource (disambiguation)",
+            "Hierarchy",
+            "Controller (irrigation)",
+            "Operational semantics",
+            "Test case",
+            "Novelty"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-26",
+          "abstract": "Scientific explanations routinely move between levels of organization, yet a change of level may represent either a genuine change in what a system or controller can operationally do or merely a useful redescription by an observer. We propose operational compilation: a lower-level procedure is operationally compiled when its relevant effect becomes available as a reusable higher-level primitive without reconstructing the lower controller sequence, while preserving declared intervention semantics, reducing a specified resource cost, and expanding the set of tasks attainable under a matched resource budget. We define a resource-constrained operational horizon and introduce the Operational Transition Test (OTT), currently comprising intervention faithfulness, cost compression, operational expansion, ablation dependence, realization invariance, and held-out gain. A deterministic v0.1 synthetic benchmark contrasts a compiled three-step macro with predictive coarse-graining, a pure alias, a cost-neutral macro, and a context-fragile macro. The implementation recovers all five design-time labels; this is treated only as a construct-validity smoke test. A targeted prior-art audit shows strong antecedents in metasystem-transition theory, hierarchical reinforcement learning, Soar chunking, learned program libraries, causal abstraction, causal emergence, effective theories, constraint closure, and major evolutionary transitions. We therefore do not claim novelty for hierarchical primitives themselves. The proposed contribution is the falsifiable conjunction of operational criteria and a benchmark programme for distinguishing reusable cross-level compilation from redescription.Epistemic status. This is a conceptual methods preprint with a synthetic reference implementation. It proposes a criterion and research programme; it does not validate a universal law of emergence, a necessary hierarchy of scientific domains, or any metaphysical interpretation. Acknowledgements. This preprint was developed from the author's LOGOS-44 / The Axis research corpus. Computational literature search, formalization, implementation, testing, and drafting assistance were provided by an AI system. The AI system is not an author. All claims, interpretations, and publication decisions remain the responsibility of the human author.",
+          "url": "https://doi.org/10.5281/zenodo.22115305",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22115305",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 10,
+          "score": 2.398,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: When Output Becomes Infrastructure: Operational Compilation and a Falsifiable Test for Cross-Level Transitions",
+            "method": "Scientific explanations routinely move between levels of organization, yet a change of level may represent either a genuine change in what a system or controller can operationally do or merely a useful redescription by an observer. We propo",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Minimax-Optimal Reward-Agnostic Exploration in Reinforcement Learning",
+          "authors": [
+            "Gen Li",
+            "Yuling Yan",
+            "Yuxin Chen",
+            "Jianqing Fan"
+          ],
+          "author_details": [
+            {
+              "name": "Gen Li",
+              "affiliations": [
+                "Chinese University of Hong Kong"
+              ]
+            },
+            {
+              "name": "Yuling Yan",
+              "affiliations": [
+                "University of Wisconsin–Madison"
+              ]
+            },
+            {
+              "name": "Yuxin Chen",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Jianqing Fan",
+              "affiliations": [
+                "Princeton University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Minimax",
+            "Reinforcement learning",
+            "Sample complexity",
+            "Novelty",
+            "Context (archaeology)",
+            "Markov decision process",
+            "Computer science",
+            "Sample (material)",
+            "Mathematical optimization",
+            "Mathematics",
+            "Artificial intelligence",
+            "Markov process",
+            "Psychology",
+            "Statistics"
+          ],
+          "journal": "Mathematics of Operations Research",
+          "published": "2026-08-24",
+          "abstract": "This paper studies reward-agnostic exploration in reinforcement learning (RL)—a scenario where the learner is unaware of the reward functions during the exploration stage—and designs an algorithm that improves over the state of the art. More precisely, consider a finite-horizon inhomogeneous Markov decision process with S states, A actions, and horizon length H, and suppose that there are no more than a polynomial number of given reward functions of interest. By collecting an order of[Formula: see text]without the guidance of the reward information, our algorithm is able to find [Formula: see text]-optimal policies for all these reward functions, provided that [Formula: see text] is sufficiently small. This forms the first reward-agnostic exploration scheme in this context that is nearly minimax optimal. Furthermore, once the sample size exceeds [Formula: see text] episodes (up to log factor), our algorithm is able to yield [Formula: see text] accuracy for arbitrarily many reward functions (even when they are adversarially designed), a task commonly dubbed as “reward-free exploration.” The novelty of our algorithm design draws on insights from offline RL: The exploration scheme attempts to maximize a critical reward-agnostic quantity that dictates the performance of offline RL, whereas the policy learning paradigm leverages ideas from sample-optimal offline RL paradigms. Funding: This work was supported by Google, the Alfred P. Sloan Foundation, the Air Force Office of Scientific Research [Grant FA9550-22-1-0198], the National Science Foundation [Grants 1907661, 2210833, 2221009, and 2433450], and the Office of Naval Research [Grants N00014-22-1-2340 and N00014-22-1-2354].",
+          "url": "https://doi.org/10.1287/moor.2024.0538",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1287/moor.2024.0538",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 2,
+          "score": 2.099,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Minimax-Optimal Reward-Agnostic Exploration in Reinforcement Learning",
+            "method": "This paper studies reward-agnostic exploration in reinforcement learning (RL)—a scenario where the learner is unaware of the reward functions during the exploration stage—and designs an algorithm that improves over the state of the art. Mor",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "X Y Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys.1",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys.1",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "X Y Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "X Y Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "Pedestrian",
+            "Pattern recognition (psychology)",
+            "Reinforcement learning",
+            "Stability (learning theory)",
+            "Feature (linguistics)"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Online-Offline Reinforcement Learning: Bridging the Gap for Sample-Efficient Decision Making",
+          "authors": [
+            "Zen Revista",
+            "10 IA"
+          ],
+          "author_details": [
+            {
+              "name": "Zen Revista",
+              "affiliations": []
+            },
+            {
+              "name": "10 IA",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Bridging (networking)",
+            "Adaptability",
+            "Benchmark (surveying)",
+            "Offline learning",
+            "Stability (learning theory)",
+            "Robotics",
+            "Sample (material)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-29",
+          "abstract": "Reinforcement learning (RL) has emerged as a powerful paradigm for sequential decision-making, with applications spanning robotics, healthcare, and recommendation systems. However, a fundamental challenge in RL is the trade-off between exploration and exploitation, particularly evident in the dichotomy between online and offline learning approaches. Online RL methods excel in sample efficiency and adaptability but require extensive real-world interactions, often impractical in safety-critical or high-cost domains. Conversely, offline RL leverages pre-collected datasets to learn policies without further interaction, but suffers from distributional shift issues and limited adaptability to new environments. This paper introduces a novel framework that bridges the gap between these paradigms, enabling sample-efficient decision-making while maintaining the safety benefits of offline learning. Our approach, termed Online-Offline Reinforcement Learning (O2RL), combines the strengths of both methodologies through a meta-learning architecture that dynamically switches between online and offline learning modes based on environmental uncertainty. We demonstrate the efficacy of O2RL across multiple benchmark domains, including MuJoCo robotics tasks and Atari games, showing significant improvements in sample efficiency and performance stability compared to state-of-the-art methods. The results highlight the potential of O2RL to enable safer, more efficient learning in real-world applications where data collection is constrained or hazardous.",
+          "url": "https://doi.org/10.5281/zenodo.22155814",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22155814",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Online-Offline Reinforcement Learning: Bridging the Gap for Sample-Efficient Decision Making",
+            "method": "Reinforcement learning (RL) has emerged as a powerful paradigm for sequential decision-making, with applications spanning robotics, healthcare, and recommendation systems. However, a fundamental challenge in RL is the trade-off between expl",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Online-Offline Reinforcement Learning: Bridging the Gap for Sample-Efficient Decision Making",
+          "authors": [
+            "Zen Revista",
+            "10 IA"
+          ],
+          "author_details": [
+            {
+              "name": "Zen Revista",
+              "affiliations": []
+            },
+            {
+              "name": "10 IA",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Bridging (networking)",
+            "Adaptability",
+            "Benchmark (surveying)",
+            "Offline learning",
+            "Stability (learning theory)",
+            "Robotics",
+            "Sample (material)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-29",
+          "abstract": "Reinforcement learning (RL) has emerged as a powerful paradigm for sequential decision-making, with applications spanning robotics, healthcare, and recommendation systems. However, a fundamental challenge in RL is the trade-off between exploration and exploitation, particularly evident in the dichotomy between online and offline learning approaches. Online RL methods excel in sample efficiency and adaptability but require extensive real-world interactions, often impractical in safety-critical or high-cost domains. Conversely, offline RL leverages pre-collected datasets to learn policies without further interaction, but suffers from distributional shift issues and limited adaptability to new environments. This paper introduces a novel framework that bridges the gap between these paradigms, enabling sample-efficient decision-making while maintaining the safety benefits of offline learning. Our approach, termed Online-Offline Reinforcement Learning (O2RL), combines the strengths of both methodologies through a meta-learning architecture that dynamically switches between online and offline learning modes based on environmental uncertainty. We demonstrate the efficacy of O2RL across multiple benchmark domains, including MuJoCo robotics tasks and Atari games, showing significant improvements in sample efficiency and performance stability compared to state-of-the-art methods. The results highlight the potential of O2RL to enable safer, more efficient learning in real-world applications where data collection is constrained or hazardous.",
+          "url": "https://doi.org/10.5281/zenodo.22155815",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22155815",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Online-Offline Reinforcement Learning: Bridging the Gap for Sample-Efficient Decision Making",
+            "method": "Reinforcement learning (RL) has emerged as a powerful paradigm for sequential decision-making, with applications spanning robotics, healthcare, and recommendation systems. However, a fundamental challenge in RL is the trade-off between expl",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Probabilistic Programming for Reinforcement Learning with Exploration",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Probabilistic logic",
+            "Markov decision process",
+            "Partially observable Markov decision process",
+            "Heuristics",
+            "Inference",
+            "Bayesian inference",
+            "Bayesian network",
+            "Markov process"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-29",
+          "abstract": "Reinforcement learning (RL) faces significant challenges in achieving optimal performance due to the inherent difficulty in balancing exploration and exploitation. This paper proposes a novel framework leveraging probabilistic programming (PP) to address this problem. The core idea is to represent an RL agent as a probabilistic program, enabling the explicit modeling of uncertainty within the environment and the agent itself. This allows for the incorporation of Bayesian approaches to exploration, where actions are actively sampled based on predicted rewards and a quantified measure of uncertainty. Unlike traditional RL methods that often rely on heuristics or point-estimate models, this approach provides a more principled and flexible framework for exploration, potentially leading to improved sample efficiency and overall performance, particularly in complex and partially observable environments. The framework utilizes concepts from Bayesian inference, Markov Decision Processes (MDPs), and probabilistic programming to define a coherent and powerful approach to RL. Key elements include the definition of probability distributions for state values, action values, and transition probabilities, and the application of variational inference or other inference techniques to estimate these distributions. This allows the agent to learn not just optimal actions, but also a representation of its knowledge about the environment.",
+          "url": "https://doi.org/10.5281/zenodo.22157749",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22157749",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Probabilistic Programming for Reinforcement Learning with Exploration",
+            "method": "Reinforcement learning (RL) faces significant challenges in achieving optimal performance due to the inherent difficulty in balancing exploration and exploitation. This paper proposes a novel framework leveraging probabilistic programming (",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Probabilistic Programming for Reinforcement Learning with Exploration",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Probabilistic logic",
+            "Markov decision process",
+            "Partially observable Markov decision process",
+            "Heuristics",
+            "Inference",
+            "Bayesian inference",
+            "Bayesian network",
+            "Markov process"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-29",
+          "abstract": "Reinforcement learning (RL) faces significant challenges in achieving optimal performance due to the inherent difficulty in balancing exploration and exploitation. This paper proposes a novel framework leveraging probabilistic programming (PP) to address this problem. The core idea is to represent an RL agent as a probabilistic program, enabling the explicit modeling of uncertainty within the environment and the agent itself. This allows for the incorporation of Bayesian approaches to exploration, where actions are actively sampled based on predicted rewards and a quantified measure of uncertainty. Unlike traditional RL methods that often rely on heuristics or point-estimate models, this approach provides a more principled and flexible framework for exploration, potentially leading to improved sample efficiency and overall performance, particularly in complex and partially observable environments. The framework utilizes concepts from Bayesian inference, Markov Decision Processes (MDPs), and probabilistic programming to define a coherent and powerful approach to RL. Key elements include the definition of probability distributions for state values, action values, and transition probabilities, and the application of variational inference or other inference techniques to estimate these distributions. This allows the agent to learn not just optimal actions, but also a representation of its knowledge about the environment.",
+          "url": "https://doi.org/10.5281/zenodo.22157748",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22157748",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Probabilistic Programming for Reinforcement Learning with Exploration",
+            "method": "Reinforcement learning (RL) faces significant challenges in achieving optimal performance due to the inherent difficulty in balancing exploration and exploitation. This paper proposes a novel framework leveraging probabilistic programming (",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Multi-Agent Reinforcement Learning with Evolutionary Algorithms",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Boosting (machine learning)",
+            "Evolutionary algorithm",
+            "Social learning",
+            "Imitation",
+            "Evolutionary computation",
+            "Field (mathematics)",
+            "Learning classifier system",
+            "Mechanism (biology)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-29",
+          "abstract": "This paper investigates the application of evolutionary algorithms, specifically genetic algorithms and simulated annealing, to the field of multi-agent reinforcement learning (MARL). The core claim is that incorporating social evolutionary algorithms can significantly enhance the collaborative abilities and learning efficiency of agents within a multi-agent system. The mechanism relies on simulating the dynamics of social evolution – agents learn through both imitation and competition – thereby accelerating the learning process and ultimately boosting overall system performance. This work addresses a critical gap in traditional MARL approaches, which often prioritize individual agent learning at the expense of neglecting the crucial social interactions between agents. We present a framework for integrating evolutionary algorithms into MARL, exploring their potential for improving agent coordination and collective decision-making. The effectiveness of this approach is evaluated through theoretical analysis and conceptual design, laying the groundwork for future experimental validation.",
+          "url": "https://doi.org/10.5281/zenodo.22157881",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22157881",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning with Evolutionary Algorithms",
+            "method": "This paper investigates the application of evolutionary algorithms, specifically genetic algorithms and simulated annealing, to the field of multi-agent reinforcement learning (MARL). The core claim is that incorporating social evolutionary",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-Agent Reinforcement Learning with Evolutionary Algorithms",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Boosting (machine learning)",
+            "Evolutionary algorithm",
+            "Social learning",
+            "Imitation",
+            "Evolutionary computation",
+            "Field (mathematics)",
+            "Learning classifier system",
+            "Mechanism (biology)"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-29",
+          "abstract": "This paper investigates the application of evolutionary algorithms, specifically genetic algorithms and simulated annealing, to the field of multi-agent reinforcement learning (MARL). The core claim is that incorporating social evolutionary algorithms can significantly enhance the collaborative abilities and learning efficiency of agents within a multi-agent system. The mechanism relies on simulating the dynamics of social evolution – agents learn through both imitation and competition – thereby accelerating the learning process and ultimately boosting overall system performance. This work addresses a critical gap in traditional MARL approaches, which often prioritize individual agent learning at the expense of neglecting the crucial social interactions between agents. We present a framework for integrating evolutionary algorithms into MARL, exploring their potential for improving agent coordination and collective decision-making. The effectiveness of this approach is evaluated through theoretical analysis and conceptual design, laying the groundwork for future experimental validation.",
+          "url": "https://doi.org/10.5281/zenodo.22157882",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22157882",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning with Evolutionary Algorithms",
+            "method": "This paper investigates the application of evolutionary algorithms, specifically genetic algorithms and simulated annealing, to the field of multi-agent reinforcement learning (MARL). The core claim is that incorporating social evolutionary",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Distributed Hardware Self-Organization Based on Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Leverage (statistics)",
+            "Markov decision process",
+            "Key (lock)",
+            "Process (computing)",
+            "Population",
+            "Construct (python library)",
+            "Network topology"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-29",
+          "abstract": "This paper presents a novel approach to distributed hardware self-organization using Multi-Agent Reinforcement Learning (MARL). The core idea is to leverage a population of intelligent agents, each representing a hardware device, to collaboratively optimize resource allocation and utilization through learning. Traditional self-organization techniques often rely on centralized control, which introduces bottlenecks and limits scalability. MARL offers a decentralized, adaptive solution where agents learn to interact and coordinate directly, leading to emergent behaviors that improve system efficiency. We formulate the problem as a Markov Decision Process (MDP) where each agent's actions influence the overall system state. The objective is to train agents to construct optimal hardware topologies and achieve load balancing, ultimately enhancing the performance and resilience of the distributed hardware system. This work demonstrates the feasibility and potential of MARL for dynamic hardware management in complex environments. The key mathematical formulations and notations are presented to clarify the core concepts and algorithms.",
+          "url": "https://doi.org/10.5281/zenodo.22153258",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22153258",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Distributed Hardware Self-Organization Based on Multi-Agent Reinforcement Learning",
+            "method": "This paper presents a novel approach to distributed hardware self-organization using Multi-Agent Reinforcement Learning (MARL). The core idea is to leverage a population of intelligent agents, each representing a hardware device, to collabo",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Distributed Hardware Self-Organization Based on Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Leverage (statistics)",
+            "Markov decision process",
+            "Key (lock)",
+            "Process (computing)",
+            "Population",
+            "Construct (python library)",
+            "Network topology"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-29",
+          "abstract": "This paper presents a novel approach to distributed hardware self-organization using Multi-Agent Reinforcement Learning (MARL). The core idea is to leverage a population of intelligent agents, each representing a hardware device, to collaboratively optimize resource allocation and utilization through learning. Traditional self-organization techniques often rely on centralized control, which introduces bottlenecks and limits scalability. MARL offers a decentralized, adaptive solution where agents learn to interact and coordinate directly, leading to emergent behaviors that improve system efficiency. We formulate the problem as a Markov Decision Process (MDP) where each agent's actions influence the overall system state. The objective is to train agents to construct optimal hardware topologies and achieve load balancing, ultimately enhancing the performance and resilience of the distributed hardware system. This work demonstrates the feasibility and potential of MARL for dynamic hardware management in complex environments. The key mathematical formulations and notations are presented to clarify the core concepts and algorithms.",
+          "url": "https://doi.org/10.5281/zenodo.22153257",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22153257",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Distributed Hardware Self-Organization Based on Multi-Agent Reinforcement Learning",
+            "method": "This paper presents a novel approach to distributed hardware self-organization using Multi-Agent Reinforcement Learning (MARL). The core idea is to leverage a population of intelligent agents, each representing a hardware device, to collabo",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Toward Secure Communications for a UAV Swarm with Movable Antennas in SAGIN: CKM-Enabled Multi-Agent Reinforcement Learning Framework",
+          "authors": [
+            "Jiayang Wan",
+            "Yafei Wang",
+            "Jiawei Zhuang",
+            "Wenjin Wang",
+            "Tony Q. S. Quek"
+          ],
+          "author_details": [
+            {
+              "name": "Jiayang Wan",
+              "affiliations": []
+            },
+            {
+              "name": "Yafei Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Jiawei Zhuang",
+              "affiliations": []
+            },
+            {
+              "name": "Wenjin Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Tony Q. S. Quek",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "eess.SP"
+          ],
+          "journal": null,
+          "published": "2026-08-28",
+          "abstract": "Space-air-ground integrated networks (SAGINs) can provide ubiquitous and reliable connectivity for unmanned aerial vehicles (UAVs). However, air-to-ground links, which are typically dominated by line-of-sight (LoS) propagation, are vulnerable to passive eavesdropping due to the broadcast nature of wireless channels. To enhance physical-layer security, we investigate a SAGIN-enabled secure downlink communication system in which UAVs select service links among satellite, aerial, and terrestrial networks while adjusting the positions of the movable antenna (MA) array to fully exploit connectivity and spatial degrees of freedom for improved secrecy communication performance. Specifically, we maximize the secrecy energy efficiency (SEE) of a UAV swarm by jointly optimizing the MA positions, UAV trajectories, and link selections, subject to UAV mobility, MA movement, and link connectivity constraints. To reduce the real-time channel state information (CSI) acquisition overhead, we propose a channel knowledge map (CKM)-assisted multi-agent reinforcement learning framework. Specifically, the CKM is first constructed from sparse channel measurements via Kriging interpolation and is then leveraged together with satellite ephemeris information to enable efficient storage and retrieval of CSI. To reduce the action-space dimensionality and computational complexity, we model the MA array using rigid-body kinematics and adjust its position through global rigid-body translation, thereby constructing a low-dimensional hybrid action space for the joint optimization decisions. To align local decisions with system-wide performance under system constraints, we design an individual-team collaborative reward mechanism and introduce action masks to enforce constraints on UAV mobility, collision avoidance, MA regions, and connectivity capacity.",
+          "url": "https://arxiv.org/abs/2608.27973v1",
+          "arxiv_id": "2608.27973v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Toward Secure Communications for a UAV Swarm with Movable Antennas in SAGIN: CKM-Enabled Multi-Agent Reinforcement Learning Framework",
+            "method": "Space-air-ground integrated networks (SAGINs) can provide ubiquitous and reliable connectivity for unmanned aerial vehicles (UAVs). However, air-to-ground links, which are typically dominated by line-of-sight (LoS) propagation, are vulnerab",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Low-Altitude Fluid Antenna Network with Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Tong Zhang",
+            "Yanfei Su",
+            "Shuai Wang",
+            "Wanli Ni",
+            "Chengzhong Xu",
+            "Huseyin Arslan"
+          ],
+          "author_details": [
+            {
+              "name": "Tong Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Yanfei Su",
+              "affiliations": []
+            },
+            {
+              "name": "Shuai Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Wanli Ni",
+              "affiliations": []
+            },
+            {
+              "name": "Chengzhong Xu",
+              "affiliations": []
+            },
+            {
+              "name": "Huseyin Arslan",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.IT",
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-08-28",
+          "abstract": "Low-altitude wireless networks (LAWNs) integrate terrestrial and aerial platforms to provide ubiquitous communication, sensing, and localization services for unmanned aerial vehicles (UAVs) and electric vertical takeoff and landing (eVTOL) aircraft. However, dynamic air-ground and air-air channels, abrupt blockages, and heterogeneous interference hinder the realization of this goal. Nevertheless, fluid antenna (FA), a cutting-edge multiple-input multiple-output (MIMO) technique, overcomes these challenges by reconfiguring antenna positions to unlock additional spatial degrees-of-freedom. In this paper, towards bringing low-altitude FA networks into reality, we study the fast and high-performance FA reconfiguration for low-altitude FA networks with multi-agent reinforcement learning (MARL). Specifically, we present an electromagnetic digital twin (EM-DT)-assisted MARL framework. To fill the sim-to-real gap, we introduce a two-stage transfer learning framework. Our case study shows that joint FA positions and beamforming optimization can enhance the system sum-rate by 118.5%, compared to the fixed position baseline. This gain comes from the dynamic millisecond timescale reconfiguration of FA arrays and the adaptive steering of beams toward aerial users with mobility.",
+          "url": "https://arxiv.org/abs/2608.27909v1",
+          "arxiv_id": "2608.27909v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Low-Altitude Fluid Antenna Network with Multi-Agent Reinforcement Learning",
+            "method": "Low-altitude wireless networks (LAWNs) integrate terrestrial and aerial platforms to provide ubiquitous communication, sensing, and localization services for unmanned aerial vehicles (UAVs) and electric vertical takeoff and landing (eVTOL) ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Empirical Study on Engineering Decisions in Multi-agent Reinforcement Learning Systems",
+          "authors": [
+            "Deepansha Chowdhary",
+            "Uwe Zdun"
+          ],
+          "author_details": [
+            {
+              "name": "Deepansha Chowdhary",
+              "affiliations": [
+                "University of Vienna"
+              ]
+            },
+            {
+              "name": "Uwe Zdun",
+              "affiliations": [
+                "University of Vienna"
+              ]
+            }
+          ],
+          "keywords": [
+            "Hyperparameter",
+            "Reinforcement learning",
+            "Set (abstract data type)",
+            "Empirical research",
+            "Baseline (sea)",
+            "Standardization",
+            "Simple (philosophy)"
+          ],
+          "journal": "Lecture notes in computer science",
+          "published": "2026-08-28",
+          "abstract": "",
+          "url": "https://doi.org/10.1007/978-3-032-36587-3_31",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1007/978-3-032-36587-3_31",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Empirical Study on Engineering Decisions in Multi-agent Reinforcement Learning Systems",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Spillback-constrained cooperative ramp metering for incident-affected merge areas via constrained multi-agent reinforcement learning",
+          "authors": [
+            "Linqi Gao",
+            "Chengcheng Xu"
+          ],
+          "author_details": [
+            {
+              "name": "Linqi Gao",
+              "affiliations": []
+            },
+            {
+              "name": "Chengcheng Xu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Metering mode",
+            "Merge (version control)",
+            "Reinforcement learning",
+            "Reinforcement",
+            "Intelligent transportation system",
+            "Automation"
+          ],
+          "journal": "Transportation Planning and Technology",
+          "published": "2026-08-27",
+          "abstract": "Highway merge areas are vulnerable to incident-induced capacity drops, ramp queue-spillback, and congestion propagation. Existing deep reinforcement learning-based ramp metering methods mainly emphasize traffic efficiency and often treat queue limits as reward penalties, which may be insufficient under high-pressure incident conditions. This paper proposes a spillback-constrained cooperative ramp metering framework based on constrained multi-agent reinforcement learning. The control problem is formulated as a constrained Markov decision process, where ramp queue exceedance is modeled as an operational constraint. A Lagrangian-MAPPO algorithm balances traffic efficiency and spillback mitigation, while a graph attention network captures spatial interactions among ramps. A SUMO-based case study on the G2503 highway compares the proposed method with fixed-time control, ALINEA, and MADDPG. Results averaged over three independent random seeds show that the proposed framework improves ramp operations, suppresses queue accumulation, and enhances control stability under incident-induced disturbances.",
+          "url": "https://doi.org/10.1080/03081060.2026.2724319",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1080/03081060.2026.2724319",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Spillback-constrained cooperative ramp metering for incident-affected merge areas via constrained multi-agent reinforcement learning",
+            "method": "Highway merge areas are vulnerable to incident-induced capacity drops, ramp queue-spillback, and congestion propagation. Existing deep reinforcement learning-based ramp metering methods mainly emphasize traffic efficiency and often treat qu",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": []
+    },
+    {
+      "id": "causal-llm",
+      "name": "Causal Inference in Large Language Models",
+      "papers": [
+        {
+          "title": "Beyond Global Scalars: Synergizing Token-Level Statistics and Deep Semantics for Adversarial AIGC Text Detection",
+          "authors": [
+            "Peiming Li",
+            "Yifan Wang",
+            "Zhiyuan Hu",
+            "Shiyu Li",
+            "Zheng Wei",
+            "Yang Tang"
+          ],
+          "author_details": [
+            {
+              "name": "Peiming Li",
+              "affiliations": []
+            },
+            {
+              "name": "Yifan Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Zhiyuan Hu",
+              "affiliations": []
+            },
+            {
+              "name": "Shiyu Li",
+              "affiliations": []
+            },
+            {
+              "name": "Zheng Wei",
+              "affiliations": []
+            },
+            {
+              "name": "Yang Tang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.CL"
+          ],
+          "journal": null,
+          "published": "2026-08-28",
+          "abstract": "The rapid evolution of large language models necessitates robust machine-generated text detection. Existing paradigms typically follow two isolated tracks. Training-free methods rely on global statistical scalars such as perplexity, while training-based methods utilize semantic hidden states. Both approaches exhibit fundamental vulnerabilities in adversarial scenarios. Global scalars act as lossy compressions that obscure local probabilistic burstiness in interleaved texts, whereas pure semantic models overfit to specific fingerprints and remain susceptible to spoofing. To expose these flaws, we introduce MOSAIC, a comprehensive adversarial benchmark comprising 16000 samples across a full-granularity attack spectrum. To address these challenges, we propose NeuroStat, an end-to-end framework bridging the statistical and semantic gap. NeuroStat captures uncompressed token-level probabilistic logits alongside deep semantic hidden states from a single causal language model backbone. We fuse these heterogeneous signals through Macro-State Residual Modulation, which adaptively calibrates local convolutional features using global uncertainty indicators. Orthogonal and contrastive losses further ensure the learning of complementary representations. Extensive experiments demonstrate that NeuroStat maintains exceptional robustness on MOSAIC compared to the severe degradation of state-of-the-art methods, establishing a new standard for adversarial text detection. Code and the MOSAIC benchmark are available at https://github.com/TencentBAC/NeuroStat.",
+          "url": "https://arxiv.org/abs/2608.28009v1",
+          "arxiv_id": "2608.28009v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Beyond Global Scalars: Synergizing Token-Level Statistics and Deep Semantics for Adversarial AIGC Text Detection",
+            "method": "The rapid evolution of large language models necessitates robust machine-generated text detection. Existing paradigms typically follow two isolated tracks. Training-free methods rely on global statistical scalars such as perplexity, while t",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "SPT: Skills as Pre-Training Data for Agentic Language Models",
+          "authors": [
+            "Yufei Sun",
+            "Yudong Li",
+            "Yiming Cheng"
+          ],
+          "author_details": [
+            {
+              "name": "Yufei Sun",
+              "affiliations": []
+            },
+            {
+              "name": "Yudong Li",
+              "affiliations": []
+            },
+            {
+              "name": "Yiming Cheng",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.CL"
+          ],
+          "journal": null,
+          "published": "2026-08-27",
+          "abstract": "Agentic (tool-using) language models are mainly trained on tool-call traces and agent trajectories during post-training. These data provide direct behavioral supervision, but producing them requires task environments, execution, and verification, making broad tool and task coverage expensive. Publicly available skills offer another source of training data: they encode reusable tool semantics and workflows but are typically used only as inference-time context. We introduce Skill Pre-Training (SPT), a mid-training method that applies causal language modeling to SkillCorpus, a collection of public multi-file skill packages, optionally mixed with general data. To preserve relations among files within each package, we also introduce Reference Insert, a reference-aware assembly strategy that places supporting files near their mentions in the primary instruction. Experiments across multiple model scales and post-training recipes show that SPT consistently improves agentic performance over mid-training on general or trajectory data, while largely preserving general performance. Data mixture experiments show additional benefits from combining skill data with general annealing corpora. These results indicate that skill packages are a valuable data source for pre-training agentic language models.",
+          "url": "https://arxiv.org/abs/2608.26563v1",
+          "arxiv_id": "2608.26563v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: SPT: Skills as Pre-Training Data for Agentic Language Models",
+            "method": "Agentic (tool-using) language models are mainly trained on tool-call traces and agent trajectories during post-training. These data provide direct behavioral supervision, but producing them requires task environments, execution, and verific",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "MoganBert-TR: A Turkish Encoder Foundation Model Trained from Scratch with a CLM-to-MLM Curriculum",
+          "authors": [
+            "Furkan Yilmaz",
+            "Habibe Aleyna Tasdemir",
+            "Muhammed Faruk Gozay"
+          ],
+          "author_details": [
+            {
+              "name": "Furkan Yilmaz",
+              "affiliations": []
+            },
+            {
+              "name": "Habibe Aleyna Tasdemir",
+              "affiliations": []
+            },
+            {
+              "name": "Muhammed Faruk Gozay",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.CL",
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-08-26",
+          "abstract": "Turkish encoder models have adopted modern architectures while leaving the pretraining objective fixed at masked language modelling. This paper introduces MoganBert-TR, a 149M-parameter Turkish encoder foundation model trained from scratch on a language-specifically filtered corpus, together with an embedding model derived from it (MoganBert-Embed). MoganBert-TR is trained over 237.3B tokens with a two-stage CLM-to-MLM curriculum: causal language modelling first, masked language modelling for the remainder, with the transition made inside the stable phase of a WSD schedule. In a controlled ablation under an equal step budget, this design outperforms pure MLM by 2.7-3.7x on Turkish MS MARCO retrieval; the measured mechanism is embedding geometry, where a single direction absorbs 28.1% of the variance under pure MLM against 11.9% under the curriculum. Long-context extension and learning-rate decay are then split into two branches after a shared prefix: running the final portion of decay at 1024 context improves the TrGLUE average by 0.49 +/- 0.26 points across five paired seeds (p = 0.013) and beats a model-soup alternative by 0.75 points at ~4.3% additional cost. MoganBert-TR attains 78.41 on TrGLUE, the best among the Turkish ModernBERT models compared, and 77.73 on TabiBench, where it leads two of the eight categories with the largest margin on code retrieval (+3.62 points over TabiBERT). MoganBert-Embed, produced through teacher distillation and multi-signal contrastive fine-tuning, ranks first among student models on the MTEB(Turkish) overall average with 68.30 and reaches 99.5% of its 7.57B-parameter teacher's score with a 51x smaller backbone. The accompanying 50,048-token tokenizer outperforms all compared Turkish tokenizers on compression and fertility across two independent test sets. Weights, tokenizer, embedding model and evaluation code: https://huggingface.co/moganai",
+          "url": "https://arxiv.org/abs/2608.25768v1",
+          "arxiv_id": "2608.25768v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: MoganBert-TR: A Turkish Encoder Foundation Model Trained from Scratch with a CLM-to-MLM Curriculum",
+            "method": "Turkish encoder models have adopted modern architectures while leaving the pretraining objective fixed at masked language modelling. This paper introduces MoganBert-TR, a 149M-parameter Turkish encoder foundation model trained from scratch ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "causal-text",
+      "name": "Causal Inference in Text Analysis",
+      "papers": []
+    }
+  ]
+}
