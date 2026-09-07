@@ -1,0 +1,1234 @@
+{
+  "week": "2026-W37",
+  "generated_at": "2026-09-07T05:42:07.605606Z",
+  "topics": [
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "papers": [
+        {
+          "title": "StatsPAI: A Unified, Agent-Native Python Toolkit for Causal Inference and Applied Econometrics",
+          "authors": [
+            "Biaoyue Wang",
+            "Scott Rozelle"
+          ],
+          "author_details": [
+            {
+              "name": "Biaoyue Wang",
+              "affiliations": [
+                "Hoover Institution",
+                "DM-STAT (United States)"
+              ]
+            },
+            {
+              "name": "Scott Rozelle",
+              "affiliations": [
+                "Hoover Institution",
+                "DM-STAT (United States)"
+              ]
+            }
+          ],
+          "keywords": [
+            "Causal inference",
+            "Python (programming language)",
+            "Inference",
+            "Causal model",
+            "Specification",
+            "Fiducial inference"
+          ],
+          "journal": "The Journal of Open Source Software",
+          "published": "2026-09-03",
+          "abstract": "StatsPAI is an open-source Python package for causal inference and applied econometrics.It gives empirical researchers a single interface for estimating, diagnosing, comparing, and reporting models that are otherwise spread across many specialized packages or proprietary statistical environments.A single import statspai as sp reaches estimators for the main families of applied work: regression and panel models, instrumental variables, the modern difference-in-differences and regression-discontinuity toolkits, synthetic control and matching, and machine-learning estimators of heterogeneous treatment effects.It also covers the diagnostics, robustness checks, and reporting that surround them.The full catalogue of more than 1,100 registered functions across more than 80 submodules is enumerated in the package documentation rather than here.Results from the mature estimators share a common reporting surface, so the same calls produce a summary, a figure, a LaTeX or Word table, or a citation.StatsPAI is also agent-native.Every registered function exposes a machine-readable schema, a structured description of its arguments and outputs that a program can parse directly, together with structured failure metadata.Such schemas let large language model (LLM)-driven research assistants discover estimators, choose among alternatives, and surface a method's assumptions without parsing free-form prose, the capability that most distinguishes StatsPAI from a conventional estimator library.The source code is available at https://github.com/brycewang-stanford/StatsPAIand archived on Zenodo (Wang & Rozelle, 2026).",
+          "url": "https://doi.org/10.21105/joss.10604",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.21105/joss.10604",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 1,
+          "score": 1.693,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: StatsPAI: A Unified, Agent-Native Python Toolkit for Causal Inference and Applied Econometrics",
+            "method": "StatsPAI is an open-source Python package for causal inference and applied econometrics.It gives empirical researchers a single interface for estimating, diagnosing, comparing, and reporting models that are otherwise spread across many spec",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Treatment persistence drives estimator performance in longitudinal causal inference based on observational data: A simulation study",
+          "authors": [
+            "Sergio Gaiotti",
+            "Sara Poletto",
+            "Enrico Longato",
+            "Erica Tavazzi",
+            "Martina Vettoretti"
+          ],
+          "author_details": [
+            {
+              "name": "Sergio Gaiotti",
+              "affiliations": []
+            },
+            {
+              "name": "Sara Poletto",
+              "affiliations": []
+            },
+            {
+              "name": "Enrico Longato",
+              "affiliations": []
+            },
+            {
+              "name": "Erica Tavazzi",
+              "affiliations": []
+            },
+            {
+              "name": "Martina Vettoretti",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-09-04",
+          "abstract": "Longitudinal clinical data are increasingly available, offering opportunities to study treatment effects over time but also raising challenges related to time-varying confounding and evolving treatment decisions. We investigate how longitudinal treatment dynamics affect causal effect estimation when baseline and longitudinal methods target different causal estimands. Using a structural causal model (SCM), we simulate data with time-varying confounding, binary treatment, and an absorbing binary outcome under 9 scenarios combining functional complexity and treatment persistence. We compare three baseline and two longitudinal estimators against Monte Carlo ground-truth risk ratios (RRs) under sustained treatment regimes. Results show that treatment persistence is the main driver of estimator behaviour. High persistence reduces the discrepancy between baseline and sustained-regime estimands, making baseline estimators closer to the sustained-regime ground truth (average relative deviation of baseline IPTW/TMLE decreasing from 61% under low persistence to 10% under high persistence), whereas low persistence induces practical positivity challenges and increases the variability of longitudinal estimators, with empirical 95% interval widths increasing from 0.22 to 0.46 for longitudinal IPTW and from 0.20 to 0.36 for LTMLE when moving from high to low persistence. These findings emphasise that estimator performance should be interpreted jointly with the target intervention and the treatment process generating the observed data.",
+          "url": "https://arxiv.org/abs/2609.04940v1",
+          "arxiv_id": "2609.04940v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Treatment persistence drives estimator performance in longitudinal causal inference based on observational data: A simulation study",
+            "method": "Longitudinal clinical data are increasingly available, offering opportunities to study treatment effects over time but also raising challenges related to time-varying confounding and evolving treatment decisions. We investigate how longitud",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "A Causal Inference on the Effects of Attention to Media Content About Autonomous Vehicles in the Influence of Presumed Media Influence Model",
+          "authors": [
+            "Tong Jee Goh",
+            "Hongjie Tang",
+            "Shirley S. Ho"
+          ],
+          "author_details": [
+            {
+              "name": "Tong Jee Goh",
+              "affiliations": [
+                "Nanyang Technological University"
+              ]
+            },
+            {
+              "name": "Hongjie Tang",
+              "affiliations": [
+                "Jinan University"
+              ]
+            },
+            {
+              "name": "Shirley S. Ho",
+              "affiliations": [
+                "Nanyang Technological University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Trustworthiness",
+            "Perception",
+            "Causal inference",
+            "Content (measure theory)",
+            "Causal model",
+            "Inference",
+            "Media content"
+          ],
+          "journal": "Science Communication",
+          "published": "2026-09-04",
+          "abstract": "Applying the influence of presumed media influence model into an autonomous vehicle (AV) context, this study examines how media viewers’ attention to content about risks and benefits of AVs affects their presumptions of influence of the content on others, perceptions of trustworthiness of the technology, and intention to ride in AVs. Through cross-lagged analyses of two-wave panel data (n wave1 = 1,306; n wave2 = 650), this study found causal evidence for the projection effect and impersonal impact. Notably, this study also found causal evidence for the consonance effect: viewers perceiving trustworthiness of AVs after developing intention to ride in AVs.",
+          "url": "https://doi.org/10.1177/10755470261479250",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1177/10755470261479250",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A Causal Inference on the Effects of Attention to Media Content About Autonomous Vehicles in the Influence of Presumed Media Influence Model",
+            "method": "Applying the influence of presumed media influence model into an autonomous vehicle (AV) context, this study examines how media viewers’ attention to content about risks and benefits of AVs affects their presumptions of influence of the con",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal Inference for Heterogeneous Extreme Quantiles with Heavy-Tailed Outcomes",
+          "authors": [
+            "Xiaorui Wang",
+            "Juan-Juan Cai",
+            "Huixia Judy Wang",
+            "Jian Qing Shi",
+            "Yanlin Tang"
+          ],
+          "author_details": [
+            {
+              "name": "Xiaorui Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Juan-Juan Cai",
+              "affiliations": []
+            },
+            {
+              "name": "Huixia Judy Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Jian Qing Shi",
+              "affiliations": []
+            },
+            {
+              "name": "Yanlin Tang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-09-03",
+          "abstract": "We propose a framework for estimating conditional extreme quantile treatment effects (CEQTEs) in observational studies with heavy-tailed outcomes. Our procedure first estimates intermediate conditional quantiles using inverse-probability-weighted (IPW) quantile regression and then extrapolates them to extreme levels using extreme value theory. Under a linear conditional quantile model, we show that the conditional and marginal distributions of each potential outcome share a common extreme value index (EVI), motivating two complementary Hill-type EVI estimators based on conditional and marginal information, respectively. On the theoretical front, we introduce an IPW tail quantile score process that bridges regression quantile score processes and uniform tail empirical processes while accounting for treatment assignment. We establish its functional weak convergence under mild regularity conditions, without requiring a max-domain-of-attraction condition. This result provides the probabilistic foundation for the asymptotic analysis of the proposed CEQTE estimators. Simulation studies demonstrate favorable finite-sample performance, and an application to NLSY79 data reveals substantial heterogeneity in the effect of college education on extremely high hourly wages across confounder-defined subpopulations.",
+          "url": "https://arxiv.org/abs/2609.03933v1",
+          "arxiv_id": "2609.03933v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal Inference for Heterogeneous Extreme Quantiles with Heavy-Tailed Outcomes",
+            "method": "We propose a framework for estimating conditional extreme quantile treatment effects (CEQTEs) in observational studies with heavy-tailed outcomes. Our procedure first estimates intermediate conditional quantiles using inverse-probability-we",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Leveraging generative AI for causal inference with unstructured data",
+          "authors": [
+            "Kosuke Imai",
+            "Kentaro Nakamura"
+          ],
+          "author_details": [
+            {
+              "name": "Kosuke Imai",
+              "affiliations": [
+                "Harvard University"
+              ]
+            },
+            {
+              "name": "Kentaro Nakamura",
+              "affiliations": [
+                "Harvard University",
+                "John F. Kennedy University"
+              ]
+            }
+          ],
+          "keywords": [
+            "Inference",
+            "Unstructured data",
+            "Representation (politics)",
+            "Generative grammar",
+            "Causal inference",
+            "Generative model",
+            "Key (lock)",
+            "Software",
+            "Feature learning"
+          ],
+          "journal": "Proceedings of the National Academy of Sciences",
+          "published": "2026-09-03",
+          "abstract": "We introduce GenAI-Powered Inference (GPI), a statistical framework for causal inference using unstructured data, including text and images. GPI leverages open-source pretrained Generative AI (GenAI) models-such as large language models and diffusion models-not only to generate unstructured data at scale but also to extract low-dimensional representations that are guaranteed to capture their underlying structure. Applying machine learning to these representations, GPI enables estimation of causal effects while quantifying estimation uncertainty. Unlike existing approaches to representation learning, GPI does not require fine-tuning of GenAI models, making it computationally efficient and broadly accessible. We illustrate the versatility of the GPI framework through three applications: 1) estimating the effects of Chinese social media censorship while adjusting for textual confounders, 2) isolating the impact of specific image features from that of other correlated features in the same image, and 3) assessing the persuasiveness of political rhetoric. An open-source software package is available for implementing GPI.",
+          "url": "https://doi.org/10.1073/pnas.2530532123",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1073/pnas.2530532123",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Leveraging generative AI for causal inference with unstructured data",
+            "method": "We introduce GenAI-Powered Inference (GPI), a statistical framework for causal inference using unstructured data, including text and images. GPI leverages open-source pretrained Generative AI (GenAI) models-such as large language models and",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "COSTA: Covariance-Optimized Design and Causal Inference under Network-Temporal Interference",
+          "authors": [
+            "Qianyi Chen",
+            "Bo Li",
+            "Yongli Qin",
+            "Jinyong Ma"
+          ],
+          "author_details": [
+            {
+              "name": "Qianyi Chen",
+              "affiliations": []
+            },
+            {
+              "name": "Bo Li",
+              "affiliations": []
+            },
+            {
+              "name": "Yongli Qin",
+              "affiliations": []
+            },
+            {
+              "name": "Jinyong Ma",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-09-02",
+          "abstract": "Experiments on networks observed over time face network spillovers, temporal carryover, and dependence deliberately introduced by the design. We propose COSTA---Covariance-Optimized Spatiotemporal Treatment Allocation---a joint Bernoulli design for unit--time assignments. Under common treatment marginals and a nonnegative linear network--temporal exposure model, Horvitz--Thompson bias for the sustained all-treated versus all-control contrast is exactly the negative expected weight of an assignment cut. A covariance-level variance envelope yields an MSE bound that can be optimized directly over assignment covariance. To scale this design, we introduce a thresholded-Gaussian Kronecker parameterization that mirrors the network and temporal exposure operators while preserving valid Bernoulli marginals. We next develop inference theory for the joint effects of designed treatment dependence and interference-induced outcome dependence. Canonical correlations between latent blocks generating separated HT contributions supply the coefficients required by graph-$ψ$ central limit and network-HAC theory; a spectral-floor and far-row-mass condition gives a primitive sufficient check. The framework covers sparse, block, Kronecker, locally factored, and other structured covariance sequences satisfying these conditions. Semi-synthetic RetailRocket and MovieLens experiments show substantial default-setting RMSE reductions and well-calibrated model-assisted design-centered intervals across linear, nonlinear, and demand-substitution outcome surfaces.",
+          "url": "https://arxiv.org/abs/2609.02032v1",
+          "arxiv_id": "2609.02032v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: COSTA: Covariance-Optimized Design and Causal Inference under Network-Temporal Interference",
+            "method": "Experiments on networks observed over time face network spillovers, temporal carryover, and dependence deliberately introduced by the design. We propose COSTA---Covariance-Optimized Spatiotemporal Treatment Allocation---a joint Bernoulli de",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Explainable Reinforcement Learning with Causal Inference",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Interpretability",
+            "Reinforcement learning",
+            "Inference",
+            "Causal inference",
+            "Robustness (evolution)",
+            "Trustworthiness"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-02",
+          "abstract": "This paper explores a novel approach to reinforcement learning (RL) that integrates causal inference to enhance both the reliability and interpretability of decision-making processes. Traditional RL algorithms often operate as \"black boxes,\" lacking transparency into the reasoning behind their actions. This research addresses this limitation by leveraging causal relationships within an environment to guide the learning process. We propose a framework where causal graphs are utilized to understand the underlying dynamics of the environment, informing the selection of optimal policies in an RL agent. Furthermore, we employ explainable AI (XAI) techniques to provide insights into the agent's decision-making rationale. The core claim is that by combining causal reasoning with RL and XAI, we can significantly improve the robustness and trustworthiness of the learned policies, while simultaneously increasing their interpretability. The proposed method aims to provide a more reliable and understandable system than standard RL approaches, particularly in complex and uncertain environments.",
+          "url": "https://doi.org/10.5281/zenodo.22243945",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22243945",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Explainable Reinforcement Learning with Causal Inference",
+            "method": "This paper explores a novel approach to reinforcement learning (RL) that integrates causal inference to enhance both the reliability and interpretability of decision-making processes. Traditional RL algorithms often operate as \"black boxes,",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Explainable Reinforcement Learning with Causal Inference",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Interpretability",
+            "Reinforcement learning",
+            "Inference",
+            "Causal inference",
+            "Robustness (evolution)",
+            "Trustworthiness"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-02",
+          "abstract": "This paper explores a novel approach to reinforcement learning (RL) that integrates causal inference to enhance both the reliability and interpretability of decision-making processes. Traditional RL algorithms often operate as \"black boxes,\" lacking transparency into the reasoning behind their actions. This research addresses this limitation by leveraging causal relationships within an environment to guide the learning process. We propose a framework where causal graphs are utilized to understand the underlying dynamics of the environment, informing the selection of optimal policies in an RL agent. Furthermore, we employ explainable AI (XAI) techniques to provide insights into the agent's decision-making rationale. The core claim is that by combining causal reasoning with RL and XAI, we can significantly improve the robustness and trustworthiness of the learned policies, while simultaneously increasing their interpretability. The proposed method aims to provide a more reliable and understandable system than standard RL approaches, particularly in complex and uncertain environments.",
+          "url": "https://doi.org/10.5281/zenodo.22243946",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22243946",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Explainable Reinforcement Learning with Causal Inference",
+            "method": "This paper explores a novel approach to reinforcement learning (RL) that integrates causal inference to enhance both the reliability and interpretability of decision-making processes. Traditional RL algorithms often operate as \"black boxes,",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ope",
+      "name": "Off-Policy Evaluation",
+      "papers": []
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Deep reinforcement learning-based optimization of reconfigurable intelligent surfaces (RIS) for 6G multi-user connectivity in NLOS environments",
+          "authors": [
+            "Zacheous Aasa"
+          ],
+          "author_details": [
+            {
+              "name": "Zacheous Aasa",
+              "affiliations": [
+                "Ladoke Akintola University of Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "Non-line-of-sight propagation",
+            "Reinforcement learning",
+            "Wireless",
+            "Latency (audio)",
+            "Optimization problem",
+            "Convex optimization",
+            "Key (lock)",
+            "Ranging"
+          ],
+          "journal": "Scientific Reports",
+          "published": "2026-08-31",
+          "abstract": "Abstract The transition towards the sixth generation (6G) of wireless networks requires ultra-high data rates and seamless connectivity, even in frequency bands like mmWave and THz, which are highly susceptible to physical blockages. RIS have emerged as a key technology in mitigating NLOS limitations through programmable steering of electromagnetic waves by passive reflection. However, real-time optimization of high-dimensional RIS phase shifts in dynamic multi-user environments remains an NP-hard challenge that is hardly solvable efficiently by traditional methods based on mathematical optimization. This paper presents a new DRL framework, utilizing a TD3 architecture, for the optimization of sum-rate performance of multi-user links. The model incorporates real-time environmental feedback and imperfect CSI for ensuring robust connectivity. Simulation results show that the DRL-RIS framework proposed here achieves remarkable gains in the sum-rate performance and outperforms conventional convex optimization baselines in computational latency and energy efficiency. Keywords: 6G Networks, Reconfigurable Intelligent Surfaces (RIS), Deep Reinforcement Learning (DRL), Non-Line-of-Sight (NLOS), Beamforming",
+          "url": "https://doi.org/10.1038/s41598-026-69294-9",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1038/s41598-026-69294-9",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 3,
+          "score": 2.386,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Deep reinforcement learning-based optimization of reconfigurable intelligent surfaces (RIS) for 6G multi-user connectivity in NLOS environments",
+            "method": "Abstract The transition towards the sixth generation (6G) of wireless networks requires ultra-high data rates and seamless connectivity, even in frequency bands like mmWave and THz, which are highly susceptible to physical blockages. RIS ha",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Based on Deep Reinforcement Learning of Hardware Resource Scheduling",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Scheduling (production processes)",
+            "Markov decision process",
+            "Dynamic priority scheduling",
+            "Two-level scheduling",
+            "Workload",
+            "Fair-share scheduling",
+            "Artificial neural network"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-05",
+          "abstract": "This paper investigates the application of deep reinforcement learning (DRL) to the dynamic scheduling of hardware resources. Traditional hardware resource scheduling methods often rely on static rules or heuristics, which may not effectively adapt to the dynamic workload characteristics of modern computing systems. This research proposes a novel approach utilizing DRL to learn optimal scheduling policies, aiming to maximize hardware resource utilization and overall system efficiency. The core of the system involves constructing a DRL environment where a deep neural network learns to make scheduling decisions based on real-time system state information. We present a framework for modeling the hardware scheduling problem as a Markov Decision Process (MDP) and demonstrate the effectiveness of DRL in achieving superior scheduling performance compared to conventional methods. The results presented highlight the potential of DRL for intelligent hardware resource management in diverse computing environments.",
+          "url": "https://doi.org/10.5281/zenodo.22315712",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22315712",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Based on Deep Reinforcement Learning of Hardware Resource Scheduling",
+            "method": "This paper investigates the application of deep reinforcement learning (DRL) to the dynamic scheduling of hardware resources. Traditional hardware resource scheduling methods often rely on static rules or heuristics, which may not effective",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Based on Deep Reinforcement Learning of Hardware Resource Scheduling",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Scheduling (production processes)",
+            "Markov decision process",
+            "Dynamic priority scheduling",
+            "Two-level scheduling",
+            "Workload",
+            "Fair-share scheduling",
+            "Artificial neural network"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-05",
+          "abstract": "This paper investigates the application of deep reinforcement learning (DRL) to the dynamic scheduling of hardware resources. Traditional hardware resource scheduling methods often rely on static rules or heuristics, which may not effectively adapt to the dynamic workload characteristics of modern computing systems. This research proposes a novel approach utilizing DRL to learn optimal scheduling policies, aiming to maximize hardware resource utilization and overall system efficiency. The core of the system involves constructing a DRL environment where a deep neural network learns to make scheduling decisions based on real-time system state information. We present a framework for modeling the hardware scheduling problem as a Markov Decision Process (MDP) and demonstrate the effectiveness of DRL in achieving superior scheduling performance compared to conventional methods. The results presented highlight the potential of DRL for intelligent hardware resource management in diverse computing environments.",
+          "url": "https://doi.org/10.5281/zenodo.22315713",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22315713",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Based on Deep Reinforcement Learning of Hardware Resource Scheduling",
+            "method": "This paper investigates the application of deep reinforcement learning (DRL) to the dynamic scheduling of hardware resources. Traditional hardware resource scheduling methods often rely on static rules or heuristics, which may not effective",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Deep Reinforcement Learning for Automated Theorem Proving",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Heuristics",
+            "Reinforcement learning",
+            "Automated theorem proving",
+            "Markov decision process",
+            "Function (biology)",
+            "Inference",
+            "Process (computing)",
+            "State space"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-05",
+          "abstract": "Automated theorem proving (ATP) is a cornerstone of artificial intelligence, aiming to develop systems capable of mechanically deriving mathematical theorems. Traditional ATP systems rely heavily on handcrafted heuristics and logical inference rules, often requiring significant human intervention. This research explores the application of deep reinforcement learning (DRL) to automate theorem proving. The core idea involves training a DRL agent to navigate the complex space of logical manipulations, learning optimal strategies for theorem proving through trial and error. The system is formulated as a Markov Decision Process (MDP) where the agent's actions are logical inferences, the state represents the current theorem and proof context, and the reward function guides the agent towards successful proof completion. We hypothesize that DRL's capacity to learn intricate patterns and representations from raw data can overcome the limitations of traditional ATP systems, potentially leading to more robust and efficient automated reasoning. This paper details the design of the DRL-based ATP system, focusing on the formulation of the MDP, the choice of the DRL architecture, and the reward function design. Preliminary results demonstrate the feasibility of this approach and highlight the potential for future advancements.",
+          "url": "https://doi.org/10.5281/zenodo.22335710",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22335710",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Deep Reinforcement Learning for Automated Theorem Proving",
+            "method": "Automated theorem proving (ATP) is a cornerstone of artificial intelligence, aiming to develop systems capable of mechanically deriving mathematical theorems. Traditional ATP systems rely heavily on handcrafted heuristics and logical infere",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Deep Reinforcement Learning for Automated Theorem Proving",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Heuristics",
+            "Reinforcement learning",
+            "Automated theorem proving",
+            "Markov decision process",
+            "Function (biology)",
+            "Inference",
+            "Process (computing)",
+            "State space"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-05",
+          "abstract": "Automated theorem proving (ATP) is a cornerstone of artificial intelligence, aiming to develop systems capable of mechanically deriving mathematical theorems. Traditional ATP systems rely heavily on handcrafted heuristics and logical inference rules, often requiring significant human intervention. This research explores the application of deep reinforcement learning (DRL) to automate theorem proving. The core idea involves training a DRL agent to navigate the complex space of logical manipulations, learning optimal strategies for theorem proving through trial and error. The system is formulated as a Markov Decision Process (MDP) where the agent's actions are logical inferences, the state represents the current theorem and proof context, and the reward function guides the agent towards successful proof completion. We hypothesize that DRL's capacity to learn intricate patterns and representations from raw data can overcome the limitations of traditional ATP systems, potentially leading to more robust and efficient automated reasoning. This paper details the design of the DRL-based ATP system, focusing on the formulation of the MDP, the choice of the DRL architecture, and the reward function design. Preliminary results demonstrate the feasibility of this approach and highlight the potential for future advancements.",
+          "url": "https://doi.org/10.5281/zenodo.22335709",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22335709",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Deep Reinforcement Learning for Automated Theorem Proving",
+            "method": "Automated theorem proving (ATP) is a cornerstone of artificial intelligence, aiming to develop systems capable of mechanically deriving mathematical theorems. Traditional ATP systems rely heavily on handcrafted heuristics and logical infere",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Resource-Aware Scheduling with Reinforcement Learning and Game Theory",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Markov decision process",
+            "Scheduling (production processes)",
+            "Game theory",
+            "Dynamic priority scheduling",
+            "Job shop scheduling",
+            "Markov process",
+            "Multi-agent system",
+            "Automated planning and scheduling"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-05",
+          "abstract": "This paper presents a novel approach to resource scheduling that leverages the power of reinforcement learning (RL) and game theory to address the limitations of traditional scheduling algorithms. Traditional methods often neglect the strategic interactions between competing processes, leading to suboptimal resource allocation and potentially reduced system performance. Our proposed algorithm, termed \"Strategic Resource Allocation via Reinforcement Learning and Game Theory\" (SRAL-RT), models processes as intelligent agents within a game, allowing the system to learn and adapt to the anticipated behaviors of other processes. The core mechanism involves training an RL agent to optimize resource allocation considering the strategic decisions of other agents. We formalize the scheduling problem as a Markov Decision Process (MDP) and utilize a fictitious play algorithm within the RL framework to learn optimal strategies. The game theoretic aspect is incorporated through a modified reward function that incentivizes agents to consider the impact of their actions on the overall system performance and the potential strategies of opponents. The effectiveness of SRAL-RT is demonstrated through simulations, showcasing its ability to outperform conventional scheduling algorithms in scenarios with complex interactions and dynamic resource demands. This work contributes a significant step towards creating more adaptive, efficient, and robust resource scheduling systems.",
+          "url": "https://doi.org/10.5281/zenodo.22314991",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22314991",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Resource-Aware Scheduling with Reinforcement Learning and Game Theory",
+            "method": "This paper presents a novel approach to resource scheduling that leverages the power of reinforcement learning (RL) and game theory to address the limitations of traditional scheduling algorithms. Traditional methods often neglect the strat",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Based on Deep Reinforcement Learning for Distributed System Scheduling",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Scheduling (production processes)",
+            "Dynamic priority scheduling",
+            "Two-level scheduling",
+            "Markov decision process",
+            "Fair-share scheduling",
+            "Heuristics",
+            "Rate-monotonic scheduling"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-05",
+          "abstract": "This paper investigates the application of deep reinforcement learning (DRL) to the scheduling problem within distributed systems. Traditional scheduling approaches often rely on heuristics or rule-based systems, which can struggle to adapt to dynamic and complex workloads. We propose a novel framework that leverages DRL to learn optimal scheduling policies, aiming to improve system performance and reliability. The core of our approach involves formulating the distributed system scheduling problem as a Markov Decision Process (MDP), where the DRL agent learns a policy to select scheduling decisions. We utilize deep neural networks to approximate the Q-function, enabling the agent to handle high-dimensional state spaces and complex relationships within the system. The results demonstrate the potential of DRL to outperform traditional scheduling methods in terms of resource utilization, throughput, and minimizing completion times. Further research will explore techniques for enhancing the agent's robustness and scalability.",
+          "url": "https://doi.org/10.5281/zenodo.22341489",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22341489",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Based on Deep Reinforcement Learning for Distributed System Scheduling",
+            "method": "This paper investigates the application of deep reinforcement learning (DRL) to the scheduling problem within distributed systems. Traditional scheduling approaches often rely on heuristics or rule-based systems, which can struggle to adapt",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Based on Deep Reinforcement Learning for Distributed System Scheduling",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Scheduling (production processes)",
+            "Dynamic priority scheduling",
+            "Two-level scheduling",
+            "Markov decision process",
+            "Fair-share scheduling",
+            "Heuristics",
+            "Rate-monotonic scheduling"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-05",
+          "abstract": "This paper investigates the application of deep reinforcement learning (DRL) to the scheduling problem within distributed systems. Traditional scheduling approaches often rely on heuristics or rule-based systems, which can struggle to adapt to dynamic and complex workloads. We propose a novel framework that leverages DRL to learn optimal scheduling policies, aiming to improve system performance and reliability. The core of our approach involves formulating the distributed system scheduling problem as a Markov Decision Process (MDP), where the DRL agent learns a policy to select scheduling decisions. We utilize deep neural networks to approximate the Q-function, enabling the agent to handle high-dimensional state spaces and complex relationships within the system. The results demonstrate the potential of DRL to outperform traditional scheduling methods in terms of resource utilization, throughput, and minimizing completion times. Further research will explore techniques for enhancing the agent's robustness and scalability.",
+          "url": "https://doi.org/10.5281/zenodo.22341488",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22341488",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Based on Deep Reinforcement Learning for Distributed System Scheduling",
+            "method": "This paper investigates the application of deep reinforcement learning (DRL) to the scheduling problem within distributed systems. Traditional scheduling approaches often rely on heuristics or rule-based systems, which can struggle to adapt",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Decentralized Multi-Agent Reinforcement Learning with Communication for Uncertain Environments",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Key (lock)",
+            "Benchmark (surveying)",
+            "Markov decision process",
+            "Process (computing)",
+            "Core (optical fiber)",
+            "Partially observable Markov decision process",
+            "Information sharing"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-05",
+          "abstract": "This paper presents a novel decentralized multi-agent reinforcement learning (MARL) algorithm designed to address the challenges posed by environmental uncertainty and information asymmetry in multi-agent systems. The core of the algorithm lies in leveraging communication between agents, inspired by approaches like MADDPG, to facilitate information sharing and collaborative learning. We demonstrate that this communication-based strategy significantly enhances the performance of multi-agent systems, particularly when dealing with stochastic environments where individual agent observations are incomplete and unreliable. The algorithm incorporates a novel uncertainty estimation module to dynamically adjust the communication frequency and content, optimizing for efficiency and robustness. We formalize the problem as a Partially Observable Markov Decision Process (POMDP) and outline the key components of the proposed solution, focusing on the decentralized training and execution strategy. Experimental results (simulated) on benchmark MARL environments illustrate the effectiveness of the proposed method compared to traditional centralized and decentralized approaches. The key contributions of this work are a communication-augmented MARL framework that addresses uncertainty and information asymmetry and a practical approach for decentralized learning and execution in complex, dynamic environments.",
+          "url": "https://doi.org/10.5281/zenodo.22341245",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22341245",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Decentralized Multi-Agent Reinforcement Learning with Communication for Uncertain Environments",
+            "method": "This paper presents a novel decentralized multi-agent reinforcement learning (MARL) algorithm designed to address the challenges posed by environmental uncertainty and information asymmetry in multi-agent systems. The core of the algorithm ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Decentralized Multi-Agent Reinforcement Learning with Communication for Uncertain Environments",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Key (lock)",
+            "Benchmark (surveying)",
+            "Markov decision process",
+            "Process (computing)",
+            "Core (optical fiber)",
+            "Partially observable Markov decision process",
+            "Information sharing"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-05",
+          "abstract": "This paper presents a novel decentralized multi-agent reinforcement learning (MARL) algorithm designed to address the challenges posed by environmental uncertainty and information asymmetry in multi-agent systems. The core of the algorithm lies in leveraging communication between agents, inspired by approaches like MADDPG, to facilitate information sharing and collaborative learning. We demonstrate that this communication-based strategy significantly enhances the performance of multi-agent systems, particularly when dealing with stochastic environments where individual agent observations are incomplete and unreliable. The algorithm incorporates a novel uncertainty estimation module to dynamically adjust the communication frequency and content, optimizing for efficiency and robustness. We formalize the problem as a Partially Observable Markov Decision Process (POMDP) and outline the key components of the proposed solution, focusing on the decentralized training and execution strategy. Experimental results (simulated) on benchmark MARL environments illustrate the effectiveness of the proposed method compared to traditional centralized and decentralized approaches. The key contributions of this work are a communication-augmented MARL framework that addresses uncertainty and information asymmetry and a practical approach for decentralized learning and execution in complex, dynamic environments.",
+          "url": "https://doi.org/10.5281/zenodo.22341244",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22341244",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Decentralized Multi-Agent Reinforcement Learning with Communication for Uncertain Environments",
+            "method": "This paper presents a novel decentralized multi-agent reinforcement learning (MARL) algorithm designed to address the challenges posed by environmental uncertainty and information asymmetry in multi-agent systems. The core of the algorithm ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Online Change-point Detection for Cooperative Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Fatemeh Saberi Khomami",
+            "Julita Vassileva"
+          ],
+          "author_details": [
+            {
+              "name": "Fatemeh Saberi Khomami",
+              "affiliations": []
+            },
+            {
+              "name": "Julita Vassileva",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-09-04",
+          "abstract": "Cooperative multi-agent reinforcement learning (MARL) systems rely on past experience for learning coordinated behaviour, but this experience may become unreliable if the environment or task objective changes during training. In such cases, agents first need a way to recognize that the situation has changed before deciding how to adapt. This paper studies online change-point detection for cooperative MARL using reward-derived signals. We propose \\emph{Patterns of Past Rewards} (PPR), a lightweight algorithm-agnostic detector that smooths agents' return streams, highlights recent changes, and applies a statistical drift detector to flag significant shifts. We evaluate PPR in a custom Speaker-Listener environment based on the Multi-Agent Particle Environment under two controlled non-stationarity scenarios. Our results show a trade-off between detection speed and alarm stability. A smoothed-return baseline detects earlier but produces many repeated alarms. In contrast, applying the detector directly to raw returns often misses the shift. PPR offers a more balanced approach by limiting redundant detections while still identifying the controlled shifts. These findings highlight PPR as a lightweight, reward-based monitoring tool that enables cooperative MARL systems to reliably identify major changes during training.",
+          "url": "https://arxiv.org/abs/2609.05298v1",
+          "arxiv_id": "2609.05298v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Online Change-point Detection for Cooperative Multi-Agent Reinforcement Learning",
+            "method": "Cooperative multi-agent reinforcement learning (MARL) systems rely on past experience for learning coordinated behaviour, but this experience may become unreliable if the environment or task objective changes during training. In such cases,",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Out-of-Distribution Generalisation with Sequence Models in Offline Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Oussama Hidaoui",
+            "Omer Ebead",
+            "Ulrich Armel Mbou Sob",
+            "Siddarth Singh",
+            "Juan Claude Formanek",
+            "Felix Chalumeau",
+            "Omayma Mahjoub",
+            "Sasha Abramowitz",
+            "Ruan John de Kock",
+            "Wiem Khlifi",
+            "Louay Ben Nessir",
+            "Simon Verster Du Toit",
+            "Daniel Rajaonarivonivelomanantsoa",
+            "Asim Awad Osman",
+            "Arnol Manuel Fokam",
+            "Refiloe Shabe",
+            "Arnu Pretorius"
+          ],
+          "author_details": [
+            {
+              "name": "Oussama Hidaoui",
+              "affiliations": []
+            },
+            {
+              "name": "Omer Ebead",
+              "affiliations": []
+            },
+            {
+              "name": "Ulrich Armel Mbou Sob",
+              "affiliations": []
+            },
+            {
+              "name": "Siddarth Singh",
+              "affiliations": []
+            },
+            {
+              "name": "Juan Claude Formanek",
+              "affiliations": []
+            },
+            {
+              "name": "Felix Chalumeau",
+              "affiliations": []
+            },
+            {
+              "name": "Omayma Mahjoub",
+              "affiliations": []
+            },
+            {
+              "name": "Sasha Abramowitz",
+              "affiliations": []
+            },
+            {
+              "name": "Ruan John de Kock",
+              "affiliations": []
+            },
+            {
+              "name": "Wiem Khlifi",
+              "affiliations": []
+            },
+            {
+              "name": "Louay Ben Nessir",
+              "affiliations": []
+            },
+            {
+              "name": "Simon Verster Du Toit",
+              "affiliations": []
+            },
+            {
+              "name": "Daniel Rajaonarivonivelomanantsoa",
+              "affiliations": []
+            },
+            {
+              "name": "Asim Awad Osman",
+              "affiliations": []
+            },
+            {
+              "name": "Arnol Manuel Fokam",
+              "affiliations": []
+            },
+            {
+              "name": "Refiloe Shabe",
+              "affiliations": []
+            },
+            {
+              "name": "Arnu Pretorius",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-09-03",
+          "abstract": "Generalising to unseen tasks remains a fundamental challenge in offline multi-agent reinforcement learning (MARL). In this work, we present a principled analysis of zero-shot task generalisation in the offline setting and conduct an extensive empirical investigation into the scaling behaviour governing task diversity, dataset size, and network capacity. To facilitate this study, we extend offline sequence modelling architectures to handle multi-task observation and action spaces alongside variable agent counts across tasks. Our primary finding is that scaling task diversity---rather than sheer dataset size is the dominant factor in achieving robust zero-shot transfer. Through large-scale experiments across four challenging environments (Connector, RWARE, SMAX, and LBF), we demonstrate that our multi-task approach achieves a mean improvement of 3.2x on held-out test tasks compared to single-task models and consistently outperforms strong behaviour cloning baselines. These results suggest that the development of generalisable MARL agents should prioritise the diversity of the training distribution with varying numbers of agents, providing a roadmap for scaling offline MARL effectively.",
+          "url": "https://arxiv.org/abs/2609.03667v1",
+          "arxiv_id": "2609.03667v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Out-of-Distribution Generalisation with Sequence Models in Offline Multi-Agent Reinforcement Learning",
+            "method": "Generalising to unseen tasks remains a fundamental challenge in offline multi-agent reinforcement learning (MARL). In this work, we present a principled analysis of zero-shot task generalisation in the offline setting and conduct an extensi",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-Agent Reinforcement Learning with Communication and Coordination Protocols",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Scalability",
+            "Markov decision process",
+            "Process (computing)",
+            "Key (lock)",
+            "Convergence (economics)",
+            "Protocol (science)",
+            "Communications protocol"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-03",
+          "abstract": "This paper investigates the application of multi-agent reinforcement learning (MARL) to complex cooperative tasks, specifically focusing on the integration of communication and coordination protocols. Traditional MARL often struggles with scalability and efficiency when dealing with a growing number of agents and intricate environments. Our approach introduces a novel framework that allows agents to not only learn optimal policies independently but also to communicate and coordinate their actions, dramatically improving their collective performance. The core of our system lies in a dynamically adaptable communication protocol that facilitates information exchange regarding observed states and intended actions. We formulate the problem as a Partially Observable Markov Decision Process (POMDP) and employ a centralized training approach coupled with decentralized execution, mitigating the challenges of non-stationarity inherent in MARL. The experimental results demonstrate that our system significantly outperforms standard MARL algorithms in scenarios requiring complex coordination, highlighting the effectiveness of incorporating communication as a key learning mechanism. We analyze the convergence properties of the proposed approach and discuss potential extensions for handling more sophisticated communication strategies.",
+          "url": "https://doi.org/10.5281/zenodo.22273257",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22273257",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning with Communication and Coordination Protocols",
+            "method": "This paper investigates the application of multi-agent reinforcement learning (MARL) to complex cooperative tasks, specifically focusing on the integration of communication and coordination protocols. Traditional MARL often struggles with s",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-Agent Reinforcement Learning with Communication and Coordination Protocols",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Scalability",
+            "Markov decision process",
+            "Process (computing)",
+            "Key (lock)",
+            "Convergence (economics)",
+            "Protocol (science)",
+            "Communications protocol"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-09-03",
+          "abstract": "This paper investigates the application of multi-agent reinforcement learning (MARL) to complex cooperative tasks, specifically focusing on the integration of communication and coordination protocols. Traditional MARL often struggles with scalability and efficiency when dealing with a growing number of agents and intricate environments. Our approach introduces a novel framework that allows agents to not only learn optimal policies independently but also to communicate and coordinate their actions, dramatically improving their collective performance. The core of our system lies in a dynamically adaptable communication protocol that facilitates information exchange regarding observed states and intended actions. We formulate the problem as a Partially Observable Markov Decision Process (POMDP) and employ a centralized training approach coupled with decentralized execution, mitigating the challenges of non-stationarity inherent in MARL. The experimental results demonstrate that our system significantly outperforms standard MARL algorithms in scenarios requiring complex coordination, highlighting the effectiveness of incorporating communication as a key learning mechanism. We analyze the convergence properties of the proposed approach and discuss potential extensions for handling more sophisticated communication strategies.",
+          "url": "https://doi.org/10.5281/zenodo.22273258",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22273258",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning with Communication and Coordination Protocols",
+            "method": "This paper investigates the application of multi-agent reinforcement learning (MARL) to complex cooperative tasks, specifically focusing on the integration of communication and coordination protocols. Traditional MARL often struggles with s",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-Agent Reinforcement Learning for Traffic Flow Optimization",
+          "authors": [
+            "Jincheng Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jincheng Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Adaptability",
+            "Traffic flow (computer networking)",
+            "Markov decision process",
+            "Process (computing)",
+            "Key (lock)",
+            "Scalability",
+            "Markov process"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-08-31",
+          "abstract": "This paper investigates the application of Multi-Agent Reinforcement Learning (MARL) to the complex problem of traffic flow optimization. Traditional traffic management strategies often struggle to adapt to dynamic and unpredictable traffic patterns. This research proposes a novel approach leveraging a team of autonomous vehicles trained through MARL to coordinate their movements and collectively optimize traffic flow within a simulated environment. The core idea centers on treating each vehicle as an agent learning optimal policies through trial and error, guided by a reward function that incentivizes efficient traffic movement. The system utilizes a Partially Observable Markov Decision Process (POMDP) framework to account for the inherent uncertainty in traffic conditions. Key performance indicators such as average travel time, throughput, and congestion levels are evaluated. Preliminary results demonstrate the potential of MARL to achieve superior traffic flow compared to conventional rule-based methods, highlighting its adaptability and scalability for real-world traffic management systems. The system is designed to handle dynamic changes in traffic conditions and adapt its strategies accordingly. Future research directions include incorporating real-world data and exploring more complex traffic scenarios.",
+          "url": "https://doi.org/10.5281/zenodo.22200662",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.22200662",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning for Traffic Flow Optimization",
+            "method": "This paper investigates the application of Multi-Agent Reinforcement Learning (MARL) to the complex problem of traffic flow optimization. Traditional traffic management strategies often struggle to adapt to dynamic and unpredictable traffic",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Efficient Exploration-Enabled Multi-Agent Reinforcement Learning for Multi-UAV Cooperative Target Search",
+          "authors": [
+            "Peng Chen",
+            "Tianxu Li",
+            "Wei Xia",
+            "Kun Zhu"
+          ],
+          "author_details": [
+            {
+              "name": "Peng Chen",
+              "affiliations": [
+                "Nanjing University of Aeronautics and Astronautics"
+              ]
+            },
+            {
+              "name": "Tianxu Li",
+              "affiliations": [
+                "Nanjing University of Aeronautics and Astronautics"
+              ]
+            },
+            {
+              "name": "Wei Xia",
+              "affiliations": [
+                "Nanjing University of Aeronautics and Astronautics"
+              ]
+            },
+            {
+              "name": "Kun Zhu",
+              "affiliations": [
+                "Nanjing University of Aeronautics and Astronautics"
+              ]
+            }
+          ],
+          "keywords": [
+            "Reinforcement learning",
+            "Estimator",
+            "Markov decision process",
+            "Entropy (arrow of time)",
+            "Bottleneck",
+            "Maximization",
+            "Partially observable Markov decision process",
+            "Baseline (sea)"
+          ],
+          "journal": "Drones",
+          "published": "2026-08-31",
+          "abstract": "Multi-UAV Cooperative Target Search (MCTS) is a critical task in low-altitude sensing applications, requiring agents to efficiently explore unknown environments under complex constraints. However, traditional search methods are mostly unscalable and perform poorly in dynamic multi-UAV environments. As a promising alternative, Reinforcement Learning (RL) has emerged to overcome these limitations by enabling agents to learn adaptive policies directly from environmental interactions. A key limitation is that current RL methods lack efficient exploration, which is a critical bottleneck preventing UAVs from finding more targets. To address this limitation, we propose a novel method named AEQMIX, which integrates trajectory entropy maximization into QMIX, an advanced Multi-Agent Reinforcement Learning (MARL) method, to encourage efficient exploration. We formulate the MCTS problem as a Decentralized Partially Observable Markov Decision Process (Dec-POMDP) and design a multi-objective reward function. To mitigate the intractability of density estimation in high-dimensional spaces, we employ a nonparametric particle-based entropy estimator to quantify the spatial diversity of UAV trajectories. This entropy estimate is utilized as an intrinsic reward, incentivizing agents to maximize the distance between their trajectories and those of their neighbors. Extensive simulations demonstrate that AEQMIX significantly outperforms baseline reinforcement learning and traditional optimization methods in terms of search rate, coverage efficiency, and collision avoidance. Compared with DNQMIX, AEQMIX improves the search rate and coverage rate by 9.52% and 11.54%, respectively, while reducing the average collision count by 70.59% in the (40 × 40) environment.",
+          "url": "https://doi.org/10.3390/drones10090665",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/drones10090665",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Efficient Exploration-Enabled Multi-Agent Reinforcement Learning for Multi-UAV Cooperative Target Search",
+            "method": "Multi-UAV Cooperative Target Search (MCTS) is a critical task in low-altitude sensing applications, requiring agents to efficiently explore unknown environments under complex constraints. However, traditional search methods are mostly unsca",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": []
+    },
+    {
+      "id": "causal-llm",
+      "name": "Causal Inference in Large Language Models",
+      "papers": [
+        {
+          "title": "NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference",
+          "authors": [
+            "Aurélien Lac",
+            "Tony Wu"
+          ],
+          "author_details": [
+            {
+              "name": "Aurélien Lac",
+              "affiliations": []
+            },
+            {
+              "name": "Tony Wu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.IR",
+            "cs.AI",
+            "cs.CV"
+          ],
+          "journal": null,
+          "published": "2026-08-31",
+          "abstract": "Multimodal models often build on architectures designed for generative vision-language modeling, typically combining separately pretrained vision encoders with causal language models. Visual document retrievers such as ColPali repurpose these models as encoders, carrying over the parameter and compute overhead of a VLM for a non-generative task. We introduce NeoMME, a family of 260M and 800M-parameter Multimodal and Multilingual bidirectional Encoders that process multilingual text and raw image patches in a single bidirectional Transformer encoder. Both models are pretrained from scratch with a masked discrete-diffusion text objective, conditioned on visible image patches for multimodal examples. Both support a 16,384-token context, enough to encode up to two standard 4K UHD images. To demonstrate its downstream capabilities, we fine-tune NeoMME with jointly trained dense and late-interaction heads. On the ViDoRe v3 benchmark, the resulting NeoMME-Retriever 260M outperforms all evaluated models strictly below 800M parameters with 0.523 nDCG@10, while NeoMME-Retriever 800M reaches 0.556. At a matched 2048x2048 image input size on an NVIDIA L40S, NeoMME-260M encodes pages with about 2x the throughput of ColModernVBERT. Hierarchical token pooling and asymmetric quantization compress late-interaction multimodal document embeddings by 255x while preserving over 95% of baseline nDCG@10. We contribute NeoMME to Hugging Face Transformers and release the pretrained backbone and retrieval-compatible checkpoints under Apache 2.0 at https://hf.co/collections/Hcompany/neomme.",
+          "url": "https://arxiv.org/abs/2609.01657v1",
+          "arxiv_id": "2609.01657v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference",
+            "method": "Multimodal models often build on architectures designed for generative vision-language modeling, typically combining separately pretrained vision encoders with causal language models. Visual document retrievers such as ColPali repurpose the",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "causal-text",
+      "name": "Causal Inference in Text Analysis",
+      "papers": []
+    }
+  ]
+}
