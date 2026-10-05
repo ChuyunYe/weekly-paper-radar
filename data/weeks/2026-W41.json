@@ -1,0 +1,1611 @@
+{
+  "week": "2026-W41",
+  "generated_at": "2026-10-05T06:33:56.693446Z",
+  "topics": [
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "papers": [
+        {
+          "title": "The impact of rural population shrinkage on cultivated land non-grain conversion—dual causal inference based on machine learning",
+          "authors": [
+            "Wuwei Zhang",
+            "Shuo Zang"
+          ],
+          "author_details": [
+            {
+              "name": "Wuwei Zhang",
+              "affiliations": [
+                "Shandong Agricultural University"
+              ]
+            },
+            {
+              "name": "Shuo Zang",
+              "affiliations": [
+                "Shandong Agricultural University"
+              ]
+            }
+          ],
+          "keywords": [
+            "food security",
+            "spatial spillover effects",
+            "prefecture-level cities",
+            "new-type urbanization",
+            "China"
+          ],
+          "journal": "Frontiers in Sustainable Food Systems",
+          "published": "2026-10-01",
+          "abstract": "Against the backdrop of rapid advances in new urbanization and continued rural population contraction, the expansion of cropland non-grain use poses a potential challenge to national food security. Based on 3,598 observations from 257 prefecture-level cities in China over the 2011–2024 period, this study introduces a double machine learning approach and combines two-way fixed-effects models, threshold models, and spatial Durbin models to systematically examine the mechanisms through which rural population contraction affects cropland non-grain use. The results show: (1) rural population contraction significantly raises the degree of cropland non-grain use: for every one-unit increase in rural population contraction, cropland non-grain use rises by 0.089 units. (2) The relationship exhibits nonlinear characteristics, with per-mu grain returns serving as the threshold variable. As per-mu grain returns increase, the effect follows a pattern of “strong promotion–weak promotion–significant inhibition.” (3) Heterogeneity results show that the promoting effect of rural population decline on cropland non-grainization is more pronounced in eastern regions and major grain-marketing areas. (4) Spatial econometric analysis confirms that rural population decline exhibits significant positive spatial spillover effects, with the magnitude of the indirect spillover effect substantially exceeding that of the local direct effect. These findings are expected to provide empirical evidence and decision-making references for advancing differentiated and tiered governance of cropland non-grainization and strengthening food security.",
+          "url": "https://doi.org/10.3389/fsufs.2026.1898293",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3389/fsufs.2026.1898293",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: The impact of rural population shrinkage on cultivated land non-grain conversion—dual causal inference based on machine learning",
+            "method": "Against the backdrop of rapid advances in new urbanization and continued rural population contraction, the expansion of cropland non-grain use poses a potential challenge to national food security. Based on 3,598 observations from 257 prefe",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "CIDER-FM: Foundation Models for Causal Inference from Diverse Experimental Regimes",
+          "authors": [
+            "Yuche Gao",
+            "Arik Reuter",
+            "Siyuan Guo",
+            "Anish Dhir",
+            "Bernhard Schölkopf",
+            "Adrian Weller"
+          ],
+          "author_details": [
+            {
+              "name": "Yuche Gao",
+              "affiliations": []
+            },
+            {
+              "name": "Arik Reuter",
+              "affiliations": []
+            },
+            {
+              "name": "Siyuan Guo",
+              "affiliations": []
+            },
+            {
+              "name": "Anish Dhir",
+              "affiliations": []
+            },
+            {
+              "name": "Bernhard Schölkopf",
+              "affiliations": []
+            },
+            {
+              "name": "Adrian Weller",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-09-30",
+          "abstract": "Causal foundation models (CFMs) amortise causal inference over priors of synthetic structural causal models (SCMs), predicting the effect of an experiment on a specific variable. However, observational data alone may leave multiple causal models compatible with available evidence, while experimental data with interventions on exactly the variable of interest might be unavailable. This work studies CFMs as a method to combine finite observational and surrogate-interventional datasets in order to predict a target conditional interventional distribution (CID) more accurately than with observational data alone. We first formalise the conceptual benefits of surrogate experiments. Building on this analysis, we introduce \\textsc{Foundation Models for Causal Inference from Diverse Experimental Regimes} (\\emph{CIDER-FM}), a causal foundation model that uses an intervention-aware representation and hierarchical three-axis attention to exchange information across variables, samples, and experimental regimes. We evaluate CIDER-FM against a wide range of baselines across diverse synthetic graph and mechanism families, as well as on both simulated and real-world data from Causal Chambers. Our results demonstrate strong CID prediction performance and show that incorporating experimental context can improve predictions over observational data alone.",
+          "url": "https://arxiv.org/abs/2609.39523v1",
+          "arxiv_id": "2609.39523v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: CIDER-FM: Foundation Models for Causal Inference from Diverse Experimental Regimes",
+            "method": "Causal foundation models (CFMs) amortise causal inference over priors of synthetic structural causal models (SCMs), predicting the effect of an experiment on a specific variable. However, observational data alone may leave multiple causal m",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Forest-weighted non-linear causal inference for high-dimensional and multimodal time series",
+          "authors": [
+            "Shigeki Kishi"
+          ],
+          "author_details": [
+            {
+              "name": "Shigeki Kishi",
+              "affiliations": [
+                "National Agriculture and Food Research Organization"
+              ]
+            }
+          ],
+          "keywords": [
+            "causal inference",
+            "empirical dynamic modeling",
+            "phase space reconstruction",
+            "curse of dimensionality",
+            "high-dimensional time series",
+            "multimodal time series",
+            "time series forecasting",
+            "honey bee hives",
+            "acoustic signals",
+            "temperature",
+            "causal networks",
+            "chaotic systems",
+            "topology of manifolds"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "published": "2026-09-30",
+          "abstract": "Forecasting and causal inference in complex, non-linear dynamical systems are fundamentally challenging due to noisy and high-dimensional time-series data. While Empirical Dynamic Modeling addresses this via state-space reconstruction in Euclidean space, it suffers from the \"curse of dimensionality,\" distorting distance measurements as dimensions increase. This study proposes Forest-Weighted S-map (FORWS) and Forest-Weighted Causal Inference (FORWC), utilizing adaptive \"forest weights\" derived from random forest ensembles instead of Euclidean metrics. Using simulated and empirical ecological datasets, I demonstrate that these methods exhibit comparable or improved forecasting skill relative to conventional tools, while offering substantial resilience against dynamic process noise and mitigating the curse of dimensionality. Notably, FORWC enables multimodal causal inference, successfully extracting directed interactions between high-dimensional acoustic vectors and scalar temperature data monitored in a honeybee hive. By bridging chaotic physics with machine learning, this framework accurately extracts intrinsic manifold topology, providing a robust paradigm for uncovering causal networks in complex real-world environments.",
+          "url": "https://doi.org/10.64898/2026.09.24.754251",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.64898/2026.09.24.754251",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Forest-weighted non-linear causal inference for high-dimensional and multimodal time series",
+            "method": "Forecasting and causal inference in complex, non-linear dynamical systems are fundamentally challenging due to noisy and high-dimensional time-series data. While Empirical Dynamic Modeling addresses this via state-space reconstruction in Eu",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Proximal causal inference through cross-proxy balancing",
+          "authors": [
+            "Grace V. Ringlein",
+            "Trang Q. Nguyen",
+            "Elizabeth A. Stuart",
+            "Harsh Parikh"
+          ],
+          "author_details": [
+            {
+              "name": "Grace V. Ringlein",
+              "affiliations": []
+            },
+            {
+              "name": "Trang Q. Nguyen",
+              "affiliations": []
+            },
+            {
+              "name": "Elizabeth A. Stuart",
+              "affiliations": []
+            },
+            {
+              "name": "Harsh Parikh",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-09-29",
+          "abstract": "Proximal causal inference identifies causal effects in the presence of unmeasured confounding by drawing on two sets of proxy variables. Identification typically utilizes bridge functions, defined as solutions to integral equations. However, the mechanism by which fitted bridge functions correct for confounding bias remains opaque, offering little to interpret, inspect or stress-test. We show that the defining equation of a treatment bridge function is already a balance condition, with a cross-proxy form: the weights are functions of the treatment confounding proxies and covariates, and they balance the outcome confounding proxies and covariates (i.e., reweighting the distribution in a particular treatment arm to match the distribution across treatment arms). Several existing identification paths via a treatment bridge function can then be interpreted as providing conditions under which balance on the outcome proxies implies balance on the unobserved confounders, which we call balance propagation. Leveraging this framing, we show that estimation of the treatment bridge function is a type of balancing weight estimation. Finally, we show that an outcome-weighted estimator form can also be obtained for a large class of proximal estimators, including those that utilize an outcome bridge function. Using this framing, we provide conditions under which common estimators are numerically equivalent.",
+          "url": "https://arxiv.org/abs/2609.38175v1",
+          "arxiv_id": "2609.38175v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Proximal causal inference through cross-proxy balancing",
+            "method": "Proximal causal inference identifies causal effects in the presence of unmeasured confounding by drawing on two sets of proxy variables. Identification typically utilizes bridge functions, defined as solutions to integral equations. However",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Identification of Key Genetic Markers for Drug Pseudoallergy via Experimental Transcriptomics and GWAS-Based Causal Inference",
+          "authors": [
+            "Lihui Zhang",
+            "Fangliang He",
+            "Jiating Zhang",
+            "Yuechen Zhao",
+            "Yifan Guo",
+            "Lizhi Wan",
+            "Jia Chen",
+            "Yongqiang Lin",
+            "Xianlong Cheng",
+            "Feng Wei"
+          ],
+          "author_details": [
+            {
+              "name": "Lihui Zhang",
+              "affiliations": [
+                "National Institutes for Food and Drug Control"
+              ]
+            },
+            {
+              "name": "Fangliang He",
+              "affiliations": [
+                "National Institutes for Food and Drug Control"
+              ]
+            },
+            {
+              "name": "Jiating Zhang",
+              "affiliations": [
+                "Chinese Academy of Medical Sciences & Peking Union Medical College",
+                "National Institutes for Food and Drug Control"
+              ]
+            },
+            {
+              "name": "Yuechen Zhao",
+              "affiliations": [
+                "Shenyang Pharmaceutical University",
+                "National Institutes for Food and Drug Control"
+              ]
+            },
+            {
+              "name": "Yifan Guo",
+              "affiliations": [
+                "National Institutes for Food and Drug Control"
+              ]
+            },
+            {
+              "name": "Lizhi Wan",
+              "affiliations": [
+                "National Institutes for Food and Drug Control"
+              ]
+            },
+            {
+              "name": "Jia Chen",
+              "affiliations": [
+                "National Institutes for Food and Drug Control"
+              ]
+            },
+            {
+              "name": "Yongqiang Lin",
+              "affiliations": [
+                "National Institutes for Food and Drug Control"
+              ]
+            },
+            {
+              "name": "Xianlong Cheng",
+              "affiliations": [
+                "National Institutes for Food and Drug Control"
+              ]
+            },
+            {
+              "name": "Feng Wei",
+              "affiliations": [
+                "National Institutes for Food and Drug Control"
+              ]
+            }
+          ],
+          "keywords": [
+            "mast cell degranulation",
+            "genetic risk markers",
+            "EMP1",
+            "MAPK signaling",
+            "JAK/STAT signaling",
+            "PI3K/Akt signaling",
+            "TNF signaling",
+            "gene expression signatures",
+            "causal inference",
+            "pharmacovigilance"
+          ],
+          "journal": "Current Issues in Molecular Biology",
+          "published": "2026-09-29",
+          "abstract": "Drug-induced pseudoallergic reactions are rapid in onset and complex in mechanism, with current clinical safety assessments lacking precise molecular underpinnings. Cells were treated with pseudoallergen-positive compounds. Cell degranulation was verified by neutral red staining and ELISA, followed by high-throughput RNA sequencing. Key signaling pathways were elucidated through Gene Ontology and Kyoto Encyclopedia of Genes and Genomes enrichment analyses. A pseudoallergic characteristic gene network was identified and constructed using WGCNA. Finally, two-sample MR analysis was performed utilizing GWAS data to evaluate the causal relationship between candidate genes and drug pseudoallergy, thereby identifying key genetic risk markers. The pseudoallergen-positive compounds significantly induced cell degranulation and extensive transcriptional regulation. Enrichment analyses indicated that MAPK, JAK-STAT, TNF, and PI3K-Akt signaling pathways play central roles in pseudoallergic reactions. WGCNA identified a pseudoallergic characteristic gene signature. Subsequent MR analysis identified EMP1 and KIF26A might be the key genetic risk markers associated with drug pseudoallergy. These two genes potentially increase the causal risk of drug-induced pseudoallergy by modulating membrane coating, vesicle formation, and related cellular transport processes. This study successfully established a mast cell characteristic gene signature for pseudoallergic reactions, elucidated the core transcriptional network, and identified key risk markers that may have a causal association with drug pseudoallergy.",
+          "url": "https://doi.org/10.3390/cimb48101000",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/cimb48101000",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Identification of Key Genetic Markers for Drug Pseudoallergy via Experimental Transcriptomics and GWAS-Based Causal Inference",
+            "method": "Drug-induced pseudoallergic reactions are rapid in onset and complex in mechanism, with current clinical safety assessments lacking precise molecular underpinnings. Cells were treated with pseudoallergen-positive compounds. Cell degranulati",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal inference for enhancing trustworthiness in Large Language Models",
+          "authors": [
+            "Karen Meersmans"
+          ],
+          "author_details": [
+            {
+              "name": "Karen Meersmans",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "causal inference",
+            "large language models",
+            "trustworthiness",
+            "robustness",
+            "fairness",
+            "transparency",
+            "honesty",
+            "safety",
+            "privacy",
+            "machine ethics"
+          ],
+          "journal": "Open Science Framework",
+          "published": "2026-09-29",
+          "abstract": "The project will result in a scoping review on the application of causal methods to enhance the trustworthiness of Large Language Models (LLMs). Trustworthiness is an umbrella term that for the sake of this review covers several dimension: robustness, fairness, transparency, truthfulness, safety, privacy and machine ethics. All causal inference techniques will be included and their potential implication will be discussed.",
+          "url": "https://doi.org/10.17605/osf.io/ub7vz",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17605/osf.io/ub7vz",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal inference for enhancing trustworthiness in Large Language Models",
+            "method": "The project will result in a scoping review on the application of causal methods to enhance the trustworthiness of Large Language Models (LLMs). Trustworthiness is an umbrella term that for the sake of this review covers several dimension: ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal Inference of the Backfire Effect in Weibo Rumor - Refutation: A Case Study of Social - Event - Related Rumors",
+          "authors": [
+            "Luwen Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Luwen Zhang",
+              "affiliations": [
+                "Henan University of Economic and Law"
+              ]
+            }
+          ],
+          "keywords": [
+            "backfire effect",
+            "rumor refutation",
+            "Weibo",
+            "official announcements"
+          ],
+          "journal": "Advances in Economics Management and Political Sciences",
+          "published": "2026-09-29",
+          "abstract": "In the era of social media, false information spreads far faster than the truth, and rumor governance has become an important issue. As the most important means of refuting rumors, the official announcement sometimes cannot calm the discussion, but may increase the heat of the topic. This phenomenon is called \"backfire effect\". However, most of the existing studies are based on controlled experiments and pay insufficient attention to the macro effect of rumor refutation in real social media scenes. Taking the Weibo platform \"a male star falling from a building\" as a case, this study collected the blog data of 14 days before and after the notification, and evaluated the impact of the notification on the amount of discussion by using descriptive statistics, independent-sample t-test and Interrupted time‑series (ITS) analysis. The results showed that the average amount of discussion per day after notification was 5.8 times that before notification, but returned to zero within 72 hours; Independent sample t-test showed no significant difference (P=0.2212); The interrupted time‑series (ITS) analysis showed that the amount of discussion on the day of notification jumped significantly (β₂=28.06, p=0.002),However, it fell rapidly after the notification (β₃=-3.75, p=0.050).The research shows that the preliminary signs of the backfire effect are observed in this study, but the rebound is not statistically significant for a short time, and no robust evidence has yet been formed. The generalizability of the conclusions is limited, which needs further verification.",
+          "url": "https://doi.org/10.54254/2754-1169/2026.bh37378",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.54254/2754-1169/2026.bh37378",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal Inference of the Backfire Effect in Weibo Rumor - Refutation: A Case Study of Social - Event - Related Rumors",
+            "method": "In the era of social media, false information spreads far faster than the truth, and rumor governance has become an important issue. As the most important means of refuting rumors, the official announcement sometimes cannot calm the discuss",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "The causal relation between off-street parking and electric vehicle adoption in Scotland",
+          "authors": [
+            "Bernardino D’Amico",
+            "Achille Fonzone",
+            "Emma Hart"
+          ],
+          "author_details": [
+            {
+              "name": "Bernardino D’Amico",
+              "affiliations": [
+                "Edinburgh Napier University",
+                "Centre for Artificial Intelligence and Robotics"
+              ]
+            },
+            {
+              "name": "Achille Fonzone",
+              "affiliations": [
+                "Transport Research Institute",
+                "Transport Research Laboratory (United Kingdom)",
+                "Edinburgh Napier University"
+              ]
+            },
+            {
+              "name": "Emma Hart",
+              "affiliations": [
+                "Edinburgh Napier University",
+                "Centre for Artificial Intelligence and Robotics"
+              ]
+            }
+          ],
+          "keywords": [
+            "off-street parking",
+            "electric vehicle adoption",
+            "parking supply",
+            "electric vehicles",
+            "causal relationship",
+            "Scotland"
+          ],
+          "journal": "Transportation Research Part A Policy and Practice",
+          "published": "2026-09-30",
+          "abstract": "The transition to electric mobility depends on widespread adoption and equitable access. We examine whether the “charging divide” between households with and without off-street parking reflects a true infrastructure constraint or underlying socio-economic disparities. We apply a probabilistic graphical model to nationally representative Scottish household data to identify the causal effects of parking access and income on electric vehicles (EV) adoption. Results reveal that access to private off-street parking increases EV ownership probability from 3.3% to 5.6%, an estimated causal effect of +2.3 percentage points (70% relative increase). The (1st; 99th) percentile bootstrap interval is + 0.26 ; + 4.77 percentage points, while the corresponding basic bootstrap interval is − 0.17 ; + 4.34 percentage points. The effect primarily operates by increasing conversion among households already intending to adopt, rather than expanding the pool of households considering adoption. In contrast, income is identified as the primary barrier to market entry, with higher-income households showing a 23.1 percentage point lower probability of no intention to purchase EVs compared to lower-income households. Models optimised for predicting observational outcomes overstate the effect of parking by conflating correlation with causation due to confounding bias, specifically by inflating its impact among households with no intention to adopt an EV.",
+          "url": "https://doi.org/10.1016/j.tra.2026.105294",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1016/j.tra.2026.105294",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 1,
+          "score": 0.693,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: The causal relation between off-street parking and electric vehicle adoption in Scotland",
+            "method": "The transition to electric mobility depends on widespread adoption and equitable access. We examine whether the “charging divide” between households with and without off-street parking reflects a true infrastructure constraint or underlying",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ope",
+      "name": "Off-Policy Evaluation",
+      "papers": [
+        {
+          "title": "OTROPE: Optimal Transport-based Robust Off-policy Evaluation for Large Language Models",
+          "authors": [
+            "Liner Xiang",
+            "Wenbo Zhang",
+            "Hengrui Cai"
+          ],
+          "author_details": [
+            {
+              "name": "Liner Xiang",
+              "affiliations": []
+            },
+            {
+              "name": "Wenbo Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Hengrui Cai",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI",
+            "cs.CL",
+            "stat.ML"
+          ],
+          "journal": null,
+          "published": "2026-09-28",
+          "abstract": "Reliable evaluation of large language models (LLMs) is essential for their development and deployment, yet is often costly, risky, and difficult to perform safely online. We study off-policy evaluation for LLMs, where limited human-labeled data from a behavior model are used to evaluate a newer target LLM. This setting is challenging because labels are scarce, behavior--target distribution shift is common, and response likelihoods are often unavailable for black-box LLMs. We propose the Optimal Transport-based Robust Off-Policy Evaluation (OTROPE), a likelihood-free evaluation that performs distributional correction in a semantic space via optimal transport to align labeled behavior-policy samples with unlabeled target-policy samples. OTROPE combines corrected human-labeled residuals with proxy predictors, yielding a doubly robust-style evaluation without behavior-policy modeling or density-ratio estimation. We theoretically characterize why baseline evaluators fail under LLM distribution shift, and establish consistency and convergence rates for OTROPE when either the reweighted behavior distribution or the proxy predictor converges. Experiments on synthetic and real LLM evaluation tasks show that OTROPE consistently outperforms baselines while enabling ensembles of weaker LLM evaluators to approach and sometimes surpass stronger evaluators. Code is available at https://github.com/LinerXiang/OTROPE.",
+          "url": "https://arxiv.org/abs/2609.36264v1",
+          "arxiv_id": "2609.36264v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: OTROPE: Optimal Transport-based Robust Off-policy Evaluation for Large Language Models",
+            "method": "Reliable evaluation of large language models (LLMs) is essential for their development and deployment, yet is often costly, risky, and difficult to perform safely online. We study off-policy evaluation for LLMs, where limited human-labeled ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Recommendation Ranking Off-Policy Evaluation under Ranking-Dependent Examination via Examination-Relevance Decomposition",
+          "authors": [
+            "Riki Okamura",
+            "Toshiharu Sugawara"
+          ],
+          "author_details": [
+            {
+              "name": "Riki Okamura",
+              "affiliations": []
+            },
+            {
+              "name": "Toshiharu Sugawara",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.IR",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-09-28",
+          "abstract": "Off-policy evaluation, which estimates evaluation policy performance from logged data, is key for recommender ranking policies. However, logged clicks cannot distinguish unexamined items from examined non-clicks, causing bias in existing estimators when the assumed examination structures fail. We propose two estimators based on the decomposition of clicks into examination and relevance. First, the latent-examination independent inverse propensity score (LE-IIPS) estimator corrects the IIPS bias using policy examination probability ratios. Second, the examination-decomposed doubly robust (ED-DR) estimator extends LE-IIPS to a doubly robust framework. ED-DR is unbiased if the examination probabilities are correct regardless of relevance accuracy, or under ranking-independent examination, even if both model estimates are inaccurate. Experiments show that ED-DR achieves a lower MSE than existing methods with large sample sizes, especially when the examination depends on ranking. We also highlight its limitations under small samples or cascade user behavior conditions.",
+          "url": "https://arxiv.org/abs/2609.35034v1",
+          "arxiv_id": "2609.35034v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Recommendation Ranking Off-Policy Evaluation under Ranking-Dependent Examination via Examination-Relevance Decomposition",
+            "method": "Off-policy evaluation, which estimates evaluation policy performance from logged data, is key for recommender ranking policies. However, logged clicks cannot distinguish unexamined items from examined non-clicks, causing bias in existing es",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "OTROPE: Optimal Transport-based Robust Off-policy Evaluation for Large Language Models",
+          "authors": [
+            "Liner Xiang",
+            "Wenbo Zhang",
+            "Hengrui Cai"
+          ],
+          "author_details": [
+            {
+              "name": "Liner Xiang",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            },
+            {
+              "name": "Wenbo Zhang",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            },
+            {
+              "name": "Hengrui Cai",
+              "affiliations": [
+                "University of California, Irvine"
+              ]
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "large language models",
+            "optimal transport",
+            "distribution shift",
+            "doubly robust estimation",
+            "LLM evaluation"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-09-28",
+          "abstract": "Reliable evaluation of large language models (LLMs) is essential for their development and deployment, yet is often costly, risky, and difficult to perform safely online. We study off-policy evaluation for LLMs, where limited human-labeled data from a behavior model are used to evaluate a newer target LLM. This setting is challenging because labels are scarce, behavior--target distribution shift is common, and response likelihoods are often unavailable for black-box LLMs. We propose the Optimal Transport-based Robust Off-Policy Evaluation (OTROPE), a likelihood-free evaluation that performs distributional correction in a semantic space via optimal transport to align labeled behavior-policy samples with unlabeled target-policy samples. OTROPE combines corrected human-labeled residuals with proxy predictors, yielding a doubly robust-style evaluation without behavior-policy modeling or density-ratio estimation. We theoretically characterize why baseline evaluators fail under LLM distribution shift, and establish consistency and convergence rates for OTROPE when either the reweighted behavior distribution or the proxy predictor converges. Experiments on synthetic and real LLM evaluation tasks show that OTROPE consistently outperforms baselines while enabling ensembles of weaker LLM evaluators to approach and sometimes surpass stronger evaluators. Code is available at https://github.com/LinerXiang/OTROPE.",
+          "url": "https://arxiv.org/abs/2609.36264",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2609.36264",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: OTROPE: Optimal Transport-based Robust Off-policy Evaluation for Large Language Models",
+            "method": "Reliable evaluation of large language models (LLMs) is essential for their development and deployment, yet is often costly, risky, and difficult to perform safely online. We study off-policy evaluation for LLMs, where limited human-labeled ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Recommendation Ranking Off-Policy Evaluation under Ranking-Dependent Examination via Examination-Relevance Decomposition",
+          "authors": [
+            "Riki Okamura",
+            "Toshiharu Sugawara"
+          ],
+          "author_details": [
+            {
+              "name": "Riki Okamura",
+              "affiliations": [
+                "Waseda University"
+              ]
+            },
+            {
+              "name": "Toshiharu Sugawara",
+              "affiliations": [
+                "Waseda University"
+              ]
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "recommender systems",
+            "doubly robust estimation"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-09-28",
+          "abstract": "Off-policy evaluation, which estimates evaluation policy performance from logged data, is key for recommender ranking policies. However, logged clicks cannot distinguish unexamined items from examined non-clicks, causing bias in existing estimators when the assumed examination structures fail. We propose two estimators based on the decomposition of clicks into examination and relevance. First, the latent-examination independent inverse propensity score (LE-IIPS) estimator corrects the IIPS bias using policy examination probability ratios. Second, the examination-decomposed doubly robust (ED-DR) estimator extends LE-IIPS to a doubly robust framework. ED-DR is unbiased if the examination probabilities are correct regardless of relevance accuracy, or under ranking-independent examination, even if both model estimates are inaccurate. Experiments show that ED-DR achieves a lower MSE than existing methods with large sample sizes, especially when the examination depends on ranking. We also highlight its limitations under small samples or cascade user behavior conditions.",
+          "url": "https://arxiv.org/abs/2609.35034",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2609.35034",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Recommendation Ranking Off-Policy Evaluation under Ranking-Dependent Examination via Examination-Relevance Decomposition",
+            "method": "Off-policy evaluation, which estimates evaluation policy performance from logged data, is key for recommender ranking policies. However, logged clicks cannot distinguish unexamined items from examined non-clicks, causing bias in existing es",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Deep Weighted Bellman Residual Minimization for $Q^*$ Estimation",
+          "authors": [
+            "Lican Kang",
+            "Jerry Zhijian Yang",
+            "Cheng Yuan",
+            "Chen Zhong"
+          ],
+          "author_details": [
+            {
+              "name": "Lican Kang",
+              "affiliations": []
+            },
+            {
+              "name": "Jerry Zhijian Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Cheng Yuan",
+              "affiliations": []
+            },
+            {
+              "name": "Chen Zhong",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "stat.ML"
+          ],
+          "journal": null,
+          "published": "2026-09-28",
+          "abstract": "Off-policy evaluation is a foundational component of offline reinforcement learning, aiming to assess and optimize policy performance using pre-collected datasets. However, such datasets often suffer from pronounced challenges, including distribution shift, $Q$-value overestimation, and low sample utilization efficiency. To address these issues, this paper introduces a weighted Bellman residual minimization framework that incorporates density ratio weighting by effectively integrating expert demonstrations with behavioral data. The proposed weighting scheme departs from the conventional completeness assumption commonly imposed in the theoretical analysis of deep reinforcement learning. We establish a sharp convergence rate for density ratio estimation and derive the convergence rate for the excess risk of resulting deep $Q^*$ estimator. Extensive empirical evaluations demonstrate that, compared to existing methods, our method achieves significant improvements in numerical performance and policy generalization, providing specific guidance for the rational utilization of expert demonstrations.",
+          "url": "https://arxiv.org/abs/2609.34593v1",
+          "arxiv_id": "2609.34593v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Deep Weighted Bellman Residual Minimization for $Q^*$ Estimation",
+            "method": "Off-policy evaluation is a foundational component of offline reinforcement learning, aiming to assess and optimize policy performance using pre-collected datasets. However, such datasets often suffer from pronounced challenges, including di",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "Yang, Xiangmin"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Yang, Xiangmin",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "pedestrian decision-making",
+            "inverse reinforcement learning",
+            "human movement",
+            "pedestrian behavior"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys.1",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys.1",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "Yang, Xiangmin"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Yang, Xiangmin",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "pedestrian decision-making",
+            "inverse reinforcement learning",
+            "human movement",
+            "pedestrian behavior"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Process-Model-Supported Offline Reinforcement Learning for Water–Fertilizer Management: Two-Model Closed-Loop Production–Nitrogen-Loss Trade-Offs",
+          "authors": [
+            "Hao Jin",
+            "Xiao Guo",
+            "Kelin Hu",
+            "Jiajun Ou"
+          ],
+          "author_details": [
+            {
+              "name": "Hao Jin",
+              "affiliations": [
+                "Beihang University"
+              ]
+            },
+            {
+              "name": "Xiao Guo",
+              "affiliations": [
+                "Beihang University"
+              ]
+            },
+            {
+              "name": "Kelin Hu",
+              "affiliations": [
+                "China Agricultural University"
+              ]
+            },
+            {
+              "name": "Jiajun Ou",
+              "affiliations": [
+                "Beihang University"
+              ]
+            }
+          ],
+          "keywords": [],
+          "journal": "AgriEngineering",
+          "published": "2026-10-02",
+          "abstract": "Nitrogen leaching threatens groundwater quality, making production retention and efficient water–fertilizer use joint management priorities. Field trials evaluate a limited set of treatments, while adaptive policies generate long sequences of decisions. We propose counterfactual rollout-constrained offline reinforcement learning (CR-ORL), a framework that connects process-model simulation, executed sequential data, history-aware learning, and closed-loop evaluation. Bellman training uses only transitions with realized continuations, and policies select actions without access to candidate outcomes. Under this common protocol, a supervised Ranker-Selected baseline was compared with implicit Q-learning (IQL), conservative Q-learning (CQL), and batch-constrained Q-learning (BCQ). Policies trained with five seeds were evaluated on two held-out lineages for each of the VEG and PS123 configurations. In these simulations, relative to the original-schedule control, Ranker-Selected reduced total nitrogen leaching by 98.51% in VEG and 62.12% in PS123, with production reductions of 12.79% and 6.18%, respectively. IQL, CQL, and BCQ retained more production: their production reductions were 1.82–2.30% in VEG and 3.05–3.57% in PS123, alongside nitrogen-leaching reductions of 62.08–66.80% and 39.46–44.11%. Ranker-Selected also reduced irrigation and fertilizer most. Additional VALIDATION comparisons showed that simple reduction rules remained competitive in several production–burden projections. Post hoc retraining under alternative reward priorities changed behavior without consistent shifts toward the intended physical outcomes. CR-ORL exposes these distinct production–resource–nitrogen-loss trade-offs within two process-model configurations.",
+          "url": "https://doi.org/10.3390/agriengineering8100422",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/agriengineering8100422",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Process-Model-Supported Offline Reinforcement Learning for Water–Fertilizer Management: Two-Model Closed-Loop Production–Nitrogen-Loss Trade-Offs",
+            "method": "Nitrogen leaching threatens groundwater quality, making production retention and efficient water–fertilizer use joint management priorities. Field trials evaluate a limited set of treatments, while adaptive policies generate long sequences ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "UniIntervene++: An Adaptive Intervention Agent for Efficient Real-World Reinforcement Learning",
+          "authors": [
+            "Yudong Lin",
+            "Haoyuan Deng",
+            "Zhuoxuan Yuan",
+            "Zaijia Yang",
+            "Yuanjiang Xue",
+            "Ziwei Wang"
+          ],
+          "author_details": [
+            {
+              "name": "Yudong Lin",
+              "affiliations": []
+            },
+            {
+              "name": "Haoyuan Deng",
+              "affiliations": []
+            },
+            {
+              "name": "Zhuoxuan Yuan",
+              "affiliations": []
+            },
+            {
+              "name": "Zaijia Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Yuanjiang Xue",
+              "affiliations": []
+            },
+            {
+              "name": "Ziwei Wang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.RO"
+          ],
+          "journal": null,
+          "published": "2026-10-02",
+          "abstract": "Online reinforcement learning (RL) enables robot policies to improve through physical interaction, but the assistance they require changes as their competence evolves. Existing intervention strategies based on offline estimates or fixed decision rules can therefore become mismatched to the current policy. To address this, we propose UniIntervene++, an adaptive intervention agent that learns to allocate control between autonomous execution and heterogeneous assisted behaviors during online RL. Specifically, UniIntervene++ first formulates the evolving RL policy, trajectory correction, and a task-structured CodePolicy as Options in a unified semi-Markov decision process and learns their relative values online. Building on this, competence-adaptive intervention periodically probes the RL policy through unassisted execution, keeping control allocation responsive to its evolving capability. Finally, coupled experience learning allows assisted behaviors to improve the RL policy, whose evolving outcomes in turn reshape future intervention decisions. In this way, UniIntervene++ jointly determines when to intervene, how to intervene, and when to return control as the RL policy improves. Across five real-world manipulation tasks, UniIntervene++ achieves an average success rate of 89.67%, outperforming all baselines by at least 6 percentage points, while reducing human intervention to 0.77%, a relative reduction of at least 94.6% from the best baseline. Code is available in our \\href{https://github.com/dannyyudong/An-Adaptive-Intervention-Agent-for-Efficient-Real-World-Reinforcement-Learning}{GitHub repository}.",
+          "url": "https://arxiv.org/abs/2610.03620v1",
+          "arxiv_id": "2610.03620v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: UniIntervene++: An Adaptive Intervention Agent for Efficient Real-World Reinforcement Learning",
+            "method": "Online reinforcement learning (RL) enables robot policies to improve through physical interaction, but the assistance they require changes as their competence evolves. Existing intervention strategies based on offline estimates or fixed dec",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Single or Multiple Policies for Phase-Structured Reinforcement Learning?",
+          "authors": [
+            "Guilhem Loussouarn",
+            "Nancy Nayak",
+            "Kin K. Leung"
+          ],
+          "author_details": [
+            {
+              "name": "Guilhem Loussouarn",
+              "affiliations": []
+            },
+            {
+              "name": "Nancy Nayak",
+              "affiliations": []
+            },
+            {
+              "name": "Kin K. Leung",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.AI",
+            "eess.SY"
+          ],
+          "journal": null,
+          "published": "2026-10-02",
+          "abstract": "Many reinforcement-learning (RL) problems are non-stationary yet structured and can be decomposed into phases, each with its own transition probabilities and reward functions. When the phase sequence is known, the common solution augments the state with information to satisfy the Markovian property and applies standard RL techniques. However, prior work finds that the multi-policy approach for different phases can outperform a single state-augmented policy shared among the phases, for reasons that remain unclear. In this work, we first show that the shared policy can theoretically achieve performance of any multi-policy solution. However, whether a multi-policy solution can perform better than the corresponding single shared policy in practice depends on function approximation, learning and optimization processes, as well as, for multi-policy solutions, the sample efficiency and loss of continuity from one policy to another. We propose a regime-based phase decomposition method to identify which policy can provide better performance. The method is based on consideration of the duration of transient system dynamics relative to the duration of the quasi-stationary period. Numerical experiments are conducted with different non-stationary RL problems to validate our four major hypotheses: (a) longer phase durations favor multi-policies, (b) the heterogeneity between phases increases the burden on single policy, (c) multi-policies need sufficient data for each phase, and (d) environment-specific transition dynamics between phases can affect which policy is preferable.",
+          "url": "https://arxiv.org/abs/2610.03475v1",
+          "arxiv_id": "2610.03475v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Single or Multiple Policies for Phase-Structured Reinforcement Learning?",
+            "method": "Many reinforcement-learning (RL) problems are non-stationary yet structured and can be decomposed into phases, each with its own transition probabilities and reward functions. When the phase sequence is known, the common solution augments t",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "OuroReward: Sequential Reward Scheduling for Reinforcement Learning in Text-to-3D Generation",
+          "authors": [
+            "Bingyang Cui",
+            "Yujie Zhang",
+            "Yiling Xu",
+            "Yunfeng Guan"
+          ],
+          "author_details": [
+            {
+              "name": "Bingyang Cui",
+              "affiliations": []
+            },
+            {
+              "name": "Yujie Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Yiling Xu",
+              "affiliations": []
+            },
+            {
+              "name": "Yunfeng Guan",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.CV"
+          ],
+          "journal": null,
+          "published": "2026-10-02",
+          "abstract": "Reinforcement learning (RL) for Text-to-3D (T23D) generation requires optimization across multiple quality dimensions such as semantic alignment and texture clarity. Existing methods typically optimize these dimensions simultaneously through multiple reward aggregation, without explicitly modeling inter-dimension dependencies. This can cause imbalanced optimization and persistent interference among conflicting dimensions. To address this limitation, we propose OuroReward, an interference-aware sequential reward scheduling strategy for T23D RL. OuroReward first estimates pairwise dependencies among dimensions and constructs a cyclic optimization path that minimizes cumulative interference. By incorporating the tail-to-head dependency, the cycle captures global compatibility across the entire schedule. Then, OuroReward converts the cycle into a one-pass sequence, and starts optimization from the dimension with the lowest aggregate interference. Rather than assigning a fixed optimization budget to each dimension-wise reward, training adaptively determines when to advance to the next reward according to the remaining optimization headroom of the current one. We further introduce AdaSelect, an adaptive prompt selection strategy that identifies reliable and informative prompts aligned with the model's current capability. By focusing policy updates on these prompts, AdaSelect effectively improves training stability. Extensive experiments across different T23D models and RL algorithms demonstrate that our framework consistently improves generation quality across multiple dimensions.",
+          "url": "https://arxiv.org/abs/2610.03423v1",
+          "arxiv_id": "2610.03423v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: OuroReward: Sequential Reward Scheduling for Reinforcement Learning in Text-to-3D Generation",
+            "method": "Reinforcement learning (RL) for Text-to-3D (T23D) generation requires optimization across multiple quality dimensions such as semantic alignment and texture clarity. Existing methods typically optimize these dimensions simultaneously throug",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Bidirectional Voronoi-biased Exploration Curriculum for Reinforcement Learning",
+          "authors": [
+            "Juri Pfammatter",
+            "Kaixian Qu",
+            "Clemens Schwarke",
+            "Victor Klemm",
+            "Marco Hutter"
+          ],
+          "author_details": [
+            {
+              "name": "Juri Pfammatter",
+              "affiliations": []
+            },
+            {
+              "name": "Kaixian Qu",
+              "affiliations": []
+            },
+            {
+              "name": "Clemens Schwarke",
+              "affiliations": []
+            },
+            {
+              "name": "Victor Klemm",
+              "affiliations": []
+            },
+            {
+              "name": "Marco Hutter",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.RO"
+          ],
+          "journal": null,
+          "published": "2026-10-02",
+          "abstract": "Long-horizon tasks with sparse rewards pose an exploration bottleneck for goal-conditioned reinforcement learning: a policy started from the initial state rarely reaches the goal and receives no learning signal. Reference motions, hand-designed curricula, and shaped rewards supply this signal but require demonstrations or task-specific engineering; automatic start-state and goal curricula avoid this but typically expand from one side only, so the full distance to the target must be covered from that side. We propose the Bidirectional Voronoi-biased Exploration curriculum for Reinforcement learning (BVER), which expands from both ends at once. Inspired by bidirectional RRT planning, BVER grows start states outward from the goal and goals outward from the initial state distribution, biases both toward unexplored task space, and steers them toward each other, training one goal-conditioned policy on both. On point-mass mazes, quadrupedal box climbing, and robot-arm ring-on-peg transfer, BVER learns faster than all compared reference-free curricula. On box climbing, it reaches 95% success on a 0.4 m box in roughly 65% fewer iterations than the best of them, is the only one of them to learn to climb a 0.7 m box, and yields a policy robust to start, goal, and yaw variation. Without a demonstration, it approaches the sample efficiency of reference-based curricula on the 0.4 m box and on ring-on-peg transfer. Ablations show that expanding from both ends outperforms either direction alone.",
+          "url": "https://arxiv.org/abs/2610.03395v1",
+          "arxiv_id": "2610.03395v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Bidirectional Voronoi-biased Exploration Curriculum for Reinforcement Learning",
+            "method": "Long-horizon tasks with sparse rewards pose an exploration bottleneck for goal-conditioned reinforcement learning: a policy started from the initial state rarely reaches the goal and receives no learning signal. Reference motions, hand-desi",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "AdaStep: Adaptive Step Credit Weighting for Agentic Reinforcement Learning",
+          "authors": [
+            "Xin Wang",
+            "Wenhao Wu",
+            "Menghao Zhang",
+            "Zhi Wang",
+            "Kun Shao",
+            "Jian Luan"
+          ],
+          "author_details": [
+            {
+              "name": "Xin Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Wenhao Wu",
+              "affiliations": []
+            },
+            {
+              "name": "Menghao Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Zhi Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Kun Shao",
+              "affiliations": []
+            },
+            {
+              "name": "Jian Luan",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.CL"
+          ],
+          "journal": null,
+          "published": "2026-10-02",
+          "abstract": "Long-horizon LLM agents are typically trained with sparse outcome rewards, making trajectory-level objectives too coarse to distinguish the contribution of individual decisions. Step-level credit assignment provides finer-grained supervision, but its estimates can be unreliable because observed returns also depend on subsequent actions, environment transitions, and trajectory length. We propose AdaStep, an Adaptive Step-credit weighting method that controls how strongly each group-derived local advantage modifies the trajectory-level signal. We formulate this weighting as a mean-squared-error estimation problem for the latent step advantage and, under an explicit conditional sampling assumption, derive an optimal per-state shrinkage coefficient. The coefficient admits a signal-to-total-variance interpretation: it preserves local credit when return variation is attributable to the selected action and suppresses it when variation is dominated by downstream randomness. AdaStep requires only lightweight scalar computation, with no critic, additional rollouts, or extra model inference. Experiments with three model backbones on ALFWorld, WebShop, and ScienceWorld show consistent improvements over baselines at low computational cost.",
+          "url": "https://arxiv.org/abs/2610.03223v1",
+          "arxiv_id": "2610.03223v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: AdaStep: Adaptive Step Credit Weighting for Agentic Reinforcement Learning",
+            "method": "Long-horizon LLM agents are typically trained with sparse outcome rewards, making trajectory-level objectives too coarse to distinguish the contribution of individual decisions. Step-level credit assignment provides finer-grained supervisio",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Turnover-Orthogonal Credit Assignment for Open-Team Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Amit Thakur",
+            "Mukesh Singhal"
+          ],
+          "author_details": [
+            {
+              "name": "Amit Thakur",
+              "affiliations": []
+            },
+            {
+              "name": "Mukesh Singhal",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-02",
+          "abstract": "Open-team multi-agent reinforcement learning studies cooperative systems in which agents may join, leave, or be replaced during an episode. In such settings, the team return changes both because agents choose useful actions and because the active population itself changes. Standard centralized critics and shared advantages often mix these two effects into one scalar credit signal, allowing surviving agents to be rewarded or penalized for exogenous turnover events outside their control. We introduce turnover-orthogonal credit assignment (TOCA), a value decomposition for open teams that separates action effects, pure turnover effects, and action--turnover interactions. Under exogenous turnover, the event-conditioned value admits a centered decomposition whose event-conditioned baseline removes the pure turnover component while preserving credit for actions that make the team robust to future replacements. We instantiate this idea with a permutation-invariant centralized critic over variable-size agent sets and event tokens, and derive both a counterfactual per-agent credit signal and a softly weighted interaction variant, TOCA-$β$, for high-variance control environments. Controlled diagnostic experiments show that TOCA improves return over event-aware MAPPO-style critics and that removing interaction credit substantially hurts performance. In a replacement-only Dynamic Spread benchmark, TOCA-$β$ achieves the best mean return at high turnover rates and improves over its no-interaction ablation. These results suggest that explicitly separating turnover from action credit is a useful principle for robust learning in dynamic cooperative teams.",
+          "url": "https://arxiv.org/abs/2610.02847v1",
+          "arxiv_id": "2610.02847v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Turnover-Orthogonal Credit Assignment for Open-Team Multi-Agent Reinforcement Learning",
+            "method": "Open-team multi-agent reinforcement learning studies cooperative systems in which agents may join, leave, or be replaced during an episode. In such settings, the team return changes both because agents choose useful actions and because the ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "After Cooperation Is Learned: Gradient Routing and Optimizer-Dependent Maintenance in Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Chaoyuan Hao",
+            "Wentao Yue",
+            "Tianyou Lai",
+            "Hongji Li",
+            "Jiayi Zhou",
+            "Qingyu Mao",
+            "Qilei Li"
+          ],
+          "author_details": [
+            {
+              "name": "Chaoyuan Hao",
+              "affiliations": []
+            },
+            {
+              "name": "Wentao Yue",
+              "affiliations": []
+            },
+            {
+              "name": "Tianyou Lai",
+              "affiliations": []
+            },
+            {
+              "name": "Hongji Li",
+              "affiliations": []
+            },
+            {
+              "name": "Jiayi Zhou",
+              "affiliations": []
+            },
+            {
+              "name": "Qingyu Mao",
+              "affiliations": []
+            },
+            {
+              "name": "Qilei Li",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-10-01",
+          "abstract": "Cooperative MARL is commonly evaluated through cooperation discovery from random initialization, leaving open whether continued optimization can destabilize learned cooperation. Actor-critic comparisons can also conflate critic presence with value gradients entering shared actor representations. We study cooperation maintenance, defined as the survival of a behaviorally verified cooperative policy under continued training. We formulate maintenance as a right-censored event-time problem and compare matched warm starts: X0 allows value loss gradients to update shared actor features, X1 retains the critic while blocking those gradients, and X5 removes the learned critic as a critic-free reference. This isolates direct value-gradient access while controlling initialization, critic computation, and evaluation. Positive reward scaling preserves strategic preferences and equilibria while perturbing learning dynamics. Gradient audits confirm the intended routing pathways, and frozen-policy torso perturbations probe whether route-induced updates align with local cooperation boundaries. In confirmatory MinEx and CleanUp-lite experiments, higher scales selectively increase maintenance sensitivity in X0; X1 remains near the censoring ceiling, and X5 has no confirmed events in the tested settings. In CleanUp-lite, route-by-scale displacement is associated with reduced local cooperation margins; MinEx shows a weaker, optimizer-dependent effect. These results identify a conditional, scale-sensitive maintenance risk associated with direct value-gradient routing rather than a universal failure of critics.",
+          "url": "https://arxiv.org/abs/2610.01630v1",
+          "arxiv_id": "2610.01630v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: After Cooperation Is Learned: Gradient Routing and Optimizer-Dependent Maintenance in Multi-Agent Reinforcement Learning",
+            "method": "Cooperative MARL is commonly evaluated through cooperation discovery from random initialization, leaving open whether continued optimization can destabilize learned cooperation. Actor-critic comparisons can also conflate critic presence wit",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Meta-Multi-Agent Reinforcement Learning for Fast Adaptation of Interactive Policies with Applications to Autonomous Driving",
+          "authors": [
+            "Huiwen Yan",
+            "Kyriakos G. Vamvoudakis",
+            "Mushuang Liu"
+          ],
+          "author_details": [
+            {
+              "name": "Huiwen Yan",
+              "affiliations": []
+            },
+            {
+              "name": "Kyriakos G. Vamvoudakis",
+              "affiliations": []
+            },
+            {
+              "name": "Mushuang Liu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI",
+            "cs.MA",
+            "eess.SY"
+          ],
+          "journal": null,
+          "published": "2026-09-30",
+          "abstract": "This paper develops a meta-multi-agent reinforcement learning (meta-MARL) framework to enable fast adaptation of interactive policies in a multi-agent system (MAS). Meta-reinforcement learning (meta-RL) enables agents to rapidly adapt to new tasks/environments using a bi-level optimization mechanism. However, existing meta-RL generally focuses on single-agent systems. Extending these frameworks and algorithms to multi-agent systems poses additional challenges, as tasks are characterized by not only the environment but also agents' strategic interactions. To address these challenges, we model multi-agent reinforcement learning (MARL) problems as Markov games (MGs) and develop a meta-MARL framework for rapid interactive policy adaptation across a distribution of MGs. A new concept, called meta-NE, is defined to describe the desired solution concept in a meta-MARL problem. Sufficient conditions for the equivalence between a meta-NE and a stationary point of the gradient-play-based meta-MARL algorithm are established. Our evaluation on autonomous-driving tasks demonstrates that the proposed meta-MARL method achieves faster adaptation than pretrained MARL baselines, validating the effectiveness of our framework.",
+          "url": "https://arxiv.org/abs/2610.00705v1",
+          "arxiv_id": "2610.00705v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Meta-Multi-Agent Reinforcement Learning for Fast Adaptation of Interactive Policies with Applications to Autonomous Driving",
+            "method": "This paper develops a meta-multi-agent reinforcement learning (meta-MARL) framework to enable fast adaptation of interactive policies in a multi-agent system (MAS). Meta-reinforcement learning (meta-RL) enables agents to rapidly adapt to ne",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "REWARD STRUCTURE MODULATES MULTI-AGENT REINFORCEMENT LEARNING ALGORITHM PERFORMANCE: A MULTI-BENCHMARK STUDY OF DRL-MD-HNFP WITH CONTROLLED INTERVENTION EVIDENCE AND INTERPRETABILITY METRICS",
+          "authors": [
+            "Leonardo Alfredo Forero Mendoza",
+            "Harold Dias de Mello",
+            "Manoela Kohler",
+            "Evelyn Batista",
+            "Marco Aurelio Pacheco"
+          ],
+          "author_details": [
+            {
+              "name": "Leonardo Alfredo Forero Mendoza",
+              "affiliations": []
+            },
+            {
+              "name": "Harold Dias de Mello",
+              "affiliations": []
+            },
+            {
+              "name": "Manoela Kohler",
+              "affiliations": []
+            },
+            {
+              "name": "Evelyn Batista",
+              "affiliations": []
+            },
+            {
+              "name": "Marco Aurelio Pacheco",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "multi-agent reinforcement learning",
+            "reward structure",
+            "algorithm comparison",
+            "pursuit-evasion games",
+            "interpretability metrics"
+          ],
+          "journal": "Artefactum",
+          "published": "2026-09-30",
+          "abstract": "This paper presents a multi-benchmark evaluation of the Deep Reinforcement Learning Market-Driven Hierarchical Neuro-Fuzzy Politree (DRL-MD-HNFP) [13,14] against six modern multi-agent reinforcement learning (MARL) baselines [1,4,10,19,20,22], combined with a high-resolution controlled experiment providing intervention evidence for reward-driven performance modulation. Across three benchmarks — Pursuit Game [12], FootballGrid, and RWARE [17] — no single algorithm dominates universally: DRL-MD-HNFP matches the best Q-learning method in shaped-reward environments and is statistically indistinguishable from IQL on the official PettingZoo MPE benchmark [21] (d=0.45, p=0.442, ns), while policy gradient methods [4,22] dominate the sparse-reward sequential RWARE task [17]. A ten-condition controlled experiment yields Spearman ρ=0.964 (p=0.000007), providing robust statistical evidence that reward structure [16] modulates which learning paradigm is viable for coordination. A full-protocol ablation (15 seeds, 1000 episodes) finds no significant performance difference between the fuzzy role layer and random or learned embeddings (Kruskal-Wallis H=3.11, p=0.376), correctly relocating the architecture's primary contribution from performance to interpretability [7]. A Diagnostic Steps to Failure Identification (DSFI) proxy metric is introduced to quantify interpretability gains.",
+          "url": "https://doi.org/10.23900/artefactum.v25i7.4443",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.23900/artefactum.v25i7.4443",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: REWARD STRUCTURE MODULATES MULTI-AGENT REINFORCEMENT LEARNING ALGORITHM PERFORMANCE: A MULTI-BENCHMARK STUDY OF DRL-MD-HNFP WITH CONTROLLED INTERVENTION EVIDENCE AND INTERPRETABILITY METRICS",
+            "method": "This paper presents a multi-benchmark evaluation of the Deep Reinforcement Learning Market-Driven Hierarchical Neuro-Fuzzy Politree (DRL-MD-HNFP) [13,14] against six modern multi-agent reinforcement learning (MARL) baselines [1,4,10,19,20,2",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "PowerMarketJax: A JAX Benchmark Suite for Multi-Agent Reinforcement Learning in Power Markets",
+          "authors": [
+            "Zhanhua Pan",
+            "Xin Qin",
+            "Xiao Liu",
+            "Zhilong Cao",
+            "Jianhong Wang",
+            "Dawei Qiu"
+          ],
+          "author_details": [
+            {
+              "name": "Zhanhua Pan",
+              "affiliations": []
+            },
+            {
+              "name": "Xin Qin",
+              "affiliations": []
+            },
+            {
+              "name": "Xiao Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Zhilong Cao",
+              "affiliations": []
+            },
+            {
+              "name": "Jianhong Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Dawei Qiu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA",
+            "cs.AI",
+            "eess.SY"
+          ],
+          "journal": null,
+          "published": "2026-09-29",
+          "abstract": "Power markets are a natural testbed for multi-agent reinforcement learning (MARL), where multiple self-interested participants repeatedly submit bids. A market-clearing mechanism then determines dispatch and prices subject to power grid constraints and market settlement rules. However, existing MARL environments typically focus on a single market setting, implement simplified clearing mechanisms, or rely on CPU-based optimization solvers that slow large-scale training and limit the systematic study of bidding strategies and market behavior. We introduce PowerMarketJax, a benchmark suite for MARL across five power markets: day-ahead wholesale, real-time balancing, ancillary services, peer-to-peer double auctions, and local flexibility. Each environment implements its own clearing, pricing, and settlement rules while providing a common framework for learning and evaluation. We find that learned bidding behavior depends strongly on the market design: independent learners can miss better strategies when gains require many agents to change together, when more profitable strategies lie beyond a region of lower profit, or when profits disappear as more agents adopt the same strategy. PowerMarketJax implements both market simulation and policy training in JAX, allowing the entire pipeline to run on the GPU with 1,024 X 1,200 parallelisms across both environments and market participants, achieving up to 33X speedup over CPU-based baselines. Our open-source benchmark is available at: https://github.com/powermarketjax/PowerMarketJax.",
+          "url": "https://arxiv.org/abs/2609.37321v1",
+          "arxiv_id": "2609.37321v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: PowerMarketJax: A JAX Benchmark Suite for Multi-Agent Reinforcement Learning in Power Markets",
+            "method": "Power markets are a natural testbed for multi-agent reinforcement learning (MARL), where multiple self-interested participants repeatedly submit bids. A market-clearing mechanism then determines dispatch and prices subject to power grid con",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Fully Decentralized and Safety-Aware Multi-Agent Reinforcement Learning for Control on Networks",
+          "authors": [
+            "Theodore Rogalski",
+            "Shirantha Welikala"
+          ],
+          "author_details": [
+            {
+              "name": "Theodore Rogalski",
+              "affiliations": []
+            },
+            {
+              "name": "Shirantha Welikala",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "eess.SY",
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-09-28",
+          "abstract": "This paper develops a safe and fully decentralized multi-agent reinforcement learning (MARL) algorithm to solve a class of discrete-time control problems on networks, including the persistent monitoring problem. Fully decentralized control of agents, while offering numerous benefits, faces issues such as exponentially increasing sample complexity, lack of global information about the system, and challenges in coordinating between agents. To address these issues, this paper introduces a fully decentralized multi-agent reinforcement learning algorithm that integrates deep reinforcement learning with safety considerations. This method feeds a history of local observations of the network's state into two parallel neural-network branches: the graph encoder, which adds structural information and correlations among nodes, and a state estimator, which predicts the uncertainty at each node in the graph. Additionally, the result of feeding that input into an actor-critic network is passed through a discrete-time control barrier heuristic to reduce the likelihood that any node will be neglected. This approach enables teams of fully decentralized agents to solve challenging problems by increasing system awareness and incorporating built-in safety measures to prevent the adoption of potentially harmful control policies. Numerical results from a custom simulation environment demonstrate that the proposed algorithm achieves 26.3 percent lower average uncertainty than a centralized control policy and is within 1 percent of the uncertainty performance of a more computationally complex algorithm with added attention layers.",
+          "url": "https://arxiv.org/abs/2609.36292v1",
+          "arxiv_id": "2609.36292v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Fully Decentralized and Safety-Aware Multi-Agent Reinforcement Learning for Control on Networks",
+            "method": "This paper develops a safe and fully decentralized multi-agent reinforcement learning (MARL) algorithm to solve a class of discrete-time control problems on networks, including the persistent monitoring problem. Fully decentralized control ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Coordinated Lane-Level Variable Speed Limits and Ramp Metering for Successive Weaving Segments Considering Merging/Diverging Risks: A Hybrid Model Predictive Control and Multi-Agent Reinforcement Learning Approach",
+          "authors": [
+            "Guodong Ma",
+            "Baofeng Sun",
+            "Wenyu Yang",
+            "Zhihong Yao"
+          ],
+          "author_details": [
+            {
+              "name": "Guodong Ma",
+              "affiliations": []
+            },
+            {
+              "name": "Baofeng Sun",
+              "affiliations": []
+            },
+            {
+              "name": "Wenyu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Zhihong Yao",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "math.OC",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-09-28",
+          "abstract": "Successive weaving segments (SWSs) on urban expressways are bottlenecks prone to recurrent congestion and collisions, requiring fine-grained active traffic management (ATM). Existing approaches struggle to balance the adaptive performance of data-driven optimization with the resilience and transferability of model-based control. We propose a hybrid framework to coordinate lane-level variable speed limits (VSLs) and ramp metering across SWSs. First, we reconstruct L-METANET, a lane-level macroscopic traffic flow model that captures free and forced lane changes. Second, we combine XGBoost-SHAP with a random-parameters binary logit (RPBL) model to derive analytical equations for merging and diverging collision risks and formulate system cost and reward functions. Third, we develop MPC-STMAPPO, a hierarchical controller integrating model predictive control (MPC) and multi-agent reinforcement learning (MARL). Its upper MPC layer uses L-METANET for long-horizon rolling optimization and generates baseline commands; its lower spatiotemporal MAPPO (ST-MAPPO) layer, enhanced with Mamba cells and graph attention, produces residual actions for short-horizon adjustment. Real-world experiments on the 18-km Eastern Expressway in Changchun, China, show that L-METANET accurately reproduces lane-changing-induced flow redistribution and capacity drops, with state evolution aligned with ground truth. XGBoost-SHAP-RPBL achieves AUCs above 0.80 in most tasks, outperforming conventional logit models. MPC-STMAPPO converges faster and performs better across multiple metrics than MPC- and MARL-based baselines. Under randomly fluctuating demand, it also significantly outperforms pure MARL in generalization, demonstrating strong potential for industrial deployment.",
+          "url": "https://arxiv.org/abs/2609.35152v1",
+          "arxiv_id": "2609.35152v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Coordinated Lane-Level Variable Speed Limits and Ramp Metering for Successive Weaving Segments Considering Merging/Diverging Risks: A Hybrid Model Predictive Control and Multi-Agent Reinforcement Learning Approach",
+            "method": "Successive weaving segments (SWSs) on urban expressways are bottlenecks prone to recurrent congestion and collisions, requiring fine-grained active traffic management (ATM). Existing approaches struggle to balance the adaptive performance o",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Escaping Local Views: Discovering Latent Concepts for Interpretable Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Yijie Sun",
+            "Sanquan Sun",
+            "Yanda Zhu",
+            "Yuanyang Zhu",
+            "Yaohua Hu",
+            "Chunlin Chen"
+          ],
+          "author_details": [
+            {
+              "name": "Yijie Sun",
+              "affiliations": []
+            },
+            {
+              "name": "Sanquan Sun",
+              "affiliations": []
+            },
+            {
+              "name": "Yanda Zhu",
+              "affiliations": []
+            },
+            {
+              "name": "Yuanyang Zhu",
+              "affiliations": []
+            },
+            {
+              "name": "Yaohua Hu",
+              "affiliations": []
+            },
+            {
+              "name": "Chunlin Chen",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-09-28",
+          "abstract": "Efficient cooperation is challenging due to the usual partial observability of each agent in multi-agent reinforcement learning. Recurrent networks encode local interaction histories, but their hidden representations provide limited insight into the information underlying individual decisions. To address these challenges, we propose a novel interpretable framework, called escaping local views (ELV), which introduces semantically structured latent concepts to render policy decisions transparent. Specifically, each agent extracts low-dimensional semantic concepts from its local observation and action-observation trajectory. These concepts are jointly encoded into a contextual latent variable via a variational autoencoder (VAE), which builds a bridge between local views and global semantics. To explicitly model the decision of each agent, we employ a dual-path attention mechanism in which one module estimates the salience of individual concepts relative to the global context, while the other captures higher-order cooperative patterns with pairwise concept interactions. Furthermore, we incorporate a concept prediction module that derives an intrinsic reward from next-concept prediction errors, which incentivizes agents to explore regions of semantic novelty. Experiments in multiple environments verify that ELV not only achieves competitive performance but also explicitly provides how agents reason about their decisions.",
+          "url": "https://arxiv.org/abs/2609.34459v1",
+          "arxiv_id": "2609.34459v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Escaping Local Views: Discovering Latent Concepts for Interpretable Multi-Agent Reinforcement Learning",
+            "method": "Efficient cooperation is challenging due to the usual partial observability of each agent in multi-agent reinforcement learning. Recurrent networks encode local interaction histories, but their hidden representations provide limited insight",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": []
+    },
+    {
+      "id": "causal-llm",
+      "name": "Causal Inference in Large Language Models",
+      "papers": [
+        {
+          "title": "Unmasking Propaganda: A Comparative Analysis of Masked and Causal Language Models",
+          "authors": [
+            "Claudiu Creanga",
+            "Ioachim Lihor",
+            "Liviu P. Dinu"
+          ],
+          "author_details": [
+            {
+              "name": "Claudiu Creanga",
+              "affiliations": []
+            },
+            {
+              "name": "Ioachim Lihor",
+              "affiliations": []
+            },
+            {
+              "name": "Liviu P. Dinu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.CL"
+          ],
+          "journal": null,
+          "published": "2026-10-02",
+          "abstract": "Propaganda detection is an essential task in natural language processing (NLP), particularly in the context of manipulative political communications. However, identifying specific propaganda techniques presents a significant challenge due to their often subtle nature and reliance on context, making them difficult to distinguish from legitimate persuasive language. Propaganda often involves highlighting certain facts while downplaying or ignoring others to create a desired perception. This biased communication aims to influence attitudes, beliefs, or behaviors towards a particular cause or position. This paper explores advances in detecting propaganda techniques through a comparative analysis of modern language models, using the SemEval-2020 Task 11 dataset. We evaluated both masked language models (based on XLM-RoBERTa or DeBERTa V3) and causal models (from OpenAI, Google, Mistral, Anthropic and Meta), employing two prompting strategies: base and chain-of-thought prompting. Our results demonstrate improvements over state-of-the-art models, with the best-performing MLM achieving an F1 score of 63.18 in technique classification and the best causal model achieving 63.62. We also observed that certain models excel in specific techniques, such as loaded language and name-calling, while struggling with others like bandwagon and black-and-white fallacy. These findings suggest that fine-tuning, ensemble modeling, and the use of larger datasets can further enhance propaganda detection capabilities.",
+          "url": "https://arxiv.org/abs/2610.03077v1",
+          "arxiv_id": "2610.03077v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Unmasking Propaganda: A Comparative Analysis of Masked and Causal Language Models",
+            "method": "Propaganda detection is an essential task in natural language processing (NLP), particularly in the context of manipulative political communications. However, identifying specific propaganda techniques presents a significant challenge due t",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "causal-text",
+      "name": "Causal Inference in Text Analysis",
+      "papers": []
+    }
+  ]
+}
