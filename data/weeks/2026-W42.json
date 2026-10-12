@@ -1,0 +1,1669 @@
+{
+  "week": "2026-W42",
+  "generated_at": "2026-10-12T06:59:15.448407Z",
+  "topics": [
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "papers": [
+        {
+          "title": "Causal Inference in Photopolymer Process Development: Interventions, Confounding, Transportability and Mechanistic Claims",
+          "authors": [
+            "Juan Segurola"
+          ],
+          "author_details": [
+            {
+              "name": "Juan Segurola",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "causal inference",
+            "additive manufacturing",
+            "confounding",
+            "mediation analysis",
+            "transportability",
+            "intervention",
+            "thermal history",
+            "conversion",
+            "network state",
+            "feature importance"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-09",
+          "abstract": "Photopolymer process datasets frequently contain strong correlations among formulation, machine, exposure, geometry and final properties. Correlation can support prediction but does not by itself establish a causal mechanism. This review translates causal-inference concepts into photopolymer process development. It distinguishes interventions from observations, identifies common confounders and mediators, and explains why feature importance, regression coefficients and predictive accuracy cannot automatically be interpreted as causal effects. A process-structure-property graph is proposed for formulation, optical dose, thermal history, conversion, network state, geometry and measured performance. The framework requires causal assumptions to be explicit, tests transportability when moving between printers or material states, and treats mechanistic claims as stronger than predictive claims. Published materials and additive-manufacturing work demonstrates growing use of causal and physics-guided analytics, but photopolymer-specific causal identification remains an evidence gap requiring designed interventions. ER-403.",
+          "url": "https://doi.org/10.5281/zenodo.23263635",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23263635",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal Inference in Photopolymer Process Development: Interventions, Confounding, Transportability and Mechanistic Claims",
+            "method": "Photopolymer process datasets frequently contain strong correlations among formulation, machine, exposure, geometry and final properties. Correlation can support prediction but does not by itself establish a causal mechanism. This review tr",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Forest-weighted causal correlation: A scalable framework for causal inference in ecological time series",
+          "authors": [
+            "Shigeki Kishi"
+          ],
+          "author_details": [
+            {
+              "name": "Shigeki Kishi",
+              "affiliations": [
+                "National Agriculture and Food Research Organization"
+              ]
+            }
+          ],
+          "keywords": [
+            "causal discovery",
+            "ecological time series",
+            "random forest",
+            "causal direction",
+            "synchronization",
+            "convergent cross mapping",
+            "community dynamics",
+            "marine communities",
+            "nonlinear dynamics",
+            "Maizuru Bay"
+          ],
+          "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "published": "2026-10-08",
+          "abstract": "1. Detecting causal relationships from ecological time series remains challenging because community dynamics are often nonlinear, high-dimensional, noisy, and strongly synchronized. These characteristics can reduce the reliability of existing causal inference methods and complicate the identification of ecological interactions in complex natural systems. 2. I introduce Forest-weighted Causal Correlation (FORCC), a machine-learning-based framework that infers directional causality from adaptive neighborhood structures learned by random forests. Rather than evaluating causal direction through cross-map reconstruction, FORCC quantifies directional dependence from the preservation of neighborhood structure using rank-based associations among forest-weight matrices. 3. Simulations of coupled nonlinear systems showed that FORCC accurately recovered causal direction while substantially reducing synchronization-induced false-positive detections relative to conventional convergent cross mapping. Chatterjee's ξ exhibited the strongest resistance to synchronization-induced errors among the evaluated rank-based statistics. 4. Application to a 12-year marine community time series from Maizuru Bay, Japan, identified asymmetric relationships between individual taxa and community dynamics, revealing candidate driver-like and passenger-like roles that were not readily explained by seasonal synchrony alone. 5. By combining adaptive neighborhood learning with rank-based causal inference, FORCC provides a scalable framework for causal discovery in ecological time series. The method offers a practical tool for screening causal relationships, generating ecological hypotheses, and investigating complex interactions in multivariate natural systems.",
+          "url": "https://doi.org/10.64898/2026.10.01.756118",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.64898/2026.10.01.756118",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Forest-weighted causal correlation: A scalable framework for causal inference in ecological time series",
+            "method": "1. Detecting causal relationships from ecological time series remains challenging because community dynamics are often nonlinear, high-dimensional, noisy, and strongly synchronized. These characteristics can reduce the reliability of existi",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Longitudinal causal inference under informative missingness using the self-censoring model",
+          "authors": [
+            "Iván Díaz"
+          ],
+          "author_details": [
+            {
+              "name": "Iván Díaz",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-10-06",
+          "abstract": "Longitudinal observational data are often subject to informative missingness. For example, in healthcare research using electronic health records, covariates and outcomes are measured only when patients interact with the healthcare system. Whether these data are observed usually depends on the unobserved variable values themselves, introducing a common form of data missing not at random. We develop identification and estimation methods for the effects of longitudinal modified treatment policies under a self-censoring model which explicitly models this dependence. We consider effects of treatments that can be modified only at measurement times (e.g., interactions with the heathcare system). We study two settings: one in which the observed history suffices for treatment confounding control, and another in which confounder control requires covariate values that were not measured at missed visits. In both settings, we combine longitudinal causal identification with shadow-variable conditional moment restrictions to obtain recursive identification formulas for the counterfactual outcome mean. We derive gradients of the pathwise derivatives and second-order remainder expansions, and use these results to construct estimators that accommodate machine learning for nuisance-function estimation. Under suitable product-rate conditions and cross-fitting, the estimators are asymptotically linear and permit root-n inference, including simultaneous inference across outcome times. We also describe conditional-moment learning and ensemble approaches for estimating the nuisance functions required by our approach, together with a pool-and-smooth strategy that borrows information across sparsely measured outcomes.",
+          "url": "https://arxiv.org/abs/2610.09234v1",
+          "arxiv_id": "2610.09234v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Longitudinal causal inference under informative missingness using the self-censoring model",
+            "method": "Longitudinal observational data are often subject to informative missingness. For example, in healthcare research using electronic health records, covariates and outcomes are measured only when patients interact with the healthcare system. ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "ProximalFM: Amortized Proximal Causal Inference under Hidden Confounding",
+          "authors": [
+            "Christophe Muller",
+            "Ayub Kharel",
+            "Alex Luedtke",
+            "Chan Park",
+            "Eric Tchetgen Tchetgen",
+            "Juan L. Gamella",
+            "Rahul Krishnan",
+            "Ricardo Silva",
+            "Jakob Zeitler"
+          ],
+          "author_details": [
+            {
+              "name": "Christophe Muller",
+              "affiliations": []
+            },
+            {
+              "name": "Ayub Kharel",
+              "affiliations": []
+            },
+            {
+              "name": "Alex Luedtke",
+              "affiliations": []
+            },
+            {
+              "name": "Chan Park",
+              "affiliations": []
+            },
+            {
+              "name": "Eric Tchetgen Tchetgen",
+              "affiliations": []
+            },
+            {
+              "name": "Juan L. Gamella",
+              "affiliations": []
+            },
+            {
+              "name": "Rahul Krishnan",
+              "affiliations": []
+            },
+            {
+              "name": "Ricardo Silva",
+              "affiliations": []
+            },
+            {
+              "name": "Jakob Zeitler",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ML",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-06",
+          "abstract": "Standard causal identification methods often assume no unmeasured confounding and can fail when relevant confounders are unobserved. Proximal causal inference instead uses proxy variables to identify effects under hidden confounding. However, nonparametric proximal estimation can be challenging in practice: recovering causal estimands such as the conditional average treatment effect (CATE) requires solving an ill-posed integral equation that is data-hungry, hyperparameter-sensitive, and optimization-unstable. Bayesian inference for such models provides a desirable alternative, mitigating these difficulties by regularizing through the prior. However, computing a posterior is itself challenging, as a typical likelihood function will include latent variables. Following the recent success of tabular foundation models in backdoor, instrumental variable, and frontdoor settings, we propose that prior-data fitted networks (PFNs) are uniquely suited to resolve this bottleneck. Indeed, by training on synthetic data sampled from compliant structural causal models with access to oracle counterfactuals, we simplify the task substantially, amortizing the implied Bayesian operator inversion into a single transformer forward pass. Compared to prior literature that focuses primarily on point estimation, our model, ProximalFM, explicitly targets the Bayesian posterior distribution of the CATE. One unique aspect of this problem is that we need to provide Monte Carlo estimates of the oracle CATEs, leading to a novel variation of PFNs that accounts for the added stochastic error. Across a diverse suite of proximal regimes, ProximalFM achieves consistently strong CATE-estimation performance without dataset-specific tuning, with its largest advantage when latent confounding is substantial and the proxies are weakly informative; it also provides fast inference through a single amortized forward pass.",
+          "url": "https://arxiv.org/abs/2610.08078v1",
+          "arxiv_id": "2610.08078v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: ProximalFM: Amortized Proximal Causal Inference under Hidden Confounding",
+            "method": "Standard causal identification methods often assume no unmeasured confounding and can fail when relevant confounders are unobserved. Proximal causal inference instead uses proxy variables to identify effects under hidden confounding. Howeve",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Collaborative representations for targeted causal inference under outcome selection",
+          "authors": [
+            "Johan de Aguas"
+          ],
+          "author_details": [
+            {
+              "name": "Johan de Aguas",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": "Machine Learning and Knowledge Discovery in Databases. Research Track, ECML PKDD 2026, Lecture Notes in Computer Science, vol. 16941, pp. 623-640, Springer, 2027",
+          "published": "2026-10-06",
+          "abstract": "Estimating causal effects with missing outcomes requires learning outcome, exposure, and selection models. Flexible propensity learners can predict treatment or missingness well while worsening target estimation by emphasizing instruments, weak-overlap regions, or variation unrelated to outcome-regression bias. We propose a collaborative representation-based targeted learning method for recovered average treatment effects under outcome selection. The method learns low-dimensional exposure and selection representations from cross-fitted pseudo-outcomes that encode outcome-regression drift. A finite candidate library alternates targeted outcome updates with representation updates, and inner cross-validation selects representation complexity, collaboration strength, and regularization using a target-aware risk. We give high-level sufficient conditions for collaborative robustness, consistency, and asymptotic linearity after outer validation-fold targeting. Simulations show finite-sample bias reduction, with explicit bias-variance trade-offs across configurations and relative to competing estimators",
+          "url": "https://arxiv.org/abs/2610.08073v1",
+          "arxiv_id": "2610.08073v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Collaborative representations for targeted causal inference under outcome selection",
+            "method": "Estimating causal effects with missing outcomes requires learning outcome, exposure, and selection models. Flexible propensity learners can predict treatment or missingness well while worsening target estimation by emphasizing instruments, ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Spatio-Temporal Stochastic Interventions for Causal Inference in Climate Science",
+          "authors": [
+            "Samuel Baugh"
+          ],
+          "author_details": [
+            {
+              "name": "Samuel Baugh",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.AP"
+          ],
+          "journal": null,
+          "published": "2026-10-05",
+          "abstract": "Estimating causal effects in climate science, such as the effect of anthropogenic warming on crop loss, is challenging because of complex spatio-temporal dependence and the high-dimensional nature of the treatment. To address this dependence and the resulting poor overlap between observed and counterfactual scenarios, we develop a spatio-temporal stochastic-intervention framework for estimating causal effects from climate observations. We introduce a regularized estimator of the stochastic-intervention treatment effect that trades a controlled bias for a reduction in the weight variance caused by poor overlap. Simulation studies show that this estimator attains lower mean squared error than alternative weighting estimators and removes the confounding bias of an unadjusted estimator. We apply the framework to estimate the effect of historical warming on vapor-pressure deficit, a driver of crop stress, adjusting for precipitation, which confounds the effect by affecting both temperature and humidity. In GISS-E2-1-G climate-model simulations, the global effect is distinguishable from zero in every year from 1995 onward, and omitting the precipitation adjustment inflates the global estimate by 47%. Adjustment reverses the sign of the estimate over 8% of global cropland (125 million hectares), where an unadjusted analysis could misdirect adaptation between heat-focused and moisture-focused measures.",
+          "url": "https://arxiv.org/abs/2610.05827v1",
+          "arxiv_id": "2610.05827v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Spatio-Temporal Stochastic Interventions for Causal Inference in Climate Science",
+            "method": "Estimating causal effects in climate science, such as the effect of anthropogenic warming on crop loss, is challenging because of complex spatio-temporal dependence and the high-dimensional nature of the treatment. To address this dependenc",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept",
+          "authors": [
+            "Guangwei Wang"
+          ],
+          "author_details": [
+            {
+              "name": "Guangwei Wang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "co-presence",
+            "digital media exposure",
+            "digital interaction",
+            "Foursquare check-ins",
+            "socioeconomic segregation",
+            "physical mobility",
+            "place semantics",
+            "multi-source big data",
+            "simulation validation",
+            "measurement error"
+          ],
+          "journal": "PhilPapers (PhilPapers Foundation)",
+          "published": "2026-12-31",
+          "abstract": "Segregation research increasingly measures who people encounter beyond home, yet physical mobility, place semantics, and digital activity are often combined without clear construct boundaries. This study develops a physical--digital activity-space framework that distinguishes co-presence, digital exposure, and digital interaction, and represents physical and digital segregation as separate components rather than a forced composite. Validation is deliberately split by evidentiary role. A public Washington--Baltimore Foursquare check-in subset tests the computational feasibility and robustness of a discrete group co-visitation statistic; it does not validate continuous socioeconomic exposure because the dataset lacks individual socioeconomic status. Monte Carlo experiments separately test layer-selective construct response and sensitivity to trace missingness, spatial aggregation, socioeconomic measurement error, and cross-layer coupling. The results show that the proposed calculations are executable and that the synthetic physical and digital components respond selectively to their generating mechanisms, while also revealing important measurement attenuation. No real-data estimate of income segregation, digital exposure, physical--digital coupling, or the causal effect of inequality is reported. The framework therefore combines bounded validation with a falsifiable comparative and causal research agenda.",
+          "url": "https://philpapers.org/rec/WANMAS",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17613/3amkv-gav11",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept",
+            "method": "Segregation research increasingly measures who people encounter beyond home, yet physical mobility, place semantics, and digital activity are often combined without clear construct boundaries. This study develops a physical--digital activit",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "A longitudinal Bayesian framework for estimating causal dose-response relationships",
+          "authors": [
+            "Yu Luo",
+            "Kuan Liu",
+            "Ramandeep Singh",
+            "Daniel J. Graham"
+          ],
+          "author_details": [
+            {
+              "name": "Yu Luo",
+              "affiliations": [
+                "King's College London"
+              ]
+            },
+            {
+              "name": "Kuan Liu",
+              "affiliations": [
+                "University of Toronto"
+              ]
+            },
+            {
+              "name": "Ramandeep Singh",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            },
+            {
+              "name": "Daniel J. Graham",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "time-varying exposure",
+            "time-varying confounding",
+            "longitudinal data",
+            "Bayesian nonparametrics",
+            "Dirichlet process",
+            "generalized estimating equations",
+            "generalized propensity score",
+            "metro ridership",
+            "COVID-19 case counts"
+          ],
+          "journal": "The International Journal of Biostatistics",
+          "published": "2026-10-11",
+          "abstract": "Abstract Existing causal methods for time-varying exposure and time-varying confounding focus on estimating the average causal effect of a time-varying binary treatment on an end-of-study outcome, offering limited tools for characterizing marginal causal dose-response relationships under continuous exposures. We propose a scalable, nonparametric Bayesian framework for estimating marginal longitudinal causal dose-response functions with repeated outcome measurements. Our approach targets the average potential outcome at any fixed dose level and accommodates time-varying confounding through the generalized propensity score. The proposed approach embeds a Dirichlet process specification within a generalized estimating equations structure, capturing temporal correlation while making minimal assumptions about the functional form of the continuous exposure. We apply the proposed methods to monthly metro ridership and COVID-19 case data from major international cities, identifying causal relationships and the dose-response patterns between higher ridership and increased case counts.",
+          "url": "https://doi.org/10.1515/ijb-2026-0010",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1515/ijb-2026-0010",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A longitudinal Bayesian framework for estimating causal dose-response relationships",
+            "method": "Abstract Existing causal methods for time-varying exposure and time-varying confounding focus on estimating the average causal effect of a time-varying binary treatment on an end-of-study outcome, offering limited tools for characterizing m",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ope",
+      "name": "Off-Policy Evaluation",
+      "papers": [
+        {
+          "title": "Budgeted Multi-Source Counterfactual Annotation for Off-Policy Evaluation",
+          "authors": [
+            "Biao Xiang",
+            "Ali Eshragh",
+            "Yuexing Li",
+            "Kai Wang"
+          ],
+          "author_details": [
+            {
+              "name": "Biao Xiang",
+              "affiliations": []
+            },
+            {
+              "name": "Ali Eshragh",
+              "affiliations": []
+            },
+            {
+              "name": "Yuexing Li",
+              "affiliations": []
+            },
+            {
+              "name": "Kai Wang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.AI",
+            "math.OC"
+          ],
+          "journal": null,
+          "published": "2026-10-07",
+          "abstract": "Off-policy evaluation (OPE) estimates the value of a target policy from logged data, but limited behavior-policy coverage can force high-variance reweighting or reward-model extrapolation. Counterfactual annotations can add evidence about unobserved actions, yet practical sources, including domain experts and large language models (LLMs), may be costly, biased, or noisy. We study budgeted acquisition of such annotations for contextual-bandit OPE. Given source-specific costs and error profiles, we formulate an integer allocation problem over context-action pairs and annotation sources to minimize the component of estimator variance that depends on the annotation plan. We characterize when annotations are valuable through a first-annotation threshold and local annotation-value regimes. For the coupled multi-source problem, we develop a majorization-minimization algorithm with dynamic-programming subroutines that monotonically improves the objective. Experiments in synthetic clinical and LLM-annotated education bandits show that our allocation method reduces fixed-profile mean squared error (MSE) by 20.58% and 10.77%, respectively, relative to no annotation.",
+          "url": "https://arxiv.org/abs/2610.10974v1",
+          "arxiv_id": "2610.10974v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Budgeted Multi-Source Counterfactual Annotation for Off-Policy Evaluation",
+            "method": "Off-policy evaluation (OPE) estimates the value of a target policy from logged data, but limited behavior-policy coverage can force high-variance reweighting or reward-model extrapolation. Counterfactual annotations can add evidence about u",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Amortized Off-Policy Evaluation for LLMs",
+          "authors": [
+            "Younwoo Choi",
+            "Leo Feng",
+            "Vincent Liu",
+            "Haanvid Lee"
+          ],
+          "author_details": [
+            {
+              "name": "Younwoo Choi",
+              "affiliations": []
+            },
+            {
+              "name": "Leo Feng",
+              "affiliations": []
+            },
+            {
+              "name": "Vincent Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Haanvid Lee",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-07",
+          "abstract": "Accurate evaluation is central to selecting which LLM to deploy, yet testing a candidate on live traffic exposes real users to an unvetted model. Teams therefore evaluate candidates offline, on data produced by already-deployed models. This is off-policy evaluation (OPE), and it faces two distribution shifts: as a model is updated in post-training, its responses diverge from the logged ones (policy shift), and the reward definition under which it is judged changes with business requirements (reward shift). Classical OPE methods are ill-suited to this continual-deployment setting because they are defined per task and require fitting from scratch on every new logged dataset or reward definition. To address this, we propose PFN-OPE, a prior-data fitted network that amortizes OPE across a distribution of contextual-bandit tasks. We pretrain it once on tasks constructed from a pool of LLM responses scored by several reward functions, in which both shifts occur. At test-time it maps a logged dataset and one sampled target response per prompt to a value estimate in a single forward pass, with no per-task fitting. On HelpSteer2 and UltraFeedback with Qwen, Llama, and Gemma policies, PFN-OPE achieves 2.0 to 9.3 times lower error than the best baselines across all tested configurations in the reward-shifted settings.",
+          "url": "https://arxiv.org/abs/2610.10848v1",
+          "arxiv_id": "2610.10848v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Amortized Off-Policy Evaluation for LLMs",
+            "method": "Accurate evaluation is central to selecting which LLM to deploy, yet testing a candidate on live traffic exposes real users to an unvetted model. Teams therefore evaluate candidates offline, on data produced by already-deployed models. This",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Budgeted Multi-Source Counterfactual Annotation for Off-Policy Evaluation",
+          "authors": [
+            "Biao Xiang",
+            "Ali Eshragh",
+            "Yuexing Li",
+            "Kai Wang"
+          ],
+          "author_details": [
+            {
+              "name": "Biao Xiang",
+              "affiliations": []
+            },
+            {
+              "name": "Ali Eshragh",
+              "affiliations": []
+            },
+            {
+              "name": "Yuexing Li",
+              "affiliations": []
+            },
+            {
+              "name": "Kai Wang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "contextual bandits",
+            "estimator variance",
+            "majorization-minimization",
+            "large language models"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-10-07",
+          "abstract": "Off-policy evaluation (OPE) estimates the value of a target policy from logged data, but limited behavior-policy coverage can force high-variance reweighting or reward-model extrapolation. Counterfactual annotations can add evidence about unobserved actions, yet practical sources, including domain experts and large language models (LLMs), may be costly, biased, or noisy. We study budgeted acquisition of such annotations for contextual-bandit OPE. Given source-specific costs and error profiles, we formulate an integer allocation problem over context-action pairs and annotation sources to minimize the component of estimator variance that depends on the annotation plan. We characterize when annotations are valuable through a first-annotation threshold and local annotation-value regimes. For the coupled multi-source problem, we develop a majorization-minimization algorithm with dynamic-programming subroutines that monotonically improves the objective. Experiments in synthetic clinical and LLM-annotated education bandits show that our allocation method reduces fixed-profile mean squared error (MSE) by 20.58% and 10.77%, respectively, relative to no annotation.",
+          "url": "https://arxiv.org/abs/2610.10974",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2610.10974",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Budgeted Multi-Source Counterfactual Annotation for Off-Policy Evaluation",
+            "method": "Off-policy evaluation (OPE) estimates the value of a target policy from logged data, but limited behavior-policy coverage can force high-variance reweighting or reward-model extrapolation. Counterfactual annotations can add evidence about u",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Amortized Off-Policy Evaluation for LLMs",
+          "authors": [
+            "Younwoo Choi",
+            "Leo Feng",
+            "Vincent Liu",
+            "Haanvid Lee"
+          ],
+          "author_details": [
+            {
+              "name": "Younwoo Choi",
+              "affiliations": []
+            },
+            {
+              "name": "Leo Feng",
+              "affiliations": []
+            },
+            {
+              "name": "Vincent Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Haanvid Lee",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "large language models",
+            "policy change",
+            "contextual bandits",
+            "prior-data fitted networks",
+            "distribution shift",
+            "reward function"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-10-07",
+          "abstract": "Accurate evaluation is central to selecting which LLM to deploy, yet testing a candidate on live traffic exposes real users to an unvetted model. Teams therefore evaluate candidates offline, on data produced by already-deployed models. This is off-policy evaluation (OPE), and it faces two distribution shifts: as a model is updated in post-training, its responses diverge from the logged ones (policy shift), and the reward definition under which it is judged changes with business requirements (reward shift). Classical OPE methods are ill-suited to this continual-deployment setting because they are defined per task and require fitting from scratch on every new logged dataset or reward definition. To address this, we propose PFN-OPE, a prior-data fitted network that amortizes OPE across a distribution of contextual-bandit tasks. We pretrain it once on tasks constructed from a pool of LLM responses scored by several reward functions, in which both shifts occur. At test-time it maps a logged dataset and one sampled target response per prompt to a value estimate in a single forward pass, with no per-task fitting. On HelpSteer2 and UltraFeedback with Qwen, Llama, and Gemma policies, PFN-OPE achieves 2.0 to 9.3 times lower error than the best baselines across all tested configurations in the reward-shifted settings.",
+          "url": "https://arxiv.org/abs/2610.10848",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2610.10848",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Amortized Off-Policy Evaluation for LLMs",
+            "method": "Accurate evaluation is central to selecting which LLM to deploy, yet testing a candidate on live traffic exposes real users to an unvetted model. Teams therefore evaluate candidates offline, on data produced by already-deployed models. This",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Variance-Optimal Off-Policy Evaluation with Conjunct Effect Modeling",
+          "authors": [
+            "Nicolò Felicioni",
+            "Michael Benigni",
+            "Maurizio Ferrari Dacrema",
+            "Paolo Cremonesi"
+          ],
+          "author_details": [
+            {
+              "name": "Nicolò Felicioni",
+              "affiliations": []
+            },
+            {
+              "name": "Michael Benigni",
+              "affiliations": []
+            },
+            {
+              "name": "Maurizio Ferrari Dacrema",
+              "affiliations": []
+            },
+            {
+              "name": "Paolo Cremonesi",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-06",
+          "abstract": "Off-policy evaluation (OPE) for contextual bandit policies becomes challenging when action-level importance weighting incurs excessive variance. Doubly robust (DR) estimation remains unbiased under common support but retains these high-variance action-level weights. A prior estimator, Off-policy evaluation with Conjunct Effect Model (OffCEM), replaces them with more stable cluster-level weights, at the cost of relying on local correctness of the reward model. In this paper, we show that, under the assumptions required by DR and OffCEM, there exists an unbiased family of estimators that interpolates between OffCEM and DR. Building on this result, we propose the Variance Optimal-CEM (VOCEM) estimator, which selects the interpolation coefficient to minimize variance. We derive the population-optimal coefficient in closed form and show that the resulting estimator has variance no larger than either endpoint, OffCEM or DR. Experiments in controlled synthetic settings and on two large-action benchmarks show that VOCEM improves upon both endpoints in all 23 evaluated conditions, exhibiting greater stability and empirical robustness.",
+          "url": "https://arxiv.org/abs/2610.08677v1",
+          "arxiv_id": "2610.08677v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Variance-Optimal Off-Policy Evaluation with Conjunct Effect Modeling",
+            "method": "Off-policy evaluation (OPE) for contextual bandit policies becomes challenging when action-level importance weighting incurs excessive variance. Doubly robust (DR) estimation remains unbiased under common support but retains these high-vari",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Variance-Optimal Off-Policy Evaluation with Conjunct Effect Modeling",
+          "authors": [
+            "Nicolò Felicioni",
+            "Michael Benigni",
+            "Maurizio Ferrari Dacrema",
+            "Paolo Cremonesi"
+          ],
+          "author_details": [
+            {
+              "name": "Nicolò Felicioni",
+              "affiliations": []
+            },
+            {
+              "name": "Michael Benigni",
+              "affiliations": []
+            },
+            {
+              "name": "Maurizio Ferrari Dacrema",
+              "affiliations": []
+            },
+            {
+              "name": "Paolo Cremonesi",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "contextual bandits",
+            "doubly robust estimation",
+            "importance weighting",
+            "reward models"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-10-06",
+          "abstract": "Off-policy evaluation (OPE) for contextual bandit policies becomes challenging when action-level importance weighting incurs excessive variance. Doubly robust (DR) estimation remains unbiased under common support but retains these high-variance action-level weights. A prior estimator, Off-policy evaluation with Conjunct Effect Model (OffCEM), replaces them with more stable cluster-level weights, at the cost of relying on local correctness of the reward model. In this paper, we show that, under the assumptions required by DR and OffCEM, there exists an unbiased family of estimators that interpolates between OffCEM and DR. Building on this result, we propose the Variance Optimal-CEM (VOCEM) estimator, which selects the interpolation coefficient to minimize variance. We derive the population-optimal coefficient in closed form and show that the resulting estimator has variance no larger than either endpoint, OffCEM or DR. Experiments in controlled synthetic settings and on two large-action benchmarks show that VOCEM improves upon both endpoints in all 23 evaluated conditions, exhibiting greater stability and empirical robustness.",
+          "url": "https://arxiv.org/abs/2610.08677",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2610.08677",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Variance-Optimal Off-Policy Evaluation with Conjunct Effect Modeling",
+            "method": "Off-policy evaluation (OPE) for contextual bandit policies becomes challenging when action-level importance weighting incurs excessive variance. Doubly robust (DR) estimation remains unbiased under common support but retains these high-vari",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Architectural Design Decisions for Monitoring Deployed Reinforcement Learning Systems",
+          "authors": [
+            "Zhizhou Fang",
+            "Stephen John Warnett",
+            "Uwe Zdun"
+          ],
+          "author_details": [
+            {
+              "name": "Zhizhou Fang",
+              "affiliations": [
+                "University of Vienna"
+              ]
+            },
+            {
+              "name": "Stephen John Warnett",
+              "affiliations": [
+                "University of Vienna"
+              ]
+            },
+            {
+              "name": "Uwe Zdun",
+              "affiliations": [
+                "University of Vienna"
+              ]
+            }
+          ],
+          "keywords": [
+            "architectural design decisions",
+            "decision support model",
+            "decision drivers",
+            "decision options"
+          ],
+          "journal": "Lecture notes in computer science",
+          "published": "2026-10-06",
+          "abstract": "",
+          "url": "https://doi.org/10.1007/978-3-032-39236-7_20",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1007/978-3-032-39236-7_20",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 1,
+          "score": 1.693,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Architectural Design Decisions for Monitoring Deployed Reinforcement Learning Systems",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "Yang, Xiangmin"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Yang, Xiangmin",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "pedestrian decision-making",
+            "inverse reinforcement learning",
+            "human movement",
+            "pedestrian behavior"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Reinforcement Learning in Machine Learning",
+          "authors": [
+            "Prof. P. P. Chavan Prerna Wayakole",
+            "Dr. H. B. Jadhav Prof. A. J. Shaikh"
+          ],
+          "author_details": [
+            {
+              "name": "Prof. P. P. Chavan Prerna Wayakole",
+              "affiliations": []
+            },
+            {
+              "name": "Dr. H. B. Jadhav Prof. A. J. Shaikh",
+              "affiliations": []
+            }
+          ],
+          "keywords": [],
+          "journal": "International Journal of Advanced Research in Science Communication and Technology",
+          "published": "2026-10-10",
+          "abstract": "Reinforcement Learning (RL) is a machine-learning approach for problems in which decisions are made repeatedly and their quality becomes clear through feedback. Instead of depending on a fixed collection of labelled answers, an RL agent interacts with an environment, observes its changing state, receives rewards or penalties, and improves its decision policy through experience. This review examines the basic RL framework and discusses deep reinforcement learning, offline learning, multi-agent systems, and human-guided learning. Applications in robotics, games, education, finance, healthcare, and autonomous systems are considered. The review also identifies sample inefficiency, computational cost, instability, delayed rewards, limited generalization, and safety as important challenges. The paper concludes by identifying research opportunities for efficient, reliable, explainable, and adaptable RL systems.",
+          "url": "https://doi.org/10.48175/ijarsct-38763",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48175/ijarsct-38763",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Reinforcement Learning in Machine Learning",
+            "method": "Reinforcement Learning (RL) is a machine-learning approach for problems in which decisions are made repeatedly and their quality becomes clear through feedback. Instead of depending on a fixed collection of labelled answers, an RL agent int",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Development of a Reinforcement Learning-Based Decision Support System for Optimizing Tactical Strategies in Professional Team Sports",
+          "authors": [
+            "Seyed Morteza Mansouri Mehrian",
+            "Seyed Abolghasem Sadri"
+          ],
+          "author_details": [
+            {
+              "name": "Seyed Morteza Mansouri Mehrian",
+              "affiliations": []
+            },
+            {
+              "name": "Seyed Abolghasem Sadri",
+              "affiliations": []
+            }
+          ],
+          "keywords": [],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-10",
+          "abstract": "Introduction: Tactical decision-making in professional team sports represents one of the most complex challenges for coaches and analysts, influenced by numerous dynamic factors. Traditional tactical analysis methods rely primarily on human observation and descriptive statistics, lacking sufficient capability for real-time prediction and optimization. This study aimed to develop a reinforcement learning-based decision support system for optimizing tactical strategies in professional team sports. Methodology: Data from 500 professional matches across football, basketball, and volleyball leagues were utilized. Player positioning data were collected using optical tracking systems and match statistics. A reinforcement learning simulation environment was designed using Deep Q-Network (DQN) and Proximal Policy Optimization (PPO) algorithms to train an agent to make optimal tactical decisions. System performance was evaluated using win rate, points scored, and decision efficiency, compared with decisions made by professional coaches. Findings: The reinforcement learning-based decision support system identified optimal decisions in 73.8% of cases compared to actual coaches' decisions. In match simulations, teams using system recommendations achieved 12.8% higher average points and 6.5% higher win rates than control teams. The PPO algorithm demonstrated superior performance with 86.4% accuracy and higher convergence speed compared to DQN (82.1% accuracy). The most influential variables in tactical decisions included ball position, player distance from ball, remaining time, and score differential. Conclusion: The reinforcement learning-based decision support system can serve as an assistive tool for tactical analysis and decision-making in professional team sports, improving team performance through optimal real-time recommendations.",
+          "url": "https://doi.org/10.5281/zenodo.23286576",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23286576",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Development of a Reinforcement Learning-Based Decision Support System for Optimizing Tactical Strategies in Professional Team Sports",
+            "method": "Introduction: Tactical decision-making in professional team sports represents one of the most complex challenges for coaches and analysts, influenced by numerous dynamic factors. Traditional tactical analysis methods rely primarily on human",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "A Hybrid Genetic Reinforcement Learning Technique for Intelligent Cluster Head Selection in WSNs",
+          "authors": [
+            "Ruchi Sharma",
+            "Sachin Patel"
+          ],
+          "author_details": [
+            {
+              "name": "Ruchi Sharma",
+              "affiliations": []
+            },
+            {
+              "name": "Sachin Patel",
+              "affiliations": []
+            }
+          ],
+          "keywords": [],
+          "journal": "International Journal of Electronics and Communication Engineering",
+          "published": "2026-10-10",
+          "abstract": "In Wireless Sensor Networks (WSNs), selection of Cluster Head (CH) in view of the optimum performance is a difficult task in view of constraints of energy resources, dynamic energy state of the network and dynamic data communication requirements, etc. Here, optimization of these can make better solutions. A Hybrid RL-GA Algorithm is developed to give the optimum solution for this, by combining a Genetic Algorithm (GA) with Q-learning. Optimization of both how CHs are selected and how the data is routed afterward was performed. Genetic Algorithm founds initial global structure, individual nodes and Cluster Heads take over using Q learning. This allows them to make adaptive routing decisions. Network continuously learns the most energy-efficient paths, and it recovers much faster from link failures. The GA provide a strong foundation, and Q-learning handles the day-to-day network stability. With simulations, our Hybrid RL-GA protocol outperformed the standalone RL method used in the latest research works. The total network lifetime is higher by roughly 50% than standalone RL.",
+          "url": "https://doi.org/10.14445/23488549/ijece-v13i9p102",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.14445/23488549/ijece-v13i9p102",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A Hybrid Genetic Reinforcement Learning Technique for Intelligent Cluster Head Selection in WSNs",
+            "method": "In Wireless Sensor Networks (WSNs), selection of Cluster Head (CH) in view of the optimum performance is a difficult task in view of constraints of energy resources, dynamic energy state of the network and dynamic data communication require",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Physics-Guided Graph Safe Reinforcement Learning for High-Fidelity and Scalable Alternating Current Optimal Power Flow",
+          "authors": [
+            "Yash Pratap Singh",
+            "Mohsen Saffari",
+            "‎Arash Asrari"
+          ],
+          "author_details": [
+            {
+              "name": "Yash Pratap Singh",
+              "affiliations": [
+                "Purdue University Northwest"
+              ]
+            },
+            {
+              "name": "Mohsen Saffari",
+              "affiliations": [
+                "Purdue University Northwest"
+              ]
+            },
+            {
+              "name": "‎Arash Asrari",
+              "affiliations": [
+                "Purdue University Northwest"
+              ]
+            }
+          ],
+          "keywords": [],
+          "journal": "Processes",
+          "published": "2026-10-10",
+          "abstract": "The alternating current (AC) optimal power flow (AC-OPF) problem is crucial for efficient power system operation, yet it remains challenging due to its nonlinear, nonconvex structure and numerous operational constraints. This paper introduces a Physics-guided Graph Safe Reinforcement Learning (PGSRL) framework that provides accurate, scalable, and physically consistent solutions to AC-OPF. The proposed PGSRL framework first models the power system as a weighted graph, encoding voltage magnitudes, load demands, and transmission line impedances to capture existing spatiotemporal correlations among power system buses. A Graph Mamba encoder with selective State Space Modeling extracts spatiotemporal correlations, which are used to define the system states within a constrained Markov Decision Process (CMDP). To solve this CMDP, we design a physics-guided safe Twin Delayed Deep Deterministic Policy Gradient (TD3) architecture containing twin critics and deterministic actors, guided by physics-informed reward functions that promote feasibility through penalty-based soft constraints. By interacting with a simulated power system environment, the introduced PGSRL learns optimal generator dispatch strategies in continuous action spaces while honoring AC-OPF constraints. Experimental results on six test benchmarks demonstrate the superiority of PGSRL compared with traditional numerical solution and supervised data-driven baselines, rather than RL methods, in terms of estimation accuracy of AC-OPF setpoints.",
+          "url": "https://doi.org/10.3390/pr14203242",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3390/pr14203242",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Physics-Guided Graph Safe Reinforcement Learning for High-Fidelity and Scalable Alternating Current Optimal Power Flow",
+            "method": "The alternating current (AC) optimal power flow (AC-OPF) problem is crucial for efficient power system operation, yet it remains challenging due to its nonlinear, nonconvex structure and numerous operational constraints. This paper introduc",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
+          "authors": [
+            "Sajjad Baghaeea",
+            "Aimin Lib",
+            "Shanmugarajan Balasubramanian",
+            "Elif Uysal"
+          ],
+          "author_details": [
+            {
+              "name": "Sajjad Baghaeea",
+              "affiliations": []
+            },
+            {
+              "name": "Aimin Lib",
+              "affiliations": []
+            },
+            {
+              "name": "Shanmugarajan Balasubramanian",
+              "affiliations": []
+            },
+            {
+              "name": "Elif Uysal",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.NI",
+            "cs.LG",
+            "eess.SY"
+          ],
+          "journal": null,
+          "published": "2026-10-09",
+          "abstract": "Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communication, requiring relay nodes to manage limited storage and scarce contact opportunities. Relay-side scheduling and dropping decisions are inherently goal-oriented: transmission resources should be allocated to bundles most valuable to downstream mission objectives. Conventional schedulers, such as FIFO, do not explicitly optimize task utility and may provide unfair service across heterogeneous planetary sources. This paper presents a closed-loop modeling and learning framework for relay-side bundle and flow management in a contact-driven deep-space network, where lunar and Martian updates are forwarded through a shared-buffer relay to Earth. We quantify destination-side information freshness using excess age $Δ_i^e(t)=[Δ_i(t)-d_i(t)]^+$, where $Δ_i(t)$ denotes the Age of Information of source $i$ and $d_i(t)$ is a source-dependent delay baseline. Based on this metric, we define a goal-oriented loss that supports source-dependent nonlinear penalties, allowing prioritization according to mission relevance. We formulate relay control as a constrained semi-Markov decision process (CSMDP) and solve it using masked Lagrangian Proximal Policy Optimization (PPO). Feasibility-aware action masking restricts transmissions to bundles that can complete within the remaining contact window. DTNSim simulations indicate improved age-based utility and inter-flow fairness compared with baseline schedulers. The proposed framework jointly optimizes relay-side bundle scheduling, dropping, and flow control under contact-driven dynamics with explicit fairness considerations across heterogeneous sources.",
+          "url": "https://arxiv.org/abs/2610.13923v1",
+          "arxiv_id": "2610.13923v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
+            "method": "Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communication, requiring relay nodes to manage limi",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "SafeDiSTL: Decomposing Joint Constraints for Safe Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Hongrui Zheng",
+            "Aditya Singh",
+            "Rahul Mangharam"
+          ],
+          "author_details": [
+            {
+              "name": "Hongrui Zheng",
+              "affiliations": []
+            },
+            {
+              "name": "Aditya Singh",
+              "affiliations": []
+            },
+            {
+              "name": "Rahul Mangharam",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-10-09",
+          "abstract": "Cooperative multi-agent tasks often impose constraints on a shared objective or collective safety. A team level violation cost function can measure this constraint outcome, but does not distinguish which agents' actions most strongly influence that violation. We present SafeDiSTL, a constrained multi-agent reinforcement learning framework that allows for credit assignment even with joint constraint measurements. We use Signal Temporal Logic (STL) robustness to measure episode-level violation through running-maximum cost increments. Smooth full-episode robustness and differentiable dynamics provide action sensitivities, which allocate each cost increment across agents at the same decision time. These sensitivities account for delayed effects when weighting agents' shares of each cost increment. We study the framework in cooperative payload transport, connected navigation, and networked traffic control tasks. SafeDiSTL achieves 1.6-5.1x the safe-success rate in transport, improves navigation safe-success by 11.1%, and delivers 50-68% more throughput in traffic when compared to constrained baselines. Results demonstrate a strong improvement of the learned policy in dealing with shared constraint while retaining the performance of unconstrained policies.",
+          "url": "https://arxiv.org/abs/2610.13737v1",
+          "arxiv_id": "2610.13737v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: SafeDiSTL: Decomposing Joint Constraints for Safe Multi-Agent Reinforcement Learning",
+            "method": "Cooperative multi-agent tasks often impose constraints on a shared objective or collective safety. A team level violation cost function can measure this constraint outcome, but does not distinguish which agents' actions most strongly influe",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "SafeDiSTL: Decomposing Joint Constraints for Safe Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Hongrui Zheng",
+            "Aditya Singh",
+            "Rahul Mangharam"
+          ],
+          "author_details": [
+            {
+              "name": "Hongrui Zheng",
+              "affiliations": []
+            },
+            {
+              "name": "Aditya Singh",
+              "affiliations": []
+            },
+            {
+              "name": "Rahul Mangharam",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-10-09",
+          "abstract": "Cooperative multi-agent tasks often impose constraints on a shared objective or collective safety. A team level violation cost function can measure this constraint outcome, but does not distinguish which agents' actions most strongly influence that violation. We present SafeDiSTL, a constrained multi-agent reinforcement learning framework that allows for credit assignment even with joint constraint measurements. We use Signal Temporal Logic (STL) robustness to measure episode-level violation through running-maximum cost increments. Smooth full-episode robustness and differentiable dynamics provide action sensitivities, which allocate each cost increment across agents at the same decision time. These sensitivities account for delayed effects when weighting agents' shares of each cost increment. We study the framework in cooperative payload transport, connected navigation, and networked traffic control tasks. SafeDiSTL achieves 1.6-5.1x the safe-success rate in transport, improves navigation safe-success by 11.1%, and delivers 50-68% more throughput in traffic when compared to constrained baselines. Results demonstrate a strong improvement of the learned policy in dealing with shared constraint while retaining the performance of unconstrained policies.",
+          "url": "https://arxiv.org/abs/2610.13737v1",
+          "arxiv_id": "2610.13737v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: SafeDiSTL: Decomposing Joint Constraints for Safe Multi-Agent Reinforcement Learning",
+            "method": "Cooperative multi-agent tasks often impose constraints on a shared objective or collective safety. A team level violation cost function can measure this constraint outcome, but does not distinguish which agents' actions most strongly influe",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Tinashe2023/DecTwin-IPPO: DecTwin-PPO v1.0.0 — Code and data for \"Fault-Aware Industrial Digital Twins via Cooperative Multi-Agent Reinforcement Learning\" (EAAI submission)",
+          "authors": [
+            "Tinashe Hando"
+          ],
+          "author_details": [
+            {
+              "name": "Tinashe Hando",
+              "affiliations": [
+                "Lovely Professional University"
+              ]
+            }
+          ],
+          "keywords": [
+            "industrial digital twins",
+            "multi-agent reinforcement learning",
+            "decentralized POMDPs",
+            "partially observable Markov decision processes",
+            "temporal coordination",
+            "M/M/1 queue",
+            "Newton's law of cooling",
+            "fault injection",
+            "ring topology",
+            "failover",
+            "throughput",
+            "zero-shot generalization",
+            "graceful degradation"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-09",
+          "abstract": "DecTwin-PPO v1.0.0 Reference implementation and evaluation data for the paper: \"Fault-Aware Industrial Digital Twins via Cooperative Multi-Agent Reinforcement Learning: A Decentralized Partially Observable Markov Decision Process Architecture with Proximal Policy Optimization and Neighborhood-Aware Temporal Coordination\" (submitted to Engineering Applications of Artificial Intelligence, October 2026). What's included Digital twin simulation environment: thermodynamic modeling (Newton's law of cooling), M/M/1 queue dynamics, Poisson fault injection, ring topologies of 4-16 machines IPPO agent with parameter sharing, GRU temporal processing, and neighbor-augmented observations (Dec-POMDP formulation) Rule-based failover baseline and centralized PPO baseline Training, inference, and figure-generation scripts Evaluation telemetry from all five experimental conditions reported in the paper (PostgreSQL export, CSV) Figures 1-6 as they appear in the paper Headline results (from the paper) Mean throughput 4.854 jobs/step: +145.5% vs rule-based baseline, +36.6% vs centralized PPO Zero-shot generalization across ring sizes 4-16 Graceful degradation at 3x the nominal fault rate Reproducing the paper See the README for setup. In brief: python scripts/train_marl.py (or use the included checkpoint) python scripts/inference_server.py + python scripts/baseline_runner.py python scripts/evaluate_marl.py regenerates Figures 3-6 from the telemetry data Citation If you use this code or data, please cite the paper (DOI will be added upon publication). Archived on Zenodo: [DOI placeholder] License MIT — see LICENSE.",
+          "url": "https://doi.org/10.5281/zenodo.23263162",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23263162",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Tinashe2023/DecTwin-IPPO: DecTwin-PPO v1.0.0 — Code and data for \"Fault-Aware Industrial Digital Twins via Cooperative Multi-Agent Reinforcement Learning\" (EAAI submission)",
+            "method": "DecTwin-PPO v1.0.0 Reference implementation and evaluation data for the paper: \"Fault-Aware Industrial Digital Twins via Cooperative Multi-Agent Reinforcement Learning: A Decentralized Partially Observable Markov Decision Process Architectu",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "SynCo: Data Synthesis Co-Training for Self-Evolving LLMs via Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Wei Yang",
+            "Shawn Li",
+            "Yuehan Qin",
+            "Yawei Wang",
+            "Mingxi Wang",
+            "Shixuan Li",
+            "Tiankai Yang",
+            "Jiate Li",
+            "Jesse Thomason",
+            "Xuezhe Ma",
+            "Yue Zhao"
+          ],
+          "author_details": [
+            {
+              "name": "Wei Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Shawn Li",
+              "affiliations": []
+            },
+            {
+              "name": "Yuehan Qin",
+              "affiliations": []
+            },
+            {
+              "name": "Yawei Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Mingxi Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Shixuan Li",
+              "affiliations": []
+            },
+            {
+              "name": "Tiankai Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Jiate Li",
+              "affiliations": []
+            },
+            {
+              "name": "Jesse Thomason",
+              "affiliations": []
+            },
+            {
+              "name": "Xuezhe Ma",
+              "affiliations": []
+            },
+            {
+              "name": "Yue Zhao",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-10-08",
+          "abstract": "Self-evolving LLM agents promise to improve autonomously through continual interaction and learning, reducing their dependence on manually curated supervision. Realizing this promise requires not only updating the agent, but also evolving its training experience as its capabilities change. However, most existing pipelines rely on static datasets or separately updated synthesis models, causing previously useful tasks to become trivial while overly difficult tasks remain uninformative. This growing mismatch between agent capability and training experience limits sustained self-improvement. To address this problem, we propose SynCo, an agentic data synthesis co-training framework for self-evolving LLMs based on multi-agent reinforcement learning. SynCo jointly optimizes two independently parameterized agents: a Synthesizer that constructs training tasks from the Reasoner's evolving capability state, and a Reasoner that learns from the resulting experience. Each synthesized task induces multiple Reasoner rollouts whose outcomes provide complementary rewards to both agents. Correctness feedback improves the Reasoner, while task quality, answer reliability, and outcome-grounded teachability guide the Synthesizer. Their updates are fed back into subsequent synthesis rounds, allowing the task-solving policy and its training distribution to evolve together. Extensive experiments across eight mathematical reasoning benchmarks demonstrate that SynCo substantially outperforms a broad range of existing synthetic-data methods and controlled baselines, achieving the strongest overall performance while deriving most of its gains from previously unsolved problems.",
+          "url": "https://arxiv.org/abs/2610.11345v1",
+          "arxiv_id": "2610.11345v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: SynCo: Data Synthesis Co-Training for Self-Evolving LLMs via Multi-Agent Reinforcement Learning",
+            "method": "Self-evolving LLM agents promise to improve autonomously through continual interaction and learning, reducing their dependence on manually curated supervision. Realizing this promise requires not only updating the agent, but also evolving i",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Continual Graph Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Tommaso Marzi",
+            "Ahmed Hendawy",
+            "Jan Peters",
+            "Carlo D'Eramo",
+            "Andrea Cini",
+            "Cesare Alippi"
+          ],
+          "author_details": [
+            {
+              "name": "Tommaso Marzi",
+              "affiliations": []
+            },
+            {
+              "name": "Ahmed Hendawy",
+              "affiliations": []
+            },
+            {
+              "name": "Jan Peters",
+              "affiliations": []
+            },
+            {
+              "name": "Carlo D'Eramo",
+              "affiliations": []
+            },
+            {
+              "name": "Andrea Cini",
+              "affiliations": []
+            },
+            {
+              "name": "Cesare Alippi",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-07",
+          "abstract": "In Continual Multi-Agent Reinforcement Learning (CMARL), agents learn cooperative policies across sequences of tasks, aiming to adapt effectively to new tasks while preserving the ability to solve previously encountered ones. In many applications, tasks differ in their underlying structure, which can represent, for example, distinct operational conditions or target configurations (e.g., different network topologies in power grids or arrangements in formation control). Existing CMARL methods lack dedicated mechanisms to leverage this structural information when learning new tasks, failing to promote transfer and mitigate forgetting. To fill this gap, we propose Continual Graph Multi-Agent Reinforcement Learning (CGMARL), a novel framework for CMARL problems in which task sequences are mapped into a series of attributed graphs, each modeling a task-specific structure. In CGMARL, each graph determines the environment dynamics (next states and/or rewards) and the number of agents for the corresponding task. Then, we present Graph-based Formation (GRAFO), the first CGMARL benchmark, and show how forgetting arises in this setting. Finally, to address this limitation, we propose Frozen Graph Encoder (FROG), a method that relies on a frozen graph backbone to preserve past structural information in graph-based CMARL policies. Experiments on GRAFO show that pairing FROG with existing CL methods substantially improves performance on multiple CGMARL scenarios.",
+          "url": "https://arxiv.org/abs/2610.10302v1",
+          "arxiv_id": "2610.10302v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Continual Graph Multi-Agent Reinforcement Learning",
+            "method": "In Continual Multi-Agent Reinforcement Learning (CMARL), agents learn cooperative policies across sequences of tasks, aiming to adapt effectively to new tasks while preserving the ability to solve previously encountered ones. In many applic",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Deadline-Aware Multi-Agent Reinforcement Learning for TSN-Based Vehicular Edge Networks",
+          "authors": [
+            "Bernardo A. C. Pereira",
+            "Marcos Carvalho",
+            "Fatih Temiz",
+            "Shavbo Salehi",
+            "Melike Erol-Kantarci",
+            "Andreas Gavrielides",
+            "Johann M. Marquez-Barja",
+            "Daniel F. Macedo"
+          ],
+          "author_details": [
+            {
+              "name": "Bernardo A. C. Pereira",
+              "affiliations": []
+            },
+            {
+              "name": "Marcos Carvalho",
+              "affiliations": []
+            },
+            {
+              "name": "Fatih Temiz",
+              "affiliations": []
+            },
+            {
+              "name": "Shavbo Salehi",
+              "affiliations": []
+            },
+            {
+              "name": "Melike Erol-Kantarci",
+              "affiliations": []
+            },
+            {
+              "name": "Andreas Gavrielides",
+              "affiliations": []
+            },
+            {
+              "name": "Johann M. Marquez-Barja",
+              "affiliations": []
+            },
+            {
+              "name": "Daniel F. Macedo",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.NI",
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-10-07",
+          "abstract": "Vehicular edge computing (VEC) enables latency-sensitive applications by bringing computing and networking resources closer to vehicles. However, existing approaches often overlook network contention among co-located services with heterogeneous and dynamic latency requirements. While time-sensitive networking (TSN) provides bounded-latency communication, conventional and reinforcement learning-based schedulers struggle to adapt to highly dynamic vehicular environments and inter-queue dependencies. To address these limitations, we propose a multi-agent reinforcement learning (MARL) approach for queue-level scheduling in TSN-enabled VEC. Each TSN queue is assigned an autonomous agent that jointly learns the queue service order and time-slot duration to minimize deadline misses under speed-dependent latency requirements. We employ multi-agent proximal policy optimization (MAPPO) to enable coordinated yet autonomous scheduling decisions. Evaluation against single-agent, multi-agent, and non-learning-based baselines shows that MAPPO provides robust performance across different traffic profiles. Compared with centralized single-agent methods, it reduces service latency by up to 66.2% and improves reliability by up to 271.8%. Furthermore, unlike urgency-based heuristics, MAPPO ensures balanced scheduling while achieving lower inference times compared to other MARL methods.",
+          "url": "https://arxiv.org/abs/2610.09870v1",
+          "arxiv_id": "2610.09870v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Deadline-Aware Multi-Agent Reinforcement Learning for TSN-Based Vehicular Edge Networks",
+            "method": "Vehicular edge computing (VEC) enables latency-sensitive applications by bringing computing and networking resources closer to vehicles. However, existing approaches often overlook network contention among co-located services with heterogen",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Governance-aware autonomous retail coordination in artificial intelligence cities using multi-agent reinforcement learning, blockchain accountability, and federated learning",
+          "authors": [
+            "Toqeer Ali Syed",
+            "Ali Akarma",
+            "Shahid Kamal",
+            "Salman Jan",
+            "Ahmad B. Alkhodre",
+            "Arshad Jamal"
+          ],
+          "author_details": [
+            {
+              "name": "Toqeer Ali Syed",
+              "affiliations": [
+                "Islamic University of Madinah"
+              ]
+            },
+            {
+              "name": "Ali Akarma",
+              "affiliations": [
+                "King Fahd University of Petroleum and Minerals",
+                "Islamic University of Madinah"
+              ]
+            },
+            {
+              "name": "Shahid Kamal",
+              "affiliations": []
+            },
+            {
+              "name": "Salman Jan",
+              "affiliations": [
+                "Arab Open University",
+                "Arab Open University"
+              ]
+            },
+            {
+              "name": "Ahmad B. Alkhodre",
+              "affiliations": [
+                "Islamic University of Madinah"
+              ]
+            },
+            {
+              "name": "Arshad Jamal",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "inventory management",
+            "multi-agent reinforcement learning",
+            "federated learning",
+            "proximal policy optimization",
+            "permissioned blockchain",
+            "audit trail",
+            "data sovereignty",
+            "demand forecasting",
+            "supply chain governance",
+            "reward hacking",
+            "inventory cost minimization",
+            "supplier negotiation",
+            "cost-service trade-off",
+            "supply chain transparency"
+          ],
+          "journal": "Frontiers in Artificial Intelligence",
+          "published": "2026-10-07",
+          "abstract": "When autonomous systems take operational authority over urban commerce, accountability and human oversight matter as much as efficiency. We present AAIRM, a governance-aware autonomous retail coordination framework addressing three requirements for trustworthy procurement: tamper-evident decision provenance, data sovereignty, and adaptive demand coordination. AAIRM couples a Proximal Policy Optimization (PPO) ordering policy, a permissioned Blockchain Trust Ledger (BTL) for multi-party audit trails, and a Federated Demand Learning (FDL) layer. Evaluation is simulation-based, using a multi-category synthetic environment and the public M5 dataset; no live retail deployment is claimed. At its cost-optimal operating point (92.3% fill), AAIRM lowers normalized inventory cost by 13.2% (95% CI 12.2–14.2) against a conventionally parameterized reorder-point/economic-order-quantity (ROP–EOQ) baseline and by 10.2% (95% CI 8.0–12.4) on M5. Service parity is obtained by moving AAIRM along its own cost–service frontier rather than by retuning baselines: At 96.1% and 97.4% fill, it retains 8.2-point and 4.9-point advantages. A layered ablation attributes 8.8 points of the advantage to the reinforcement learning (RL) policy and 3.8 points to the combined coordination-and-governance block, which we further decompose into feasibility projection, escalation logic, cross-category policy rules, supplier ranking, and negotiation. The language-model orchestrator contributes 0.6 points (95% CI −0.9 to 2.1), statistically indistinguishable from zero and practically equivalent within a ±2-point margin. Against a feasibility-matched multi-agent RL comparator, the residual cost gap does not survive multiple-comparison correction, so the defensible advantages are hard feasibility and auditability, not cost. The BTL adds 6.6% decision-cycle overhead; its 500-case mutation replay is an integration check, and we give an explicit adversary model showing that crash-fault-tolerant ordering does not resist colluding majorities. FedProx converges within 0.9 WAPE points of centralized training at a 1.3-point cost penalty, without secure aggregation or differential privacy; we analyze rather than evaluate when those mechanisms become necessary. A 500-SKU study exposes a reward-hacking failure in a high-spoilage category, corrected by category-specific governance. We close with an architectural, non-empirical reading of labor exposure and three governance instruments regulators can act on.",
+          "url": "https://doi.org/10.3389/frai.2026.1942376",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3389/frai.2026.1942376",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Governance-aware autonomous retail coordination in artificial intelligence cities using multi-agent reinforcement learning, blockchain accountability, and federated learning",
+            "method": "When autonomous systems take operational authority over urban commerce, accountability and human oversight matter as much as efficiency. We present AAIRM, a governance-aware autonomous retail coordination framework addressing three requirem",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Mission-critical spectrum sharing with decentralized Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Dimitrios Pylorof",
+            "Imtiaz Nasim",
+            "Humberto E. Garcia",
+            "Vivek Agarwal",
+            "Jasni A. Mannil",
+            "Mingyue Ji"
+          ],
+          "author_details": [
+            {
+              "name": "Dimitrios Pylorof",
+              "affiliations": []
+            },
+            {
+              "name": "Imtiaz Nasim",
+              "affiliations": []
+            },
+            {
+              "name": "Humberto E. Garcia",
+              "affiliations": []
+            },
+            {
+              "name": "Vivek Agarwal",
+              "affiliations": []
+            },
+            {
+              "name": "Jasni A. Mannil",
+              "affiliations": []
+            },
+            {
+              "name": "Mingyue Ji",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "eess.SY",
+            "cs.IT",
+            "math.OC"
+          ],
+          "journal": null,
+          "published": "2026-10-06",
+          "abstract": "Motivated by emerging mission-critical applications and an increasingly congested spectrum, we develop a decentralized multi-agent reinforcement learning (MARL) model for dynamic spectrum access. The model enables secondary users to learn effective transmission strategies across shared frequency bands while minimizing collisions with high-priority primary users and among themselves. We design the agent-level learners following a Markov potential game approach, connecting independent local updates to system-level improvement. We instantiate this design using lightweight linear actor-critic learners suitable for resource-constrained edge devices, rather than computationally intensive centralized or deep multi-agent architectures. Across spectrum environments with different incumbent activities, the learned policies adapt their transmission policy and waiting behavior to preserve throughput while greatly reducing transmission collisions relative to random and forecast-aware heuristic baselines. The results establish the value of decentralized MARL and shows up to 96.8% reduction in overall collisions.",
+          "url": "https://arxiv.org/abs/2610.09213v1",
+          "arxiv_id": "2610.09213v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Mission-critical spectrum sharing with decentralized Multi-Agent Reinforcement Learning",
+            "method": "Motivated by emerging mission-critical applications and an increasingly congested spectrum, we develop a decentralized multi-agent reinforcement learning (MARL) model for dynamic spectrum access. The model enables secondary users to learn e",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-Agent Reinforcement Learning for Movable Antenna-aided Cell-Free Massive MIMO Systems",
+          "authors": [
+            "Bokai Xu",
+            "Jiayi Zhang",
+            "Shuaifei Chen",
+            "Ziheng Liu",
+            "Huahua Xiao",
+            "Derrick Wing Kwan Ng",
+            "Bo Ai"
+          ],
+          "author_details": [
+            {
+              "name": "Bokai Xu",
+              "affiliations": []
+            },
+            {
+              "name": "Jiayi Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Shuaifei Chen",
+              "affiliations": []
+            },
+            {
+              "name": "Ziheng Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Huahua Xiao",
+              "affiliations": []
+            },
+            {
+              "name": "Derrick Wing Kwan Ng",
+              "affiliations": []
+            },
+            {
+              "name": "Bo Ai",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.IT"
+          ],
+          "journal": null,
+          "published": "2026-10-06",
+          "abstract": "The inherent non-convex minimum-separation constraints introduced by movable antennas present a formidable challenge to the joint optimization of antenna positions and transmission strategies, rendering conventional methods computationally infeasible, particularly in large-scale cell-free massive multiple-input multiple-output (MIMO). In this work, we propose the graph-based learning individual intrinsic reward heterogeneous-agent proximal policy optimization (GLIIR-HAPPO) algorithm, a novel heterogeneous multi-agent reinforcement learning (MARL) framework that fundamentally overcomes this impasse by systematically decomposing the original coupled optimization into coordinated subproblems. To ensure tractability, we embed the non-convex geometric constraints into a penalty-augmented reward structure and develop a specialized geometric solver that enables the positioning agents to efficiently navigate the high-dimensional action space. Specifically, we propose an architecture featuring a dynamic-interaction graph critic for adaptive cross-role coordination, together with role-conditioned federated distillation that synchronizes same-role policies through compact actor-output statistics. Beyond architectural design, we establish a rigorous theoretical analysis that derives monotonic performance improvement bounds and establishes convergence guarantees for the proposed bi-level optimization. Numerical simulations demonstrate that our framework yields significant sum-rate improvements over state-of-the-art MARL schemes. Moreover, the performance of our advanced architecture closely approaches its fully centralized counterpart, while drastically reducing communication overhead.",
+          "url": "https://arxiv.org/abs/2610.08387v1",
+          "arxiv_id": "2610.08387v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning for Movable Antenna-aided Cell-Free Massive MIMO Systems",
+            "method": "The inherent non-convex minimum-separation constraints introduced by movable antennas present a formidable challenge to the joint optimization of antenna positions and transmission strategies, rendering conventional methods computationally ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": []
+    },
+    {
+      "id": "causal-llm",
+      "name": "Causal Inference in Large Language Models",
+      "papers": [
+        {
+          "title": "dragonfarm: Fine-Tune Small Language Models with LoRA from R",
+          "authors": [
+            "Tejas Patel"
+          ],
+          "author_details": [
+            {
+              "name": "Tejas Patel",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "LoRa",
+            "parameter-efficient fine-tuning",
+            "small language models",
+            "R package",
+            "low-rank adaptation",
+            "large language models"
+          ],
+          "journal": null,
+          "published": "2026-10-07",
+          "abstract": "Description Fine-tune small (100M to 3B parameter) causal language models with LoRA (Low-Rank Adaptation) from R. Datasets are mapped to chat-format prompts and responses, training runs in a background 'Python' process built on Hugging Face 'transformers' and 'peft', and a 'shiny' app offers drag-and-drop dataset upload and column mapping.'Python' dependencies are declared through 'reticulate' and resolved automatically on first use. License MIT + file LICENSEEncoding UTF-8Depends R (>= 4.1)Imports bslib (>= 0.6.0),cli, glue, jsonlite, plotly, processx, ps, reticulate (>= 1.41.0),rlang, shiny (>= 1.8.0), sortable, stats, tools, utils, withr, zip Suggests arrow, ellmer, httr2, knitr, pkgload, rmarkdown, testthat (>= 3.0.0) VignetteBuilder knitrConfig/testthat/edition 3SystemRequirements 'Python' (>= 3.10).The 'uv' tool is installed automatically by 'reticulate' to build the 'Python' environment.",
+          "url": "https://doi.org/10.32614/cran.package.dragonfarm",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.32614/cran.package.dragonfarm",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: dragonfarm: Fine-Tune Small Language Models with LoRA from R",
+            "method": "Description Fine-tune small (100M to 3B parameter) causal language models with LoRA (Low-Rank Adaptation) from R. Datasets are mapped to chat-format prompts and responses, training runs in a background 'Python' process built on Hugging Face",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "CNet: A Complex-Valued Deep Learning Framework with Wirtinger Autodifferentiation and FFT--Hadamard Convolution",
+          "authors": [
+            "Marcel Crasmaru"
+          ],
+          "author_details": [
+            {
+              "name": "Marcel Crasmaru",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.MS",
+            "math.OC"
+          ],
+          "journal": null,
+          "published": "2026-10-06",
+          "abstract": "CNet is a C++/CUDA framework for building deep complex-valued neural networks (CVNNs) and optimizing complex functions by gradient descent with Wirtinger derivatives. Complex models are underexplored yet natural where data is intrinsically complex -- RF/IQ communications, MRI k-space, radar/SAR, audio spectra -- and phase carries information real networks discard. CNet is physics-native: a network is a cascade of complex (often unitary) operations on an amplitude vector, and classification is a Born-rule measurement p_k = |z_k|^2/||z||^2 rather than a softmax over real logits. Its library of complex layers makes conv(x,k) = IFFT(FFT(x).FFT(k)) learnable via signal-processing primitives -- spectral-padding local kernels (Pad), the inverse DFT, a magnitude nonlinearity |z|^2 (CModulus2), holomorphic powers z^M (CPower), and mean pooling (MeanPool) -- with GPU kernels for every layer, a GPU true-Adam optimizer, and a reduced-memory inference mode. Three studies. (1) A fully complex FNet-style causal language model, built on a new O(N log N) causal Fourier mixer, matches a param-matched real-valued causal FNet on tiny-shakespeare in under half the steps. We introduce Born-rule attention: a content-based causal mixer whose weights are quantum-measurement probabilities |<Q_k,K_j>|^2 of one token against another -- the first attention mechanism built on the Born rule. With rotary position embeddings and per-token complex normalization, a fully complex Born-rule model reaches 1.52 nats/char on tiny-shakespeare, matching softmax attention and beating the Fourier mixer by 0.23. (2,3) Two bottleneck analyses -- radio-modulation classification (RML2016.10a) and the Fourier phase problem of coherent-diffraction imaging -- isolate where CVNNs need new operators. The complex machinery learns the correct structure; open problems are concrete and operator-level. Code: https://github.com/crasmarum/CNet",
+          "url": "https://arxiv.org/abs/2610.08592v2",
+          "arxiv_id": "2610.08592v2",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: CNet: A Complex-Valued Deep Learning Framework with Wirtinger Autodifferentiation and FFT--Hadamard Convolution",
+            "method": "CNet is a C++/CUDA framework for building deep complex-valued neural networks (CVNNs) and optimizing complex functions by gradient descent with Wirtinger derivatives. Complex models are underexplored yet natural where data is intrinsically ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "causal-text",
+      "name": "Causal Inference in Text Analysis",
+      "papers": []
+    }
+  ]
+}
