@@ -1,0 +1,1676 @@
+{
+  "week": "2026-W44",
+  "generated_at": "2026-10-26T05:46:51.856480Z",
+  "topics": [
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "papers": [
+        {
+          "title": "Higher Order Asymptotics of Regression Adjustment Estimators for Causal Inference",
+          "authors": [
+            "Anna Kelley",
+            "Stefan Wager"
+          ],
+          "author_details": [
+            {
+              "name": "Anna Kelley",
+              "affiliations": []
+            },
+            {
+              "name": "Stefan Wager",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME",
+            "math.ST"
+          ],
+          "journal": null,
+          "published": "2026-10-23",
+          "abstract": "Regression adjustment is widely used to improve the precision of average treatment effect estimates from randomized controlled trials. Interacted regression weakly dominates simple regression in terms of its first-order behavior but, in 50-50 randomized trials, the asymptotic variance of both methods is the same and so relative performance is determined by higher-order behavior. Here, we conduct a higher order analysis to compare simple vs. interacted regression adjustments in the equal-probability case. The relative performance of the methods depends on a number of factors including feature skewness, treatment-effect heterogeneity, heteroskedasticity, and nonlinear misspecification, and can favor either estimator. However, in some practically important settings, including when features are skewed and outlying feature values are associated with higher outcome noise, simple regression can outperform interacted regression by a material amount.",
+          "url": "https://arxiv.org/abs/2610.32023v1",
+          "arxiv_id": "2610.32023v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Higher Order Asymptotics of Regression Adjustment Estimators for Causal Inference",
+            "method": "Regression adjustment is widely used to improve the precision of average treatment effect estimates from randomized controlled trials. Interacted regression weakly dominates simple regression in terms of its first-order behavior but, in 50-",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal inference in staggered adoption panels: The correct comparison set depends on your intervention",
+          "authors": [
+            "Ian Lundberg",
+            "Yaling Xu"
+          ],
+          "author_details": [
+            {
+              "name": "Ian Lundberg",
+              "affiliations": []
+            },
+            {
+              "name": "Yaling Xu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.AP",
+            "econ.EM"
+          ],
+          "journal": null,
+          "published": "2026-10-22",
+          "abstract": "A powerful data structure for causal inference is staggered adoption: many units are observed over many time periods, during which some units adopt an irreversible treatment at various time points while others remain untreated. Popular methods that apply in this setting include difference in difference, fixed effects, matching, and synthetic control. All of these methods compare the future outcomes of treatment adopters and non-adopters to answer the question: for units who adopt treatment, what outcomes would have been realized if they had remained untreated? We show that this question actually hides two very different causal questions of interest. The first is what would have happened under a momentary intervention to prevent treatment at its factual adoption time. The second is what would have happened to a treated unit under a longitudinal ban preventing treatment at all periods until outcome measurement. We show how to answer each question under conditionally ignorable treatment adoption or under parallel trends. We highlight that common methods cannot answer the second question because this question requires a time-varying comparison set with time-varying weights.",
+          "url": "https://arxiv.org/abs/2610.31537v1",
+          "arxiv_id": "2610.31537v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal inference in staggered adoption panels: The correct comparison set depends on your intervention",
+            "method": "A powerful data structure for causal inference is staggered adoption: many units are observed over many time periods, during which some units adopt an irreversible treatment at various time points while others remain untreated. Popular meth",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "COUNTERFACTUAL MEASUREMENT AND CAUSAL INFERENCE IN MICROROBOTIC SAMPLING AT THE LIMIT Intervention Design × Counterfactual Controls × Scientific Identifiability STARLI Research Institute XXIX — Flagship Research Monograph 12 When a microrobot manipulates a biological sample, how can researchers determine whether an observed change originates from the sample itself, the manipulation process, or the measurement system? This research monograph explores the intersection of microrobotic engineering, experimental design, causal inference, measurement science, and uncertainty quantification. Its central investigation concerns the fundamental problem of counterfactual measurement: the same physical sample cannot simultaneously experience two mutually exclusive interventions. Consequently, establishing causal effects requires carefully constructed experimental comparisons, explicit identification assumptions, independent reference measurements, and transparent uncertainty assessment. The research framework investigates randomized microrobotic manipulation, passive transport controls, sham interventions, treatment carryover, temporal confounding, measurement interference, sample contamination, and sensor drift. Particular attention is given to distinguishing genuine intervention effects from apparent improvements caused by changing experimental conditions, measurement calibration, or selective sample recovery. The monograph is organized around 82 research chapters, 30 interconnected mathematical research plates, 200 Research Gates, and 33 Phoenix Answer Embryos. Its mathematical investigations incorporate potential outcomes, average treatment effects, randomized estimators, causal diagrams, interference models, hierarchical uncertainty, measurement covariance, sensitivity analysis, and counterfactual identification. Each Research Gate introduces a scientific question intended to support independent investigation, critical examination, experimental falsification, and future methodological development. The Phoenix Answer Embryos offer provisional research architectures that may be revised, reconstructed, or replaced as new evidence emerges. DOI-linked scientific literature provides methodological foundations and relevant engineering background, while clearly distinguishing established knowledge from proposed research directions. Scientific Boundaries This work presents a hypothesis-forming, nonclinical research architecture. It does not establish autonomous nanoscale robotic capabilities, validated clinical applications, or demonstrated quantum sensing superiority. Its objective is to support the development of reproducible research methods capable of separating observed correlations from experimentally defensible causal explanations. STARLI Research Philosophy Scientific progress is not measured solely by the number of questions answered. It also depends on whether unanswered questions remain accessible, testable, and open to future generations. This monograph is designed to preserve those opportunities for continued discovery.",
+          "authors": [
+            "33"
+          ],
+          "author_details": [
+            {
+              "name": "33",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "causal inference",
+            "intervention design",
+            "temporal confounding",
+            "measurement interference",
+            "sample contamination",
+            "sensor drift",
+            "potential outcomes",
+            "average treatment effect",
+            "causal graphs",
+            "interference modeling",
+            "measurement covariance",
+            "sensitivity analysis",
+            "counterfactual identification",
+            "uncertainty quantification",
+            "microrobots"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-22",
+          "abstract": "COUNTERFACTUAL MEASUREMENT AND CAUSAL INFERENCE IN MICROROBOTIC SAMPLING AT THE LIMIT Intervention Design × Counterfactual Controls × Scientific Identifiability STARLI Research Institute XXIX — Flagship Research Monograph 12 When a microrobot manipulates a biological sample, how can researchers determine whether an observed change originates from the sample itself, the manipulation process, or the measurement system? This research monograph explores the intersection of microrobotic engineering, experimental design, causal inference, measurement science, and uncertainty quantification. Its central investigation concerns the fundamental problem of counterfactual measurement: the same physical sample cannot simultaneously experience two mutually exclusive interventions. Consequently, establishing causal effects requires carefully constructed experimental comparisons, explicit identification assumptions, independent reference measurements, and transparent uncertainty assessment. The research framework investigates randomized microrobotic manipulation, passive transport controls, sham interventions, treatment carryover, temporal confounding, measurement interference, sample contamination, and sensor drift. Particular attention is given to distinguishing genuine intervention effects from apparent improvements caused by changing experimental conditions, measurement calibration, or selective sample recovery. The monograph is organized around 82 research chapters, 30 interconnected mathematical research plates, 200 Research Gates, and 33 Phoenix Answer Embryos. Its mathematical investigations incorporate potential outcomes, average treatment effects, randomized estimators, causal diagrams, interference models, hierarchical uncertainty, measurement covariance, sensitivity analysis, and counterfactual identification. Each Research Gate introduces a scientific question intended to support independent investigation, critical examination, experimental falsification, and future methodological development. The Phoenix Answer Embryos offer provisional research architectures that may be revised, reconstructed, or replaced as new evidence emerges. DOI-linked scientific literature provides methodological foundations and relevant engineering background, while clearly distinguishing established knowledge from proposed research directions. Scientific Boundaries This work presents a hypothesis-forming, nonclinical research architecture. It does not establish autonomous nanoscale robotic capabilities, validated clinical applications, or demonstrated quantum sensing superiority. Its objective is to support the development of reproducible research methods capable of separating observed correlations from experimentally defensible causal explanations. STARLI Research Philosophy Scientific progress is not measured solely by the number of questions answered. It also depends on whether unanswered questions remain accessible, testable, and open to future generations. This monograph is designed to preserve those opportunities for continued discovery.",
+          "url": "https://doi.org/10.5281/zenodo.23561180",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23561180",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: COUNTERFACTUAL MEASUREMENT AND CAUSAL INFERENCE IN MICROROBOTIC SAMPLING AT THE LIMIT Intervention Design × Counterfactual Controls × Scientific Identifiability STARLI Research Institute XXIX — Flagship Research Monograph 12 When a microrobot manipulates a biological sample, how can researchers determine whether an observed change originates from the sample itself, the manipulation process, or the measurement system? This research monograph explores the intersection of microrobotic engineering, experimental design, causal inference, measurement science, and uncertainty quantification. Its central investigation concerns the fundamental problem of counterfactual measurement: the same physical sample cannot simultaneously experience two mutually exclusive interventions. Consequently, establishing causal effects requires carefully constructed experimental comparisons, explicit identification assumptions, independent reference measurements, and transparent uncertainty assessment. The research framework investigates randomized microrobotic manipulation, passive transport controls, sham interventions, treatment carryover, temporal confounding, measurement interference, sample contamination, and sensor drift. Particular attention is given to distinguishing genuine intervention effects from apparent improvements caused by changing experimental conditions, measurement calibration, or selective sample recovery. The monograph is organized around 82 research chapters, 30 interconnected mathematical research plates, 200 Research Gates, and 33 Phoenix Answer Embryos. Its mathematical investigations incorporate potential outcomes, average treatment effects, randomized estimators, causal diagrams, interference models, hierarchical uncertainty, measurement covariance, sensitivity analysis, and counterfactual identification. Each Research Gate introduces a scientific question intended to support independent investigation, critical examination, experimental falsification, and future methodological development. The Phoenix Answer Embryos offer provisional research architectures that may be revised, reconstructed, or replaced as new evidence emerges. DOI-linked scientific literature provides methodological foundations and relevant engineering background, while clearly distinguishing established knowledge from proposed research directions. Scientific Boundaries This work presents a hypothesis-forming, nonclinical research architecture. It does not establish autonomous nanoscale robotic capabilities, validated clinical applications, or demonstrated quantum sensing superiority. Its objective is to support the development of reproducible research methods capable of separating observed correlations from experimentally defensible causal explanations. STARLI Research Philosophy Scientific progress is not measured solely by the number of questions answered. It also depends on whether unanswered questions remain accessible, testable, and open to future generations. This monograph is designed to preserve those opportunities for continued discovery.",
+            "method": "COUNTERFACTUAL MEASUREMENT AND CAUSAL INFERENCE IN MICROROBOTIC SAMPLING AT THE LIMIT Intervention Design × Counterfactual Controls × Scientific Identifiability STARLI Research Institute XXIX — Flagship Research Monograph 12 When a microrob",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal inference in oral health research: Beyond statistical significance toward a causal framework",
+          "authors": [
+            "Jack M. Wolf",
+            "Nandita Mitra",
+            "Michael Glick"
+          ],
+          "author_details": [
+            {
+              "name": "Jack M. Wolf",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Nandita Mitra",
+              "affiliations": [
+                "University of Pennsylvania"
+              ]
+            },
+            {
+              "name": "Michael Glick",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "causal inference",
+            "oral health research",
+            "causal reasoning",
+            "estimands",
+            "counterfactual reasoning",
+            "directed acyclic graphs",
+            "identification assumptions",
+            "abductive reasoning",
+            "periodontal treatment",
+            "cardiovascular disease",
+            "confounding",
+            "mediation",
+            "particle colliders",
+            "ICH E9(R1)",
+            "research design",
+            "causal effect estimation",
+            "causal framework",
+            "structural uncertainty"
+          ],
+          "journal": "Journal of Periodontology",
+          "published": "2026-10-22",
+          "abstract": "BACKGROUND: Oral health research has adopted sophisticated statistical methods, yet studies routinely present adjusted associations as causal effects. The problem is not statistical competence but the absence of explicit causal reasoning. This commentary proposes a principled framework for causal reasoning in oral health research. METHODS: We conducted a narrative synthesis of foundational and recent literature on causal inference, drawing on texts describing the potential outcomes and counterfactual frameworks, the ICH E9(R1) regulatory addendum on estimands, study design, directed acyclic graphs, and recent applications of causal methods in oral health research; recurring principles were organized into a sequential four-pillar framework, illustrated throughout with a worked example examining periodontal treatment and cardiovascular disease. RESULTS: First, the question is framed through abductive reasoning and translated into a precisely defined estimand. Second, study design is aligned with that estimand by specifying the population, exposure contrast, and time origin so that the data reflect the intended causal comparison. Third, counterfactual reasoning and directed acyclic graphs clarify the conditions under which causal conclusions are warranted, guiding principled adjustment. Fourth, estimation and inference are used to evaluate evidence for the estimand, and results are interpreted with explicit attention to the assumptions required for causal claims CONCLUSION: We propose a cultural shift in oral health research where causal effects are precisely defined, identification assumptions are explicitly defended, and structural uncertainties are acknowledged. This framework reveals that statistical sophistication cannot substitute for careful causal reasoning. Advanced methods such as multivariable regression, propensity scores, and machine learning can allow robust estimation of causal effects but do not replace the need for a prior causal reasoning and identification assumptions. The question is not whether analyses are statistically correct, but whether causal effects are well-defined and assumptions are explicit. Applying this framework would make causal assumptions transparent, acknowledge uncertainty inherent in observational research, and clarify when experimental designs become necessary. PLAIN LANGUAGE SUMMARY: This commentary argues that oral health research has a fundamental problem: studies use sophisticated statistics but still present associations as if they were causal findings. Better math alone doesn't fix flawed reasoning. The authors propose a four-pillar framework to address this. First, researchers should use abductive reasoning to frame a precise causal question that specifies the exposure, population, outcome, and comparison of interest. Second, study design should be aligned to that question. Third, causal assumptions must be made explicit using counterfactual thinking and directed acyclic graphs (DAGs), which clarify confounders, mediators, and colliders. Finally, statistical estimation and inference should come last, quantifying uncertainty about a pre-specified causal quantity, not generating causal meaning on their own. The bottom line: no statistical method, however advanced, can substitute for explicit causal reasoning. The real question in oral health research is not whether the analysis is statistically correct, but whether the causal effect is clearly defined and the underlying assumptions are honestly defended.",
+          "url": "https://doi.org/10.1002/jper.70217",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1002/jper.70217",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal inference in oral health research: Beyond statistical significance toward a causal framework",
+            "method": "BACKGROUND: Oral health research has adopted sophisticated statistical methods, yet studies routinely present adjusted associations as causal effects. The problem is not statistical competence but the absence of explicit causal reasoning. T",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Artificial Intelligence Causal Inference of Community Clinic Referral Transport Voucher Allocation Under Unmeasured Road-Impassability Confounding by Seasonal Flooding: A Healthcare Instrumental Variable Equity Evaluation",
+          "authors": [
+            "Jean-Paul Morel",
+            "Danielle Adeline Hoareau"
+          ],
+          "author_details": [
+            {
+              "name": "Jean-Paul Morel",
+              "affiliations": []
+            },
+            {
+              "name": "Danielle Adeline Hoareau",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "community clinics",
+            "seasonal flooding",
+            "unmeasured confounding",
+            "health care equity",
+            "local average treatment effect",
+            "power analysis",
+            "minimum detectable effect",
+            "causal inference"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-21",
+          "abstract": "Community clinic referral transport voucher programmes allocate scarce resources to patients who must reach higher-level care, but seasonal flooding makes road impassability an unmeasured confounder that biases naive equity comparisons. The design parameters were clusters of 8, 16, 24 and 32, effect sizes of 3, 5 and 8 percentage points, and 2000 replications per cell, with a between-cluster standard deviation of 6.0, a residual standard deviation of 4.5 and an intraclass correlation of 0.64. The analysis is a replication-based evaluation of the before-after-control-impact estimator; no observational data are used or claimed. Power curves, minimum detectable effect curves, kernel density estimates, residual diagnostics and coefficient plots were generated from the declared variance structure. The framework proposes that the interaction instrument identifies the local average treatment effect of voucher allocation among compliers whose road access is plausibly exogenous to unobserved clinic-level demand, and the analysis is designed to identify the conditions under which the design attains 80 per cent power. The contribution is a formal identification argument and a design-characterisation protocol for equity evaluation of transport vouchers under seasonal road-impassability confounding.",
+          "url": "https://doi.org/10.5281/zenodo.23542793",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23542793",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Artificial Intelligence Causal Inference of Community Clinic Referral Transport Voucher Allocation Under Unmeasured Road-Impassability Confounding by Seasonal Flooding: A Healthcare Instrumental Variable Equity Evaluation",
+            "method": "Community clinic referral transport voucher programmes allocate scarce resources to patients who must reach higher-level care, but seasonal flooding makes road impassability an unmeasured confounder that biases naive equity comparisons. The",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Estimand frameworks for causal inference in clinical research and regulatory decision making",
+          "authors": [
+            "Miguel A. Hernán",
+            "Mats J. Stensrud",
+            "Xabier García-Albéniz",
+            "Issa J. Dahabreh",
+            "Jonathan A. C. Sterne"
+          ],
+          "author_details": [
+            {
+              "name": "Miguel A. Hernán",
+              "affiliations": []
+            },
+            {
+              "name": "Mats J. Stensrud",
+              "affiliations": []
+            },
+            {
+              "name": "Xabier García-Albéniz",
+              "affiliations": []
+            },
+            {
+              "name": "Issa J. Dahabreh",
+              "affiliations": []
+            },
+            {
+              "name": "Jonathan A. C. Sterne",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-10-20",
+          "abstract": "Causal inference for clinical and regulatory decision making requires a precise definition of the causal estimand, that is, what we want to estimate. Three frameworks are commonly used to describe causal estimands: PICO and its extensions, the target trial framework, and the E9(R1) Addendum of the International Council for Harmonisation (ICH). Because these frameworks were developed by different scientific communities, they operate at different levels of detail, emphasize different aspects of the causal estimand, and use different terminology for closely related concepts. Here we compare the three frameworks and translate across their terminologies. PICO is a compact framework that helps jumpstart a conversation about the causal question, but it does not encode sufficient information to fully characterize a causal estimand. The target trial framework characterizes the causal estimand precisely by specifying the components of the protocol of the randomized trial that would answer the causal question: eligibility criteria, treatment strategies, assignment, outcome, start and end of follow-up, and causal contrast. E9(R1) starts from intercurrent events and lists strategies to address them, some of which describe estimators rather than estimands, or imply estimands that are not relevant to decision makers or cannot be estimated under reasonable assumptions. We argue that the target trial framework subsumes the other two, and we provide a map of the correspondences across the three frameworks.",
+          "url": "https://arxiv.org/abs/2610.28983v1",
+          "arxiv_id": "2610.28983v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Estimand frameworks for causal inference in clinical research and regulatory decision making",
+            "method": "Causal inference for clinical and regulatory decision making requires a precise definition of the causal estimand, that is, what we want to estimate. Three frameworks are commonly used to describe causal estimands: PICO and its extensions, ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Biological Age Feedback and Longitudinal Recovery Control at the Limit English Publication Description STARLI Flagship 16 30 Physicalized Models 82 Chapters 200 Research Gates Biological Age Feedback and Longitudinal Recovery Control at the Limit is a high-density research monograph on using multimodal aging signals to guide bounded recovery without mistaking a model score for a single true biological age. The book treats age clocks as observation channels inside a longitudinal control system. A younger score does not qualify as recovery unless it predicts blinded future function beyond chronological time, assay drift, cohort structure, regression to the mean, cell composition, and informative dropout. Thirty physicalized models connect latent-state estimation, organ-specific trajectories, reliability-weighted clock ensembles, technical drift, individual slopes, retest error, nonlinear filtering, recovery and rebound, causal identification, time-varying confounding, surrogate paradoxes, Goodhart pressure, identity barriers, Pareto arbitration, organ conflict, reserve, competing risks, missingness, calibration transport, domain-shift abstention, robust predictive control, and joint recovery yield. Eighty-two chapters each open with a governing gold equation and develop five one-page research sections. Two hundred Research Gates specify a strong baseline, hidden future-function challenge, paired biomarker and functional measurements, adversarial explanation, pass-fail-abstain logic, and a complete successor handoff. The work is a research framework rather than a diagnostic or treatment protocol. No single age score receives control authority. Identity loss, reserve depletion, harmful sign reversal, excessive rebound, unsafe uncertainty, and failed transport are noncompensable vetoes. Its Phoenix Answer Embryo, the Longitudinal Recovery Chronicle, binds raw time series, assay lineage, calibration, intervention, withdrawal, organ conflict, latent state, identity, reserve, missingness, rebound, counterexamples, and hidden future function into one auditable evidence object. Suggested Metadata Subtitle Multimodal clocks, latent state estimation, causal control, rebound, and blinded future function Primary fields biological aging; longitudinal biomarkers; geroscience; control; functional resilience Method fields state-space models; causal inference; survival; missing data; metrology; robust MPC Core keywords biological age; longitudinal recovery; age clocks; Goodhart effect; future function Scientific boundary Research framework only; no diagnostic age, clinical dose, or treatment claim Series STARLI Research Institute 27 Flagship 16 Short Catalog Description A research monograph on multimodal biological-age signals and bounded longitudinal recovery control. Thirty governing models, eighty-two chapters, and two hundred Research Gates require reliable measurement, causal separation, safe abstention, post-withdrawal rebound testing, identity preservation, and blinded future function on the same unselected longitudinal units. STARLI FLAGSHIP 16 English Publication Description",
+          "authors": [
+            "33"
+          ],
+          "author_details": [
+            {
+              "name": "33",
+              "affiliations": []
+            }
+          ],
+          "keywords": [],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-20",
+          "abstract": "Biological Age Feedback and Longitudinal Recovery Control at the Limit English Publication Description STARLI Flagship 16 30 Physicalized Models 82 Chapters 200 Research Gates Biological Age Feedback and Longitudinal Recovery Control at the Limit is a high-density research monograph on using multimodal aging signals to guide bounded recovery without mistaking a model score for a single true biological age. The book treats age clocks as observation channels inside a longitudinal control system. A younger score does not qualify as recovery unless it predicts blinded future function beyond chronological time, assay drift, cohort structure, regression to the mean, cell composition, and informative dropout. Thirty physicalized models connect latent-state estimation, organ-specific trajectories, reliability-weighted clock ensembles, technical drift, individual slopes, retest error, nonlinear filtering, recovery and rebound, causal identification, time-varying confounding, surrogate paradoxes, Goodhart pressure, identity barriers, Pareto arbitration, organ conflict, reserve, competing risks, missingness, calibration transport, domain-shift abstention, robust predictive control, and joint recovery yield. Eighty-two chapters each open with a governing gold equation and develop five one-page research sections. Two hundred Research Gates specify a strong baseline, hidden future-function challenge, paired biomarker and functional measurements, adversarial explanation, pass-fail-abstain logic, and a complete successor handoff. The work is a research framework rather than a diagnostic or treatment protocol. No single age score receives control authority. Identity loss, reserve depletion, harmful sign reversal, excessive rebound, unsafe uncertainty, and failed transport are noncompensable vetoes. Its Phoenix Answer Embryo, the Longitudinal Recovery Chronicle, binds raw time series, assay lineage, calibration, intervention, withdrawal, organ conflict, latent state, identity, reserve, missingness, rebound, counterexamples, and hidden future function into one auditable evidence object. Suggested Metadata Subtitle Multimodal clocks, latent state estimation, causal control, rebound, and blinded future function Primary fields biological aging; longitudinal biomarkers; geroscience; control; functional resilience Method fields state-space models; causal inference; survival; missing data; metrology; robust MPC Core keywords biological age; longitudinal recovery; age clocks; Goodhart effect; future function Scientific boundary Research framework only; no diagnostic age, clinical dose, or treatment claim Series STARLI Research Institute 27 Flagship 16 Short Catalog Description A research monograph on multimodal biological-age signals and bounded longitudinal recovery control. Thirty governing models, eighty-two chapters, and two hundred Research Gates require reliable measurement, causal separation, safe abstention, post-withdrawal rebound testing, identity preservation, and blinded future function on the same unselected longitudinal units. STARLI FLAGSHIP 16 English Publication Description",
+          "url": "https://doi.org/10.5281/zenodo.23505754",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23505754",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Biological Age Feedback and Longitudinal Recovery Control at the Limit English Publication Description STARLI Flagship 16 30 Physicalized Models 82 Chapters 200 Research Gates Biological Age Feedback and Longitudinal Recovery Control at the Limit is a high-density research monograph on using multimodal aging signals to guide bounded recovery without mistaking a model score for a single true biological age. The book treats age clocks as observation channels inside a longitudinal control system. A younger score does not qualify as recovery unless it predicts blinded future function beyond chronological time, assay drift, cohort structure, regression to the mean, cell composition, and informative dropout. Thirty physicalized models connect latent-state estimation, organ-specific trajectories, reliability-weighted clock ensembles, technical drift, individual slopes, retest error, nonlinear filtering, recovery and rebound, causal identification, time-varying confounding, surrogate paradoxes, Goodhart pressure, identity barriers, Pareto arbitration, organ conflict, reserve, competing risks, missingness, calibration transport, domain-shift abstention, robust predictive control, and joint recovery yield. Eighty-two chapters each open with a governing gold equation and develop five one-page research sections. Two hundred Research Gates specify a strong baseline, hidden future-function challenge, paired biomarker and functional measurements, adversarial explanation, pass-fail-abstain logic, and a complete successor handoff. The work is a research framework rather than a diagnostic or treatment protocol. No single age score receives control authority. Identity loss, reserve depletion, harmful sign reversal, excessive rebound, unsafe uncertainty, and failed transport are noncompensable vetoes. Its Phoenix Answer Embryo, the Longitudinal Recovery Chronicle, binds raw time series, assay lineage, calibration, intervention, withdrawal, organ conflict, latent state, identity, reserve, missingness, rebound, counterexamples, and hidden future function into one auditable evidence object. Suggested Metadata Subtitle Multimodal clocks, latent state estimation, causal control, rebound, and blinded future function Primary fields biological aging; longitudinal biomarkers; geroscience; control; functional resilience Method fields state-space models; causal inference; survival; missing data; metrology; robust MPC Core keywords biological age; longitudinal recovery; age clocks; Goodhart effect; future function Scientific boundary Research framework only; no diagnostic age, clinical dose, or treatment claim Series STARLI Research Institute 27 Flagship 16 Short Catalog Description A research monograph on multimodal biological-age signals and bounded longitudinal recovery control. Thirty governing models, eighty-two chapters, and two hundred Research Gates require reliable measurement, causal separation, safe abstention, post-withdrawal rebound testing, identity preservation, and blinded future function on the same unselected longitudinal units. STARLI FLAGSHIP 16 English Publication Description",
+            "method": "Biological Age Feedback and Longitudinal Recovery Control at the Limit English Publication Description STARLI Flagship 16 30 Physicalized Models 82 Chapters 200 Research Gates Biological Age Feedback and Longitudinal Recovery Control at the",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "More Treatments More Problems: Designing the 2026 American Causal Inference Conference Data Challenge",
+          "authors": [
+            "George Perrett",
+            "Sameer K. Deshpande",
+            "Jennifer Hill"
+          ],
+          "author_details": [
+            {
+              "name": "George Perrett",
+              "affiliations": []
+            },
+            {
+              "name": "Sameer K. Deshpande",
+              "affiliations": []
+            },
+            {
+              "name": "Jennifer Hill",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.OT"
+          ],
+          "journal": null,
+          "published": "2026-10-19",
+          "abstract": "This paper documents the design of the 2026 American Causal Inference Conference (ACIC) Data Challenge, which uses a large set of simulations to evaluate the performance of a wide variety of causal inference estimators chosen and implemented by challenge participants. Unlike previous ACIC Data Challenges, which tended to mimic observational studies with a single binary treatment, the 2026 Data Challenge focused on randomized control trials with five arms (one control and four active treatments) to isolate key estimation challenges that arise when simultaneously estimating multiple treatment effects. We created 9,000 distinct synthetic populations corresponding to 18 distinct settings to explore variation in performance corresponding to patterns of treatment effect heterogeneity and response surface specifications. From each population, a sample of n = 1,000 was drawn for participants to estimate individual, subgroup, sample, and population-level treatment effects and identify the optimal treatment arm at each level. We describe several strategies used to generate the data to prevent Challenge participants from exploiting structural sim across datasets and ``gaming the system.'' By detailing these simulation design considerations and data generation choices, this paper provides a framework for conducting large-scale, unconfounded synthetic benchmark studies to rigorously evaluate multi-treatment causal inference procedures.",
+          "url": "https://arxiv.org/abs/2610.26557v1",
+          "arxiv_id": "2610.26557v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: More Treatments More Problems: Designing the 2026 American Causal Inference Conference Data Challenge",
+            "method": "This paper documents the design of the 2026 American Causal Inference Conference (ACIC) Data Challenge, which uses a large set of simulations to evaluate the performance of a wide variety of causal inference estimators chosen and implemente",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ope",
+      "name": "Off-Policy Evaluation",
+      "papers": [
+        {
+          "title": "Artificial Intelligence Off-Policy Evaluation of Sequential Community Clinic Triage Decisions Under Delayed Referral Feedback: A Healthcare Counterfactual Estimator Validity Analysis",
+          "authors": [
+            "Juma Ally Mbarouk"
+          ],
+          "author_details": [
+            {
+              "name": "Juma Ally Mbarouk",
+              "affiliations": [
+                "University of Dar es Salaam"
+              ]
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "counterfactual estimation",
+            "selection bias",
+            "doubly robust estimation",
+            "importance sampling",
+            "missing not at random",
+            "sequential decision model",
+            "estimator consistency",
+            "bias decomposition",
+            "health policy evaluation"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-21",
+          "abstract": "Off-policy evaluation (OPE) promises to estimate the value of sequential triage policies from logged community-clinic data, but referral outcomes arrive late and selectively, so the logging policy and the target policy are confounded by the same unobserved severity that drives both the decision and the eventual label. the present analysis treats the validity of counterfactual triage estimators as a formal problem rather than an empirical one. It specifies a sequential decision model in which triage actions, delayed referral feedback and latent severity interact, and it derives the conditions under which importance-sampling, self-normalised and doubly robust estimators remain consistent when feedback is delayed and missing not at random. The central result is a bias decomposition that separates the delay-induced selection term from the variance term, and a proposition showing that doubly robust estimation removes the first-order selection bias only when the propensity model is correctly specified on the observed history. A replication-based evaluation of the ['Intercept', 'exposure', 'group', 'severity'] estimator was conducted: 600 data sets of N = 500 were drawn from a declared data-generating process (intercept 12.0, exposure 0.42, group -3.1, severity 1.35, error SD 4.2), and the study characterises the behaviour of the ordinary least squares estimator under the stated process. Across the 600 replications the estimated bias was -0.00378 for the intercept and 0.00033 for exposure, with RMSE 0.8621 and 0.015 respectively, and empirical coverage of the nominal 95% intervals was 1.0 for both parameters. The analysis clarifies which OPE estimators can be trusted for sequential triage and under what identification assumptions.",
+          "url": "https://doi.org/10.5281/zenodo.23542775",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23542775",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Artificial Intelligence Off-Policy Evaluation of Sequential Community Clinic Triage Decisions Under Delayed Referral Feedback: A Healthcare Counterfactual Estimator Validity Analysis",
+            "method": "Off-policy evaluation (OPE) promises to estimate the value of sequential triage policies from logged community-clinic data, but referral outcomes arrive late and selectively, so the logging policy and the target policy are confounded by the",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Artificial Intelligence Off-Policy Evaluation of Community Clinic Fever Triage Under Unmeasured Antimalarial Co-Administration: A Healthcare Doubly Robust Regret Evaluation",
+          "authors": [
+            "Efua Amankwah-Darko",
+            "Nii Tetteh Quarshie"
+          ],
+          "author_details": [
+            {
+              "name": "Efua Amankwah-Darko",
+              "affiliations": [
+                "University of Ghana"
+              ]
+            },
+            {
+              "name": "Nii Tetteh Quarshie",
+              "affiliations": [
+                "University of Ghana"
+              ]
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "community clinics",
+            "malaria",
+            "unmeasured confounding",
+            "doubly robust estimation",
+            "regret bounds",
+            "sensitivity analysis",
+            "sequential decision problems",
+            "propensity score",
+            "malaria-endemic settings"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-21",
+          "abstract": "Community clinic fever triage in malaria-endemic settings is a sequential decision problem in which the same patient may receive an antimalarial and a triage recommendation, and the antimalarial is recorded inconsistently across registers. Off-policy evaluation of triage policies from observational registers therefore faces unmeasured co-administration: the treatment that the policy would recommend and the treatment that was actually given are entangled. The estimator combines an inverse-propensity-weighted value with a regression-based value and is shown to be consistent when either the propensity model or the outcome model is correctly specified, but not necessarily both. A formal analysis establishes that unmeasured co-administration enters the regret as a bias term proportional to the conditional covariance between the co-administration indicator and the triage action, scaled by the inverse of the propensity score. The bias is bounded under a sensitivity parameter that quantifies the departure from sequential ignorability. The estimator is presented as a methodological proposal for register-based triage evaluation; no empirical application is reported. The analysis implies that regret comparisons between triage policies are informative only when the sensitivity parameter is reported alongside the point estimate, and that registers which record antimalarial dispensing separately from triage recommendation permit tighter bounds than registers which do not.",
+          "url": "https://doi.org/10.5281/zenodo.23542826",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23542826",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Artificial Intelligence Off-Policy Evaluation of Community Clinic Fever Triage Under Unmeasured Antimalarial Co-Administration: A Healthcare Doubly Robust Regret Evaluation",
+            "method": "Community clinic fever triage in malaria-endemic settings is a sequential decision problem in which the same patient may receive an antimalarial and a triage recommendation, and the antimalarial is recorded inconsistently across registers. ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Artificial Intelligence Counterfactual Sepsis Fluid Resuscitation Dosing Under Variable Intraoperative Blood Pressure Artifact: A Doubly Robust Off-Policy Evaluation of Healthcare Deterioration Outcomes",
+          "authors": [
+            "Mwila Kayombo Chibale",
+            "Chipo Mutinta Hamoonga",
+            "Namakau Liwena Siamachoka"
+          ],
+          "author_details": [
+            {
+              "name": "Mwila Kayombo Chibale",
+              "affiliations": [
+                "University of Zambia"
+              ]
+            },
+            {
+              "name": "Chipo Mutinta Hamoonga",
+              "affiliations": [
+                "University of Zambia"
+              ]
+            },
+            {
+              "name": "Namakau Liwena Siamachoka",
+              "affiliations": [
+                "University of Zambia"
+              ]
+            }
+          ],
+          "keywords": [
+            "measurement error correction",
+            "off-policy evaluation",
+            "doubly robust estimation",
+            "inverse propensity weighting",
+            "covariate shift",
+            "artificial intelligence in clinical decision support",
+            "electricity access",
+            "urban population share",
+            "GDP per capita",
+            "African countries"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-21",
+          "abstract": "Intraoperative blood pressure artifact, arising from non-invasive cuff cycling, vasopressor boluses and motion, corrupts the state representation on which sepsis fluid resuscitation policies are trained and evaluated. The framework combines a measurement-error correction for the behaviour policy with an augmented inverse-propensity-weighted estimator of deterioration outcomes, and it establishes identification conditions under which the corrected estimator is consistent while the naive estimator is not. The empirical component uses real World Bank World Development Indicators for 24 African countries over 2000 to 2023 (N = 560 country-years) to estimate the macro-level relationship between access to electricity, urban population share and GDP per capita (constant 2015 US$); the ordinary least squares model yields R-squared = 0.591, adjusted R-squared = 0.5895, F = 184.764, and coefficients of 1291.55405 (SE 194.35159) for access to electricity, 113.13952 (SE 7.77493) for urban population and -104.41834 (SE 11.31314) for the linear time term. These estimates are used only to calibrate the scale of the covariate shift that measurement error induces in the policy inputs, not to claim a clinical effect.",
+          "url": "https://doi.org/10.5281/zenodo.23542406",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23542406",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Artificial Intelligence Counterfactual Sepsis Fluid Resuscitation Dosing Under Variable Intraoperative Blood Pressure Artifact: A Doubly Robust Off-Policy Evaluation of Healthcare Deterioration Outcomes",
+            "method": "Intraoperative blood pressure artifact, arising from non-invasive cuff cycling, vasopressor boluses and motion, corrupts the state representation on which sepsis fluid resuscitation policies are trained and evaluated. The framework combines",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Off-Policy Evaluation for Artificial Intelligence Agriculture Irrigation Scheduling Under Unobserved Evapotranspiration Feedback: A Computer Doubly-Robust Bound",
+          "authors": [
+            "Sipho Mbuyiselo Ntuli",
+            "Kagiso Tumelo Mokoena"
+          ],
+          "author_details": [
+            {
+              "name": "Sipho Mbuyiselo Ntuli",
+              "affiliations": [
+                "University of Cape Town"
+              ]
+            },
+            {
+              "name": "Kagiso Tumelo Mokoena",
+              "affiliations": [
+                "University of Cape Town"
+              ]
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "irrigation scheduling",
+            "sequential ignorability",
+            "mean squared error bounds",
+            "concentration inequalities",
+            "global warming"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-21",
+          "abstract": "Off-policy evaluation (OPE) of irrigation scheduling policies is complicated by unobserved evapotranspiration (ET) feedback: the same soil-moisture state that a policy acts upon is also shaped by the policy's own past actions, so that the logging distribution and the target distribution differ in ways that standard importance-sampling estimators cannot correct. The bound is derived under a sequential ignorability assumption conditional on a proxy for ET, and it is shown to be sharp when the proxy is informative and to degrade gracefully when it is not. The derivation yields a finite-sample concentration inequality that accounts for the variance of the importance weights and the bias of the outcome model, and it produces a computable upper bound on the mean squared error of the OPE estimate. The bound is illustrated with a reanalysis of a public reanalysis dataset for Nairobi, Kenya (2000–2023, 312 monthly observations), in which the mean temperature is 20.146 °C and the warming trend is 0.2477 °C per decade; these values are used to parameterise the ET proxy and to show how the bound responds to a realistic warming signal. The contribution is a computer-science result: a bound that is tight enough to be useful in practice, computable from logged data alone, and explicit about the conditions under which OPE of irrigation policies can be trusted.",
+          "url": "https://doi.org/10.5281/zenodo.23544091",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23544091",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Off-Policy Evaluation for Artificial Intelligence Agriculture Irrigation Scheduling Under Unobserved Evapotranspiration Feedback: A Computer Doubly-Robust Bound",
+            "method": "Off-policy evaluation (OPE) of irrigation scheduling policies is complicated by unobserved evapotranspiration (ET) feedback: the same soil-moisture state that a policy acts upon is also shaped by the policy's own past actions, so that the l",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Artificial Intelligence Drug-Resistant Tuberculosis Regimen Selection Under Sparse Local Susceptibility Surveillance: A Causal Off-Policy Evaluation of Healthcare Treatment Coverage",
+          "authors": [
+            "Korto Massaquoi",
+            "Gbanjah Kollie",
+            "Siah Tamba"
+          ],
+          "author_details": [
+            {
+              "name": "Korto Massaquoi",
+              "affiliations": [
+                "University of Liberia"
+              ]
+            },
+            {
+              "name": "Gbanjah Kollie",
+              "affiliations": [
+                "University of Liberia"
+              ]
+            },
+            {
+              "name": "Siah Tamba",
+              "affiliations": [
+                "University of Liberia"
+              ]
+            }
+          ],
+          "keywords": [
+            "drug-resistant tuberculosis",
+            "off-policy evaluation",
+            "causal inference",
+            "doubly robust estimation",
+            "treatment coverage",
+            "prescribing policy",
+            "prior treatment history",
+            "health care access"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-21",
+          "abstract": "Drug-resistant tuberculosis regimen selection in settings with sparse local susceptibility surveillance is a causal decision problem: the regimen that maximises expected coverage under the observed prescribing policy is not necessarily the regimen that would maximise coverage under an alternative policy, because prescribing is confounded by severity, prior treatment history and programme-level access. The framework combines inverse-propensity-weighted and doubly robust estimators with a partial-identification bound for the region in which local susceptibility is unobserved, and it formalises the conditions under which off-policy estimates are point-identified rather than set-identified. A replication-based evaluation of the ordinary least squares estimator was conducted on 600 data sets of N = 500 drawn from a declared data-generating process (intercept 12.0, exposure 0.42, group -3.1, severity 1.35, error SD 4.2) to characterise the estimator behaviour on which the coverage model depends. Estimated bias was -0.03684 for the intercept and 0.00104 for the exposure coefficient; root mean squared error was 0.87737 and 0.01567 respectively; empirical coverage of the nominal 95% confidence intervals was 1.0 for both parameters. The contribution is a decision-theoretic account of when sparse surveillance permits defensible regimen switching and when it licenses only bounded claims about coverage.",
+          "url": "https://doi.org/10.5281/zenodo.23542327",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23542327",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Artificial Intelligence Drug-Resistant Tuberculosis Regimen Selection Under Sparse Local Susceptibility Surveillance: A Causal Off-Policy Evaluation of Healthcare Treatment Coverage",
+            "method": "Drug-resistant tuberculosis regimen selection in settings with sparse local susceptibility surveillance is a causal decision problem: the regimen that maximises expected coverage under the observed prescribing policy is not necessarily the ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Doubly Robust Distributionally Robust Offline Contextual Pricing",
+          "authors": [
+            "Min Xu",
+            "Xinyi Yin",
+            "Yunfan Zhang",
+            "Yuxuan Han",
+            "Houcai Shen",
+            "Caihua Chen"
+          ],
+          "author_details": [
+            {
+              "name": "Min Xu",
+              "affiliations": []
+            },
+            {
+              "name": "Xinyi Yin",
+              "affiliations": []
+            },
+            {
+              "name": "Yunfan Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Yuxuan Han",
+              "affiliations": []
+            },
+            {
+              "name": "Houcai Shen",
+              "affiliations": []
+            },
+            {
+              "name": "Caihua Chen",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": "Proceedings of the 43rd International Conference on Machine Learning, 2026",
+          "published": "2026-10-22",
+          "abstract": "Offline contextual pricing often relies on logged observational data, but faces challenges from distributional shifts between training and deployment environments. Distributionally robust optimization (DRO) provides a principled approach to off-policy evaluation and learning (OPE/L). However, existing methods are mostly limited to discrete actions. Recent work has explored DRO for continuous treatments using inverse propensity weighting (IPW), while such IPW-based estimators can be sensitive to the convergence rate of propensity score estimates, particularly when estimated nonparametrically, which may lead to larger estimation errors and regret. In this work, we develop a doubly robust (DR) framework for distributionally robust OPE/L in continuous pricing settings. For evaluation, we propose a localized DR estimator that addresses the computational challenges of worst-case expectations by fitting only a small number of regressions, comparable to standard non-robust DR, while achieving semiparametric efficiency under mild product rate conditions. For learning, we leverage the inherent smoothness of demand noise to handle pricing-specific discontinuities in revenue outcomes (e.g., threshold-based purchase decisions), establishing a finite-sample regret bound of $\\tilde{\\mathcal{O}}_p(T^{-s/(2s+1)})$ for smoothness orders $s=1,2$. This bound improves upon existing regret rates in existing DRO-based off-policy learning (OPL) for continuous treatments. Extensive experiments under various levels of distribution shift validate our proposed framework.",
+          "url": "https://arxiv.org/abs/2610.30957v1",
+          "arxiv_id": "2610.30957v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Doubly Robust Distributionally Robust Offline Contextual Pricing",
+            "method": "Offline contextual pricing often relies on logged observational data, but faces challenges from distributional shifts between training and deployment environments. Distributionally robust optimization (DRO) provides a principled approach to",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Counterfactual-Policy Evaluation for Computer Agriculture Fertilizer Subsidy Targeting Under Unobserved Plot Fertility: An Artificial Intelligence Off-Policy Regret Bound",
+          "authors": [
+            "Yassine Aït Ben Hammou",
+            "Khadija El Ouardi Berrada",
+            "Anas Bouzoubaa El Fassi"
+          ],
+          "author_details": [
+            {
+              "name": "Yassine Aït Ben Hammou",
+              "affiliations": [
+                "Mohammed V University"
+              ]
+            },
+            {
+              "name": "Khadija El Ouardi Berrada",
+              "affiliations": [
+                "Mohammed V University"
+              ]
+            },
+            {
+              "name": "Anas Bouzoubaa El Fassi",
+              "affiliations": [
+                "Mohammed V University"
+              ]
+            }
+          ],
+          "keywords": [
+            "fertilizer subsidies",
+            "subsidy targeting",
+            "off-policy evaluation",
+            "counterfactual policy analysis",
+            "unmeasured confounding",
+            "smallholder farming",
+            "electricity access",
+            "urbanization",
+            "GDP per capita"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-21",
+          "abstract": "Fertilizer subsidy programmes in smallholder agriculture allocate vouchers on observable plot and household characteristics, yet the returns to subsidized fertilizer depend on unobserved plot fertility. the present analysis treats subsidy targeting as an off-policy evaluation problem in which the logging policy is the existing allocation rule and the target policy is a counterfactual allocation rule learned from observational data. Because plot fertility is a hidden confounder, standard inverse-propensity-weighted estimators of policy value are biased, and the sign of the bias is not identified from the observed data alone. The bound is shown to be tight in the sense that it is attained by an adversarial fertility assignment, and a robust targeting rule is proposed that minimizes worst-case regret. The framework is illustrated with a real World Bank panel of 24 African countries observed from 2000 to 2023 (N = 560), in which GDP per capita is regressed on access to electricity and urban population share; the fitted model (R-squared = 0.591, F = 184.764) is used only to calibrate the scale of the confounding parameter, not to estimate subsidy effects. The contribution is a distributionally robust off-policy evaluation bound that makes the fertility-confounding assumption explicit and auditable in computer-agriculture subsidy targeting.",
+          "url": "https://doi.org/10.5281/zenodo.23544121",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23544121",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Counterfactual-Policy Evaluation for Computer Agriculture Fertilizer Subsidy Targeting Under Unobserved Plot Fertility: An Artificial Intelligence Off-Policy Regret Bound",
+            "method": "Fertilizer subsidy programmes in smallholder agriculture allocate vouchers on observable plot and household characteristics, yet the returns to subsidized fertilizer depend on unobserved plot fertility. the present analysis treats subsidy t",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Next Best Action: Causal Constrained Offline RL for Business Action Targeting",
+          "authors": [
+            "Surya Ramachandiran",
+            "Yiming Li",
+            "Juan Mancilla-Caceres",
+            "Tao Ye",
+            "Jun Liu"
+          ],
+          "author_details": [
+            {
+              "name": "Surya Ramachandiran",
+              "affiliations": []
+            },
+            {
+              "name": "Yiming Li",
+              "affiliations": []
+            },
+            {
+              "name": "Juan Mancilla-Caceres",
+              "affiliations": []
+            },
+            {
+              "name": "Tao Ye",
+              "affiliations": []
+            },
+            {
+              "name": "Jun Liu",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.AI",
+            "cs.IR",
+            "math.OC"
+          ],
+          "journal": null,
+          "published": "2026-10-19",
+          "abstract": "Next Best Action (NBA) systems must select among customer interventions (e.g., discounts, promotions, and lifecycle actions), maximize long-term economic value, satisfy complex operational constraints, and remain causally grounded. Existing approaches lack a rigorous framework for meeting these requirements jointly. We address this gap by formulating NBA as a Constrained Markov Decision Process (CMDP). We then integrate off-policy causal correction of the estimated customer dynamics directly into the Linear Programming (LP) formulation of the CMDP. The resulting policy selects actions based on customer states to maximize long-term value while explicitly enforcing business guardrails. Furthermore, the LP formulation yields shadow prices that quantify the economic trade-offs of operational constraints (e.g., fairness and user welfare), enhancing policy interpretability. We validate our proposed offline Reinforcement Learning (RL) framework on an industry case study involving rideshare coupon targeting, where customer states are defined by Recency, Frequency, and Monetary (RFM) stages. We evaluate performance using model-based off-policy evaluation, with causal dynamics estimated from a temporal holdout. Under the observed coupon budget and RFM state representation, our optimized policy improves customer lifetime value (LTV) by 19% over the estimated behavior policy and 8% over a myopic baseline. Although the demonstrated action space is binary, the proposed framework is action-agnostic, yielding a general-purpose decision module for targeting systems that manage multiple interventions.",
+          "url": "https://arxiv.org/abs/2610.26817v1",
+          "arxiv_id": "2610.26817v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Next Best Action: Causal Constrained Offline RL for Business Action Targeting",
+            "method": "Next Best Action (NBA) systems must select among customer interventions (e.g., discounts, promotions, and lifecycle actions), maximize long-term economic value, satisfy complex operational constraints, and remain causally grounded. Existing",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "papers": [
+        {
+          "title": "A Survey of Explainable Reinforcement Learning: Targets, Methods and Needs",
+          "authors": [
+            "Léo Saulières"
+          ],
+          "author_details": [
+            {
+              "name": "Léo Saulières",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "explainable reinforcement learning",
+            "explainable AI",
+            "reinforcement learning agents",
+            "deep neural network",
+            "interpretability"
+          ],
+          "journal": "Journal of Artificial Intelligence Research",
+          "published": "2026-10-22",
+          "abstract": "The success of recent Artificial Intelligence (AI) models has been accompanied by the opacity of their internal mechanisms, due notably to the use of deep neural networks. In order to understand these internal mechanisms and explain the output of these AI models, a set of methods have been proposed, grouped under the domain of eXplainable AI (XAI). This paper focuses on a sub-domain of XAI, called eXplainable Reinforcement Learning (XRL), which aims to explain the actions of an agent that has learned by reinforcement learning. We propose an intuitive taxonomy based on two questions ‘What’ and ‘How’. The first question focuses on the target that the method explains, while the second relates to the way the explanation is provided. We use this taxonomy to provide a state-of-the-art review of over 250 papers. In addition, we present a set of domains close to XRL, which we believe should get attention from the community. Finally, we identify some needs for the field of XRL.",
+          "url": "https://doi.org/10.1613/jair.1.20550",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1613/jair.1.20550",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 2,
+          "score": 2.099,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A Survey of Explainable Reinforcement Learning: Targets, Methods and Needs",
+            "method": "The success of recent Artificial Intelligence (AI) models has been accompanied by the opacity of their internal mechanisms, due notably to the use of deep neural networks. In order to understand these internal mechanisms and explain the out",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "Yang, Xiangmin"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Yang, Xiangmin",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "pedestrian decision-making",
+            "inverse reinforcement learning",
+            "human movement",
+            "pedestrian behavior"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-agent reinforcement learning for reservoir cascade release scheduling: a climate-analytics evaluation of downstream low-flow equity under forecast uncertainty",
+          "authors": [
+            "Hiwot Tesfaye Wolde",
+            "Selamawit Gebremedhin Desta",
+            "Mulugeta Assefa"
+          ],
+          "author_details": [
+            {
+              "name": "Hiwot Tesfaye Wolde",
+              "affiliations": [
+                "Addis Ababa University"
+              ]
+            },
+            {
+              "name": "Selamawit Gebremedhin Desta",
+              "affiliations": [
+                "Addis Ababa University"
+              ]
+            },
+            {
+              "name": "Mulugeta Assefa",
+              "affiliations": [
+                "Addis Ababa University"
+              ]
+            }
+          ],
+          "keywords": [
+            "multi-agent reinforcement learning",
+            "soft actor-critic",
+            "credit assignment",
+            "hydropower revenue"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-24",
+          "abstract": "Cascade reservoir operators must release water under uncertain inflow forecasts while satisfying competing demands for hydropower, irrigation and downstream environmental flows. The framework is formalised as a constrained Markov game with a lexicographic objective: maximise energy revenue subject to a probabilistic low-flow equity constraint at downstream reaches. A decomposed soft actor-critic architecture with a centralised equity critic is proposed, and a formal analysis establishes conditions under which the learned joint policy satisfies the equity constraint with high probability. The framework is evaluated conceptually against rule-based and single-agent benchmarks using a stylised three-reservoir cascade, with forecast uncertainty represented by ensemble inflow scenarios. The analysis identifies a structural trade-off between revenue and equity that widens as forecast uncertainty increases, and shows that equity-aware credit assignment reduces the frequency of severe low-flow violations relative to revenue-only learning. The contribution is a formalisation and algorithmic design for equity-aware MARL in cascade scheduling, together with a set of testable propositions about the conditions under which decentralised learning can deliver equitable low-flow outcomes.",
+          "url": "https://doi.org/10.5281/zenodo.23606698",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23606698",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-agent reinforcement learning for reservoir cascade release scheduling: a climate-analytics evaluation of downstream low-flow equity under forecast uncertainty",
+            "method": "Cascade reservoir operators must release water under uncertain inflow forecasts while satisfying competing demands for hydropower, irrigation and downstream environmental flows. The framework is formalised as a constrained Markov game with ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Code and data for: Hierarchical Deep Reinforcement Learning for 5G Network Slice Resource Allocation: An Empirical Comparison of On-Policy and Off-Policy High-Level Control",
+          "authors": [
+            "Mouhamad Alodit Allah",
+            "Fariz Abboud",
+            "Anas Dahabiah"
+          ],
+          "author_details": [
+            {
+              "name": "Mouhamad Alodit Allah",
+              "affiliations": [
+                "Damascus University"
+              ]
+            },
+            {
+              "name": "Fariz Abboud",
+              "affiliations": [
+                "Damascus University"
+              ]
+            },
+            {
+              "name": "Anas Dahabiah",
+              "affiliations": [
+                "Yarmouk Private University"
+              ]
+            }
+          ],
+          "keywords": [
+            "5G network slicing",
+            "resource allocation",
+            "hierarchical deep reinforcement learning",
+            "high-level control",
+            "deep Q-network",
+            "actor-critic",
+            "proximal policy optimization",
+            "soft actor-critic"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-23",
+          "abstract": "This record contains the source code, result tables and real-traffic evaluation pipeline for the paper \"Hierarchical Deep Reinforcement Learning for 5G Network Slice Resource Allocation: An Empirical Comparison of On-Policy and Off-Policy High-Level Control.\" It includes: the simulator (NetworkSlicingEnv), every learning agent (DQN, A2C, PPO, flat SAC, and the ADHRL-NS hierarchical agent with both on-policy and off-policy high-level managers), the training and evaluation pipelines, the statistical-testing module, and the project's unit test suite. Also included are all per-run result summary files (3,100+ JSON records) underlying the paper's tables, and a verification script that recomputes 221 of the paper's reported figures (differences, intervals, p-values and effect sizes) from the shipped per-seed tables. A separate real-traffic package (realtrace/) ships the code used to build evaluation traces from the public Milan telecommunications dataset (Telecom Italia, doi:10.7910/DVN/EGZHFV, ODbL 1.0, attribution \"BigDataChallenge contest\") and the resulting statistical comparisons; no Milan traffic series or trace files are redistributed. This release does NOT include trained model checkpoints (about 3.5 GB; planned for a future version). Code is MIT-licensed; result tables and per-run data files are CC BY 4.0. See README.md, DATA_DICTIONARY.md and REPRODUCE.md inside the archive for details.",
+          "url": "https://doi.org/10.5281/zenodo.23498556",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23498556",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Code and data for: Hierarchical Deep Reinforcement Learning for 5G Network Slice Resource Allocation: An Empirical Comparison of On-Policy and Off-Policy High-Level Control",
+            "method": "This record contains the source code, result tables and real-traffic evaluation pipeline for the paper \"Hierarchical Deep Reinforcement Learning for 5G Network Slice Resource Allocation: An Empirical Comparison of On-Policy and Off-Policy H",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+          "authors": [
+            "Xi Chen",
+            "Fengqi Hu",
+            "Zeyu Shen",
+            "Jiaying Xu",
+            "Shangding Gu",
+            "Pan Xu",
+            "Anqi Liu",
+            "Laixi Shi"
+          ],
+          "author_details": [
+            {
+              "name": "Xi Chen",
+              "affiliations": []
+            },
+            {
+              "name": "Fengqi Hu",
+              "affiliations": []
+            },
+            {
+              "name": "Zeyu Shen",
+              "affiliations": []
+            },
+            {
+              "name": "Jiaying Xu",
+              "affiliations": []
+            },
+            {
+              "name": "Shangding Gu",
+              "affiliations": []
+            },
+            {
+              "name": "Pan Xu",
+              "affiliations": []
+            },
+            {
+              "name": "Anqi Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Laixi Shi",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.AI",
+            "cs.RO"
+          ],
+          "journal": null,
+          "published": "2026-10-23",
+          "abstract": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We introduce RobustRLlib, an algorithm-centric library and benchmark that addresses both challenges. It integrates 17 representative robust online, offline, and safe RL algorithms under a unified interface for substantially improved reusability, together with an enhanced evaluation platform spanning diverse real-world shifts and advanced humanoid and vision-language-action tasks. Systematic evaluation over 273 perturbation configurations provides an up-to-date capability map of current robust RL algorithms, revealing where they remain effective and where substantial robustness gaps persist. As an open-source, user-friendly platform, RobustRLlib offers a reproducible and extensible codebase for applying existing methods to new problems and developing new robust RL algorithms.",
+          "url": "https://arxiv.org/abs/2610.32971v1",
+          "arxiv_id": "2610.32971v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+            "method": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barr",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+          "authors": [
+            "Yijing Ke",
+            "Tianle Cai",
+            "Ruosong Wang"
+          ],
+          "author_details": [
+            {
+              "name": "Yijing Ke",
+              "affiliations": []
+            },
+            {
+              "name": "Tianle Cai",
+              "affiliations": []
+            },
+            {
+              "name": "Ruosong Wang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-23",
+          "abstract": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference and training stacks, change global precision, or modify the learning algorithm. We ask whether aligning selected parts of the execution stack can stabilize BF16 RL while other implementation differences remain. We align training-side rounding locations with inference in three regions---RoPE, SwiGLU, and residual RMSNorm---by retaining selected intermediates in FP32 until their BF16 outputs. Across four Qwen-family models, aligning all three regions prevents the collapse observed under the default BF16 baseline; RoPE-path alignment alone also suffices in the studied runs, despite remaining numerical discrepancies. The interventions keep the inference engine, matrix-multiplication and attention kernels, and learning objective unchanged.",
+          "url": "https://arxiv.org/abs/2610.32951v1",
+          "arxiv_id": "2610.32951v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+            "method": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabili",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Reinforcement Learning with Multi-Step Transition Predictions: A Bellman Theory",
+          "authors": [
+            "Chenbei Lu",
+            "Zaiwei Chen",
+            "Tongxin Li",
+            "Chenye Wu",
+            "Adam Wierman"
+          ],
+          "author_details": [
+            {
+              "name": "Chenbei Lu",
+              "affiliations": []
+            },
+            {
+              "name": "Zaiwei Chen",
+              "affiliations": []
+            },
+            {
+              "name": "Tongxin Li",
+              "affiliations": []
+            },
+            {
+              "name": "Chenye Wu",
+              "affiliations": []
+            },
+            {
+              "name": "Adam Wierman",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-23",
+          "abstract": "Multi-step predictions of future transition realizations can improve reinforcement learning, but their value remains difficult to quantify. Directly including these predictions in the state can lead to exponential state-space growth, making direct dynamic programming computationally expensive. We study discounted finite MDPs under a block-feedback protocol: at the start of each K-period block, the decision maker observes $K$-step probabilistic transition predictions for a subset of actions and adapts decisions to observed states within the block. We show that the optimal value satisfies a Bayesian Bellman equation on the original state space. This representation reveals that predictive information creates value by recursively changing the local order of maximization and expectation in the Bellman expansion. We formalize this effect through a Bellman--Jensen analysis and quantify the effects of prediction horizon, error, action coverage, and within-block feedback. We propose block-feedback Bayesian offline learning with online adaptation (BF--BOLA), a model-based algorithm for learning near-optimal policies, and establish upper and lower sample-complexity bounds that match up to logarithmic factors in the stated regimes. The results show that predictions can reduce transition learning to uncovered rows and that learning a near-optimal policy can require fewer prediction samples than estimating the Bayesian value function.",
+          "url": "https://arxiv.org/abs/2610.32887v1",
+          "arxiv_id": "2610.32887v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Reinforcement Learning with Multi-Step Transition Predictions: A Bellman Theory",
+            "method": "Multi-step predictions of future transition realizations can improve reinforcement learning, but their value remains difficult to quantify. Directly including these predictions in the state can lead to exponential state-space growth, making",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Optimization, Optimal Control, and Reinforcement Learning for Robotics",
+          "authors": [
+            "Yonghyeon Lee"
+          ],
+          "author_details": [
+            {
+              "name": "Yonghyeon Lee",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.RO"
+          ],
+          "journal": null,
+          "published": "2026-10-23",
+          "abstract": "These lecture notes provide an introduction to optimization, optimal control, and reinforcement learning for robotics, emphasizing their mathematical connections and practical relevance. They present established material compiled and edited by Yonghyeon Lee, rather than new research results. The notes were developed through a human and AI collaborative writing process, with AI assistance in drafting, organizing, and refining the exposition. This first version is a preliminary collection of notes, not yet a fully developed textbook, and currently contains no figures or graphs. The notes may be revised, corrected, and expanded in future versions.",
+          "url": "https://arxiv.org/abs/2610.32538v1",
+          "arxiv_id": "2610.32538v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Optimization, Optimal Control, and Reinforcement Learning for Robotics",
+            "method": "These lecture notes provide an introduction to optimization, optimal control, and reinforcement learning for robotics, emphasizing their mathematical connections and practical relevance. They present established material compiled and edited",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Multi-agent reinforcement learning for reservoir cascade release scheduling: a climate-analytics evaluation of downstream low-flow equity under forecast uncertainty",
+          "authors": [
+            "Hiwot Tesfaye Wolde",
+            "Selamawit Gebremedhin Desta",
+            "Mulugeta Assefa"
+          ],
+          "author_details": [
+            {
+              "name": "Hiwot Tesfaye Wolde",
+              "affiliations": [
+                "Addis Ababa University"
+              ]
+            },
+            {
+              "name": "Selamawit Gebremedhin Desta",
+              "affiliations": [
+                "Addis Ababa University"
+              ]
+            },
+            {
+              "name": "Mulugeta Assefa",
+              "affiliations": [
+                "Addis Ababa University"
+              ]
+            }
+          ],
+          "keywords": [
+            "multi-agent reinforcement learning",
+            "soft actor-critic",
+            "credit assignment",
+            "hydropower revenue"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-24",
+          "abstract": "Cascade reservoir operators must release water under uncertain inflow forecasts while satisfying competing demands for hydropower, irrigation and downstream environmental flows. The framework is formalised as a constrained Markov game with a lexicographic objective: maximise energy revenue subject to a probabilistic low-flow equity constraint at downstream reaches. A decomposed soft actor-critic architecture with a centralised equity critic is proposed, and a formal analysis establishes conditions under which the learned joint policy satisfies the equity constraint with high probability. The framework is evaluated conceptually against rule-based and single-agent benchmarks using a stylised three-reservoir cascade, with forecast uncertainty represented by ensemble inflow scenarios. The analysis identifies a structural trade-off between revenue and equity that widens as forecast uncertainty increases, and shows that equity-aware credit assignment reduces the frequency of severe low-flow violations relative to revenue-only learning. The contribution is a formalisation and algorithmic design for equity-aware MARL in cascade scheduling, together with a set of testable propositions about the conditions under which decentralised learning can deliver equitable low-flow outcomes.",
+          "url": "https://doi.org/10.5281/zenodo.23606698",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23606698",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-agent reinforcement learning for reservoir cascade release scheduling: a climate-analytics evaluation of downstream low-flow equity under forecast uncertainty",
+            "method": "Cascade reservoir operators must release water under uncertain inflow forecasts while satisfying competing demands for hydropower, irrigation and downstream environmental flows. The framework is formalised as a constrained Markov game with ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Cross-Region Cooperation of UAV Swarms Towards Air-Ground ISAC via Hierarchical Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Linghui Miao",
+            "Nhan Thanh Nguyen",
+            "Shijian Gao"
+          ],
+          "author_details": [
+            {
+              "name": "Linghui Miao",
+              "affiliations": []
+            },
+            {
+              "name": "Nhan Thanh Nguyen",
+              "affiliations": []
+            },
+            {
+              "name": "Shijian Gao",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "eess.SY"
+          ],
+          "journal": null,
+          "published": "2026-10-22",
+          "abstract": "The limited communication resources and sensing perspectives of a single uncrewed aerial vehicle (UAV) motivate UAV swarms for integrated sensing and communication (ISAC) in air-ground networks. However, in multi-region scenarios, regional UAV allocations may not match vehicle demand, while local observations may lack sufficient diversity for accurate sensing. To address these issues, this paper proposes a cross-region cooperation framework for UAV swarms. For communication, cross-region UAV reallocation reduces service disparities by matching resources to vehicle demand. For sensing, combining UAV observations from different regions increases observation diversity, while adaptive handshaking guided by marginal Cramér--Rao bound (CRB) utilities balances phase synchronization gains against handshaking energy consumption. Joint optimization of UAV positions and transmit power within each region then further improves communication service and sensing performance. These coupled decisions are coordinated by a hierarchical multi-agent reinforcement learning (H-MARL) approach through slow-timescale inter-region UAV reallocation and fast-timescale intra-region UAV control. Under the considered simulation settings, reallocation can improve quality of service (QoS) by over 20 percentage points compared with retaining the initial allocation under severe resource-demand mismatches. Cooperative sensing with adaptive handshaking incurs only about a 5.0% increase in mean CRB relative to perfect synchronization.",
+          "url": "https://arxiv.org/abs/2610.31054v1",
+          "arxiv_id": "2610.31054v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Cross-Region Cooperation of UAV Swarms Towards Air-Ground ISAC via Hierarchical Multi-Agent Reinforcement Learning",
+            "method": "The limited communication resources and sensing perspectives of a single uncrewed aerial vehicle (UAV) motivate UAV swarms for integrated sensing and communication (ISAC) in air-ground networks. However, in multi-region scenarios, regional ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "SpecMAGIC: Specification-Guided Multi-Task Generalization in Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Zijian Guo",
+            "İlker Işık",
+            "H. M. Sabbir Ahmad",
+            "Wenchao Li"
+          ],
+          "author_details": [
+            {
+              "name": "Zijian Guo",
+              "affiliations": []
+            },
+            {
+              "name": "İlker Işık",
+              "affiliations": []
+            },
+            {
+              "name": "H. M. Sabbir Ahmad",
+              "affiliations": []
+            },
+            {
+              "name": "Wenchao Li",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-10-21",
+          "abstract": "Multi-task generalization is an important yet underexplored problem in multi-agent reinforcement learning (MARL). Many real-world applications require multi-agent systems to generalize across complex, temporally extended tasks with diverse inter-agent coordination requirements. We introduce a specification language that combines temporal-logic task specifications with operators for expressing such requirements. We propose SpecMAGIC, a hierarchical framework that leverages the automaton structure of task specifications for subtask decomposition. A centralized high-level planner identifies and allocates compatible subtask sequences across agents, while decentralized low-level policies execute individual subtasks. This enables zero-shot generalization to new tasks by composing reusable subtask policies according to new specifications, without retraining. We establish soundness and probabilistic completeness of the high-level planner. Experiments on multi-agent navigation tasks show that SpecMAGIC substantially outperforms existing approaches on unseen task specifications and maintains strong performance as the number of agents increases.",
+          "url": "https://arxiv.org/abs/2610.30443v1",
+          "arxiv_id": "2610.30443v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: SpecMAGIC: Specification-Guided Multi-Task Generalization in Multi-Agent Reinforcement Learning",
+            "method": "Multi-task generalization is an important yet underexplored problem in multi-agent reinforcement learning (MARL). Many real-world applications require multi-agent systems to generalize across complex, temporally extended tasks with diverse ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Diffusion-enhanced multi-agent reinforcement learning for adaptive interference control in bilateral cognitive radar games",
+          "authors": [
+            "Yubo Jia",
+            "Zesi Pan",
+            "Jiahao Qin",
+            "Ding Haichuan",
+            "Yan Li"
+          ],
+          "author_details": [
+            {
+              "name": "Yubo Jia",
+              "affiliations": [
+                "Beijing Institute of Technology"
+              ]
+            },
+            {
+              "name": "Zesi Pan",
+              "affiliations": [
+                "Beijing Institute of Technology"
+              ]
+            },
+            {
+              "name": "Jiahao Qin",
+              "affiliations": [
+                "Beijing Institute of Technology"
+              ]
+            },
+            {
+              "name": "Ding Haichuan",
+              "affiliations": [
+                "Beijing Institute of Technology"
+              ]
+            },
+            {
+              "name": "Yan Li",
+              "affiliations": [
+                "Beijing Institute of Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "cognitive radar",
+            "interference control",
+            "multi-agent reinforcement learning",
+            "diffusion models",
+            "partially observable stochastic games",
+            "MAPPO",
+            "self-play",
+            "double deep Q-network",
+            "spectrum sharing",
+            "energy efficiency",
+            "dynamic spectrum access"
+          ],
+          "journal": "Engineering Applications of Artificial Intelligence",
+          "published": "2026-10-20",
+          "abstract": "",
+          "url": "https://doi.org/10.1016/j.engappai.2026.116525",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1016/j.engappai.2026.116525",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Diffusion-enhanced multi-agent reinforcement learning for adaptive interference control in bilateral cognitive radar games",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "JaxMARL-BC: Multi-Agent Reinforcement Learning for Macroeconomic Modelling, in Seconds",
+          "authors": [
+            "Daniele Montagnani",
+            "Andrea Coletta",
+            "Antonietta Mira",
+            "Aldo Glielmo"
+          ],
+          "author_details": [
+            {
+              "name": "Daniele Montagnani",
+              "affiliations": [
+                "Università della Svizzera italiana"
+              ]
+            },
+            {
+              "name": "Andrea Coletta",
+              "affiliations": [
+                "Bank of Italy"
+              ]
+            },
+            {
+              "name": "Antonietta Mira",
+              "affiliations": [
+                "University of Insubria",
+                "Università della Svizzera italiana"
+              ]
+            },
+            {
+              "name": "Aldo Glielmo",
+              "affiliations": [
+                "Bank of Italy"
+              ]
+            }
+          ],
+          "keywords": [
+            "multi-agent reinforcement learning",
+            "macroeconomic modeling",
+            "DSGE model",
+            "JAX",
+            "training efficiency",
+            "heterogeneous households",
+            "model calibration",
+            "open-source simulator"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-10-20",
+          "abstract": "Multi-agent reinforcement learning (MARL) offers a principled way of populating simulated economies with many heterogeneous decision makers. Its adoption, pioneered in finance, has nonetheless been slow in macroeconomics because of two main limitations: the lack of a shared frame of reference connecting MARL systems to dynamic stochastic general equilibrium (DSGE) models the profession already trusts, and the very long training times. The first limitation was recently addressed by the Multi-Agent Reinforcement Learning Business Cycle (MARL-BC), which places deep RL households in a real business cycle economy and reduces to classic DSGE models in specific limits. Here we address the second limitation. We present JaxMARL-BC, a JAX-accelerated simulator that trains MARL-BC economies in seconds (between 75x and 724x faster than the reference implementation), and scales to 200,000 independent learning households. We verify its correctness against the known DSGE limits, characterise its scaling through a simple cost law, and demonstrate its value by a proof-of-concept calibration of an extended model with heterogeneous returns on capital, in a two-hour experiment that would previously have taken over a month. We release JaxMARL-BC as open source.",
+          "url": "https://arxiv.org/abs/2610.28907",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2610.28907",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: JaxMARL-BC: Multi-Agent Reinforcement Learning for Macroeconomic Modelling, in Seconds",
+            "method": "Multi-agent reinforcement learning (MARL) offers a principled way of populating simulated economies with many heterogeneous decision makers. Its adoption, pioneered in finance, has nonetheless been slow in macroeconomics because of two main",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "JaxMARL-BC: Multi-Agent Reinforcement Learning for Macroeconomic Modelling, in Seconds",
+          "authors": [
+            "Daniele Montagnani",
+            "Andrea Coletta",
+            "Antonietta Mira",
+            "Aldo Glielmo"
+          ],
+          "author_details": [
+            {
+              "name": "Daniele Montagnani",
+              "affiliations": []
+            },
+            {
+              "name": "Andrea Coletta",
+              "affiliations": []
+            },
+            {
+              "name": "Antonietta Mira",
+              "affiliations": []
+            },
+            {
+              "name": "Aldo Glielmo",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA",
+            "cs.AI",
+            "cs.LG",
+            "econ.GN"
+          ],
+          "journal": "Proceedings of the 7th ACM International Conference on AI in Finance (ICAIF '26), Milan, Italy, 2026",
+          "published": "2026-10-20",
+          "abstract": "Multi-agent reinforcement learning (MARL) offers a principled way of populating simulated economies with many heterogeneous decision makers. Its adoption, pioneered in finance, has nonetheless been slow in macroeconomics because of two main limitations: the lack of a shared frame of reference connecting MARL systems to dynamic stochastic general equilibrium (DSGE) models the profession already trusts, and the very long training times. The first limitation was recently addressed by the Multi-Agent Reinforcement Learning Business Cycle (MARL-BC), which places deep RL households in a real business cycle economy and reduces to classic DSGE models in specific limits. Here we address the second limitation. We present JaxMARL-BC, a JAX-accelerated simulator that trains MARL-BC economies in seconds (between 75x and 724x faster than the reference implementation), and scales to 200,000 independent learning households. We verify its correctness against the known DSGE limits, characterise its scaling through a simple cost law, and demonstrate its value by a proof-of-concept calibration of an extended model with heterogeneous returns on capital, in a two-hour experiment that would previously have taken over a month. We release JaxMARL-BC as open source.",
+          "url": "https://arxiv.org/abs/2610.28907v1",
+          "arxiv_id": "2610.28907v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: JaxMARL-BC: Multi-Agent Reinforcement Learning for Macroeconomic Modelling, in Seconds",
+            "method": "Multi-agent reinforcement learning (MARL) offers a principled way of populating simulated economies with many heterogeneous decision makers. Its adoption, pioneered in finance, has nonetheless been slow in macroeconomics because of two main",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Interference-Graph-Aided Multi-Agent Reinforcement Learning for Beam Hopping LEO Satellite Networks",
+          "authors": [
+            "Hao Yuan",
+            "Ziyi Yang",
+            "Xing Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Hao Yuan",
+              "affiliations": []
+            },
+            {
+              "name": "Ziyi Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Xing Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "eess.SP"
+          ],
+          "journal": null,
+          "published": "2026-10-20",
+          "abstract": "Beam hopping technology enables LEO satellites to dynamically switch beam coverage positions, providing flexible resource allocation for non-uniformly distributed traffic demands. However, the severe spatial interference coupling among beams makes coordinated scheduling challenging. To address this problem, in this letter, we propose an interference-graph-aided multi-agent reinforcement learning approach that constructs an interference graph to capture beam coupling relationships and injects this structural prior into agent-side representation learning. Each beam agent aggregates information from interference neighbors via graph convolution before estimating local Q-values, which are then decomposed by the standard mixing network. Simulation results demonstrate that the proposed method achieves 34.4\\% higher throughput than QMIX with more stable interference management, under non-uniform traffic and co-channel interference settings.",
+          "url": "https://arxiv.org/abs/2610.28248v1",
+          "arxiv_id": "2610.28248v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Interference-Graph-Aided Multi-Agent Reinforcement Learning for Beam Hopping LEO Satellite Networks",
+            "method": "Beam hopping technology enables LEO satellites to dynamically switch beam coverage positions, providing flexible resource allocation for non-uniformly distributed traffic demands. However, the severe spatial interference coupling among beam",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Interference-Graph-Aided Multi-Agent Reinforcement Learning for Beam Hopping LEO Satellite Networks",
+          "authors": [
+            "Hao Yuan",
+            "Ziyi Yang",
+            "Xing Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Hao Yuan",
+              "affiliations": []
+            },
+            {
+              "name": "Ziyi Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Xing Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "beam hopping",
+            "LEO satellite networks",
+            "interference graph",
+            "multi-agent reinforcement learning",
+            "beam scheduling",
+            "graph convolution",
+            "co-channel interference",
+            "non-uniform traffic"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-10-20",
+          "abstract": "Beam hopping technology enables LEO satellites to dynamically switch beam coverage positions, providing flexible resource allocation for non-uniformly distributed traffic demands. However, the severe spatial interference coupling among beams makes coordinated scheduling challenging. To address this problem, in this letter, we propose an interference-graph-aided multi-agent reinforcement learning approach that constructs an interference graph to capture beam coupling relationships and injects this structural prior into agent-side representation learning. Each beam agent aggregates information from interference neighbors via graph convolution before estimating local Q-values, which are then decomposed by the standard mixing network. Simulation results demonstrate that the proposed method achieves 34.4\\% higher throughput than QMIX with more stable interference management, under non-uniform traffic and co-channel interference settings.",
+          "url": "https://arxiv.org/abs/2610.28248",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2610.28248",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Interference-Graph-Aided Multi-Agent Reinforcement Learning for Beam Hopping LEO Satellite Networks",
+            "method": "Beam hopping technology enables LEO satellites to dynamically switch beam coverage positions, providing flexible resource allocation for non-uniformly distributed traffic demands. However, the severe spatial interference coupling among beam",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": []
+    },
+    {
+      "id": "causal-llm",
+      "name": "Causal Inference in Large Language Models",
+      "papers": []
+    },
+    {
+      "id": "causal-text",
+      "name": "Causal Inference in Text Analysis",
+      "papers": []
+    }
+  ]
+}
