@@ -1,0 +1,1642 @@
+{
+  "week": "2026-W45",
+  "generated_at": "2026-11-02T07:15:12.948262Z",
+  "topics": [
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "papers": [
+        {
+          "title": "Nonlinear Sufficient Dimension Reduction for Causal Inference with Continuous Treatments",
+          "authors": [
+            "Chak Fung Choi",
+            "Yin Tang",
+            "Bing Li"
+          ],
+          "author_details": [
+            {
+              "name": "Chak Fung Choi",
+              "affiliations": []
+            },
+            {
+              "name": "Yin Tang",
+              "affiliations": []
+            },
+            {
+              "name": "Bing Li",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-10-29",
+          "abstract": "Causal inference with continuous treatments requires estimating nuisance functions to adjust for the potentially high-dimensional confounder, but nonparametric estimation of these functions is severely hampered by the curse of dimensionality. To address this challenge, we propose a nonlinear sufficient dimension reduction framework to construct low-dimensional sufficient confounders to preserve the unbiasedness of the treatment effect. We estimate the causal effect by combining the generalized Sliced Inverse Regression with the inverse probability weighting, outcome regression, and augmented inverse probability weighting, respectively. We further establish the convergence rates of the first two estimators and derive the asymptotic distributions of the third. Our theoretical results show that, compared to estimators based on the full covariates, dimension reduction yields faster convergence rates and weaker rate conditions without inflating the asymptotic variance. Simulation studies demonstrate that the proposed estimators improve finite-sample performance over their counterparts without dimension reduction, particularly when the original covariate dimension is high. These results demonstrate that sufficient dimension reduction provides a flexible approach to mitigating the curse of dimensionality in causal inference with continuous treatments.",
+          "url": "https://arxiv.org/abs/2610.39422v1",
+          "arxiv_id": "2610.39422v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Nonlinear Sufficient Dimension Reduction for Causal Inference with Continuous Treatments",
+            "method": "Causal inference with continuous treatments requires estimating nuisance functions to adjust for the potentially high-dimensional confounder, but nonparametric estimation of these functions is severely hampered by the curse of dimensionalit",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Not Just Why, but When and for Whom: Revisiting Common Estimands in Causal Inference",
+          "authors": [
+            "Lucius E. J. Bynum",
+            "George Perrett",
+            "Marc A. Scott",
+            "Jennifer L. Hill"
+          ],
+          "author_details": [
+            {
+              "name": "Lucius E. J. Bynum",
+              "affiliations": []
+            },
+            {
+              "name": "George Perrett",
+              "affiliations": []
+            },
+            {
+              "name": "Marc A. Scott",
+              "affiliations": []
+            },
+            {
+              "name": "Jennifer L. Hill",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-10-26",
+          "abstract": "Causal inference commonly defines an individual treatment effect as a quantity that varies across units. But we know such effects, even for a fixed unit, can also vary over time, across repeated studies, or over different methods of measurement, and they can even exhibit inherent stochasticity. In this work, we consider how such additional sources of variation create a need for more general notions of average treatment effects, including some estimands that have yet to be more formally explored by the causal inference community. This perspective also motivates a reconceptualization of our most common existing estimands, such as conditional average, sample average, and individual treatment effects (CATEs, SATEs, and ITEs), as subject to more axes of variation than are typically considered. We explore two main consequences of this reframing in the case where we have data from a single randomized controlled trial: (1) decision making in fixed samples and (2) uncertainty quantification during estimation. We find that different estimands, even for the same unit or the same sample, can qualitatively disagree on whether an effect is positive or negative. We demonstrate these issues empirically through a case study with real data and characterize through a simulation study how our assumptions about these sources of variation, even if we cannot observe the variation, can be consequential for estimation and proper coverage performance. Importantly, these phenomena arise even in the simplest of cases, where all structural and parametric assumptions are satisfied. More broadly, this paper aims to provide a preliminary investigation into an underexplored class of assumptions --- assumptions about unobserved non-confounders --- that should be considered when estimating treatment effects.",
+          "url": "https://arxiv.org/abs/2610.36084v1",
+          "arxiv_id": "2610.36084v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Not Just Why, but When and for Whom: Revisiting Common Estimands in Causal Inference",
+            "method": "Causal inference commonly defines an individual treatment effect as a quantity that varies across units. But we know such effects, even for a fixed unit, can also vary over time, across repeated studies, or over different methods of measure",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "NON-CONTACT BIOPHYSICAL EFFECTS OF EXTERNAL QIGONG AT THE LIMIT is a 777-page English nonclinical research working monograph on how to test alleged noncontact effects without mistaking ordinary physical leakage, masking failure or contextual responses for a new force. Its core three-coupling is noncontact experiment x blinded sham control x causal inference. The primary outcome is a prespecified difference between randomly targeted and concealed-sham conditions, measured in native units. Heat radiation, airflow, sound, vibration, electromagnetic leakage, observer cues, expectancy and statistical selection remain strong competing explanations. Thirty distinct mathematical plates address potential outcomes, randomization, crossover and clustering, thermal and fluid transfer, acoustic and mechanical leakage, shield qualification, expectancy, equivalence, missingness, multiplicity and transportability. Eighty-two research chapters contain five independently paginated studies each. Two hundred Research Gates present bold deep-navy falsifiable questions, blind experiments, equal-resource competitors, stop rules and successor evidence. Thirty-three Phoenix Answer Embryos propose distinguishable instruments, controls, registries and analysis objects. The bibliography preserves three STARLI author mother-volume DOI lineages as methodological ancestry and separately cites external scholarship on sham experiments, blinding, causal design, agreement, equivalence and bias. None of these references proves external qi as a distinct physical energy. No experiments were performed for this manuscript. No causal effect, therapeutic action, external qi field, quantum entanglement or regulatory approval is claimed. Human observation would require separately approved consent and ethical review. Negative results and failed mechanisms are retained as research outputs. Author: Feng Cheng-en (33) x STARLI Series: White Rainbow Epoch / STARLI Research Institute XXXIII / Flagship 37 of 90 Edition: Research Working Edition v1.2 / October 2026",
+          "authors": [
+            "33"
+          ],
+          "author_details": [
+            {
+              "name": "33",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "sham control",
+            "blinding",
+            "causal inference",
+            "thermal radiation",
+            "air flow",
+            "sound and vibration",
+            "electromagnetic leakage",
+            "expectancy effects",
+            "randomization",
+            "transportability",
+            "negative results"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-26",
+          "abstract": "NON-CONTACT BIOPHYSICAL EFFECTS OF EXTERNAL QIGONG AT THE LIMIT is a 777-page English nonclinical research working monograph on how to test alleged noncontact effects without mistaking ordinary physical leakage, masking failure or contextual responses for a new force. Its core three-coupling is noncontact experiment x blinded sham control x causal inference. The primary outcome is a prespecified difference between randomly targeted and concealed-sham conditions, measured in native units. Heat radiation, airflow, sound, vibration, electromagnetic leakage, observer cues, expectancy and statistical selection remain strong competing explanations. Thirty distinct mathematical plates address potential outcomes, randomization, crossover and clustering, thermal and fluid transfer, acoustic and mechanical leakage, shield qualification, expectancy, equivalence, missingness, multiplicity and transportability. Eighty-two research chapters contain five independently paginated studies each. Two hundred Research Gates present bold deep-navy falsifiable questions, blind experiments, equal-resource competitors, stop rules and successor evidence. Thirty-three Phoenix Answer Embryos propose distinguishable instruments, controls, registries and analysis objects. The bibliography preserves three STARLI author mother-volume DOI lineages as methodological ancestry and separately cites external scholarship on sham experiments, blinding, causal design, agreement, equivalence and bias. None of these references proves external qi as a distinct physical energy. No experiments were performed for this manuscript. No causal effect, therapeutic action, external qi field, quantum entanglement or regulatory approval is claimed. Human observation would require separately approved consent and ethical review. Negative results and failed mechanisms are retained as research outputs. Author: Feng Cheng-en (33) x STARLISeries: White Rainbow Epoch / STARLI Research Institute XXXIII / Flagship 37 of 90Edition: Research Working Edition v1.2 / October 2026",
+          "url": "https://doi.org/10.5281/zenodo.23678072",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23678072",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: NON-CONTACT BIOPHYSICAL EFFECTS OF EXTERNAL QIGONG AT THE LIMIT is a 777-page English nonclinical research working monograph on how to test alleged noncontact effects without mistaking ordinary physical leakage, masking failure or contextual responses for a new force. Its core three-coupling is noncontact experiment x blinded sham control x causal inference. The primary outcome is a prespecified difference between randomly targeted and concealed-sham conditions, measured in native units. Heat radiation, airflow, sound, vibration, electromagnetic leakage, observer cues, expectancy and statistical selection remain strong competing explanations. Thirty distinct mathematical plates address potential outcomes, randomization, crossover and clustering, thermal and fluid transfer, acoustic and mechanical leakage, shield qualification, expectancy, equivalence, missingness, multiplicity and transportability. Eighty-two research chapters contain five independently paginated studies each. Two hundred Research Gates present bold deep-navy falsifiable questions, blind experiments, equal-resource competitors, stop rules and successor evidence. Thirty-three Phoenix Answer Embryos propose distinguishable instruments, controls, registries and analysis objects. The bibliography preserves three STARLI author mother-volume DOI lineages as methodological ancestry and separately cites external scholarship on sham experiments, blinding, causal design, agreement, equivalence and bias. None of these references proves external qi as a distinct physical energy. No experiments were performed for this manuscript. No causal effect, therapeutic action, external qi field, quantum entanglement or regulatory approval is claimed. Human observation would require separately approved consent and ethical review. Negative results and failed mechanisms are retained as research outputs. Author: Feng Cheng-en (33) x STARLI Series: White Rainbow Epoch / STARLI Research Institute XXXIII / Flagship 37 of 90 Edition: Research Working Edition v1.2 / October 2026",
+            "method": "NON-CONTACT BIOPHYSICAL EFFECTS OF EXTERNAL QIGONG AT THE LIMIT is a 777-page English nonclinical research working monograph on how to test alleged noncontact effects without mistaking ordinary physical leakage, masking failure or contextua",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Not Just Why, but When and for Whom: Revisiting Common Estimands in Causal Inference",
+          "authors": [
+            "Lucius Bynum",
+            "George Perrett",
+            "Marc A. Scott",
+            "Jennifer Hill"
+          ],
+          "author_details": [
+            {
+              "name": "Lucius Bynum",
+              "affiliations": [
+                "New York University"
+              ]
+            },
+            {
+              "name": "George Perrett",
+              "affiliations": [
+                "New York University"
+              ]
+            },
+            {
+              "name": "Marc A. Scott",
+              "affiliations": [
+                "New York University"
+              ]
+            },
+            {
+              "name": "Jennifer Hill",
+              "affiliations": [
+                "New York University"
+              ]
+            }
+          ],
+          "keywords": [
+            "causal estimands",
+            "average treatment effect",
+            "conditional average treatment effect",
+            "individual treatment effects",
+            "time-varying treatment effects",
+            "measurement error",
+            "uncertainty quantification",
+            "coverage probability",
+            "randomized controlled trials"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-10-26",
+          "abstract": "Causal inference commonly defines an individual treatment effect as a quantity that varies across units. But we know such effects, even for a fixed unit, can also vary over time, across repeated studies, or over different methods of measurement, and they can even exhibit inherent stochasticity. In this work, we consider how such additional sources of variation create a need for more general notions of average treatment effects, including some estimands that have yet to be more formally explored by the causal inference community. This perspective also motivates a reconceptualization of our most common existing estimands, such as conditional average, sample average, and individual treatment effects (CATEs, SATEs, and ITEs), as subject to more axes of variation than are typically considered. We explore two main consequences of this reframing in the case where we have data from a single randomized controlled trial: (1) decision making in fixed samples and (2) uncertainty quantification during estimation. We find that different estimands, even for the same unit or the same sample, can qualitatively disagree on whether an effect is positive or negative. We demonstrate these issues empirically through a case study with real data and characterize through a simulation study how our assumptions about these sources of variation, even if we cannot observe the variation, can be consequential for estimation and proper coverage performance. Importantly, these phenomena arise even in the simplest of cases, where all structural and parametric assumptions are satisfied. More broadly, this paper aims to provide a preliminary investigation into an underexplored class of assumptions --- assumptions about unobserved non-confounders --- that should be considered when estimating treatment effects.",
+          "url": "https://arxiv.org/abs/2610.36084",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2610.36084",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Not Just Why, but When and for Whom: Revisiting Common Estimands in Causal Inference",
+            "method": "Causal inference commonly defines an individual treatment effect as a quantity that varies across units. But we know such effects, even for a fixed unit, can also vary over time, across repeated studies, or over different methods of measure",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept",
+          "authors": [
+            "Guangwei Wang"
+          ],
+          "author_details": [
+            {
+              "name": "Guangwei Wang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "co-presence",
+            "digital media exposure",
+            "digital interaction",
+            "Foursquare check-ins",
+            "socioeconomic segregation",
+            "physical mobility",
+            "place semantics",
+            "multi-source big data",
+            "simulation validation",
+            "measurement error"
+          ],
+          "journal": "PhilPapers (PhilPapers Foundation)",
+          "published": "2026-12-31",
+          "abstract": "Segregation research increasingly measures who people encounter beyond home, yet physical mobility, place semantics, and digital activity are often combined without clear construct boundaries. This study develops a physical--digital activity-space framework that distinguishes co-presence, digital exposure, and digital interaction, and represents physical and digital segregation as separate components rather than a forced composite. Validation is deliberately split by evidentiary role. A public Washington--Baltimore Foursquare check-in subset tests the computational feasibility and robustness of a discrete group co-visitation statistic; it does not validate continuous socioeconomic exposure because the dataset lacks individual socioeconomic status. Monte Carlo experiments separately test layer-selective construct response and sensitivity to trace missingness, spatial aggregation, socioeconomic measurement error, and cross-layer coupling. The results show that the proposed calculations are executable and that the synthetic physical and digital components respond selectively to their generating mechanisms, while also revealing important measurement attenuation. No real-data estimate of income segregation, digital exposure, physical--digital coupling, or the causal effect of inequality is reported. The framework therefore combines bounded validation with a falsifiable comparative and causal research agenda.",
+          "url": "https://philpapers.org/rec/WANMAS",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17613/3amkv-gav11",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept",
+            "method": "Segregation research increasingly measures who people encounter beyond home, yet physical mobility, place semantics, and digital activity are often combined without clear construct boundaries. This study develops a physical--digital activit",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Functional-Specific Information Borrowing under Limited Overlap",
+          "authors": [
+            "Shinichiro Shirota"
+          ],
+          "author_details": [
+            {
+              "name": "Shinichiro Shirota",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-10-30",
+          "abstract": "Source observations can improve a target average without estimating the entire shared response accurately. We study this distinction in two independent observational samples whose treatment effects share a rough component and differ by a smoother discrepancy. For power-law treatment overlap known for the analysis, known design density, fixed positive Sobolev radii, and Gaussian noise, we derive matching minimax mean squared error bounds with three regimes. Two explicit source-information thresholds determine the onset of rate improvement and attainment of the source-known rate. A signed local correction explains the thresholds: source observations estimate only the part of the integration functional poorly recovered from the target sample. Direct likelihood lower bounds apply to all estimators. Existing joint reproducing-kernel recovery, which does not require propensity inputs, attains these rates, and standard bias-aware intervals are conditionally honest under the specified class. A supplementary zero-overlap result separates estimation error from residual identification uncertainty. Numerical results illustrate both gains and losses when the total number of participants is fixed. The intermediate rate depends on overlap geometry, while smoothness determines its two endpoints.",
+          "url": "https://arxiv.org/abs/2610.41753v1",
+          "arxiv_id": "2610.41753v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Functional-Specific Information Borrowing under Limited Overlap",
+            "method": "Source observations can improve a target average without estimating the entire shared response accurately. We study this distinction in two independent observational samples whose treatment effects share a rough component and differ by a sm",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Uncertainty Quantification for Topological Treatment Effects",
+          "authors": [
+            "Hugo G. Souto",
+            "Ioannis Diamantis"
+          ],
+          "author_details": [
+            {
+              "name": "Hugo G. Souto",
+              "affiliations": []
+            },
+            {
+              "name": "Ioannis Diamantis",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME",
+            "math.ST"
+          ],
+          "journal": null,
+          "published": "2026-10-30",
+          "abstract": "We present a unified framework for uncertainty quantification over filtration scale, extending the topological average treatment effect (TATE) analysis of \\citet{kim-lee} to conditional mean confidence and individual effect prediction. For the conditional topological average treatment effect (CTATE), we derive multiplier confidence bands at a fixed covariate value, simultaneous over filtration scale, and prove validity in a correctly specified finite-dimensional regression regime, with explicit control of smoothing bias and nuisance-estimation error. For the individual topological treatment effect (ITTE), we integrate existing weighted and functional split-conformal methods to obtain finite-sample marginal prediction coverage under known target-to-calibration likelihood ratios, with a total-variation bound for estimated ratios. We also extend the current TATE silhouette stability analysis to the diagram-independent bound $\\|Φ_r(D)-Φ_r(D')\\|_\\infty \\le (1+2r)W_1(D,D')$ for $r\\geq1$, recovering the known $r=1$ constant, and propagate diagram approximation error to prediction bands. The installable Python library \\texttt{tcda\\_uq} integrates mean confidence, individual prediction, and topological preprocessing, with tutorials and reproduction materials. Simulations and a PACCE lesion-measurement application illustrate the distinct coverage targets and the importance of declaring the target population.",
+          "url": "https://arxiv.org/abs/2610.41593v1",
+          "arxiv_id": "2610.41593v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Uncertainty Quantification for Topological Treatment Effects",
+            "method": "We present a unified framework for uncertainty quantification over filtration scale, extending the topological average treatment effect (TATE) analysis of \\citet{kim-lee} to conditional mean confidence and individual effect prediction. For ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "When Everyone Can Build a Model: Mechanistic Inference in the Age of AI",
+          "authors": [
+            "Marvin van Aalst",
+            "Adèle H. Ribeiro",
+            "Anna Matuszyńska"
+          ],
+          "author_details": [
+            {
+              "name": "Marvin van Aalst",
+              "affiliations": [
+                "Computational Life Science, Faculty of Mathematics and Natural Sciences, RWTH Aachen University, Germany"
+              ]
+            },
+            {
+              "name": "Adèle H. Ribeiro",
+              "affiliations": [
+                "Causal and Explainable Artificial Intelligence in Life Sciences, Faculty of Mathematics and Natural Sciences, RWTH Aachen University, Germany",
+                "Center for Computational Life Sciences, RWTH Aachen University, Germany"
+              ]
+            },
+            {
+              "name": "Anna Matuszyńska",
+              "affiliations": [
+                "Computational Life Science, Faculty of Mathematics and Natural Sciences, RWTH Aachen University, Germany",
+                "Center for Computational Life Sciences, RWTH Aachen University, Germany"
+              ]
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-30",
+          "abstract": "Modern deep learning and AI-assisted code generation are lowering the technical barrier to building mathematical models of biological systems that reproduce complex observations. This lets researchers with domain expertise build semi-mechanistic, hybrid models constrained by prior knowledge and augmented with learned structure without extensive training in modelling. However, easier construction does not make interpretation easier: predictive success of such so-called grey-box models does not establish that an inferred mechanism corresponds to the one that generated the data, and the learned component can absorb errors in the mechanistic part. Many biological modelling problems are underdetermined, so several, possibly infinitely many, models may reproduce the same data equally well. This ambiguity enters at two modelling choices: which variables can affect others, and which response function describes the underlying mechanism. For the first choice, causal inference provides a formal framework stating which causal relationships and intervention effects are identifiable from the data and available knowledge. For the second, ensemble analyses quantify the uncertainty and the range of behaviours still allowed by models that fit equally well. Together, they turn a single good fit into an explicit account of what is supported, what remains open, and which experiment would decide.",
+          "url": "https://arxiv.org/abs/2610.41454v1",
+          "arxiv_id": "2610.41454v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: When Everyone Can Build a Model: Mechanistic Inference in the Age of AI",
+            "method": "Modern deep learning and AI-assisted code generation are lowering the technical barrier to building mathematical models of biological systems that reproduce complex observations. This lets researchers with domain expertise build semi-mechan",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ope",
+      "name": "Off-Policy Evaluation",
+      "papers": [
+        {
+          "title": "Reinforcement Learning Under Runtime Confounding: Policy Learning and Off-Policy Evaluation",
+          "authors": [
+            "Raphael Kim",
+            "Michele Santacatterina",
+            "Ramin Zabih",
+            "Keith Barnatchez"
+          ],
+          "author_details": [
+            {
+              "name": "Raphael Kim",
+              "affiliations": []
+            },
+            {
+              "name": "Michele Santacatterina",
+              "affiliations": []
+            },
+            {
+              "name": "Ramin Zabih",
+              "affiliations": []
+            },
+            {
+              "name": "Keith Barnatchez",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ML",
+            "cs.LG",
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-10-29",
+          "abstract": "Reinforcement learning (RL) is increasingly used to train robust, adaptable systems across healthcare, e-commerce, and robotics. In these settings, legal, ethical, or logistical concerns may preclude certain key variables that drive decisions from being collected during deployment time. This gives rise to a setting known as runtime confounding: the logged data hold full observability, but deployment time lacks knowledge of certain variables, known as runtime confounders. Unlike single timepoint and non-adaptive settings, runtime confounding under reinforcement learning has the potential to propagate over time, as earlier decisions affect future states, observations, and action assignments, leading to biased learning. We address these problems with three contributions: we (1) develop policy learning algorithms under runtime-confounding, (2) develop semi-parametric efficient off-policy estimation procedures, and (3) provide diagnostics for understanding the price of runtime confounding.",
+          "url": "https://arxiv.org/abs/2610.40056v1",
+          "arxiv_id": "2610.40056v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Reinforcement Learning Under Runtime Confounding: Policy Learning and Off-Policy Evaluation",
+            "method": "Reinforcement learning (RL) is increasingly used to train robust, adaptable systems across healthcare, e-commerce, and robotics. In these settings, legal, ethical, or logistical concerns may preclude certain key variables that drive decisio",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Reinforcement Learning Under Runtime Confounding: Policy Learning and Off-Policy Evaluation",
+          "authors": [
+            "Raphael Kim",
+            "Michele Santacatterina",
+            "Ramin Zabih A",
+            "Keith Barnatchez"
+          ],
+          "author_details": [
+            {
+              "name": "Raphael Kim",
+              "affiliations": []
+            },
+            {
+              "name": "Michele Santacatterina",
+              "affiliations": []
+            },
+            {
+              "name": "Ramin Zabih A",
+              "affiliations": []
+            },
+            {
+              "name": "Keith Barnatchez",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "reinforcement learning",
+            "off-policy evaluation",
+            "policy learning",
+            "confounders",
+            "causal inference"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-10-29",
+          "abstract": "Reinforcement learning (RL) is increasingly used to train robust, adaptable systems across healthcare, e-commerce, and robotics. In these settings, legal, ethical, or logistical concerns may preclude certain key variables that drive decisions from being collected during deployment time. This gives rise to a setting known as runtime confounding: the logged data hold full observability, but deployment time lacks knowledge of certain variables, known as runtime confounders. Unlike single timepoint and non-adaptive settings, runtime confounding under reinforcement learning has the potential to propagate over time, as earlier decisions affect future states, observations, and action assignments, leading to biased learning. We address these problems with three contributions: we (1) develop policy learning algorithms under runtime-confounding, (2) develop semi-parametric efficient off-policy estimation procedures, and (3) provide diagnostics for understanding the price of runtime confounding.",
+          "url": "https://arxiv.org/abs/2610.40056",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2610.40056",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Reinforcement Learning Under Runtime Confounding: Policy Learning and Off-Policy Evaluation",
+            "method": "Reinforcement learning (RL) is increasingly used to train robust, adaptable systems across healthcare, e-commerce, and robotics. In these settings, legal, ethical, or logistical concerns may preclude certain key variables that drive decisio",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Off-Policy Evaluation with Irregularly-spaced, Outcome-dependent Observation Times",
+          "authors": [
+            "Xin Chen",
+            "Wenbin Lu",
+            "Yang Shu",
+            "Dipankar Bandyopadhyay"
+          ],
+          "author_details": [
+            {
+              "name": "Xin Chen",
+              "affiliations": []
+            },
+            {
+              "name": "Wenbin Lu",
+              "affiliations": [
+                "North Carolina State University"
+              ]
+            },
+            {
+              "name": "Yang Shu",
+              "affiliations": [
+                "North Carolina State University",
+                "Virginia Commonwealth University"
+              ]
+            },
+            {
+              "name": "Dipankar Bandyopadhyay",
+              "affiliations": [
+                "Virginia Commonwealth University"
+              ]
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "observation process",
+            "renewal processes",
+            "Markov decision process",
+            "cumulative reward",
+            "time homogeneity",
+            "electronic health records",
+            "periodontal treatment"
+          ],
+          "journal": "Statistica Sinica",
+          "published": "2026-10-27",
+          "abstract": "While classic off-policy evaluation literature typically assumes evenly spaced decision times for analytical convenience, this assumption is often violated in real-world applications, such as those involving user-initiated visits.To accommodate irregularly-spaced and potentially outcome-dependent decision times in off-policy evaluation, we introduce a policy evaluation criterion defined through integrated rewards rather than the traditional cumulative-reward formulation.To ensure the estimability of the value function of a policy, we further develop a new reinforcement learning framework that incorporates not only the state-action process but also an observation process, where the gap times between observations can interact with states, actions, and rewards in a more flexible way.Statistical inference for the proposed policy value is established by positing a modulated renewal process model for the observation times.The validity of the proposed approach is further supported by theoretical analysis, simulation studies, and a real-world application that uses electronic health records to evaluate periodontal",
+          "url": "https://doi.org/10.5705/ss.202026.0176",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5705/ss.202026.0176",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Off-Policy Evaluation with Irregularly-spaced, Outcome-dependent Observation Times",
+            "method": "While classic off-policy evaluation literature typically assumes evenly spaced decision times for analytical convenience, this assumption is often violated in real-world applications, such as those involving user-initiated visits.To accommo",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Model Selection for Off-Policy Evaluation via Pairwise Bellman Validation",
+          "authors": [
+            "Lars van der Laan",
+            "Vasilis Syrgkanis",
+            "Nathan Kallus"
+          ],
+          "author_details": [
+            {
+              "name": "Lars van der Laan",
+              "affiliations": []
+            },
+            {
+              "name": "Vasilis Syrgkanis",
+              "affiliations": []
+            },
+            {
+              "name": "Nathan Kallus",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ML",
+            "cs.LG",
+            "econ.EM"
+          ],
+          "journal": null,
+          "published": "2026-10-26",
+          "abstract": "Model selection and hyperparameter tuning pose a central challenge in off-policy evaluation (OPE) because errors of fitted Q-functions and occupancy-ratio estimates cannot be directly evaluated from held-out transitions. Bellman-residual and minimax validation methods often require auxiliary regressions or optimization over separate critic classes, adding computational and tuning costs. We introduce pairwise Bellman validation (PBV), a tuning-free minimax procedure for selecting among finite classes of fitted Q-functions and occupancy-ratio estimators using held-out transitions. PBV constructs critics from pairwise candidate differences, requiring only finitely many empirical moment calculations without auxiliary validation models or separate critic optimization. We establish finite-sample oracle inequalities relative to the best available candidate, even under candidate-class misspecification. Our key insight is that Q-function errors and log ratios between candidate and true occupancy ratios provide oracle critics whose Bellman and adjoint Bellman moments control estimation error. Pairwise candidate differences approximate these unknown critics, while penalties account for comparator approximation error. For Q-function selection, we first develop unweighted PBV, which evaluates pairwise Bellman moments under the offline distribution and admits oracle guarantees under a pairwise coercivity condition relating the offline distribution to the target-policy dynamics. We then develop target-aligned PBV (TA-PBV), which uses marginalized importance weighting to provide error control without pairwise coercivity. For occupancy-ratio selection, we develop adjoint PBV (A-PBV), which evaluates adjoint Bellman moments against log-ratio critics. On Hopper and Deep OPE, unweighted PBV performs competitively, while target-occupancy weighting can improve performance in settings with controlled overlap.",
+          "url": "https://arxiv.org/abs/2610.35748v1",
+          "arxiv_id": "2610.35748v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Model Selection for Off-Policy Evaluation via Pairwise Bellman Validation",
+            "method": "Model selection and hyperparameter tuning pose a central challenge in off-policy evaluation (OPE) because errors of fitted Q-functions and occupancy-ratio estimates cannot be directly evaluated from held-out transitions. Bellman-residual an",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Model Selection for Off-Policy Evaluation via Pairwise Bellman Validation",
+          "authors": [
+            "Lars W. P. van der Laan",
+            "Vasilis Syrgkanis",
+            "Nathan Kallus"
+          ],
+          "author_details": [
+            {
+              "name": "Lars W. P. van der Laan",
+              "affiliations": [
+                "Stanford University"
+              ]
+            },
+            {
+              "name": "Vasilis Syrgkanis",
+              "affiliations": [
+                "Stanford University"
+              ]
+            },
+            {
+              "name": "Nathan Kallus",
+              "affiliations": [
+                "Cornell University",
+                "Netflix (United States)"
+              ]
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "model selection",
+            "hyperparameter optimization",
+            "minimax estimation",
+            "oracle inequalities"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-10-26",
+          "abstract": "Model selection and hyperparameter tuning pose a central challenge in off-policy evaluation (OPE) because errors of fitted Q-functions and occupancy-ratio estimates cannot be directly evaluated from held-out transitions. Bellman-residual and minimax validation methods often require auxiliary regressions or optimization over separate critic classes, adding computational and tuning costs. We introduce pairwise Bellman validation (PBV), a tuning-free minimax procedure for selecting among finite classes of fitted Q-functions and occupancy-ratio estimators using held-out transitions. PBV constructs critics from pairwise candidate differences, requiring only finitely many empirical moment calculations without auxiliary validation models or separate critic optimization. We establish finite-sample oracle inequalities relative to the best available candidate, even under candidate-class misspecification. Our key insight is that Q-function errors and log ratios between candidate and true occupancy ratios provide oracle critics whose Bellman and adjoint Bellman moments control estimation error. Pairwise candidate differences approximate these unknown critics, while penalties account for comparator approximation error. For Q-function selection, we first develop unweighted PBV, which evaluates pairwise Bellman moments under the offline distribution and admits oracle guarantees under a pairwise coercivity condition relating the offline distribution to the target-policy dynamics. We then develop target-aligned PBV (TA-PBV), which uses marginalized importance weighting to provide error control without pairwise coercivity. For occupancy-ratio selection, we develop adjoint PBV (A-PBV), which evaluates adjoint Bellman moments against log-ratio critics. On Hopper and Deep OPE, unweighted PBV performs competitively, while target-occupancy weighting can improve performance in settings with controlled overlap.",
+          "url": "https://arxiv.org/abs/2610.35748",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2610.35748",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Model Selection for Off-Policy Evaluation via Pairwise Bellman Validation",
+            "method": "Model selection and hyperparameter tuning pose a central challenge in off-policy evaluation (OPE) because errors of fitted Q-functions and occupancy-ratio estimates cannot be directly evaluated from held-out transitions. Bellman-residual an",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Fairness-Constrained Distributionally Robust Causal Policy Optimization for Adaptive Instruction in Higher Education",
+          "authors": [
+            "Sanjeev Vijay"
+          ],
+          "author_details": [
+            {
+              "name": "Sanjeev Vijay",
+              "affiliations": [
+                "Jagannath University",
+                "Jagannath University"
+              ]
+            }
+          ],
+          "keywords": [
+            "adaptive instruction",
+            "higher education",
+            "distributionally robust optimization",
+            "structural causal models",
+            "doubly robust estimation",
+            "confounding",
+            "subgroup fairness",
+            "distribution shift",
+            "multi-objective Bayesian optimization",
+            "Lagrangian relaxation",
+            "off-policy evaluation",
+            "student diversity"
+          ],
+          "journal": "Iconic Research and Engineering Journals",
+          "published": "2026-10-28",
+          "abstract": "Adaptive instructional policies in higher education often optimize short-term engagement at the expense of durable learning gains, and they frequently neglect heterogeneity across student subpopulations. We propose a fairness-constrained distributionally robust causal policy optimization framework that replaces standard deep reinforcement learning agents with a causally grounded decision-making pipeline. A structural causal model of the educational environment is constructed first, and doubly robust estimation is then applied to observational log data so that confounding bias in the counterfactual evaluation of instructional actions is mitigated. To guard against distribution shifts and adversarial perturbations in student populations, the policy optimization problem is formulated as a distributionally robust objective that maximizes worst-case expected utility over an ambiguity set centered on the empirical distribution. The policy itself is represented by reduced-rank policy trees, which preserve interpretability while remaining computationally tractable, and multi-objective Bayesian optimization is employed to balance average performance, cross-subgroup variance, and explicit disparity constraints. Fairness is enforced through Lagrangian relaxation, while causal effect decomposition separates direct instructional effects from those mediated by motivation or cognitive load. Periodic off-policy evaluation and counterfactual subgroup audits provide closed-loop validation, triggering retraining or constraint tightening when inequities emerge. The main contribution is an integrated methodology that unites causal inference, distributional robustness, and subgroup fairness within a single policy learning loop for higher education. This approach is significant because it offers a principled path toward instructional policies that remain effective, equitable, and auditable throughout their deployment lifecycle.",
+          "url": "https://doi.org/10.64388/irev10i4-1724283",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.64388/irev10i4-1724283",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Fairness-Constrained Distributionally Robust Causal Policy Optimization for Adaptive Instruction in Higher Education",
+            "method": "Adaptive instructional policies in higher education often optimize short-term engagement at the expense of durable learning gains, and they frequently neglect heterogeneity across student subpopulations. We propose a fairness-constrained di",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Adaptive training load optimization for sprinters via offline reinforcement learning and multi-modal physiological feedback",
+          "authors": [
+            "Xinhe Hu",
+            "Linjun Liu",
+            "Yuting Pei"
+          ],
+          "author_details": [
+            {
+              "name": "Xinhe Hu",
+              "affiliations": [
+                "Guangxi Normal University"
+              ]
+            },
+            {
+              "name": "Linjun Liu",
+              "affiliations": [
+                "Lincoln University College",
+                "Wuhan Sports University"
+              ]
+            },
+            {
+              "name": "Yuting Pei",
+              "affiliations": [
+                "Saint Petersburg State Electrotechnical University"
+              ]
+            }
+          ],
+          "keywords": [
+            "sprint training",
+            "offline reinforcement learning",
+            "Markov decision process",
+            "block periodization",
+            "fatigue",
+            "acute:chronic workload ratio",
+            "countermovement jump",
+            "overtraining syndrome",
+            "doubly robust estimation",
+            "SHAP",
+            "elite sprinters",
+            "training prescription"
+          ],
+          "journal": "Frontiers in Psychology",
+          "published": "2026-10-28",
+          "abstract": "Elite sprint training requires daily adjustment of training load to balance performance adaptation and fatigue, yet physiological monitoring does not necessarily translate into a specific next-session prescription. This study formalizes daily sprint training prescription as a finite-horizon Markov Decision Process and develops an adaptive load-optimization framework that couples multi-modal physiological feedback with offline reinforcement learning (RL). A 19-dimensional state fusing autonomic, neuromuscular, endocrine, subjective, and load-aggregate signals is encoded by a dual-tower network [a one-dimensional convolutional neural network–Transformer temporal branch and a multi-layer perceptron (MLP) static branch] over an action space of 62 admissible training-type/intensity/volume combinations. A composite reward penalizes overreaching while rewarding short-term gain, longitudinal adaptation, and acute-to-chronic workload ratio conformity. The policy is learned by conservative off-policy training on retrospective data, evaluated through the Fitted Q-Evaluation (FQE) and Doubly Robust (DR) estimators, and presented to coaches as the three leading candidate actions, with SHapley Additive exPlanations (SHAP) values used to explain the model's preferences among the candidate actions. In a 12-week single-center retrospective comparison of 70 national-level sprinters (35 men and 35 women; 100 m personal best (PB) ≤ 11.20 s for men or ≤ 12.50 s for women), grouped by whether their squad had adopted the tool ( n = 35 RL-guided) or continued classical block periodisation ( n = 35 control), the RL-guided cohort demonstrated between-cohort differences of +0.240 s in 100 m [95% confidence interval (CI) +0.128 to +0.352; p < 0.001, d = 1.00], +0.104 s in 30 m ( p < 0.001, d = 1.00) and +2.17 cm in countermovement jump ( p < 0.001, d = 1.01). Zero algorithmically defined sustained multi-indicator fatigue/load events were observed in the RL-guided cohort vs. seven in the control cohort (1.43 per 1,000 athlete-days); these events should not be interpreted as clinically diagnosed overtraining syndrome. Off-policy evaluation yielded exploratory point estimates whose precision remains unknown because uncertainty intervals were not calculated. These observational findings describe associations with an RL-guided, coach-in-the-loop workflow and do not establish a causal effect of the RL policy.",
+          "url": "https://doi.org/10.3389/fpsyg.2026.1902098",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3389/fpsyg.2026.1902098",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Adaptive training load optimization for sprinters via offline reinforcement learning and multi-modal physiological feedback",
+            "method": "Elite sprint training requires daily adjustment of training load to balance performance adaptation and fatigue, yet physiological monitoring does not necessarily translate into a specific next-session prescription. This study formalizes dai",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "Xiangmin Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Xiangmin Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "pedestrian decision-making",
+            "inverse reinforcement learning",
+            "human movement",
+            "pedestrian behavior"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Solving elliptic partial differential equation based on deep reinforcement learning",
+          "authors": [
+            "Mengyao Li"
+          ],
+          "author_details": [
+            {
+              "name": "Mengyao Li",
+              "affiliations": [
+                "Luoyang Vocational College of Culture and Tourism"
+              ]
+            }
+          ],
+          "keywords": [],
+          "journal": "Discover Artificial Intelligence",
+          "published": "2026-10-31",
+          "abstract": "Elliptic partial differential equations (PDEs) constitute a fundamental class of governing equations in physics and engineering, underpinning the mathematical descriptions of electrostatic potential distribution, steady-state heat conduction, and linear elasticity. The numerical solution of these equations on fine discretization grids is computationally intensive, as classical iterative solvers require numerous sweeps to achieve convergence. This computational bottleneck critically hinders real-time applications such as online process control, interactive design optimization, and inverse problem reconstruction, where rapid response to changing boundary conditions or source terms is essential. The traditional numerical method cannot meet the real-time application requirements because of its long calculation time when solving on fine grids. In this study, the solution framework of deep Q-network is constructed, and the elliptic PDE solution is modeled as Markov decision processes. The state space includes solution field, residual field and boundary mark on discrete grid. The action space is 11 discrete corrections (− 0.10 to 0.10 with an interval of 0.02). The reward function is weighted sum of PDE residual term (weight 0.6), boundary error term (weight 0.3) and smooth regularization term (weight 0.1). The feature extraction network uses three-layer convolution and two residual blocks to output 512-dimensional vectors. The proposed DRL solver achieves relative L2 errors of 0.28%, 0.39%, and 0.62% on Poisson, Helmholtz, and anisotropic diffusion test cases, respectively, outperforming the finite element method (0.32%, 0.45%, 0.78%) and the multigrid method (0.31%, 0.44%, 0.76%). In the inference phase, the DRL solver completes a single forward pass on a 256 × 2562 grid in 0.15 s, achieving a 9898-fold speedup over the multigrid method’s 14.8 s. The training process converges stably within 20,000 steps, with the residual norm decreasing from an initial value of 12.4 to a final value of 0.16. This method provides a feasible way for solving and controlling real-time physical fields.",
+          "url": "https://doi.org/10.1007/s44163-026-02533-0",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1007/s44163-026-02533-0",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Solving elliptic partial differential equation based on deep reinforcement learning",
+            "method": "Elliptic partial differential equations (PDEs) constitute a fundamental class of governing equations in physics and engineering, underpinning the mathematical descriptions of electrostatic potential distribution, steady-state heat conductio",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Adapting service behavior of taxi drivers for optimal operating decisions via distributional reinforcement learning",
+          "authors": [
+            "Zaoli Yang",
+            "Yixiang Ma",
+            "Weijian Zhang",
+            "Vincent Charles",
+            "Kun Wang",
+            "Wen‐Long Shang"
+          ],
+          "author_details": [
+            {
+              "name": "Zaoli Yang",
+              "affiliations": [
+                "Beijing University of Technology"
+              ]
+            },
+            {
+              "name": "Yixiang Ma",
+              "affiliations": [
+                "Beijing University of Technology"
+              ]
+            },
+            {
+              "name": "Weijian Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Vincent Charles",
+              "affiliations": [
+                "Queen's University Belfast"
+              ]
+            },
+            {
+              "name": "Kun Wang",
+              "affiliations": [
+                "Hong Kong Polytechnic University"
+              ]
+            },
+            {
+              "name": "Wen‐Long Shang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [],
+          "journal": "Travel Behaviour and Society",
+          "published": "2026-10-31",
+          "abstract": "Taxi drivers’ area choices shape subsequent locations, order availability, and cumulative earnings, yet previous intelligent transport studies prioritize passenger-demand matching or expected returns, overlooking sequential dependence and heterogeneous risk preferences. This study formulates taxi dispatch as a risk-sensitive, multi-step decision problem to support taxi drivers’ adaptive service behavior and proposes a weighted implicit quantile network (wIQN) to optimize long-horizon operating revenue. wIQN extends the standard implicit quantile network with target-quantile-aware temporal-difference weighting and a correction for extreme negative weights, thereby preserving informative variation in the return distribution. It further separates preference-neutral distribution learning through uniform quantile sampling from preference-specific policy selection through quantile distortion. We evaluate wIQN in a week-long offline simulation built from 2019 New York City taxi trips, comparing it with greedy, deep Q-network (DQN), and implicit quantile network (IQN) policies under risk-averse, risk-neutral, and risk-seeking preferences. The results show that wIQN achieves the strongest weekly revenue performance, learns broader and more differentiated return distributions than IQN, and produces clearer responses to heterogeneous risk preferences. These findings indicate that preserving return-distribution detail during training and postponing preference distortion until decision time can improve long-horizon decisions while supporting personalized dispatch recommendations. The study contributes an operator-centered, risk-sensitive distributional reinforcement-learning framework for the model-driven adaptation of service behavior in dynamic urban service systems.",
+          "url": "https://doi.org/10.1016/j.tbs.2026.101429",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1016/j.tbs.2026.101429",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Adapting service behavior of taxi drivers for optimal operating decisions via distributional reinforcement learning",
+            "method": "Taxi drivers’ area choices shape subsequent locations, order availability, and cumulative earnings, yet previous intelligent transport studies prioritize passenger-demand matching or expected returns, overlooking sequential dependence and h",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Trading to Protect the Grid: A Reinforcement Learning-Based Bidding Strategy for Day-Ahead Flexibility Markets",
+          "authors": [
+            "Janosch Jungo",
+            "Florian Kühlkamp",
+            "Severin Nowak"
+          ],
+          "author_details": [
+            {
+              "name": "Janosch Jungo",
+              "affiliations": []
+            },
+            {
+              "name": "Florian Kühlkamp",
+              "affiliations": []
+            },
+            {
+              "name": "Severin Nowak",
+              "affiliations": [
+                "Lucerne University of Applied Sciences and Arts"
+              ]
+            }
+          ],
+          "keywords": [],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-10-31",
+          "abstract": "With rising electricity demand and grid investments lagging behind, flexibilitymarkets offer distribution system operators (DSO) a cost-effective alternative togrid expansion. As of 2026, flexibility markets still remain mostly pilot projectsin Europe and, to the best of our knowledege, current research has not provideda complete answer to how a DSO should place bids in a day-ahead flexibilitymarket while taking into account the full complexity of such a market. We pro-pose a bidding strategy for a DSO based on reinforcement learning (RL) that aimsto reduce the aging (degradation) of grid assets due to high load. By using atwo-level Markov decision process (MDP) and simulated intra-day rollouts, ourmethod learns to be robust to forecast errors and adjusts its bids accordingly. Theproposed method is evaluated on a stress-test on a Swiss distribution transformeragainst an optimization-based baseline under perfect foresight (5% higher aging)and realistic forecasts (24% less aging). The results showcase the potential oflearning-based bidding strategies against standard optimization methods and pro-vide a framework for DSOs to robustly bid in future day-ahead flexibility markets.",
+          "url": "https://doi.org/10.5281/zenodo.23833303",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23833303",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Trading to Protect the Grid: A Reinforcement Learning-Based Bidding Strategy for Day-Ahead Flexibility Markets",
+            "method": "With rising electricity demand and grid investments lagging behind, flexibilitymarkets offer distribution system operators (DSO) a cost-effective alternative togrid expansion. As of 2026, flexibility markets still remain mostly pilot projec",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Hyperbolic Inverse Reinforcement Learning",
+          "authors": [
+            "Iulia Rusu",
+            "Anoop Praturu",
+            "Sergei Gepshtein",
+            "Tatyana Sharpee"
+          ],
+          "author_details": [
+            {
+              "name": "Iulia Rusu",
+              "affiliations": []
+            },
+            {
+              "name": "Anoop Praturu",
+              "affiliations": []
+            },
+            {
+              "name": "Sergei Gepshtein",
+              "affiliations": []
+            },
+            {
+              "name": "Tatyana Sharpee",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-30",
+          "abstract": "Inverse reinforcement learning (IRL) seeks to infer the reward function underlying observed behavior, but its predictive accuracy and interpretability depend on how that reward is computed from the underlying features. While prior IRL reward functions have been implemented through a variety of techniques including linear weights, neural networks, or other function approximators, none make assumptions about the geometry of the underlying feature space. Inspired by geometric organization observed in neural circuits, we introduce Hyperbolic inverse reinforcement learning (Hyperbolic IRL), which parameterizes reward as a function of Hyperbolic distance between the feature vector and a learned parameter vector, as well as its Euclidean distance variant. We tested our methods against a range of linear and nonlinear IRL baselines under both deterministic and stochastic policies. Our Hyperbolic approach achieved comparable performance to state-of-the-art models on established benchmarks and excelled in the low data limit and across dense environments. Applied to human navigation among multiple exhibits in a museum room, Hyperbolic IRL reveals reward structure that depends not only on individual exhibit-distance features, but also on non-separable conjunctions between them. Together, these results demonstrate that a Hyperbolic reward parameterization can improve both the predictive accuracy and interpretability of IRL, providing a framework for studying how non-separable, conjunctive structure can begin to explain behavior.",
+          "url": "https://arxiv.org/abs/2610.42104v1",
+          "arxiv_id": "2610.42104v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Hyperbolic Inverse Reinforcement Learning",
+            "method": "Inverse reinforcement learning (IRL) seeks to infer the reward function underlying observed behavior, but its predictive accuracy and interpretability depend on how that reward is computed from the underlying features. While prior IRL rewar",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments",
+          "authors": [
+            "Philipp Bordne",
+            "André Biedenkapp"
+          ],
+          "author_details": [
+            {
+              "name": "Philipp Bordne",
+              "affiliations": []
+            },
+            {
+              "name": "André Biedenkapp",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-30",
+          "abstract": "Deep reinforcement learning (RL) is a powerful framework for sequential decision-making. Despite many high-profile successes in recent years, deep RL is known to be brittle. An emerging line of research attributes this brittleness to a loss of plasticity in neural networks. However, plasticity loss has so far been understudied in stochastic environments. We study this interplay systematically, training SAC agents on three DeepMind Control tasks augmented with controlled levels of observation and action noise. We find that plasticity-preserving methods increase learning robustness on the two harder tasks, with their advantage growing as observation noise increases, while combining resets with layer normalization underperforms resets alone at every observation noise level tested. Further, stochasticity can accelerate the loss of plasticity in harder environments, whereas in easier settings noise can act as a regularizer that sustains plasticity. Lastly, plasticity loss is most pronounced in the early stages of training. In the most challenging stochastic settings, TD instability rather than gradual plasticity loss becomes the dominant failure mode.",
+          "url": "https://arxiv.org/abs/2610.42100v1",
+          "arxiv_id": "2610.42100v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments",
+            "method": "Deep reinforcement learning (RL) is a powerful framework for sequential decision-making. Despite many high-profile successes in recent years, deep RL is known to be brittle. An emerging line of research attributes this brittleness to a loss",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "CausalXRL: Explainable Reinforcement Learning through Causal Graph Reasoning",
+          "authors": [
+            "Yanming Zhang",
+            "Eric Papenhausen",
+            "Klaus Mueller"
+          ],
+          "author_details": [
+            {
+              "name": "Yanming Zhang",
+              "affiliations": []
+            },
+            {
+              "name": "Eric Papenhausen",
+              "affiliations": []
+            },
+            {
+              "name": "Klaus Mueller",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG"
+          ],
+          "journal": "Proceedings of the 43rd International Conference on Machine Learning, PMLR 306:158028-158044, 2026",
+          "published": "2026-10-30",
+          "abstract": "Reinforcement learning is a powerful paradigm for training autonomous agents and has achieved impressive performance in complex environments. However, this success often comes at the cost of interpretability, diminishing trust and complicating efforts to debug and improve agent behavior. To address these challenges, we introduce CausalXRL, a novel framework for explainable reinforcement learning (XRL). A key feature of CausalXRL is its use of causal graph reasoning, which provides transparent, structured, multi-level explanations of agent decision-making. We validate CausalXRL through comprehensive case studies and a two-part evaluation: (1) a quantitative analysis of explanation fidelity and causal-structure learning efficiency in benchmark RL environments, and (2) a qualitative expert study assessing explainability in the real-time strategy (RTS) benchmark MicroRTS. The quantitative results show that CausalXRL can provide faithful explanations while efficiently learning causal structures, and the qualitative expert study suggests that participants found CausalXRL useful for inspecting high-level RTS strategies.",
+          "url": "https://arxiv.org/abs/2610.42028v1",
+          "arxiv_id": "2610.42028v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: CausalXRL: Explainable Reinforcement Learning through Causal Graph Reasoning",
+            "method": "Reinforcement learning is a powerful paradigm for training autonomous agents and has achieved impressive performance in complex environments. However, this success often comes at the cost of interpretability, diminishing trust and complicat",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "When Is a Game a Markov Decision Process? Correspondences Between Game Theory and Reinforcement Learning",
+          "authors": [
+            "Eduardo C. Garrido-Merchán"
+          ],
+          "author_details": [
+            {
+              "name": "Eduardo C. Garrido-Merchán",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.GT",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-30",
+          "abstract": "Reinforcement learning and game theory describe the same object from two sides. Game theory says what a rational outcome of a strategic interaction is; reinforcement learning says how an agent could reach one through experience. The two literatures nevertheless keep separate vocabularies for identical structures, and the treatments that bridge them present the correspondence as analogy rather than theorem. This monograph supplies the theorems. A game is a Markov decision process in three distinct senses, and every table entry is labelled with the one that applies: a definitional identity, an exact reduction carried by a value- and solution-preserving map, or a structural analogy that fails under identifiable conditions. We take every standard class of game, from normal-form through repeated, stochastic, partially observable, extensive-form with imperfect information, Bayesian, graphical, Stackelberg, potential, coalitional, mean-field and evolutionary games, and identify for each the decision-theoretic model that reinforcement learning already studies under another name. The same treatment is applied to solution concepts: Nash equilibrium and the fixed point of the Bellman optimality operator, quantal response equilibrium and the soft Bellman operator, the Shapley value and credit assignment, Blackwell approachability and no-regret learning. We map each model class onto the training procedures sound for it and record the complexity of the associated solution problems. A final part collects the correspondences that do not hold: the non-stationarity that invalidates the independent-learner reduction, the impossibility results that forbid uncoupled convergence to Nash equilibrium, and the gap between the coarse correlated equilibria that no-regret self-play reaches and the correlated equilibria it is credited with.",
+          "url": "https://arxiv.org/abs/2610.41962v1",
+          "arxiv_id": "2610.41962v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: When Is a Game a Markov Decision Process? Correspondences Between Game Theory and Reinforcement Learning",
+            "method": "Reinforcement learning and game theory describe the same object from two sides. Game theory says what a rational outcome of a strategic interaction is; reinforcement learning says how an agent could reach one through experience. The two lit",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Foundation Model-Aided Multi-Agent Reinforcement Learning for Wireless Random Access Network Optimization",
+          "authors": [
+            "Myeung Suk Oh",
+            "Zhiyao Zhang",
+            "Alvaro Velasquez",
+            "Nathaniel D. Bastian",
+            "Jia Liu"
+          ],
+          "author_details": [
+            {
+              "name": "Myeung Suk Oh",
+              "affiliations": [
+                "Georgia Southern University"
+              ]
+            },
+            {
+              "name": "Zhiyao Zhang",
+              "affiliations": [
+                "The Ohio State University"
+              ]
+            },
+            {
+              "name": "Alvaro Velasquez",
+              "affiliations": [
+                "University of Colorado Boulder"
+              ]
+            },
+            {
+              "name": "Nathaniel D. Bastian",
+              "affiliations": [
+                "Johns Hopkins University"
+              ]
+            },
+            {
+              "name": "Jia Liu",
+              "affiliations": [
+                "The Ohio State University"
+              ]
+            }
+          ],
+          "keywords": [
+            "medium access control scheduling",
+            "multi-agent reinforcement learning",
+            "foundation models",
+            "actor-critic",
+            "convergence analysis",
+            "training efficiency"
+          ],
+          "journal": "ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)",
+          "published": "2026-10-30",
+          "abstract": "Random access (RA) is one of the most foundational medium access control (MAC) layer scheduling schemes for handling unpredictable data traffic from multiple terminals. While multi-agent reinforcement learning (MARL) has been explored to optimize RA-based wireless networks, its reliance on experience-driven, distributed policy learning incurs significant training overhead for each optimization task, limiting its feasibility in real-world applications. In this work, we propose to leverage a foundation model (FM) to improve MARL efficiency across diverse RA network optimization tasks. Specifically, we design an FM-aided actor-critic algorithm within a consensus-based decentralized MARL architecture and provide its convergence analysis under local reward exchanges and nonlinear value function approximations to show that our algorithm achieves the same convergence order as the conventional MARL with critic model exchanges and linear approximations. Our numerical results show that our FM-based approach significantly enhances MARL speed for RA network optimization.",
+          "url": "https://doi.org/10.1145/3842721.3849640",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1145/3842721.3849640",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Foundation Model-Aided Multi-Agent Reinforcement Learning for Wireless Random Access Network Optimization",
+            "method": "Random access (RA) is one of the most foundational medium access control (MAC) layer scheduling schemes for handling unpredictable data traffic from multiple terminals. While multi-agent reinforcement learning (MARL) has been explored to op",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Research on Simulation and Path Optimization of University Emergency Evacuation Based on Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Linna Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Linna Yang",
+              "affiliations": [
+                "Lanzhou University of Technology",
+                "Lanzhou Institute of Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "multi-agent reinforcement learning",
+            "path optimization",
+            "reward decomposition",
+            "graph attention mechanism",
+            "centralized training decentralized execution",
+            "topological perturbation"
+          ],
+          "journal": "Journal of Digital Frontier",
+          "published": "2026-10-30",
+          "abstract": "To address the spatial misalignment between local observations and global bottleneck consequences in university emergency evacuation, as well as the difficulty of sparse team rewards in guiding diversion behaviors, the Topological Awareness Hierarchical State Encoder (TAHSE) and Bottleneck Sensitive Reward Decomposition Mechanism (BSRD) are proposed. These two mechanisms are coupled into a unified architecture within a centralized training-decentralized execution framework. TAHSE aggregates the features of the local neighborhood graph using attention and uses learnable bottleneck tokens as the keys and values for the second layer's cross-domain attention, enabling agents to obtain the compressed prior of the global bottleneck solely based on their own observations and pre-stored bottleneck graphs, reducing the computational complexity from the square level of the full graph attention to the linear level. BSRD decomposes a single negative time team reward into three components: progress, bottleneck pressure, and coordination completion. It triggers pressure penalties with a warning threshold lower than the safety upper limit and uses an adaptive coefficient to weigh the safety constraints as the difficulty of the scenario increases. Twenty seed repetition experiments were conducted in three-tier campus scenarios (500/1500/3000 agents) and structured perturbation protocols: The gap ratio of the proposed method relative to the upper bound reference in the three scenarios was controlled within 15%, while the MAPPO baseline increased from 18.4% to 31.5% as the scale expanded; the peak density effect under topological perturbation reached 1.42 (p<0.001), and the triggering threshold for diversion shifted systematically towards the bottleneck nodes with reduced capacity. The results show that embedding the bottleneck as a portable prior in the decentralized strategy and guiding diversion with reward signals ahead of the safety upper limit can achieve joint improvement in efficiency and safety at a controllable computational cost and is more reliable under structural variation conditions.",
+          "url": "https://doi.org/10.67541/jdf2612",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.67541/jdf2612",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Research on Simulation and Path Optimization of University Emergency Evacuation Based on Multi-Agent Reinforcement Learning",
+            "method": "To address the spatial misalignment between local observations and global bottleneck consequences in university emergency evacuation, as well as the difficulty of sparse team rewards in guiding diversion behaviors, the Topological Awareness",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Bayesian Offline Multi-Agent Reinforcement Learning with Latent World Models",
+          "authors": [
+            "Xi Xiong",
+            "Lu Liu",
+            "Yiming Li",
+            "Jakob Foerster"
+          ],
+          "author_details": [
+            {
+              "name": "Xi Xiong",
+              "affiliations": []
+            },
+            {
+              "name": "Lu Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Yiming Li",
+              "affiliations": []
+            },
+            {
+              "name": "Jakob Foerster",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "model-based reinforcement learning",
+            "latent world models",
+            "partial observability"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-10-29",
+          "abstract": "Model-based offline multi-agent reinforcement learning (MARL) provides a promising approach to multi-agent decision-making under partial observability, where the global state is unavailable from offline data. However, limited dataset coverage can lead to substantial out-of-distribution (OOD) model errors, which may mislead policy optimization and degrade downstream performance. Existing model-based offline MARL methods typically rely on access to global states or mitigate model errors through pessimistic or conservative policy optimization, leaving the reliability and refinement of learned world models less explored. We propose a Bayesian offline MARL framework that infers latent global states from decentralized observation-action histories and iteratively refines a posterior world model using only offline data. Building on posterior information loss, we extend this criterion to the multi-agent setting as multi-agent posterior information loss (MPIL), which provides a reliability measure for world model refinement and offline evaluation. Theoretically, we establish an upper bound on policy regret that is monotonic in MPIL and further characterize its dependence on the size and state-joint-action coverage of the offline dataset. Experiments on partially observable multi-agent variants of D4RL MuJoCo tasks demonstrate competitive policy performance across diverse offline data conditions, while MPIL-guided refinement improves world model prediction and downstream policy performance. These results support a principled connection between world model reliability, offline data coverage, and policy performance in partially observable offline MARL.",
+          "url": "https://arxiv.org/abs/2610.39576",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2610.39576",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Bayesian Offline Multi-Agent Reinforcement Learning with Latent World Models",
+            "method": "Model-based offline multi-agent reinforcement learning (MARL) provides a promising approach to multi-agent decision-making under partial observability, where the global state is unavailable from offline data. However, limited dataset covera",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Bayesian Offline Multi-Agent Reinforcement Learning with Latent World Models",
+          "authors": [
+            "Xi Xiong",
+            "Lu Liu",
+            "Yiming Li",
+            "Jakob Foerster"
+          ],
+          "author_details": [
+            {
+              "name": "Xi Xiong",
+              "affiliations": []
+            },
+            {
+              "name": "Lu Liu",
+              "affiliations": []
+            },
+            {
+              "name": "Yiming Li",
+              "affiliations": []
+            },
+            {
+              "name": "Jakob Foerster",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-10-29",
+          "abstract": "Model-based offline multi-agent reinforcement learning (MARL) provides a promising approach to multi-agent decision-making under partial observability, where the global state is unavailable from offline data. However, limited dataset coverage can lead to substantial out-of-distribution (OOD) model errors, which may mislead policy optimization and degrade downstream performance. Existing model-based offline MARL methods typically rely on access to global states or mitigate model errors through pessimistic or conservative policy optimization, leaving the reliability and refinement of learned world models less explored. We propose a Bayesian offline MARL framework that infers latent global states from decentralized observation-action histories and iteratively refines a posterior world model using only offline data. Building on posterior information loss, we extend this criterion to the multi-agent setting as multi-agent posterior information loss (MPIL), which provides a reliability measure for world model refinement and offline evaluation. Theoretically, we establish an upper bound on policy regret that is monotonic in MPIL and further characterize its dependence on the size and state-joint-action coverage of the offline dataset. Experiments on partially observable multi-agent variants of D4RL MuJoCo tasks demonstrate competitive policy performance across diverse offline data conditions, while MPIL-guided refinement improves world model prediction and downstream policy performance. These results support a principled connection between world model reliability, offline data coverage, and policy performance in partially observable offline MARL.",
+          "url": "https://arxiv.org/abs/2610.39576v1",
+          "arxiv_id": "2610.39576v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Bayesian Offline Multi-Agent Reinforcement Learning with Latent World Models",
+            "method": "Model-based offline multi-agent reinforcement learning (MARL) provides a promising approach to multi-agent decision-making under partial observability, where the global state is unavailable from offline data. However, limited dataset covera",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Graph-based multi-agent reinforcement learning for industrial supply chain efficiency optimization",
+          "authors": [
+            "Jun Yao",
+            "Mohallab Maree Aldawood",
+            "Abdulkader Monier Daghistani",
+            "Khalid A. Alnowibet"
+          ],
+          "author_details": [
+            {
+              "name": "Jun Yao",
+              "affiliations": []
+            },
+            {
+              "name": "Mohallab Maree Aldawood",
+              "affiliations": [
+                "Damascus University"
+              ]
+            },
+            {
+              "name": "Abdulkader Monier Daghistani",
+              "affiliations": [
+                "King Abdulaziz University"
+              ]
+            },
+            {
+              "name": "Khalid A. Alnowibet",
+              "affiliations": [
+                "King Saud University"
+              ]
+            }
+          ],
+          "keywords": [
+            "multi-agent reinforcement learning",
+            "supply chain optimization",
+            "inventory management",
+            "demand uncertainty",
+            "level of service",
+            "supply chain simulation"
+          ],
+          "journal": "Scientific Reports",
+          "published": "2026-10-29",
+          "abstract": "Industrial supply-chain decisions are affected by variable demand, transportation delays, and inventory uncertainty. This study evaluates an integrated Graph-MAPPO framework that combines graph-based state representation with cooperative multi-agent policy learning in a data-informed supply-chain simulation environment. A deterministic mapping of 1,873 development-period DataCo records produced 140 proxy nodes and 2,626 transaction-induced directed links; the subsequent operational trajectories were generated by explicit simulation rules rather than replayed as observed industrial trajectories. Normal, Surge, Disruption, and Mixed demand/lead-time scenarios were evaluated with fully specified distributions and reserved random seeds. For the controlled comparison, all learning-based baselines used 1,000 training episodes, the same cooperative reward, equivalent tuning effort, and common evaluation seeds; a 10-step rolling-horizon MPC baseline was also implemented. Graph-MAPPO obtained a mean episode reward of − 24.2559, a mean backlog of 41.05 units, and a service level of 99.70%. Several baselines achieved higher reward or lower backlog, and rolling-horizon MPC achieved the strongest scalar reward-backlog score but required substantially greater online computation. The ablation results support a contribution from graph-aware representation within the evaluated architecture, but the findings demonstrate a specific coordination-computation trade-off rather than general superiority or validated industrial deployment.",
+          "url": "https://doi.org/10.1038/s41598-026-76641-3",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1038/s41598-026-76641-3",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Graph-based multi-agent reinforcement learning for industrial supply chain efficiency optimization",
+            "method": "Industrial supply-chain decisions are affected by variable demand, transportation delays, and inventory uncertainty. This study evaluates an integrated Graph-MAPPO framework that combines graph-based state representation with cooperative mu",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Multi-Agent Reinforcement Learning for Global Climate Policy Cooperation",
+          "authors": [
+            "Anne Moll-Elsborg",
+            "Oskar Bohn Lassen",
+            "Francisco Câmara Pereira"
+          ],
+          "author_details": [
+            {
+              "name": "Anne Moll-Elsborg",
+              "affiliations": []
+            },
+            {
+              "name": "Oskar Bohn Lassen",
+              "affiliations": []
+            },
+            {
+              "name": "Francisco Câmara Pereira",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "multi-agent reinforcement learning",
+            "climate change negotiations",
+            "free-riding",
+            "non-binding agreements",
+            "climate change mitigation"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-10-27",
+          "abstract": "International climate policy requires coordination among countries whose mitigation decisions impose local costs but generate global benefits. Classical game-theoretic and integrated assessment approaches can study these incentives, but typically rely on prescribed behavioural assumptions or equilibrium concepts. Recent work has therefore explored Multi-Agent Reinforcement Learning as a way to model climate-policy cooperation as an emergent outcome of repeated strategic interaction. We extend an existing MARL climate framework with a multi-stage negotiation mechanism in which agents propose agreements, accept or reject commitments, and face penalties for non-compliance. This allows us to study how agreement design affects learned mitigation behaviour, compliance, and climate outcomes. In an idealized setting with four homogeneous agents, we find that non-binding agreements do little to overcome free-riding, while moderate non-compliance penalties improve cooperation and reduce warming. However, excessively strong penalties discourage ambitious commitments, revealing a trade-off between enforcement and participation. We position the framework as a methodological contribution for testing agreement design rather than a predictive model of real negotiations.",
+          "url": "https://arxiv.org/abs/2610.37870",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2610.37870",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Multi-Agent Reinforcement Learning for Global Climate Policy Cooperation",
+            "method": "International climate policy requires coordination among countries whose mitigation decisions impose local costs but generate global benefits. Classical game-theoretic and integrated assessment approaches can study these incentives, but typ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Cooperative EV Charging Assignment Using Multi-Agent Reinforcement Learning: A Comparison of QMIX and Independent Q-Learning Under Urban Traffic Uncertainty",
+          "authors": [
+            "Nour-Eddine Moumni",
+            "Rachid Alaoui",
+            "Driss Kiouach"
+          ],
+          "author_details": [
+            {
+              "name": "Nour-Eddine Moumni",
+              "affiliations": []
+            },
+            {
+              "name": "Rachid Alaoui",
+              "affiliations": []
+            },
+            {
+              "name": "Driss Kiouach",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "multi-agent reinforcement learning",
+            "QMIX",
+            "centralized training decentralized execution",
+            "Dec-POMDP",
+            "experience sharing",
+            "traffic uncertainty",
+            "charging station allocation",
+            "SUMO simulation"
+          ],
+          "journal": "arXiv (Cornell University)",
+          "published": "2026-10-27",
+          "abstract": "The allocation of electric vehicles to public charging stations is increasingly constrained by the fact that several heterogeneous facilities often serve the same stream of requests while observing only partial local information. An accept/reject decision that is defensible for one station may nevertheless reduce the efficiency of the charging district as a whole. We formulate this operational problem as a Decentralized Partially Observable Markov Decision Process (Dec-POMDP) and examine whether Centralized Training with Decentralized Execution (CTDE), instantiated through QMIX, improves assignment performance relative to a cooperative Independent Q-Learning baseline (IQL). The evaluation uses a six-station urban network simulated with SUMO, five independent random seeds, 200 training episodes, and four traffic flux scenarios ranging from 100 to 250 vehicles/hour. Under this protocol, QMIX reaches a mean reward per evaluated decision of +0.776, versus +0.578 for IQL (delta = +0.198, seed-paired Cohens dz = 2.98, exact two-sided Wilcoxon p = 0.0625, the minimum attainable value at this sample size), and raises the acceptance rate from 72.4% to 94.0% (delta = +21.6 pp, dz = 5.24, Wilcoxon p = 0.0625). A five-variant ablation suggests this gain is primarily attributable to the CTDE architecture when holding cooperative reward terms fixed, though not formally isolated with a single seed. By contrast, cooperative reward shaping and experience sharing show no clear descriptive benefit and may slightly reduce performance. These findings support the view that, for multi-station charging assignment, coordination should be embedded in the learning architecture rather than added only through heuristic cooperation terms.",
+          "url": "https://arxiv.org/abs/2610.38053",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.48550/arxiv.2610.38053",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Cooperative EV Charging Assignment Using Multi-Agent Reinforcement Learning: A Comparison of QMIX and Independent Q-Learning Under Urban Traffic Uncertainty",
+            "method": "The allocation of electric vehicles to public charging stations is increasingly constrained by the fact that several heterogeneous facilities often serve the same stream of requests while observing only partial local information. An accept/",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Cooperative EV Charging Assignment Using Multi-Agent Reinforcement Learning: A Comparison of QMIX and Independent Q-Learning Under Urban Traffic Uncertainty",
+          "authors": [
+            "Nour-Eddine Moumni",
+            "Rachid Alaoui",
+            "Driss Kiouach"
+          ],
+          "author_details": [
+            {
+              "name": "Nour-Eddine Moumni",
+              "affiliations": []
+            },
+            {
+              "name": "Rachid Alaoui",
+              "affiliations": []
+            },
+            {
+              "name": "Driss Kiouach",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA",
+            "cs.LG"
+          ],
+          "journal": null,
+          "published": "2026-10-27",
+          "abstract": "The allocation of electric vehicles to public charging stations is increasingly constrained by the fact that several heterogeneous facilities often serve the same stream of requests while observing only partial local information. An accept/reject decision that is defensible for one station may nevertheless reduce the efficiency of the charging district as a whole. We formulate this operational problem as a Decentralized Partially Observable Markov Decision Process (Dec-POMDP) and examine whether Centralized Training with Decentralized Execution (CTDE), instantiated through QMIX, improves assignment performance relative to a cooperative Independent Q-Learning baseline (IQL). The evaluation uses a six-station urban network simulated with SUMO, five independent random seeds, 200 training episodes, and four traffic flux scenarios ranging from 100 to 250 vehicles/hour. Under this protocol, QMIX reaches a mean reward per evaluated decision of +0.776, versus +0.578 for IQL (delta = +0.198, seed-paired Cohens dz = 2.98, exact two-sided Wilcoxon p = 0.0625, the minimum attainable value at this sample size), and raises the acceptance rate from 72.4% to 94.0% (delta = +21.6 pp, dz = 5.24, Wilcoxon p = 0.0625). A five-variant ablation suggests this gain is primarily attributable to the CTDE architecture when holding cooperative reward terms fixed, though not formally isolated with a single seed. By contrast, cooperative reward shaping and experience sharing show no clear descriptive benefit and may slightly reduce performance. These findings support the view that, for multi-station charging assignment, coordination should be embedded in the learning architecture rather than added only through heuristic cooperation terms.",
+          "url": "https://arxiv.org/abs/2610.38053v1",
+          "arxiv_id": "2610.38053v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Cooperative EV Charging Assignment Using Multi-Agent Reinforcement Learning: A Comparison of QMIX and Independent Q-Learning Under Urban Traffic Uncertainty",
+            "method": "The allocation of electric vehicles to public charging stations is increasingly constrained by the fact that several heterogeneous facilities often serve the same stream of requests while observing only partial local information. An accept/",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": []
+    },
+    {
+      "id": "causal-llm",
+      "name": "Causal Inference in Large Language Models",
+      "papers": [
+        {
+          "title": "LoRA-based Domain Adaptation of Qwen-7B for Veterinary and Livestock Text Generation: A Lexical and Semantic Evaluation of Base and Fine-Tuned Outputs",
+          "authors": [
+            "Tolgahan Öztürk",
+            "Mehmet Erkan Yüksel",
+            "Selçuk Sevgen",
+            "Mehmet Erman Or",
+            "Ömür Koçak"
+          ],
+          "author_details": [
+            {
+              "name": "Tolgahan Öztürk",
+              "affiliations": [
+                "Istanbul University-Cerrahpaşa",
+                "Istanbul University"
+              ]
+            },
+            {
+              "name": "Mehmet Erkan Yüksel",
+              "affiliations": []
+            },
+            {
+              "name": "Selçuk Sevgen",
+              "affiliations": [
+                "Istanbul University-Cerrahpaşa",
+                "Istanbul University"
+              ]
+            },
+            {
+              "name": "Mehmet Erman Or",
+              "affiliations": [
+                "Istanbul University-Cerrahpaşa",
+                "Istanbul University"
+              ]
+            },
+            {
+              "name": "Ömür Koçak",
+              "affiliations": [
+                "Istanbul University-Cerrahpaşa",
+                "Istanbul University"
+              ]
+            }
+          ],
+          "keywords": [
+            "LoRa",
+            "domain adaptation",
+            "parameter-efficient fine-tuning",
+            "livestock research",
+            "large language models",
+            "lexical overlap",
+            "semantic similarity",
+            "BERTScore",
+            "BLEU",
+            "ROUGE",
+            "meteors"
+          ],
+          "journal": "Istanbul University - Journal of Electrical & Electronics Engineering",
+          "published": "2026-10-27",
+          "abstract": "Large language models (LLMs) have demonstrated strong capabilities in natural language processing; however, their effectiveness in specialized domains depends on their ability to represent domain-specific terminology, conceptual relations, and contextual knowledge. This study evaluates the effect of Low-Rank Adaptation (LoRA)-based domain adaptation on the text-generation behavior of Qwen-7B in veterinary and livestock sciences. The base Qwen-7B causal language model was adapted using a domain-specific corpus compiled from veterinary and livestock literature. The adaptation process was conducted within an instructionformatted causal language modeling framework, in which unlabeled domain texts were transformed into structured prompt–response representations. The base and LoRA-adapted models were evaluated on an independent 100-question domain-specific test set using a multidimensional protocol that combined lexical overlap metrics, Bilingual Evaluation Understudy (BLEU), Recall-Oriented Understudy for Gisting Evaluation (ROUGE), and Metric for Evaluation of Translation with Explicit ORdering (METEOR), with the semantic similarity metric Bidirectional Encoder Representations from Transformers Score (BERTScore).. The results showed that LoRA-based adaptation did not produce uniform improvement across all evaluation dimensions. Instead, the adapted model showed higher BERTScore-based semantic similarity while exhibiting reduced surface-level lexical overlap. Therefore, the observed effect should be interpreted as a metric-dependent reorientation of model output rather than as a general performance gain. Overall, this study provides descriptive evidence that parameter-efficient fine-tuning can modify the generation behavior of LLMs in veterinary and livestock text-generation tasks, while also highlighting the need for multidimensionally supported, contamination controlled, and expert-informed evaluation before such models can be considered reliable for clinical or decision support applications.",
+          "url": "https://doi.org/10.5152/electrica.2026.26160",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5152/electrica.2026.26160",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: LoRA-based Domain Adaptation of Qwen-7B for Veterinary and Livestock Text Generation: A Lexical and Semantic Evaluation of Base and Fine-Tuned Outputs",
+            "method": "Large language models (LLMs) have demonstrated strong capabilities in natural language processing; however, their effectiveness in specialized domains depends on their ability to represent domain-specific terminology, conceptual relations, ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "causal-text",
+      "name": "Causal Inference in Text Analysis",
+      "papers": []
+    }
+  ]
+}
