@@ -1,0 +1,1767 @@
+{
+  "week": "2026-W46",
+  "generated_at": "2026-11-09T07:40:05.566086Z",
+  "topics": [
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "papers": [
+        {
+          "title": "A deep causal inference model for interpretable travel behaviour analysis",
+          "authors": [
+            "Kimia Kamal",
+            "Bilal Farooq"
+          ],
+          "author_details": [
+            {
+              "name": "Kimia Kamal",
+              "affiliations": [
+                "Toronto Metropolitan University"
+              ]
+            },
+            {
+              "name": "Bilal Farooq",
+              "affiliations": [
+                "Toronto Metropolitan University"
+              ]
+            }
+          ],
+          "keywords": [
+            "travel behavior",
+            "causal inference",
+            "discrete choice modelling",
+            "unmeasured confounding",
+            "causal discovery",
+            "counterfactual forecasting",
+            "normalizing flows",
+            "interpretability",
+            "pedestrian crossing behavior",
+            "virtual reality"
+          ],
+          "journal": "Transportation Research Part C Emerging Technologies",
+          "published": "2026-11-07",
+          "abstract": "Transportation policy assessment often involves causal questions, yet traditional travel behaviour lacks the ability of distinguishing causal association from non-causal correlations. We present the deep CAusal infeRence mOdel for traveL behavIour aNAlysis (CAROLINA) , a novel framework that addresses both observed and unobserved confounders in discrete choice modelling through causal discovery and the strengths of deep neural networks. Within this interpretable framework, we also introduce a Generative Counterfactual model for forecasting individuals’ behaviour by adapting the Normalizing Flow method. Through the case studies of virtual reality-based pedestrian crossing behaviour, revealed preference travel behaviour from London, and synthetic data, we demonstrate the effectiveness of our proposed models in isolating causal relationships from confounding associations. Our proposed causal framework enhances predictive accuracy by employing data-driven algorithms, while maintaining interpretability. In addition, the counterfactual results show that intervention mechanisms that can reduce pedestrian stress levels lead to a 35.35% increase in individuals experiencing shorter waiting times. External interventions that reduce travel distances of non-mandatory trips in London lead to a 47% increase in the possible use of active and public transit modes.",
+          "url": "https://doi.org/10.1016/j.trc.2026.106120",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1016/j.trc.2026.106120",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 3,
+          "score": 2.386,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A deep causal inference model for interpretable travel behaviour analysis",
+            "method": "Transportation policy assessment often involves causal questions, yet traditional travel behaviour lacks the ability of distinguishing causal association from non-causal correlations. We present the deep CAusal infeRence mOdel for traveL be",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Seven myths about causal inference in ecology: clarifications and common ground",
+          "authors": [
+            "Laura E. Dee",
+            "Paul J. Ferraro",
+            "Katherine Siegel",
+            "Steve Miller",
+            "Jarrett Byrnes",
+            "Hannah Correia",
+            "Tyler L. McIntosh",
+            "Suchinta Arif"
+          ],
+          "author_details": [
+            {
+              "name": "Laura E. Dee",
+              "affiliations": [
+                "University of Colorado Boulder",
+                "University of Colorado System"
+              ]
+            },
+            {
+              "name": "Paul J. Ferraro",
+              "affiliations": [
+                "Johns Hopkins University"
+              ]
+            },
+            {
+              "name": "Katherine Siegel",
+              "affiliations": [
+                "Cooperative Institute for Research in Environmental Sciences"
+              ]
+            },
+            {
+              "name": "Steve Miller",
+              "affiliations": [
+                "University of Colorado Boulder",
+                "University of Colorado System"
+              ]
+            },
+            {
+              "name": "Jarrett Byrnes",
+              "affiliations": [
+                "University of Massachusetts Boston"
+              ]
+            },
+            {
+              "name": "Hannah Correia",
+              "affiliations": [
+                "University of North Dakota"
+              ]
+            },
+            {
+              "name": "Tyler L. McIntosh",
+              "affiliations": [
+                "Cooperative Institute for Research in Environmental Sciences",
+                "University of Colorado Boulder",
+                "University of Colorado System"
+              ]
+            },
+            {
+              "name": "Suchinta Arif",
+              "affiliations": [
+                "University of New Brunswick",
+                "University of Colorado Boulder",
+                "University of Colorado System"
+              ]
+            }
+          ],
+          "keywords": [
+            "causal inference",
+            "causal assumptions",
+            "causal claims",
+            "skepticism",
+            "prior knowledge"
+          ],
+          "journal": null,
+          "published": "2026-11-06",
+          "abstract": "Identifying and quantifying causal relationships from data is a central goal in ecology and conservation. To achieve this goal, ecologists are increasingly applying frameworks and methods from the broader, multidisciplinary causal inference literature. These applications have generated both enthusiasm and skepticism. Here, we address seven common sources of skepticism that we see as myths. Much of this skepticism treats causal inference as a competing research paradigm. However, it is better understood as a set of ideas and practices that can sharpen ecological reasoning and strengthen empirical evidence. The value of causal inference lies in clarifying the assumptions required to interpret statistical associations causally and in encouraging researchers to state these assumptions explicitly, justifying them using prior knowledge and biological reasoning. In this sense, causal inference does not replace what ecologists already do well. Rather, it helps reveal, refine, and communicate the logic already underlying empirical research with causal aims. Across the seven concerns that we examine, a common message emerges: debates about causal inference should focus less on labels and techniques and more on whether the assumptions behind a causal claim are credible, clearly stated, and fit for purpose when making causal claims in ecology.",
+          "url": "https://doi.org/10.32942/x2v113",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.32942/x2v113",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Seven myths about causal inference in ecology: clarifications and common ground",
+            "method": "Identifying and quantifying causal relationships from data is a central goal in ecology and conservation. To achieve this goal, ecologists are increasingly applying frameworks and methods from the broader, multidisciplinary causal inference",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal inference with real-world data in health care research: a scoping review protocol and study within a review protocol",
+          "authors": [
+            "Stella Erdmann",
+            "Leonard Levin",
+            "Meinhard Kieser"
+          ],
+          "author_details": [
+            {
+              "name": "Stella Erdmann",
+              "affiliations": [
+                "University Hospital Heidelberg"
+              ]
+            },
+            {
+              "name": "Leonard Levin",
+              "affiliations": [
+                "Harvard University"
+              ]
+            },
+            {
+              "name": "Meinhard Kieser",
+              "affiliations": [
+                "University Hospital Heidelberg"
+              ]
+            }
+          ],
+          "keywords": [
+            "causal inference",
+            "real-world data",
+            "health care research",
+            "causal effect estimation",
+            "large language models",
+            "electronic health records",
+            "medical registries",
+            "health insurance claims",
+            "reporting quality",
+            "data extraction",
+            "title and abstract screening"
+          ],
+          "journal": "JBI Evidence Synthesis",
+          "published": "2026-11-06",
+          "abstract": "OBJECTIVE: This study will improve the understanding and application of causal inference methods in health care research using real-world data (RWD). It seeks to systematically synthesize existing methods across different data sources, and assess whether large language models (LLMs) can support key steps in review processes. INTRODUCTION: Randomized controlled trials are considered the gold standard for evaluating treatment effects, as randomization balances confounders and enables causal inference. However, randomized controlled trials are often costly, time-consuming, or ethically infeasible. As a result, RWD, such as electronic health records, medical registries, and health insurance claims, are increasingly used in medical research. Complex methods are necessary to derive causal inference from RWD. ELIGIBILITY CRITERIA: Studies that use RWD, evaluate any type of health outcome as a primary endpoint in order to investigate patient health status, address a causal question related to a treatment or intervention, and estimate a causal effect size related to the causal question will be eligible for inclusion. METHODS: PubMed, Embase.com, and Web of Science will be searched for articles published in peer-reviewed journals between January 1, 2010, and January 29, 2026. A scoping review will be conducted to identify and categorize causal inference methods applied to RWD, focusing on theoretical frameworks, data requirements, and inferential assumptions in order to develop a taxonomy of methods. The frequency, context of use, and quality of reporting will be systematically assessed. In parallel, a study within a review (SWAR) will evaluate the performance of LLMs for title and abstract screening and full-text data extraction compared with human reviewers. REVIEW REGISTRATION: OSF https://osf.io/69mcd; SWAR Store (ID 66) https://www.qub.ac.uk/sites/TheNorthernIrelandNetworkforTrialsMethodologyResearch/FileStore/SWARFileStore/SWAR66%20Stella%20Erdmann%20(2025%20AUG%2001%202302).pdf.",
+          "url": "https://doi.org/10.11124/jbies-26-00083",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.11124/jbies-26-00083",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal inference with real-world data in health care research: a scoping review protocol and study within a review protocol",
+            "method": "OBJECTIVE: This study will improve the understanding and application of causal inference methods in health care research using real-world data (RWD). It seeks to systematically synthesize existing methods across different data sources, and ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Minimax designs and estimators for causal inference under network interference",
+          "authors": [
+            "Vishesh Karwa",
+            "Edoardo M. Airoldi"
+          ],
+          "author_details": [
+            {
+              "name": "Vishesh Karwa",
+              "affiliations": []
+            },
+            {
+              "name": "Edoardo M. Airoldi",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "math.ST",
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-11-05",
+          "abstract": "We develop a design-based minimax theory for linear causal estimands under interference. We study the minimax risks of three problems: optimizing an estimator under a fixed design, optimizing an estimator and a design from a restricted class, or optimizing both over all designs. In each problem, we study the minimax risk over all estimators and over design-unbiased estimators separately. We allow any correctly specified exposure mapping, including the identity. Our theory represents causal inference under interference as a constrained sampling design on an expanded finite population of $\\sum_i d_i$ potential outcomes, where $d_i$ is the number of exposure levels attainable by unit $i$. We describe the constrained sampling design by a weighted sampling hypergraph: its vertices are the potential outcomes, its hyperedges are the maximal sets of potential outcomes that can be jointly sampled under feasible treatment assignments, and its weights are induced by the randomization design. We show that the minimax risks of the fixed-design, restricted-design, and all-design problems depend, respectively, on the weighted hypergraph induced by the design, the collection of weighted hypergraphs attainable within the restricted class, and the unweighted hypergraph. Our Bayes lower bounds compare potential-outcome tables that differ on jointly missing sets of potential outcomes: joint-missingness probabilities govern the lower bounds over all estimators, whereas the corresponding odds govern the lower bounds over unbiased estimators. We illustrate the theory for average treatment effects without interference, saturation designs under partial interference, total, direct, and contagion effects under neighborhood interference, and bipartite dose-response contrasts. The upper and lower bounds match in several settings.",
+          "url": "https://arxiv.org/abs/2611.08560v1",
+          "arxiv_id": "2611.08560v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Minimax designs and estimators for causal inference under network interference",
+            "method": "We develop a design-based minimax theory for linear causal estimands under interference. We study the minimax risks of three problems: optimizing an estimator under a fixed design, optimizing an estimator and a design from a restricted clas",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Doubly-robust causal inference for multi-valued treatment regimes with recurrent neural networks",
+          "authors": [
+            "Jason Poulos"
+          ],
+          "author_details": [
+            {
+              "name": "Jason Poulos",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME",
+            "stat.ML"
+          ],
+          "journal": null,
+          "published": "2026-11-05",
+          "abstract": "We propose a doubly-robust method to estimate the causal effects of multi-valued treatment regimes on patient outcomes. A multi-valued treatment regime assigns personalized treatments from a set of competing options based on a patient's history. Existing methods for optimal treatment regimes are largely limited to binary or continuous treatments. We extend the longitudinal targeted minimum loss-based estimator (LTMLE) to accommodate multi-valued treatments by modeling treatment assignments with a multinomial model. We further integrate recurrent neural networks (RNNs) into the LTMLE framework as learners for the outcome, treatment, and censoring models, and compare this approach to ensemble machine learning. Simulation studies show that LTMLE with either ensemble machine learning or RNNs is approximately unbiased, with close to nominal coverage, whereas sequential g-computation with ensemble machine learning is substantially biased under a dynamic rule. A multinomial treatment model performs similarly to a series of binomial regressions with ensemble machine learning, but yields more stable inference when the treatment model is an RNN.",
+          "url": "https://arxiv.org/abs/2611.08077v1",
+          "arxiv_id": "2611.08077v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Doubly-robust causal inference for multi-valued treatment regimes with recurrent neural networks",
+            "method": "We propose a doubly-robust method to estimate the causal effects of multi-valued treatment regimes on patient outcomes. A multi-valued treatment regime assigns personalized treatments from a set of competing options based on a patient's his",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Lymphangiogenesis-related prognostic gene signature for hepatocellular carcinoma identified by integrative multi-omics and causal inference",
+          "authors": [
+            "Jiao Li",
+            "Cui Deng",
+            "Si-Min Zhang",
+            "Chi Ma",
+            "Yan-Fang Wei",
+            "Zheng-Deng Li",
+            "Xue Su",
+            "Juan Yang",
+            "Sheng Zheng"
+          ],
+          "author_details": [
+            {
+              "name": "Jiao Li",
+              "affiliations": [
+                "Dali University"
+              ]
+            },
+            {
+              "name": "Cui Deng",
+              "affiliations": [
+                "Dali University"
+              ]
+            },
+            {
+              "name": "Si-Min Zhang",
+              "affiliations": [
+                "Dali University"
+              ]
+            },
+            {
+              "name": "Chi Ma",
+              "affiliations": [
+                "Dali University"
+              ]
+            },
+            {
+              "name": "Yan-Fang Wei",
+              "affiliations": [
+                "Dali University"
+              ]
+            },
+            {
+              "name": "Zheng-Deng Li",
+              "affiliations": [
+                "Dali University"
+              ]
+            },
+            {
+              "name": "Xue Su",
+              "affiliations": [
+                "Dali University"
+              ]
+            },
+            {
+              "name": "Juan Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Sheng Zheng",
+              "affiliations": [
+                "Third People's Hospital of Yunnan Province",
+                "Dali University"
+              ]
+            }
+          ],
+          "keywords": [
+            "hepatocellular carcinoma",
+            "lymphangiogenesis",
+            "prognostic gene signature",
+            "COL15A1",
+            "LOXL2",
+            "peroxisome pathway",
+            "tumor immune microenvironment",
+            "drug sensitivity",
+            "risk stratification",
+            "astrocytes",
+            "T cells",
+            "macrophages"
+          ],
+          "journal": "World Journal of Hepatology",
+          "published": "2026-11-05",
+          "abstract": "BACKGROUNDHepatocellular carcinoma (HCC) is a leading cause of cancer-related death, yet the prognostic significance of lymphangiogenesis (LYM)-related genes remains poorly defined.Systematic evaluation of their clinical value and biological impact is lacking.AIM To identify and validate LYM-related prognostic genes in HCC. METHODSWe integrated differential expression, Mendelian randomization, and univariate Cox regression to screen genes, then built a prognostic model.Validation included GSEA, immune microenvironment profiling, drug sensitivity analysis, reverse transcriptionquantitative polymerase chain reaction, and single-cell RNA sequencing. RESULTSWe identified 6283 differentially expressed genes and 3 prognostic genes, risk factors LOXL2/PLXDC1 and protective COL15A1, forming a robust model.GSEA linked risk groups to peroxisome pathways.All three genes correlated positively with astrocytes.Drug analysis revealed 101 compounds with differential sensitivity.Single-cell RNA sequencing highlighted T cells and macrophages.Clinical reverse transcriptionquantitative polymerase chain reaction confirmed COL15A1 and LOXL2 expression trends.CONCLUSION COL15A1, LOXL2, and PLXDC1 are key LYM-related prognostic biomarkers for HCC risk stratification.",
+          "url": "https://doi.org/10.4254/wjh.124343",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.4254/wjh.124343",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Lymphangiogenesis-related prognostic gene signature for hepatocellular carcinoma identified by integrative multi-omics and causal inference",
+            "method": "BACKGROUNDHepatocellular carcinoma (HCC) is a leading cause of cancer-related death, yet the prognostic significance of lymphangiogenesis (LYM)-related genes remains poorly defined.Systematic evaluation of their clinical value and biologica",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Genetic-multi-omics causal inference coupled with integrative in-vitro toxicology reveals immune-metabolite mediators for aortic aneurysm risk",
+          "authors": [
+            "Jia Li",
+            "Bolin Wang",
+            "Yuming Hao",
+            "Shipan Wang",
+            "Xiaonan Li",
+            "Fan Zhang",
+            "Si-chong Qian",
+            "Haiyang Li"
+          ],
+          "author_details": [
+            {
+              "name": "Jia Li",
+              "affiliations": [
+                "Capital Medical University",
+                "Beijing Anzhen Hospital"
+              ]
+            },
+            {
+              "name": "Bolin Wang",
+              "affiliations": [
+                "Capital Medical University",
+                "Beijing Anzhen Hospital"
+              ]
+            },
+            {
+              "name": "Yuming Hao",
+              "affiliations": [
+                "Capital Medical University",
+                "Beijing Anzhen Hospital"
+              ]
+            },
+            {
+              "name": "Shipan Wang",
+              "affiliations": [
+                "Capital Medical University",
+                "Beijing Anzhen Hospital"
+              ]
+            },
+            {
+              "name": "Xiaonan Li",
+              "affiliations": [
+                "Capital Medical University",
+                "Beijing Anzhen Hospital"
+              ]
+            },
+            {
+              "name": "Fan Zhang",
+              "affiliations": [
+                "Capital Medical University",
+                "Beijing Anzhen Hospital"
+              ]
+            },
+            {
+              "name": "Si-chong Qian",
+              "affiliations": [
+                "Capital Medical University",
+                "Beijing Anzhen Hospital"
+              ]
+            },
+            {
+              "name": "Haiyang Li",
+              "affiliations": [
+                "Capital Medical University",
+                "Beijing Anzhen Hospital"
+              ]
+            }
+          ],
+          "keywords": [
+            "aortic aneurysm",
+            "plasma metabolites",
+            "immune cells",
+            "BAFF receptor",
+            "aortic smooth muscle cells",
+            "cytotoxicity",
+            "genetic causal inference",
+            "disease risk"
+          ],
+          "journal": "Frontiers in Genetics",
+          "published": "2026-11-03",
+          "abstract": "Objective Aortic aneurysm (AA) is a life-threatening vascular disease characterized by immune disturbance and metabolic dysregulation. Multi-omics-driven precision toxicity prediction, integrating human genetic causal inference with functional in-vitro toxicology, remains under-explored for uncovering metabolite mediators underlying AA disease risk.This study aimed to dissect metabolite-dependent causal pathways linking immune cells to AA, and evaluate dose-response cytotoxicity of key mediating metabolites toward vascular cells. Methods Two-sample Mendelian randomization (MR) and two-step mediation analysis were performed using European-ancestry GWAS summary datasets covering 731 immune-cell traits, 1,091 plasma metabolites, 3,230 AA cases and 475,964 controls. Complementary in-vitro CCK-8 cytotoxicity experiments on human aortic smooth muscle cells (HASMCs) were further conducted for candidate metabolites Adrenate (22:4n6) and BAFF-R. Results BAFF-R on CD20 − (OR = 0.859, 95%CI: 0.797–0.926, P = 7.17 × 10 −5 ) and, to a lesser extent, Granulocyte AC (OR = 0.900, 95%CI: 0.843–0.961, P = 1.57 × 10 −3 ) emerged as candidate protective immune-cell markers for AA. Adrenate (22:4n6) and Nisinate (24:6n3) mediated 4.47% and 9.84% of these protective effects, respectively. Adrenate triggered significant dose-dependent cytotoxicity in HASMCs. Conclusion This multi-omics genetic-toxicology study provides causal genetic evidence for immune-metabolite regulatory axes in AA pathogenesis. Notably, Adrenate presents dual biological effects: it transmits immune-protective signals but exerts direct vascular cellular toxicity. Our findings highlight the utility of MR-assisted precision toxicity prediction for disease risk evaluation and therapeutic target mining for AA.",
+          "url": "https://doi.org/10.3389/fgene.2026.2010274",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.3389/fgene.2026.2010274",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Genetic-multi-omics causal inference coupled with integrative in-vitro toxicology reveals immune-metabolite mediators for aortic aneurysm risk",
+            "method": "Objective Aortic aneurysm (AA) is a life-threatening vascular disease characterized by immune disturbance and metabolic dysregulation. Multi-omics-driven precision toxicity prediction, integrating human genetic causal inference with functio",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Causal Inference from Self-controlled Case Series",
+          "authors": [
+            "Gellért Perényi",
+            "Marco Piccininni",
+            "Mats J. Stensrud"
+          ],
+          "author_details": [
+            {
+              "name": "Gellért Perényi",
+              "affiliations": []
+            },
+            {
+              "name": "Marco Piccininni",
+              "affiliations": []
+            },
+            {
+              "name": "Mats J. Stensrud",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ME"
+          ],
+          "journal": null,
+          "published": "2026-11-02",
+          "abstract": "The self-controlled case series (SCCS) design is widely used in studies of rare events, for example of vaccine side effects. Conceptually, the design has two main features. First, it requires only data from individuals who have experienced the event of interest. Therefore, the design is especially useful when the outcome is rare and the available data come from surveillance or clinical records, say, of hospitalized patients. Second, because comparisons are made within single individuals, time-invariant confounding between treatment and outcome is eliminated. We formulate a set of sufficient identification assumptions for estimating the causal effect of vaccination on an adverse outcome under the SCCS design, drawing on ideas from the causal inference literature. Unlike the existing SCCS literature, we do not consider a parametric model as the starting point. This allows us to establish when and why the SCCS design allows identification of causal effects, using data from cases only. However, because the sufficient identifiability assumptions are implausible in some applications, we also develop statistical tests for the existence of a treatment effect that remain valid when only a subset of the identification assumptions holds.",
+          "url": "https://arxiv.org/abs/2611.03531v2",
+          "arxiv_id": "2611.03531v2",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Causal Inference from Self-controlled Case Series",
+            "method": "The self-controlled case series (SCCS) design is widely used in studies of rare events, for example of vaccine side effects. Conceptually, the design has two main features. First, it requires only data from individuals who have experienced ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ope",
+      "name": "Off-Policy Evaluation",
+      "papers": [
+        {
+          "title": "JUBILEE reproduction data: cohort extracts and result records for off-policy evaluation in debt collections",
+          "authors": [
+            "Diego Silva Prado",
+            "Tiago Amaral Penteado de Jesus",
+            "Bruno Carlos de Souza",
+            "Cristiano Bevitori Maffia De Oliveira"
+          ],
+          "author_details": [
+            {
+              "name": "Diego Silva Prado",
+              "affiliations": []
+            },
+            {
+              "name": "Tiago Amaral Penteado de Jesus",
+              "affiliations": []
+            },
+            {
+              "name": "Bruno Carlos de Souza",
+              "affiliations": []
+            },
+            {
+              "name": "Cristiano Bevitori Maffia De Oliveira",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "debt collection",
+            "benchmark environments",
+            "credit risk"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-11-06",
+          "abstract": "Synthetic cohort extracts and result records accompanying the paper JUBILEE: A Benchmark Environment for Off-Policy Evaluation in Debt Collections (code: https://github.com/alpha-synthesis/jubilee). The deposit holds the logged and annotation extracts of the 80-run paired study and of the 190-run parameter grid, generated with simulator model 2.1.0 and carrying both objectives of the paper (a synthetic score and simulated cash), the development pilot extracts, a copy of the code repository's result records and auxiliary run records. All data were generated by the JUBILEE simulator; none describe real borrowers. See README.md and DATA_DICTIONARY.md.",
+          "url": "https://doi.org/10.5281/zenodo.24008543",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.24008543",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: JUBILEE reproduction data: cohort extracts and result records for off-policy evaluation in debt collections",
+            "method": "Synthetic cohort extracts and result records accompanying the paper JUBILEE: A Benchmark Environment for Off-Policy Evaluation in Debt Collections (code: https://github.com/alpha-synthesis/jubilee). The deposit holds the logged and annotati",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "High-Dimensional Off-Policy Evaluation without Sample Splitting using an Onsager Correction",
+          "authors": [
+            "Saksham Jain",
+            "Guillaume Braun",
+            "Masaaki Imaizumi"
+          ],
+          "author_details": [
+            {
+              "name": "Saksham Jain",
+              "affiliations": []
+            },
+            {
+              "name": "Guillaume Braun",
+              "affiliations": []
+            },
+            {
+              "name": "Masaaki Imaizumi",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "stat.ML",
+            "cs.LG",
+            "math.ST"
+          ],
+          "journal": null,
+          "published": "2026-11-05",
+          "abstract": "Reward models used for off-policy evaluation (OPE) are commonly selected using held-out data. When sample size and context dimension grow proportionally, the difference in test risk between models fitted on the full sample and on a fixed fraction of it need not vanish. Held-out evaluation can therefore consistently estimate the test risk of the model trained on the smaller sample, but because the relative ranking of candidate reward models can change after full-data refitting, held-out selection can be suboptimal. We develop an Onsager-corrected, target-policy-weighted criterion that estimates the full-data reward model's out-of-sample risk under the target policy using only its training observations. This enables early stopping along the full-data gradient-descent trajectory without sample splitting. For neural networks with fixed depth and hidden width under Gaussian contexts, single-index rewards, context-dependent multi-index target policies, and known context-independent logging, we prove uniform consistency of our criterion over a fixed finite set of gradient-descent iterates and a near-oracle guarantee for the selected reward model. The same correction yields a doubly robust estimator that consistently estimates the true policy value without sample splitting, even when reward-model prediction error does not vanish. Experiments show decreasing risk-estimation error as dimension grows at a fixed sample-to-dimension ratio, and improved reward-model selection relative to held-out baselines. Empirically, our correction also reduces the root mean squared error of doubly robust value estimates computed from the same data used to fit and select the reward models.",
+          "url": "https://arxiv.org/abs/2611.08794v1",
+          "arxiv_id": "2611.08794v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: High-Dimensional Off-Policy Evaluation without Sample Splitting using an Onsager Correction",
+            "method": "Reward models used for off-policy evaluation (OPE) are commonly selected using held-out data. When sample size and context dimension grow proportionally, the difference in test risk between models fitted on the full sample and on a fixed fr",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Breaking Point: When Hidden Confounding Flips Off-Policy Evaluation",
+          "authors": [
+            "Vraj Detroja"
+          ],
+          "author_details": [
+            {
+              "name": "Vraj Detroja",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "off-policy evaluation",
+            "unmeasured confounding",
+            "sepsis treatment",
+            "finite-sample bias",
+            "model-based estimation",
+            "breakdown point",
+            "hospital records"
+          ],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-11-02",
+          "abstract": "Off-policy evaluation (OPE) is used to decide whether a treatment policy learned from hospital records deserves a prospective trial, and every standard estimator assumes that the records contain everything the clinicians acted on. This report studies what happens when they do not, on the sepsis simulator of Oberst and Sontag (2019), extended with a hidden variable whose strength is set exactly. Because the simulator is ported to an exact transition tensor, the true value of every policy, the confounding strength Γ* under the marginal sensitivity model, and the infinite-data limit of every estimator are computed rather than estimated. The strength of confounding alone does not determine whether OPE recommends a worse policy. With infinite data, the estimators prefer withholding antibiotics, which is truly worse than the clinicians' policy, from Γ* = 12 when the hidden variable also worsens outcomes directly, and at no Γ* up to 152 when it harms only untreated patients. With 10,000 episodes, weighted importance sampling and a model-based estimate make this recommendation in 84% and 70% of datasets at Γ* = 12. With 2,000 episodes or fewer, the finite-sample biases of these two estimators, which have opposite signs, are as large as the confounding bias. Sharp sensitivity bounds at the true Γ* cover the true value in 96% to 99.9% of confounded datasets with 10,000 episodes, but a breakdown-point alarm calibrated on recorded variables fires on 86% to 100% of deploy decisions, with a precision no better than the base rate of wrong decisions.",
+          "url": "https://doi.org/10.5281/zenodo.23881233",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.23881233",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Breaking Point: When Hidden Confounding Flips Off-Policy Evaluation",
+            "method": "Off-policy evaluation (OPE) is used to decide whether a treatment policy learned from hospital records deserves a prospective trial, and every standard estimator assumes that the records contain everything the clinicians acted on. This repo",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Offline RL: From Theory to Industrial Practice",
+          "authors": [
+            "Artem Zvyagintsev"
+          ],
+          "author_details": [
+            {
+              "name": "Artem Zvyagintsev",
+              "affiliations": []
+            }
+          ],
+          "keywords": [],
+          "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+          "published": "2026-11-08",
+          "abstract": "Applied notes on offline reinforcement learning, in English and Russian: behavioral cloning, off-policy evaluation, conservative and implicit value learning, policy constraints, Decision Transformers, model-based methods, physics-informed control, an industrial case study with multi-seed ablations, explainability, and tool-using LLM agents, with runnable PyTorch code for every chapter. This archive contains the book's Markdown and HTML sources in both languages, the code, the saved experiment results and, attached to the release, the PDF of the English edition. Text and figures are licensed under CC BY 4.0; the code under MIT. Read online: corba777.github.io/offline-rl-book",
+          "url": "https://doi.org/10.5281/zenodo.24045871",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.5281/zenodo.24045871",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 0.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Offline RL: From Theory to Industrial Practice",
+            "method": "Applied notes on offline reinforcement learning, in English and Russian: behavioral cloning, off-policy evaluation, conservative and implicit value learning, policy constraints, Decision Transformers, model-based methods, physics-informed c",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "papers": [
+        {
+          "title": "Agent-R1: A Unified and Modular Framework for Agentic Reinforcement Learning",
+          "authors": [
+            "Mingyue Cheng",
+            "Shuo Yu",
+            "Daoyu Wang",
+            "Qingchuan Li",
+            "Xiaoyu Tao",
+            "Jie Ouyang",
+            "Yucong Luo",
+            "Yitong Zhou",
+            "Qi Liu",
+            "Enhong Chen"
+          ],
+          "author_details": [
+            {
+              "name": "Mingyue Cheng",
+              "affiliations": [
+                "University of Science and Technology of China"
+              ]
+            },
+            {
+              "name": "Shuo Yu",
+              "affiliations": [
+                "University of Science and Technology of China"
+              ]
+            },
+            {
+              "name": "Daoyu Wang",
+              "affiliations": [
+                "University of Science and Technology of China"
+              ]
+            },
+            {
+              "name": "Qingchuan Li",
+              "affiliations": [
+                "University of Science and Technology of China"
+              ]
+            },
+            {
+              "name": "Xiaoyu Tao",
+              "affiliations": [
+                "University of Science and Technology of China"
+              ]
+            },
+            {
+              "name": "Jie Ouyang",
+              "affiliations": [
+                "University of Science and Technology of China"
+              ]
+            },
+            {
+              "name": "Yucong Luo",
+              "affiliations": [
+                "University of Science and Technology of China"
+              ]
+            },
+            {
+              "name": "Yitong Zhou",
+              "affiliations": [
+                "University of Science and Technology of China"
+              ]
+            },
+            {
+              "name": "Qi Liu",
+              "affiliations": [
+                "University of Science and Technology of China"
+              ]
+            },
+            {
+              "name": "Enhong Chen",
+              "affiliations": [
+                "University of Science and Technology of China"
+              ]
+            }
+          ],
+          "keywords": [
+            "agentic reinforcement learning",
+            "LLM agents",
+            "context management",
+            "action masking",
+            "multi-turn reasoning",
+            "tool use"
+          ],
+          "journal": "ACM International Conference on Information and Knowledge Management (CIKM)",
+          "published": "2026-11-03",
+          "abstract": "LLM agents increasingly rely on reinforcement learning to improve multi-turn reasoning, tool use, and environment interaction. However, existing training pipelines often treat an agent trajectory as a flat token sequence or a reconstructed message trace, making it difficult to preserve rollout fidelity, manage long contexts, and inspect step-level credit signals. We present Agent-R1, an open-source modular framework for agentic reinforcement learning (RL). Agent-R1 uses interaction steps as the native unit for trajectory representation, replay, and environment interaction, and decouples exact trajectory storage from flexible context construction. The system supports context-management policies, step-level rollout inspection, action-mask visualization, tool-feedback analysis, and unified comparison of related RL algorithms. Through demonstrations on multiple tasks, Agent-R1 enables users to configure, train, inspect, and compare agentic RL workflows within a single interactive interface. Code and project resources are available at https://github.com/AgentR1/Agent-R1.",
+          "url": "https://doi.org/10.1145/3799682.3840255",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1145/3799682.3840255",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 51,
+          "score": 4.951,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Agent-R1: A Unified and Modular Framework for Agentic Reinforcement Learning",
+            "method": "LLM agents increasingly rely on reinforcement learning to improve multi-turn reasoning, tool use, and environment interaction. However, existing training pipelines often treat an agent trajectory as a flat token sequence or a reconstructed ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Election of Collaborators via Reinforcement Learning for Federated Brain Tumor Segmentation",
+          "authors": [
+            "Muhammad Irfan Khan",
+            "Elina Kontio",
+            "Suleiman A. Khan",
+            "Mojtaba Jafaritadi"
+          ],
+          "author_details": [
+            {
+              "name": "Muhammad Irfan Khan",
+              "affiliations": [
+                "Turku University of Applied Sciences"
+              ]
+            },
+            {
+              "name": "Elina Kontio",
+              "affiliations": [
+                "Turku University of Applied Sciences"
+              ]
+            },
+            {
+              "name": "Suleiman A. Khan",
+              "affiliations": [
+                "Turku University of Applied Sciences"
+              ]
+            },
+            {
+              "name": "Mojtaba Jafaritadi",
+              "affiliations": [
+                "Turku University of Applied Sciences"
+              ]
+            }
+          ],
+          "keywords": [
+            "federated learning",
+            "collaborator selection",
+            "multi-armed bandits",
+            "upper confidence bound",
+            "epsilon-greedy",
+            "brain tumor segmentation",
+            "glioblastoma",
+            "harmonic mean",
+            "exploration-exploitation balance",
+            "multimodal MRI",
+            "data privacy"
+          ],
+          "journal": "Lecture notes in computer science",
+          "published": "2026-11-06",
+          "abstract": "",
+          "url": "https://doi.org/10.1007/978-3-032-31709-4_18",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1007/978-3-032-31709-4_18",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 4,
+          "score": 2.609,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Election of Collaborators via Reinforcement Learning for Federated Brain Tumor Segmentation",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Comparative field deployment of model-based reinforcement learning and model predictive control for residential HVAC",
+          "authors": [
+            "Ozan Baris Mulayim",
+            "Elias N. Pergantis",
+            "Levi D. Reyes Premer",
+            "Bingqing Chen",
+            "Guannan Qu",
+            "Kevin J. Kircher",
+            "Mario E. Berges"
+          ],
+          "author_details": [
+            {
+              "name": "Ozan Baris Mulayim",
+              "affiliations": [
+                "Carnegie Mellon University"
+              ]
+            },
+            {
+              "name": "Elias N. Pergantis",
+              "affiliations": []
+            },
+            {
+              "name": "Levi D. Reyes Premer",
+              "affiliations": []
+            },
+            {
+              "name": "Bingqing Chen",
+              "affiliations": [
+                "Robert Bosch (United States)"
+              ]
+            },
+            {
+              "name": "Guannan Qu",
+              "affiliations": [
+                "Carnegie Mellon University"
+              ]
+            },
+            {
+              "name": "Kevin J. Kircher",
+              "affiliations": [
+                "Purdue University West Lafayette"
+              ]
+            },
+            {
+              "name": "Mario E. Berges",
+              "affiliations": [
+                "Carnegie Mellon University"
+              ]
+            }
+          ],
+          "keywords": [
+            "model predictive control",
+            "model-based reinforcement learning",
+            "air-to-air heat pump",
+            "occupant comfort",
+            "cold climate housing",
+            "controller initialization",
+            "data requirements",
+            "field deployment"
+          ],
+          "journal": "Applied Energy",
+          "published": "2026-11-04",
+          "abstract": "",
+          "url": "https://doi.org/10.1016/j.apenergy.2026.129077",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1016/j.apenergy.2026.129077",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 4,
+          "score": 2.609,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Comparative field deployment of model-based reinforcement learning and model predictive control for residential HVAC",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Learning from Unreachable Rewards: Hint-Conditioned Reinforcement Learning for Generative Recommendation",
+          "authors": [
+            "Kangning Zhang",
+            "Haotian Fang",
+            "Xukun Luo",
+            "Hao Yin",
+            "Yang Gao",
+            "Peng Yan",
+            "Weiwen Liu",
+            "Weinan Zhang",
+            "Yong Yu"
+          ],
+          "author_details": [
+            {
+              "name": "Kangning Zhang",
+              "affiliations": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "name": "Haotian Fang",
+              "affiliations": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "name": "Xukun Luo",
+              "affiliations": [
+                "Meituan (China)"
+              ]
+            },
+            {
+              "name": "Hao Yin",
+              "affiliations": [
+                "Meituan (China)"
+              ]
+            },
+            {
+              "name": "Yang Gao",
+              "affiliations": [
+                "Meituan (China)"
+              ]
+            },
+            {
+              "name": "Peng Yan",
+              "affiliations": [
+                "Meituan (China)"
+              ]
+            },
+            {
+              "name": "Weiwen Liu",
+              "affiliations": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "name": "Weinan Zhang",
+              "affiliations": [
+                "Shanghai Jiao Tong University"
+              ]
+            },
+            {
+              "name": "Yong Yu",
+              "affiliations": [
+                "Shanghai Jiao Tong University"
+              ]
+            }
+          ],
+          "keywords": [
+            "generative recommendation",
+            "credit assignment",
+            "Group Relative Policy Optimization",
+            "sequential recommendation"
+          ],
+          "journal": "ACM International Conference on Information and Knowledge Management (CIKM)",
+          "published": "2026-11-03",
+          "abstract": "Semantic-ID generative recommenders represent each item as a short sequence of discrete semantic tokens and predict the next item by autoregressively generating this token sequence. This paradigm enables a unified generation interface for item IDs, histories, and item text, but it also creates a structured optimization bottleneck during reward-based post-training: when an early semantic token enters the wrong branch of the item-token space, finite rollout groups rarely reach the ground-truth item, so group-relative optimization receives identical zero rewards and produces no useful advantage. We propose Hint-Conditioned Generative Recommendation (\\method), a semantic-ID generative recommendation framework that recovers learning signal for such hard training instances. HCGRec diagnoses each instance with checkpoint rollouts and supplies a minimal target-prefix hint only when the current generator cannot reach the correct item. The model then generates the unhinted suffix under the hinted semantic branch, turning zero-reward groups into informative comparisons over item-token completions. Hinting also changes token identity: hinted prefix tokens are oracle-provided item context, while unhinted suffix tokens are sampled generation actions. We therefore introduce hint-aware credit decomposition, using supervised learning to preserve item-semantic and prefix-structure alignment for hinted tokens and GRPO to optimize the sampled suffix. Experiments on sequential recommendation benchmarks show that HCGRec substantially improves over supervised fine-tuning and vanilla reward-based post-training, while reducing zero-advantage training samples from over 70% to below 20%. The code is accessible at https://github.com/WncFht/GRec.",
+          "url": "https://doi.org/10.1145/3799682.3840842",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1145/3799682.3840842",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 3,
+          "score": 2.386,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Learning from Unreachable Rewards: Hint-Conditioned Reinforcement Learning for Generative Recommendation",
+            "method": "Semantic-ID generative recommenders represent each item as a short sequence of discrete semantic tokens and predict the next item by autoregressively generating this token sequence. This paradigm enables a unified generation interface for i",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "The impact of temporal resampling on the safety of clinical reinforcement learning: A simulated trial",
+          "authors": [
+            "Thomas Frost",
+            "Hrisheekesh Jayant Vaidya",
+            "Steve Harris"
+          ],
+          "author_details": [
+            {
+              "name": "Thomas Frost",
+              "affiliations": [
+                "University College London"
+              ]
+            },
+            {
+              "name": "Hrisheekesh Jayant Vaidya",
+              "affiliations": [
+                "University College London"
+              ]
+            },
+            {
+              "name": "Steve Harris",
+              "affiliations": [
+                "University College London Hospitals NHS Foundation Trust",
+                "University College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "binning",
+            "offline reinforcement learning",
+            "type 1 diabetes",
+            "continuous insulin infusion",
+            "glycemic control",
+            "in silico clinical trials",
+            "MIMIC-IV",
+            "UVA/Padova simulator",
+            "model safety"
+          ],
+          "journal": "PLOS Digital Health",
+          "published": "2026-11-06",
+          "abstract": "Reinforcement learning (RL) is a type of artificial intelligence for making optimal choices. In healthcare, researchers generally use offline RL (ORL), where models are trained and evaluated from retrospective observational data. To accommodate naturally irregular clinical records, researchers often resample the data into uniform time intervals before training (known as binning). However, binning may create counterfactual trajectories that do not represent clinical practice. We first quantified these distortions in patients receiving continuous insulin infusions in the MIMIC-IV intensive care database. Binning reversed the apparent causal order for over 70% of paired glucose measurements and insulin adjustments within the same interval, and frequently masked significant dysglycaemic events and merged distinct treatment decisions together. We then conducted an in silico clinical trial using 30 virtual patients with type 1 diabetes from the FDA-approved UVA/Padova simulator. The simulator was modified to include stochastic intervals between decisions and used to generate a training dataset for offline RL. We trained three ORL algorithms on both the unprocessed dataset and equivalent datasets resampled at 10-minute, 2-hour, and 4-hour intervals. When deployed back into the simulated environment, temporal resampling was found to reduce model performance by up to 60% relative to unprocessed data, with 4-hour binning causing all agents to perform worse than the dataset's baseline. Retrospective evaluation on resampled data actively obscured this effect, predicting 1.5-3x better returns than agents achieved in practice. We recommend that future research in this area prioritises datasets with natural clinical timings between decisions, which may be a necessary step before these models can be safely deployed into patient care.",
+          "url": "https://doi.org/10.1371/journal.pdig.0001801",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1371/journal.pdig.0001801",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 2,
+          "score": 2.099,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: The impact of temporal resampling on the safety of clinical reinforcement learning: A simulated trial",
+            "method": "Reinforcement learning (RL) is a type of artificial intelligence for making optimal choices. In healthcare, researchers generally use offline RL (ORL), where models are trained and evaluated from retrospective observational data. To accommo",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "SPyCE: Skill-Policy Co-evolution for Multimodal Agents",
+          "authors": [
+            "Ru Zhang",
+            "Weijie Qiu"
+          ],
+          "author_details": [
+            {
+              "name": "Ru Zhang",
+              "affiliations": [
+                "Zhejiang University"
+              ]
+            },
+            {
+              "name": "Weijie Qiu",
+              "affiliations": [
+                "Beijing University of Posts and Telecommunications"
+              ]
+            }
+          ],
+          "keywords": [
+            "multimodal agents",
+            "skill library",
+            "tool use",
+            "visual reasoning",
+            "reinforcement learning",
+            "multimodal reasoning"
+          ],
+          "journal": "ACM International Conference on Multimedia (ACM MM)",
+          "published": "2026-11-05",
+          "abstract": "Multimodal agents that think with images iteratively manipulate visual evidence and invoke tools across many steps. Existing reinforcement learning methods reduce trajectories to scalar rewards, forcing the policy to discover reusable tool-use patterns from scratch on every new task; memory-based alternatives retain past experience, yet they rely on test-time retrieval, without updating the policy to absorb reusable patterns from that experience. Our key insight is that multimodal reasoning trajectories should be distilled into reusable skills that co-evolve with the policy during training, rather than being consumed as rewards or retrieved from a static store. To this end, we propose SPyCE (Skill-Policy Co-evolution), a framework that distills trajectories into a hierarchical skill library and updates it throughout reinforcement learning. Execution skills capture local visual operations, while workflow skills encode high-level priors that orchestrate tool use. During training, the policy model conditions on retrieved skills to guide its rollouts, while the skill library evolves using valuable rollouts generated by the policy. This creates a closed loop in which improved policies yield better skills, and the evolving skill library, in turn, provides stronger priors for policy rollouts. Experiments across eight benchmarks demonstrate that SPyCE consistently outperforms both RL-based and memory-based baselines. Further analysis reveals that both the hierarchical skill design and the co-evolution mechanism are critical to our design. These results suggest joint skill-policy optimization as a promising paradigm for building capable multimodal agents.",
+          "url": "https://doi.org/10.1145/3767308.3836256",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1145/3767308.3836256",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 4,
+          "score": 1.609,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: SPyCE: Skill-Policy Co-evolution for Multimodal Agents",
+            "method": "Multimodal agents that think with images iteratively manipulate visual evidence and invoke tools across many steps. Existing reinforcement learning methods reduce trajectories to scalar rewards, forcing the policy to discover reusable tool-",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "R 2 -Searcher: Calibrating Retrieval and Reasoning Boundaries for Agentic Search",
+          "authors": [
+            "Sheng Zhang",
+            "Junyi Li",
+            "Wenlin Zhang",
+            "Xiaowei Qian",
+            "Yichao Wang",
+            "Yingyi Zhang",
+            "Maolin Wang",
+            "Yong Liu",
+            "X Zhao"
+          ],
+          "author_details": [
+            {
+              "name": "Sheng Zhang",
+              "affiliations": [
+                "City University of Hong Kong"
+              ]
+            },
+            {
+              "name": "Junyi Li",
+              "affiliations": [
+                "City University of Hong Kong"
+              ]
+            },
+            {
+              "name": "Wenlin Zhang",
+              "affiliations": [
+                "City University of Hong Kong"
+              ]
+            },
+            {
+              "name": "Xiaowei Qian",
+              "affiliations": [
+                "City University of Hong Kong"
+              ]
+            },
+            {
+              "name": "Yichao Wang",
+              "affiliations": [
+                "Huawei Technologies (China)"
+              ]
+            },
+            {
+              "name": "Yingyi Zhang",
+              "affiliations": [
+                "City University of Hong Kong"
+              ]
+            },
+            {
+              "name": "Maolin Wang",
+              "affiliations": [
+                "City University of Hong Kong"
+              ]
+            },
+            {
+              "name": "Yong Liu",
+              "affiliations": []
+            },
+            {
+              "name": "X Zhao",
+              "affiliations": [
+                "City University of Hong Kong"
+              ]
+            }
+          ],
+          "keywords": [
+            "agentic search",
+            "multi-hop question answering",
+            "search agents"
+          ],
+          "journal": "ACM International Conference on Information and Knowledge Management (CIKM)",
+          "published": "2026-11-03",
+          "abstract": "Recent search agents for multi-hop reasoning often fail by either retrieving incomplete evidence or reasoning over irrelevant portions of the retrieved content, leading to a retrieval-reasoning boundary shift. We propose R 2 -Searcher, a novel framework that explicitly explores and calibrates the retrieval and reasoning boundaries via fine-grained, query-token-guided evidence modeling and post-retrieval reflection. Specifically, R 2 -Searcher: (1) constructs fine-grained reasoning contexts by extracting precise facts from retrieved content based on query token semantics (e.g., subjects, actions, temporal markers, and degree modifiers), thereby guiding the attention of search agent; (2) introduces a retrieval reflection mechanism that evaluates and corrects boundary deviations after each retrieval step, guiding the generation of improved queries grounded in the extracted reasoning contexts; and (3) employs an end-to-end reasoning-reflection-guided reinforcement learning algorithm, R 2 PO, which jointly optimizes both boundaries through a tree-based exploration of reasoning regions and reflections. Our method significantly enhances the quality of both retrieval and reasoning, establishing an iterative loop where retrieval and reasoning mutually enhance each other. Extensive experiments on seven complex multi-hop QA benchmarks demonstrate that R 2 -Searcher significantly outperforms state-of-the-art agentic search methods in answer accuracy and retrieval-reasoning quality. Ablation studies further confirm the critical role of retrieval-reasoning boundary calibration. Implementation code is available for reproducibility: https://github.com/Applied-Machine-Learning-Lab/CIKM2026_R2-Searcher.",
+          "url": "https://doi.org/10.1145/3799682.3840698",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1145/3799682.3840698",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 2,
+          "score": 1.099,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: R 2 -Searcher: Calibrating Retrieval and Reasoning Boundaries for Agentic Search",
+            "method": "Recent search agents for multi-hop reasoning often fail by either retrieving incomplete evidence or reasoning over irrelevant portions of the retrieved content, leading to a retrieval-reasoning boundary shift. We propose R 2 -Searcher, a no",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+          "authors": [
+            "Liu Yang",
+            "Xiangmin Yang"
+          ],
+          "author_details": [
+            {
+              "name": "Liu Yang",
+              "affiliations": []
+            },
+            {
+              "name": "Xiangmin Yang",
+              "affiliations": [
+                "Imperial College London"
+              ]
+            }
+          ],
+          "keywords": [
+            "pedestrian decision-making",
+            "inverse reinforcement learning",
+            "human movement",
+            "pedestrian behavior"
+          ],
+          "journal": "Mendeley Data",
+          "published": "2027-06-29",
+          "abstract": "",
+          "url": "https://doi.org/10.17632/c2hndp9wys",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.17632/c2hndp9wys",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Dataset for: Inferring pedestrian decision-making through inverse reinforcement learning",
+            "method": "The source did not provide an abstract.",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-reinforcement-learning",
+      "name": "Multi-Agent Reinforcement Learning",
+      "papers": [
+        {
+          "title": "A Separation Principle for Cooperative Multi-Agent Reinforcement Learning",
+          "authors": [
+            "Lucia Pezzetti",
+            "Nicolas Lanzetti",
+            "Antonio Terpin",
+            "Florian Dörfler",
+            "Giorgia Ramponi"
+          ],
+          "author_details": [
+            {
+              "name": "Lucia Pezzetti",
+              "affiliations": []
+            },
+            {
+              "name": "Nicolas Lanzetti",
+              "affiliations": []
+            },
+            {
+              "name": "Antonio Terpin",
+              "affiliations": []
+            },
+            {
+              "name": "Florian Dörfler",
+              "affiliations": []
+            },
+            {
+              "name": "Giorgia Ramponi",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-11-06",
+          "abstract": "We study cooperative multi-agent reinforcement learning (MARL) problems in which agents evolve under decoupled noisy dynamics but share a population objective. A canonical example is a mobility operator that orchestrates a fleet of vehicles to meet customer demand. The stochastic and time-varying nature of these problems calls for learning approaches, yet existing MARL algorithms do not scale: learning assignment and routing jointly over the full state-action space becomes prohibitive as the number of agents grows. Formulating the problem over the space of probability measures, we prove a separation principle: the population cost-to-go function is upper bounded by an optimal transport problem whose transportation cost is the target-conditioned single-agent cost-to-go function. This simplifies the multi-agent problem to learning a single-agent policy and coordinating the agents via optimal transport. Building on this principle, we introduce SALT (Separation-based Assignment and Learning via optimal Transport), a family of algorithms that learn a target-conditioned single-agent policy using any standard reinforcement learning algorithm, and then coordinate the agents via optimal transport. Since learning occurs at the single-agent level, SALT scales to fleet sizes where MARL baselines become intractable and transfers without retraining to fleet sizes unseen during training. In a vehicle-delivery experiment on the southern Manhattan road network, where MARL baselines are computationally prohibitive, SALT improves travel time by 15-21% over a shortest-path routing heuristic. In stochastic grid worlds, SALT reduces average travel times by 23-61% relative to MARL baselines and scales to population sizes where these methods fail.",
+          "url": "https://arxiv.org/abs/2611.09644v1",
+          "arxiv_id": "2611.09644v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: A Separation Principle for Cooperative Multi-Agent Reinforcement Learning",
+            "method": "We study cooperative multi-agent reinforcement learning (MARL) problems in which agents evolve under decoupled noisy dynamics but share a population objective. A canonical example is a mobility operator that orchestrates a fleet of vehicles",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "CARGO: Causal Attribution and Responsibility-Guided Preventive Safe Multi-Agent Reinforcement Learning for Cooperative Driving",
+          "authors": [
+            "Jingjia Teng",
+            "Yang Li",
+            "Wenjie Huang"
+          ],
+          "author_details": [
+            {
+              "name": "Jingjia Teng",
+              "affiliations": []
+            },
+            {
+              "name": "Yang Li",
+              "affiliations": []
+            },
+            {
+              "name": "Wenjie Huang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI"
+          ],
+          "journal": null,
+          "published": "2026-11-06",
+          "abstract": "This study presents Causal Attribution and Responsibility-Guided Optimization (CARGO), a multi-agent reinforcement learning framework for cooperative on-ramp merging in mixed traffic. A shared latent-context posterior and an action-conditioned response model estimate directed behavioral influence, with posterior uncertainty propagated into interaction-edge selection. Complementary attribution mechanisms couple signed influence with marginal team utility for cooperative reward shaping and assign responsibility from positive excess tail risk relative to a safe reference policy. Conditional diffusion generates future responses for action-dependent risk estimation. Responsibility-guided preventive optimization calibrates agent-specific risk-reduction requirements to local capacity within a policy trust region, using reserved safety margins, adaptive requirement scaling, and joint feasibility verification. Theoretical analysis establishes risk monotonicity and sufficient local conditions for non-decreasing environmental return under explicit assumptions. Experiments in highway-env across three traffic densities, together with controlled graph-recovery and attribution studies, support the effectiveness of the framework. Under high-density traffic, CARGO increases the success rate by 66.04\\% and reduces the crash rate by 56.23\\% relative to the best evaluated baseline for each metric.",
+          "url": "https://arxiv.org/abs/2611.09139v1",
+          "arxiv_id": "2611.09139v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: CARGO: Causal Attribution and Responsibility-Guided Preventive Safe Multi-Agent Reinforcement Learning for Cooperative Driving",
+            "method": "This study presents Causal Attribution and Responsibility-Guided Optimization (CARGO), a multi-agent reinforcement learning framework for cooperative on-ramp merging in mixed traffic. A shared latent-context posterior and an action-conditio",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "HM-CDSS: A Hierarchical Multi-Agent Reinforcement Learning Framework with Conservative Q-Learning and Retrieval-Augmented Clinical Reasoning for Sepsis Decision Support",
+          "authors": [
+            "Madeha Arif",
+            "Usman Qamar",
+            "Munira Alballa",
+            "Soyiba Jawed"
+          ],
+          "author_details": [
+            {
+              "name": "Madeha Arif",
+              "affiliations": [
+                "National University of Sciences and Technology"
+              ]
+            },
+            {
+              "name": "Usman Qamar",
+              "affiliations": [
+                "King Fahd University of Petroleum and Minerals"
+              ]
+            },
+            {
+              "name": "Munira Alballa",
+              "affiliations": [
+                "King Saud University"
+              ]
+            },
+            {
+              "name": "Soyiba Jawed",
+              "affiliations": [
+                "National University of Sciences and Technology"
+              ]
+            }
+          ],
+          "keywords": [
+            "clinical decision support",
+            "conservative Q-learning",
+            "intensive care unit",
+            "vasopressor titration",
+            "fluid resuscitation",
+            "antibiotic stewardship",
+            "meta-agents",
+            "hallucination detection",
+            "explainable AI",
+            "MIMIC-IV"
+          ],
+          "journal": "Cognitive Computation",
+          "published": "2026-11-06",
+          "abstract": "Decision-making in healthcare in the Intensive Care Unit (ICU) is a very complex and multi-dimensional process. Sepsis management requires well-coordinated, simultaneous decisions across vasopressor titration, fluid restoration, antibiotic supervision, and haemodynamic monitoring, each operating on different physiological timescales. Despite advances in reinforcement-learning-based clinical decision support, existing systems treat these as a single flat action space and cannot capture the multi-level structure of real clinical reasoning. Moreover, most systems lack explainability mechanisms, making them unsuitable for accountable clinical practice. This study proposes the Hierarchical Multi-Agent Clinical Decision Support System (HM-CDSS), a four-phase hierarchical multi-agent reinforcement learning framework designed to address these limitations. Using a cohort of 5,282 adult ICU sepsis patients from the Medical Information Mart for Intensive Care (MIMIC-IV) database, approximately 78,200 offline trajectory transitions are constructed. A single-agent Dueling DQN baseline achieves a mean test reward of 4.385 but exhibits conservative policy collapse, reaching only 10.3% clinician agreement. The proposed Hierarchical Multi-Agent Reinforcement Learning (HMARL) system introduces a meta-agent that assigns high-level clinical goals to four specialist sub-agents trained with Conservative Q-Learning (CQL), using agent-specific regularization weights (α = 1.0 for vasopressor and fluid agents; α = 0.5 otherwise) to prevent out-of-distribution Q-value overestimation. A three-condition ablation study confirms that CQL adds 21.8% points of clinician agreement above a hierarchical DQN baseline, and that hierarchy and distributional constraint are complementary mechanisms. Overall clinician agreement reaches 49.9%, a gain of 39.6% points over the single-agent baseline. Additionally, a retrieval-augmented generative reasoning layer, based on Sepsis-3 and Surviving Sepsis Campaign guidelines, produces chain-of-thought clinical justifications evaluated through a proposed five-metric framework comprising Guideline Grounding Score, Hallucination Rate, Clinical Consistency Score, Recommendation Completeness, and Uncertainty Calibration (UC; note that UC could not be computed empirically in the current evaluation due to uniformly high agent confidence). Across 98 evaluated timesteps, the system achieves 0% hallucination and 100% recommendation completeness across the 98-timestep evaluation sample; these results should be interpreted as preliminary, given the limited sample size. HM-CDSS proposes an integrated framework combining offline hierarchical MARL, guideline-based explainability, and quantified reasoning-quality assessment for ICU clinical decision support.",
+          "url": "https://doi.org/10.1007/s12559-026-10680-w",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1007/s12559-026-10680-w",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: HM-CDSS: A Hierarchical Multi-Agent Reinforcement Learning Framework with Conservative Q-Learning and Retrieval-Augmented Clinical Reasoning for Sepsis Decision Support",
+            "method": "Decision-making in healthcare in the Intensive Care Unit (ICU) is a very complex and multi-dimensional process. Sepsis management requires well-coordinated, simultaneous decisions across vasopressor titration, fluid restoration, antibiotic ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "SEER: A Scalable Event-Driven Runtime for Parallel Execution of Multi-Agent Reinforcement Learning Environments",
+          "authors": [
+            "Jiming Su",
+            "Feng Zhu",
+            "Yuhao Xiao",
+            "Miao Zhang"
+          ],
+          "author_details": [
+            {
+              "name": "Jiming Su",
+              "affiliations": []
+            },
+            {
+              "name": "Feng Zhu",
+              "affiliations": []
+            },
+            {
+              "name": "Yuhao Xiao",
+              "affiliations": []
+            },
+            {
+              "name": "Miao Zhang",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.DC",
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-11-05",
+          "abstract": "Multi-agent reinforcement learning (MARL) is increasingly used in systems where many entities interact in a shared environment. In these workloads, policy inference can be batched on GPUs, but the CPU-side environment path still updates entity states, resolves local interactions, and builds observations inside each $\\mathrm{env.step}$. This path can dominate latency in interaction-intensive workloads after policy batching. Existing vectorized environment interfaces and general event-driven runtimes do not directly address the fine-grained cross-entity work inside one bounded MARL step while preserving the step-level semantics expected by learning systems. We present SEER (Scalable Event-Driven Environment Runtime), a runtime for MARL environment execution under an explicit event-locality contract. SEER models each environment step as a bounded stream of timestamped events. If direct state updates are entity-local and cross-entity effects are represented as ordered future events, SEER can run independent events in parallel while preserving serial-equivalent boundary outputs. To make this contract practical, SEER uses a CAS-based dual-layer event queue: local event queues preserve per-entity causal order, while a parallel executive list exposes ready work to global worker threads. SEER further uses STPA, a preflight-guided thread-pool selection mechanism that combines short runtime traces with static workload and hardware features. We evaluate SEER on two parameterized MARL workloads: compute-intensive UAV swarm control (Aircraft) and communication-intensive wireless management (PCS). On Aircraft, SEER reduces inference latency by 16.2\\% over the baseline. On PCS, SEER reduces environment-execution latency by 46.9\\%, 19.5\\%, and 64.9\\% over ROSS-T, NBSE, and ROOT-Sim, respectively.",
+          "url": "https://arxiv.org/abs/2611.07996v1",
+          "arxiv_id": "2611.07996v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: SEER: A Scalable Event-Driven Runtime for Parallel Execution of Multi-Agent Reinforcement Learning Environments",
+            "method": "Multi-agent reinforcement learning (MARL) is increasingly used in systems where many entities interact in a shared environment. In these workloads, policy inference can be batched on GPUs, but the CPU-side environment path still updates ent",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Regulating Autonomous Mobility-on-Demand Operators with Fixed and Adaptive Penalties: A Multi-Agent Reinforcement Learning Approach",
+          "authors": [
+            "Korbinian Kügler",
+            "Carolin Schmidt",
+            "Florian Dandl",
+            "Filipe Rodrigues"
+          ],
+          "author_details": [
+            {
+              "name": "Korbinian Kügler",
+              "affiliations": []
+            },
+            {
+              "name": "Carolin Schmidt",
+              "affiliations": []
+            },
+            {
+              "name": "Florian Dandl",
+              "affiliations": []
+            },
+            {
+              "name": "Filipe Rodrigues",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.LG",
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-11-04",
+          "abstract": "Profit-maximizing Autonomous Mobility-on-Demand (AMoD) operators may exploit consumer surplus through excessive prices and underserve less profitable regions by relocating vehicles away from them. We study how penalty-based regulation of an AMoD operator in a multimodal mobility system can limit surge pricing and improve regional service availability. We model regulation as an outer control loop that acts on a learning-based operator. Static regulation with fixed penalties is formulated as a Markov Decision Process for an operator that jointly controls pricing and rebalancing, and dynamic regulation as a Partially Observable Stochastic Game in which a regulator periodically adjusts region-specific penalties in closed loop. Operator and regulator policies are learned with graph-based multi-agent reinforcement learning. In experiments with real-world Manhattan data, fixed surge pricing penalties reduce the share of travelers facing excessive prices from 22% to 1%. For regional service availability, dynamic regulation improves the regulator's reward by up to 15.6% over fixed penalties of equal mean intensity. The gains in service availability are strongest when spare fleet capacity exists, whereas service deficits persist in peak periods with highly utilized fleets. The learned regulator policy responds by reducing penalties where limited fleet capacity restricts compliance. The results identify trade-offs between regulatory targets, operator profitability, and traveler utility.",
+          "url": "https://arxiv.org/abs/2611.07122v1",
+          "arxiv_id": "2611.07122v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Regulating Autonomous Mobility-on-Demand Operators with Fixed and Adaptive Penalties: A Multi-Agent Reinforcement Learning Approach",
+            "method": "Profit-maximizing Autonomous Mobility-on-Demand (AMoD) operators may exploit consumer surplus through excessive prices and underserve less profitable regions by relocating vehicles away from them. We study how penalty-based regulation of an",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Cooperative Multi-Agent Reinforcement Learning via Epigraph-Form Guided Exploration",
+          "authors": [
+            "Sungil Son",
+            "Hoseong Jung",
+            "Dahyun Oh",
+            "H. Jin Kim"
+          ],
+          "author_details": [
+            {
+              "name": "Sungil Son",
+              "affiliations": []
+            },
+            {
+              "name": "Hoseong Jung",
+              "affiliations": []
+            },
+            {
+              "name": "Dahyun Oh",
+              "affiliations": []
+            },
+            {
+              "name": "H. Jin Kim",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.AI",
+            "cs.MA"
+          ],
+          "journal": null,
+          "published": "2026-11-04",
+          "abstract": "Discovering cooperative behavior in multi-agent reinforcement learning (MARL) is challenging due to the combinatorial complexity of joint state-action spaces, which hinders the emergence of coordinated behaviors from trial-and-error alone. Intrinsic rewards are often used to aid discovery, but naively combining them with team objectives can distort the learning signal, compromising task performance. In this paper, we propose EFXPLORER, a constrained exploration framework that maximizes exploration objectives subject to a constraint that preserves established task performance. We solve the resulting problem using an epigraph reformulation that introduces adaptive exploration budgets. This approach separates intrinsic rewards from task objectives and regulates exploration through task feasibility. To further encourage diverse and temporally extended exploration, we incorporate a successor distance-based intrinsic reward that captures long-horizon dependencies. Empirically, our method outperforms strong baselines and induces novel cooperative strategies across SMAX, VMAS, and MPE benchmark suites.",
+          "url": "https://arxiv.org/abs/2611.07066v1",
+          "arxiv_id": "2611.07066v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Cooperative Multi-Agent Reinforcement Learning via Epigraph-Form Guided Exploration",
+            "method": "Discovering cooperative behavior in multi-agent reinforcement learning (MARL) is challenging due to the combinatorial complexity of joint state-action spaces, which hinders the emergence of coordinated behaviors from trial-and-error alone. ",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "H^2MARL: Hierarchical Heterogeneous Multi-agent Reinforcement Learning for Humanoid Robot Control",
+          "authors": [
+            "Xuemin Hu",
+            "Kaixin Li",
+            "Qingqing Xia",
+            "Yuxin Wang",
+            "Wei Xie",
+            "Bo Tang",
+            "Long Chen"
+          ],
+          "author_details": [
+            {
+              "name": "Xuemin Hu",
+              "affiliations": []
+            },
+            {
+              "name": "Kaixin Li",
+              "affiliations": []
+            },
+            {
+              "name": "Qingqing Xia",
+              "affiliations": []
+            },
+            {
+              "name": "Yuxin Wang",
+              "affiliations": []
+            },
+            {
+              "name": "Wei Xie",
+              "affiliations": []
+            },
+            {
+              "name": "Bo Tang",
+              "affiliations": []
+            },
+            {
+              "name": "Long Chen",
+              "affiliations": []
+            }
+          ],
+          "keywords": [
+            "cs.RO"
+          ],
+          "journal": null,
+          "published": "2026-11-04",
+          "abstract": "Coordinated whole-body control of humanoid robots remains challenging due to high-dimensional coupled dynamics and substantial physical heterogeneity across joint degrees of freedom (JDoFs). Existing multi-agent reinforcement learning methods either employ coarse agent partitions or directly apply generic heterogeneous-agent algorithms, while hierarchical controllers commonly optimize high-level planning and low-level execution independently, leading to uncoordinated motion. In this paper, we propose H^2MARL, a hierarchical heterogeneous multi-agent reinforcement learning framework with two key mechanisms. We first formulate humanoid whole-body control using a JDoF-level physical-heterogeneity-aware policy factorization, where each torque-actuated JDoF is conditioned on an explicit descriptor of its actuation, kinematic, and dynamic properties. Moreover, we develop a closed-loop policy-executor co-optimization mechanism that jointly adapts the high-level pose planner and the low-level joint executor using shared interaction trajectories, thereby reducing the distribution mismatch between planning and execution. Extensive experiments in MuJoCo and Isaac Gym demonstrate that H^2MARL consistently improves locomotion stability, gait coordination, and motion quality over homogeneous, coarse-grained, and independently optimized alternatives.",
+          "url": "https://arxiv.org/abs/2611.06523v1",
+          "arxiv_id": "2611.06523v1",
+          "doi": null,
+          "sources": [
+            "arXiv"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: H^2MARL: Hierarchical Heterogeneous Multi-agent Reinforcement Learning for Humanoid Robot Control",
+            "method": "Coordinated whole-body control of humanoid robots remains challenging due to high-dimensional coupled dynamics and substantial physical heterogeneity across joint degrees of freedom (JDoFs). Existing multi-agent reinforcement learning metho",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        },
+        {
+          "title": "Adaptive reconstruction mechanism for enterprise collaborative networks based on multi-agent reinforcement learning",
+          "authors": [
+            "Jinxia Peng",
+            "Menglin Li",
+            "Yiming Li"
+          ],
+          "author_details": [
+            {
+              "name": "Jinxia Peng",
+              "affiliations": [
+                "Guizhou University of Commerce"
+              ]
+            },
+            {
+              "name": "Menglin Li",
+              "affiliations": [
+                "Woosong University"
+              ]
+            },
+            {
+              "name": "Yiming Li",
+              "affiliations": [
+                "Woosong University"
+              ]
+            }
+          ],
+          "keywords": [
+            "network inference",
+            "multi-agent reinforcement learning",
+            "supply chain simulation",
+            "network robustness",
+            "network efficiency",
+            "dynamic learning rate",
+            "graph operations"
+          ],
+          "journal": "Scientific Reports",
+          "published": "2026-11-04",
+          "abstract": "Enterprise collaborative networks must reorganise as markets shift, partners fail and demand changes. This study develops an adaptive reconstruction mechanism in which each firm acts as an autonomous agent that adds, terminates or reweights collaborative ties within a bounded candidate set. The Multi-Agent Deep Q-Network with Prioritized Experience Replay (MADQN-PER) combines attention-based coordination, a dynamic learning rate and rewards that mix firm-level and network-level objectives. Graph operations have explicit enterprise meanings, authorising parties and cost components; action masks enforce feasibility before selection. Across synthetic networks of 50 to 200 nodes, the reported efficiency gains range from 34.7% to 41.2%, with 78.3% performance retention under 15% random node failures. Attention and the shared reward are associated with the largest component differences in composite score. A calibrated supply-chain simulation reports a 41.7% reduction in delivery time and a 53.2% robustness gain. Quantitative comparisons are restricted to the five baselines with documented configurations. Conservative bounds derived from ten-run summaries distinguish gains in efficiency, robustness and adaptability from the reconstruction-cost trade-off. The evaluation schedule supports finite-budget comparisons but does not establish convergence times.",
+          "url": "https://doi.org/10.1038/s41598-026-76242-0",
+          "arxiv_id": null,
+          "doi": "https://doi.org/10.1038/s41598-026-76242-0",
+          "sources": [
+            "OpenAlex"
+          ],
+          "cited_by_count": 0,
+          "score": 1.0,
+          "featured": false,
+          "summary": {
+            "question": "This paper examines: Adaptive reconstruction mechanism for enterprise collaborative networks based on multi-agent reinforcement learning",
+            "method": "Enterprise collaborative networks must reorganise as markets shift, partners fail and demand changes. This study develops an adaptive reconstruction mechanism in which each firm acts as an autonomous agent that adds, terminates or reweights",
+            "contribution": "Check the full paper for its identification assumptions, setting, and empirical details.",
+            "caveat": "This is a conservative fallback generated from the title and source abstract.",
+            "why_read": "It matches one of the configured research topics and is worth triaging this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-ope",
+      "name": "Multi-Agent Off-Policy Evaluation",
+      "papers": []
+    },
+    {
+      "id": "causal-llm",
+      "name": "Causal Inference in Large Language Models",
+      "papers": []
+    },
+    {
+      "id": "causal-text",
+      "name": "Causal Inference in Text Analysis",
+      "papers": []
+    }
+  ]
+}
